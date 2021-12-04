@@ -13,17 +13,16 @@
     ]
   },
   {
-    "key": "5862-5c81",
-    "name": "DSC05550_AuroraHDR-edit_0.jpg",
-    "title": "Sunrise in Stroplsjødalen",
-    "description": "We got up early to start our trek in the darkness. The sunrise that day was one of the most beautiful I've seen.",
+    "key": "1287-da99",
+    "name": "DSC05667.jpg",
+    "title": "Back from Reinheim",
+    "description": "",
     "order": 1,
     "location": "Dovrefjell, Norway",
     "tags": [
       "2021",
-      "dovrefjell",
       "ski",
-      "landscape"
+      "dovrefjell"
     ]
   },
   {
@@ -40,50 +39,24 @@
     ]
   },
   {
-    "key": "9016-c7d5",
-    "name": "DSC05922.jpg",
-    "title": "Muskox Herd",
-    "description": "Muskoxen are herd animals, and infants are able to keep up with their mother and group within a few hours after birth.",
-    "order": 3,
-    "location": "Dovrefjell, Norway",
-    "tags": [
-      "2021",
-      "muskox",
-      "dovrefjell"
-    ]
-  },
-  {
     "key": "3afb-1f14",
     "name": "DSC05560_AuroraHDR-edit.jpg",
     "title": "Sunrise in Stroplsjødalen",
     "description": "",
+    "order": 3,
+    "location": "Dovrefjell, Norway",
+    "tags": [
+      "2021",
+      "ski",
+      "dovrefjell"
+    ]
+  },
+  {
+    "key": "9016-c7d5",
+    "name": "DSC05922.jpg",
+    "title": "Muskox Herd",
+    "description": "Muskoxen are herd animals, and infants are able to keep up with their mother and group within a few hours after birth.",
     "order": 4,
-    "location": "Dovrefjell, Norway",
-    "tags": [
-      "2021",
-      "ski",
-      "dovrefjell"
-    ]
-  },
-  {
-    "key": "1287-da99",
-    "name": "DSC05667.jpg",
-    "title": "The way back from Reinheim",
-    "description": "",
-    "order": 5,
-    "location": "Dovrefjell, Norway",
-    "tags": [
-      "2021",
-      "ski",
-      "dovrefjell"
-    ]
-  },
-  {
-    "key": "2317-85db",
-    "name": "DSC05857.jpg",
-    "title": "Muskox",
-    "description": "",
-    "order": 6,
     "location": "Dovrefjell, Norway",
     "tags": [
       "2021",
@@ -96,7 +69,7 @@
     "name": "DSC00121.jpg",
     "title": "Katnosdammen",
     "description": "",
-    "order": 7,
+    "order": 5,
     "location": "Nordmarka, Oslo, Norway",
     "tags": [
       "2020",
@@ -109,7 +82,7 @@
     "name": "DSC01528.jpg",
     "title": "Mallard",
     "description": "",
-    "order": 8,
+    "order": 6,
     "location": "Oslo, Norway",
     "tags": [
       "duck",
@@ -121,7 +94,7 @@
     "name": "DSC01078.jpg",
     "title": "Domestic Pigeon",
     "description": "",
-    "order": 9,
+    "order": 7,
     "location": "Oslo, Norway",
     "tags": [
       "bird",
@@ -133,7 +106,7 @@
     "name": "DSC02273.jpg",
     "title": "Western Honey Bee",
     "description": "",
-    "order": 10,
+    "order": 8,
     "location": "Oslo, Norway",
     "tags": [
       "insect",
@@ -145,7 +118,7 @@
     "name": "DSC02405.jpg",
     "title": "Hover Fly",
     "description": "",
-    "order": 11,
+    "order": 9,
     "location": "Oslo, Norway",
     "tags": [
       "insect",
@@ -157,7 +130,7 @@
     "name": "DSC02854.jpg",
     "title": "Dwarf Poodle",
     "description": "This is Leo. Also known as The Prince.",
-    "order": 12,
+    "order": 10,
     "location": "Oslo, Norway",
     "tags": [
       "dog",
@@ -169,7 +142,7 @@
     "name": "DSC03035.jpg",
     "title": "Western Honey Bee",
     "description": "",
-    "order": 13,
+    "order": 11,
     "location": "Oslo, Norway",
     "tags": [
       "insect",
@@ -181,7 +154,7 @@
     "name": "DSC03413.jpg",
     "title": "Mallard",
     "description": "Blue is a rare color in animals living above water. Some birds are blue, though; the male mallard, for example.",
-    "order": 14,
+    "order": 12,
     "location": "Nordmarka, Oslo, Norway",
     "tags": [
       "bird",
@@ -194,7 +167,7 @@
     "title": "Common Frog",
     "description": "Frogs form large choruses in a competition to attract females. Stamina is important: The loudest, and longest, calls win, probably because it indicates good genes.",
     "latin": "Rana temporaria",
-    "order": 15,
+    "order": 13,
     "location": "Lillomarka, Oslo, Norway",
     "tags": [
       "frog",
@@ -207,7 +180,7 @@
     "title": "Slow-worm",
     "description": "You'll find this worm basking in the sun. It's only superficially similar to a snake, and harmless (unless you're a snail or an insect).",
     "latin": "Anguis fragilis",
-    "order": 16,
+    "order": 14,
     "location": "Nordmarka, Oslo, Norway",
     "tags": [
       "frog",
@@ -221,7 +194,7 @@
     "name": "DSC04477.jpg",
     "title": "Scottish Fold",
     "description": "This queen is named Aprikos (Apricot) and her human Nikolai grows catnip for her and gives her regular grooming. They are good friends.",
-    "order": 17,
+    "order": 15,
     "tags": [
       "cat",
       "2019"
@@ -232,7 +205,7 @@
     "name": "DSC04700.jpg",
     "title": "Vestre Fyllingen",
     "description": "",
-    "order": 18,
+    "order": 16,
     "location": "Nordmarka, Oslo, Norway",
     "tags": [
       "lake",
@@ -245,7 +218,7 @@
     "name": "DSC05087.jpg",
     "title": "Krokvann",
     "description": "A red sunset often indicate a clear sky the following day. The reason is that dust and small particles are trapped in the atmosphere by high pressure coming in from the west. In traditional knowledge they said \"Red sky at night, sailor's delight\".",
-    "order": 19,
+    "order": 17,
     "location": "Siljanskogen, Norway",
     "tags": [
       "lake",
@@ -256,8 +229,8 @@
     "key": "efb9-7d11",
     "name": "DSC05370.jpg",
     "title": "Damvann",
-    "description": "We camped at this beautiful spot after an unsuccessful search for another legendary lake in the area. We got company from the local ATV/biker gang in the evening. They left when the rain came, and we fell asleep to the sound of rain on our tarps.",
-    "order": 20,
+    "description": "We camped at this beautiful spot after an unsuccessful search for another legendary lake in the area. We fell asleep to the sound of rain on our tarps.",
+    "order": 18,
     "location": "Kvelde, Norway",
     "tags": [
       "lake",
@@ -269,7 +242,7 @@
     "name": "DSC05559.jpg",
     "title": "Goat",
     "description": "",
-    "order": 21,
+    "order": 19,
     "location": "Trollheimen, Norway",
     "tags": [
       "goat",
@@ -281,7 +254,7 @@
     "name": "DSC06446.jpg",
     "title": "Nærøyfjord",
     "description": "",
-    "order": 22,
+    "order": 20,
     "location": "Flåm, Norway",
     "tags": [
       "2019"
@@ -292,7 +265,7 @@
     "name": "DSC06693.jpg",
     "title": "One of Sognefjorden's Arms",
     "description": "",
-    "order": 23,
+    "order": 21,
     "location": "Bøyaøyra, Norway",
     "tags": [
       "2020"
@@ -303,7 +276,7 @@
     "name": "DSC07247.jpg",
     "title": "Paragliders from Skredfjellet",
     "description": "",
-    "order": 24,
+    "order": 22,
     "location": "Nordfjord, Norway",
     "tags": [
       "2020"
@@ -314,7 +287,7 @@
     "name": "DSC07522.jpg",
     "title": "Kirkhelleren",
     "description": "This cave has been used by humans for over 9000 years. It's located on the small island of Sanna, one of the most westernly points on the Helgeland coast. The cave is used as a concert venue on Trænafestivalen, one of Norway's most legendary festivals",
-    "order": 25,
+    "order": 23,
     "location": "Sanna, Træna, Norway",
     "tags": [
       "2020"
@@ -325,7 +298,7 @@
     "name": "DSC08049.jpg",
     "title": "Moose",
     "description": "",
-    "order": 26,
+    "order": 24,
     "location": "Brønnøy, Norway",
     "tags": [
       "moose",
@@ -337,7 +310,7 @@
     "name": "DSC08168.jpg",
     "title": "Lurøyfjellet",
     "description": "",
-    "order": 27,
+    "order": 25,
     "location": "Lurøya, Norway",
     "tags": [
       "2020"
@@ -348,7 +321,7 @@
     "name": "DSC08691.jpg",
     "title": "Old Norwegian Sheep",
     "description": "There are at least 19 types of sheep in Norway. They're bred for various qualities; softness of the wool, or color, tameness and taste of the meat. The Old Norwegian Sheep is also called wild sheep, and stone age sheep. It's one of the oldest sheep types we have, and forage outdoors all year. It's almost as hardcore as the Icelandic sheep.",
-    "order": 28,
+    "order": 26,
     "location": "Brønnøy, Norway",
     "tags": [
       "sheep",
@@ -359,20 +332,20 @@
     "key": "952e-255d",
     "name": "DSC08815.jpg",
     "description": "",
-    "order": 29
+    "order": 27
   },
   {
     "key": "59cc-1547",
     "name": "DSC08858.jpg",
     "description": "",
-    "order": 30
+    "order": 28
   },
   {
     "key": "eca6-3171",
     "name": "20200824-DSC00599.jpg",
     "title": "Purple Coneflower",
     "description": "These flowers are rich in nectar and very popular with both bees and butterflies.",
-    "order": 31,
+    "order": 29,
     "location": "Oslo, Norway",
     "tags": [
       "flower",
@@ -385,7 +358,7 @@
     "title": "Striated Frogfish",
     "description": "Frogfish can inhale their prey in six thousands of a second. That's one of the fastest eating methods known in the animal kingdom.",
     "latin": "Antennarius striatus",
-    "order": 32,
+    "order": 30,
     "location": "Lembeh Strait, Indonesia",
     "tags": [
       "frogfish",
@@ -400,7 +373,7 @@
     "title": "Hawksbill Sea Turtle",
     "description": "The tapered head of a hawksbill ends in a sharp point resembling a bird's beak, hence its name.",
     "latin": "Eretmochelys imbricata",
-    "order": 33,
+    "order": 31,
     "location": "Dampier Strait, Raja Ampat, Indonesia",
     "tags": [
       "turtle",
@@ -414,7 +387,7 @@
     "title": "Broadclub Cuttlefish",
     "description": "Cuttlefish have three hearts! One that pumps blood around the body and two pumping blood to the gills.",
     "latin": "Sepia latimanus",
-    "order": 34,
+    "order": 32,
     "location": "Lembeh Strait, Indonesia",
     "tags": [
       "2019",
@@ -428,7 +401,7 @@
     "title": "Blue-Ringed Octopus",
     "description": "The blue-ringed octopus flashes its 50-60 rings within a third of a second as a warning display to predators. Being one of the world's most venomous marine animals, its poison causes total body paralysis—also to humans.",
     "latin": "Hapalochlaena sp.",
-    "order": 35,
+    "order": 33,
     "location": "Lembeh Strait, Indonesia",
     "tags": [
       "2019",
@@ -443,7 +416,7 @@
     "title": "Purple-Edged Ceratosoma",
     "description": "Identification of sea slugs are often difficult. The keys to identification in this case is the broken purple rigde together with the placement of the three mantle lobes on both sides of the body. One lobe on either side of the head, one on the side of the gills, and one between those two.",
     "latin": "Ceratosoma tenue",
-    "order": 36,
+    "order": 34,
     "location": "Lembeh Strait, Indonesia",
     "tags": [
       "nudibranch",
@@ -457,7 +430,7 @@
     "title": "Gorgonian Coral",
     "description": "Raja Ampat's biodiversity is the richest in the world and 75% of all known coral species can be found there.",
     "latin": "Alcyonacea (order)",
-    "order": 37,
+    "order": 35,
     "location": "Misool, Raja Ampat, Indonesia",
     "tags": [
       "reefscape",
@@ -472,7 +445,7 @@
     "title": "Balloonfish",
     "description": "The large dragon-like eyes help this nocturnal hunter forage for food during the night-hours. Their eye pattern is a mesmerizing sight. A friend once compared it to a reflection of the universe.",
     "latin": "Lophodiodon calori",
-    "order": 38,
+    "order": 36,
     "location": "Lembeh Strait, Indonesia",
     "tags": [
       "fish",
@@ -485,7 +458,7 @@
     "title": "Nudibranch",
     "description": "A distinguishing feature of H. batangas is the fine network of lines on its dorsum. What a beauty!",
     "latin": "Halgerda batangas",
-    "order": 39,
+    "order": 37,
     "location": "Lembeh Strait, Indonesia",
     "tags": [
       "2019",
@@ -497,9 +470,9 @@
     "key": "168a-8d7d",
     "name": "2019-indo-DSC02160.jpg",
     "title": "Bullock's Hypselodoris",
-    "description": "Nudibranchs are hermaphrodites; simultaneously both male and female. They are still reproducing sexually, so two individuals must hook up.",
+    "description": "Nudibranchs are hermaphrodites; simultaneously both male and female. They are still reproducing sexually and must hook up with a mate.",
     "latin": "Hypselodoris bullocki",
-    "order": 40,
+    "order": 38,
     "location": "Lembeh Strait, Indonesia",
     "tags": [
       "nudibranch",
@@ -512,7 +485,7 @@
     "title": "Flambouyant Cuttlefish",
     "description": "The flambouyant cuttlefish flashes its hypnotic color scheme and pulses its fins when approached, possibly to signal its toxicity to potential predators.",
     "latin": "Metasepia pfefferi",
-    "order": 41,
+    "order": 39,
     "location": "Lembeh Strait, Indonesia",
     "tags": [
       "2019",
@@ -527,7 +500,7 @@
     "title": "Mushroom Coral Reticuludia",
     "description": "There are over 3000 species of nudibranchs, and new ones are regularly found!",
     "latin": "Reticuludia Fungia",
-    "order": 42,
+    "order": 40,
     "location": "Misool, Raja Ampat, Indonesia",
     "tags": [
       "nudibranch",
@@ -541,7 +514,7 @@
     "title": "Juvenile Longhorn Cowfish",
     "description": "This fish moves by oscillating its tail fin very rapidly, creating a hover-like appearance when swimming.",
     "latin": "Lactoria cornuta",
-    "order": 43,
+    "order": 41,
     "location": "Lembeh Strait, Indonesia",
     "tags": [
       "fish",
@@ -557,7 +530,7 @@
     "title": "Ornate Ghost Pipefish",
     "description": "",
     "latin": "Solenostomus paradoxus",
-    "order": 44,
+    "order": 42,
     "location": "Lembeh Strait, Indonesia",
     "tags": [
       "2019",
@@ -572,7 +545,7 @@
     "title": "Nudibranch",
     "description": "The term nudibranch is derived from the Greek words nudus and brankhia, meaning 'naked' and 'gill' respectively. The flower-like protrusions on the back are the exposed (naked) gills.",
     "latin": "Ardeadoris egretta",
-    "order": 45,
+    "order": 43,
     "location": "Misool, Raja Ampat, Indonesia",
     "tags": [
       "nudibranch",
@@ -586,7 +559,7 @@
     "title": "Skeleton Shrimp",
     "description": "The rear legs are used to hook itself to plants where it lives, in this case a bryozoan. Front claws are used for hunting and moving around.",
     "latin": "Caprellid sp.",
-    "order": 46,
+    "order": 44,
     "location": "Lembeh Strait, Indonesia",
     "tags": [
       "2019",
@@ -600,7 +573,7 @@
     "title": "Striped Poison-Fang Blenny Mimic",
     "description": "The strait of Lembeh is littered with garbage, but not all discarded stuff is bad for the creatures living there. An old bottle can be the safest place for a blenny to live.",
     "latin": "Petroscirtes breviceps",
-    "order": 47,
+    "order": 45,
     "location": "Lembeh Strait, Indonesia",
     "tags": [
       "2019",
@@ -614,7 +587,7 @@
     "title": "Broadclub Cuttlefish",
     "description": "Cuttlefish are able to change the color of their skin in an instant using a set of astonishing ten million individually controlled color cells.",
     "latin": "Sepia latimanus",
-    "order": 48,
+    "order": 46,
     "location": "Dampier Strait, Raja Ampat, Indonesia",
     "tags": [
       "cuttlefish",
@@ -628,7 +601,7 @@
     "title": "Ribboned Sweetlips",
     "description": "This species is certainly named after their protruding fat sweet lips.",
     "latin": "Plectorhinchus polytaenia",
-    "order": 49,
+    "order": 47,
     "location": "Dampier Strait, Raja Ampat, Indonesia",
     "tags": [
       "fish",
@@ -642,7 +615,7 @@
     "title": "Bigeye Trevally",
     "description": "This fast-swimming predator can grow up to 120 cm long and form schools numbering more than 1500 individuals.",
     "latin": "Caranx sexfasciatus",
-    "order": 50,
+    "order": 48,
     "location": "Dampier Strait, Raja Ampat, Indonesia",
     "tags": [
       "fish",
@@ -656,7 +629,7 @@
     "title": "Nudibranch",
     "description": "Some nudibranchs are adapted to resemble small pieces of soft coral.",
     "latin": "Tritonia sp.",
-    "order": 51,
+    "order": 49,
     "location": "Lembeh Strait, Indonesia",
     "tags": [
       "nudibranch",
@@ -670,7 +643,7 @@
     "title": "Red-Lined Jorunna",
     "description": "A key feature for the Red-Lined Jorunna is its length of up to 20 cm. That's an enormous size for a nudibranch.",
     "latin": "Jorunna rubescens",
-    "order": 52,
+    "order": 50,
     "location": "Lembeh Strait, Indonesia",
     "tags": [
       "nudibranch",
@@ -684,7 +657,7 @@
     "title": "Fluted Giant Clam",
     "description": "The giant clam produces its hard shell with help from zooxanthellae, an algea that grows within the shell valve.",
     "latin": "Tridacna squamosa",
-    "order": 53,
+    "order": 51,
     "location": "Dampier Strait, Raja Ampat, Indonesia",
     "tags": [
       "clam",
@@ -697,7 +670,7 @@
     "title": "Ribboned Sweetlips",
     "description": "Groups of sweetlips often hang tucked between layers of coral, which allowed me to experiment a bit with lighting.",
     "latin": "Plectorhinchus polytaenia",
-    "order": 54,
+    "order": 52,
     "location": "Dampier Strait, Raja Ampat, Indonesia",
     "tags": [
       "fish",
@@ -711,7 +684,7 @@
     "title": "Shortfin Lionfish",
     "description": "",
     "latin": "Dendrochirus brachypterus",
-    "order": 55,
+    "order": 53,
     "location": "Lembeh Strait, Indonesia",
     "tags": [
       "2019",
@@ -725,7 +698,7 @@
     "title": "Giant Frogfish",
     "description": "",
     "latin": "Antennarius commerson",
-    "order": 56,
+    "order": 54,
     "location": "Lembeh Strait, Indonesia",
     "tags": [
       "frogfish",
@@ -740,7 +713,7 @@
     "title": "Bluestripe and Golden-lined Snappers",
     "description": "The goatfish (Mulloidichthys mimicus) is part of a weird relationship with the bluestripe snapper where it mimics its colors to look almost exactly the same. The reason for that is not entirely clear, but the goatfish is presumably a more preferred prey than the bluestrip snapper. So there may be some goatfish in the fish ball as well.",
     "latin": "Lutjanus kasmira and Lutjanus lutjanus",
-    "order": 57,
+    "order": 55,
     "location": "Dampier Strait, Raja Ampat, Indonesia",
     "tags": [
       "fish",
@@ -754,7 +727,7 @@
     "title": "Oceanic Manta Ray",
     "description": "The majestic oceanic manta is a pelagic species, using the ocean currents to travel. Sites with high availability of zooplankton, such as the nutrient-rich waters of Raja Ampat, attracts them closer to the reefs to feed.",
     "latin": "Manta birostris",
-    "order": 58,
+    "order": 56,
     "location": "Dampier Strait, Raja Ampat, Indonesia",
     "tags": [
       "ray",
@@ -767,7 +740,7 @@
     "title": "Red-legged Swimming Crab",
     "description": "",
     "latin": "Portunus convexus",
-    "order": 59,
+    "order": 57,
     "location": "Dampier Strait, Raja Ampat, Indonesia",
     "tags": [
       "crab",
@@ -781,7 +754,7 @@
     "title": "Balloonfish",
     "description": "The balloonfish can inflate its body three times the normal size to make attacks more difficult for predators.",
     "latin": "Lophodiodon calori",
-    "order": 60,
+    "order": 58,
     "location": "Lembeh Strait, Indonesia",
     "tags": [
       "fish",
@@ -795,7 +768,7 @@
     "title": "Clown Anemonefish",
     "description": "When anemonefish leaves it host for a long time, they need to re-adapt to the host stinging cells. To do so, the fish goes through a dance-like ritual taking several hours. Clownfish rarely move more than 30 cm from their host anemone, though.",
     "latin": "Amphiprion percula",
-    "order": 61,
+    "order": 59,
     "location": "Dampier Strait, Raja Ampat, Indonesia",
     "tags": [
       "fish",
@@ -809,7 +782,7 @@
     "title": "Bobbit Worm",
     "description": "Little is known about the behaviour of bobbit worms. It's theorized that the worm doesn’t see at all but uses its excellent receptors to detect movement in the water to sense nearby fish.",
     "latin": "Eunice aphroditois",
-    "order": 62,
+    "order": 60,
     "location": "Lembeh Strait, Indonesia",
     "tags": [
       "worm",
@@ -823,7 +796,7 @@
     "title": "Ornate Ghost Pipefish",
     "description": "Ornates adopt the coloration of the environment it settles in after its larval stage.",
     "latin": "Solenostomus paradoxus",
-    "order": 63,
+    "order": 61,
     "location": "Penemu, Raja Ampat, Indonesia",
     "tags": [
       "fish",
@@ -838,7 +811,7 @@
     "title": "Spiny Devilfish",
     "description": "While this genus is typically buried in the sand or perfectly camouflaged in coral rubble, they can sometimes be found crawling on the seabed using their pectoral fins as legs.",
     "latin": "Inimicus didactylus",
-    "order": 64,
+    "order": 62,
     "location": "Lembeh Strait, Indonesia",
     "tags": [
       "2019",
@@ -853,7 +826,7 @@
     "title": "Harlequin Swimming Crab",
     "description": "This crab lives in symbiosis with tube dwelling anemones where it takes cover to hide from predators.",
     "latin": "Lissocarcinus laevis",
-    "order": 65,
+    "order": 63,
     "location": "Lembeh Strait, Indonesia",
     "tags": [
       "2019",
@@ -867,7 +840,7 @@
     "title": "Apolegma's Hypselodoris",
     "description": "",
     "latin": "Hypselodoris apolegma",
-    "order": 66,
+    "order": 64,
     "location": "Lembeh Strait, Indonesia",
     "tags": [
       "2019",
@@ -881,7 +854,7 @@
     "title": "Ornate Ghost Pipefish",
     "description": "The ghost pipefish camouflages very well in coral reefs, and spend a lot of time floating, almost like a slow moving leaf, with its mouth pointed downwards.",
     "latin": "Solenostomus paradoxus",
-    "order": 67,
+    "order": 65,
     "location": "Lembeh Strait, Indonesia",
     "tags": [
       "fish",
@@ -895,7 +868,7 @@
     "title": "Reef Manta Ray",
     "description": "By swimming against the tidal current, mantas sieves zooplankton from the water. They are the only type of ray evolved to filter feed.",
     "latin": "Manta alfredi",
-    "order": 68,
+    "order": 66,
     "location": "Baa Atoll, The Maldives",
     "tags": [
       "ray",
@@ -909,7 +882,7 @@
     "title": "Starry Grouper",
     "description": "Groupers typically have large mouths, fat lips and stout bodies. The starry grouper is relatively small, but still fearless enough to stay still and stare back when I was snapping a shot.",
     "latin": "Epinephelus labriformis",
-    "order": 69,
+    "order": 67,
     "location": "Cocos Island, Costa Rica",
     "tags": [
       "2017",
@@ -923,7 +896,7 @@
     "title": "Indian Lionfish",
     "description": "Active at night, this fish will follow you and exploit your dive light to find prey.",
     "latin": "Pterois miles",
-    "order": 70,
+    "order": 68,
     "location": "Shaab El Erg, Egypt",
     "tags": [
       "lionfish",
@@ -938,7 +911,7 @@
     "title": "Green Turtle",
     "description": "Surprisingly curious, this young turtle swam around us in the shallows during our way out to the Salt Pier, a gorgeous dive site on Bonaire.",
     "latin": "Chelonia mydas",
-    "order": 71,
+    "order": 69,
     "location": "Bonaire, The Netherlands",
     "tags": [
       "2016",
@@ -952,7 +925,7 @@
     "title": "Southern Stingray",
     "description": "The flat body has sharp corners and allows the stingray to efficiently bury itself in the sand to avoid predators.",
     "latin": "Dasyatis americana",
-    "order": 72,
+    "order": 70,
     "location": "Caño Island, Costa Rica",
     "tags": [
       "2017",
@@ -966,7 +939,7 @@
     "title": "SS Thistlegorm",
     "description": "Sunk during a surprise attack by a pair of German Heinkel He-111 bomber planes in World War II. The ship is over 400 feet long, and most of its cargo is still present in, or around the wreck.",
     "latin": "",
-    "order": 73,
+    "order": 71,
     "location": "Egypt",
     "tags": [
       "wreck",
@@ -981,7 +954,7 @@
     "title": "Crocodilefish",
     "description": "",
     "latin": "Papilloculiceps longiceps",
-    "order": 74,
+    "order": 72,
     "location": "Yolanda Lagoon, Egypt",
     "tags": [
       "portrait",
@@ -994,7 +967,7 @@
     "title": "Pygmy Sweepers",
     "description": "These fish feed on zooplankton at night. During daytime, they are usually found in shaded areas, such as inside wrecks, caves and under overhangs. They often form dense schools in these shelters.",
     "latin": "Parapriacanthus ransonneti",
-    "order": 75,
+    "order": 73,
     "location": "Egypt",
     "tags": [
       "diver",
@@ -1008,7 +981,7 @@
     "title": "White Eyed Moray",
     "description": "",
     "latin": "Gymnothorax thyrsoideus",
-    "order": 76,
+    "order": 74,
     "location": "Anilao, The Philippines",
     "tags": [
       "eel",
@@ -1021,7 +994,7 @@
     "title": "Scalloped Hammerhead Shark",
     "description": "",
     "latin": "Sphyrna lewini",
-    "order": 77,
+    "order": 75,
     "location": "Cocos Island, Costa Rica",
     "tags": [
       "2017",
@@ -1034,7 +1007,7 @@
     "title": "Common Starfish",
     "description": "In addition to having the ability to regenerate limbs, most sea stars are able to eat outside of their bodies by moving its stomach inside the prey to ingest it.",
     "latin": "Asterias rubens",
-    "order": 78,
+    "order": 76,
     "location": "Gulen, Norway",
     "tags": [
       "2016",
@@ -1047,7 +1020,7 @@
     "title": "Pyjama Nudibranch",
     "description": "Sponges are popular food source for nudibranchs. The slugs incorporate the color from what they eat to their tissue color as camouflage. This beautiful pair have found a toxic finger-sponge (Negombata magnifica) to feed on. They won't be harmed, and instead use the chemicals to reduce the chance of being eaten.",
     "latin": "Chromodoris quadricolor",
-    "order": 79,
+    "order": 77,
     "location": "El Minya Wreck, Egypt",
     "tags": [
       "nudibranch",
@@ -1061,7 +1034,7 @@
     "title": "Elphinstone Anthias",
     "description": "Participating in a huge feeding aggregation, the massive amount of anthias make some of the visually dramatic scenes on the reef. Anthias live in harems consisting of one dominant male, a few lesser males, juveniles and a cluster of females. All anthias are hermaphrodites and begin life as female.",
     "latin": "Anthiinae (family)",
-    "order": 80,
+    "order": 78,
     "location": "Elphinestone Reef, Egypt",
     "tags": [
       "2014",
@@ -1076,7 +1049,7 @@
     "title": "Scalloped Hammerhead Shark",
     "description": "All of our dives on Cocos featured hammerheads, most shy and in the distance like here. One of my best memories from Cocos was the ascent on a site called Manuelita, which we dove many times. What we didn't realize at first was that the hammerheads had disperged and moved away when we got there. Immediately when we started to ascend they returned. During our safety stop we saw the hoards coming from all directions and reuniting at the cleaning stations on the ocean floor.",
     "latin": "Sphyrna lewini",
-    "order": 81,
+    "order": 79,
     "location": "Cocos Island, Costa Rica",
     "tags": [
       "2017",
@@ -1089,7 +1062,7 @@
     "title": "Chamberlain's Nembrotha",
     "description": "Nudibranch's eyes are located inside the body and measure about a quarter of a millimeter in diameter. These simple eyes are only coarsly able to discern differences in light intensity.",
     "latin": "Nembrotha chamberlaini",
-    "order": 82,
+    "order": 80,
     "location": "Anilao, The Philippines",
     "tags": [
       "nudibranch",
@@ -1102,7 +1075,7 @@
     "title": "Giant Moray Eel",
     "description": "",
     "latin": "Gymnothorax javanicus",
-    "order": 83,
+    "order": 81,
     "location": "Egypt",
     "tags": [
       "eel",
@@ -1116,7 +1089,7 @@
     "title": "Gracile Lizardfish",
     "description": "Lizardfish are frequent visitors of sandy or muddy areas and lie sometimes partly buried on the sea floor.",
     "latin": "Saurida gracilis",
-    "order": 84,
+    "order": 82,
     "location": "Baa Atoll, The Maldives",
     "tags": [
       "fish",
@@ -1131,7 +1104,7 @@
     "title": "Giant Frogfish",
     "description": "Frogfish don't have swim bladders. Instead they walk on the ocean floor using their non-traditional fins.",
     "latin": "Antennarius commerson",
-    "order": 85,
+    "order": 83,
     "location": "Cocos Island, Costa Rica",
     "tags": [
       "2017",
@@ -1145,7 +1118,7 @@
     "title": "Crescent-tail Bigeye",
     "description": "",
     "latin": "Priacanthus hamrur",
-    "order": 86,
+    "order": 84,
     "location": "Egypt",
     "tags": [
       "2015",
@@ -1159,7 +1132,7 @@
     "title": "Scalloped Hammerhead Shark",
     "description": "Sharks can detect electrical fields created by other animals using specialized sensory organs. For the hammerheads, these organs are spread over the oddly wide-shaped head to boost the sensitivity.",
     "latin": "Sphyrna lewini",
-    "order": 87,
+    "order": 85,
     "location": "Cocos Island, Costa Rica",
     "tags": [
       "2017",
@@ -1172,7 +1145,7 @@
     "title": "False Clown Anemonefish",
     "description": "Clownfish hatch near the surface and travel deeper to search for a host anemone when they reach their juvenile stage. Within a clownfish community there is a strict hierarchy where juveniles begin at the bottom and have to gradually move upwards by proving their abilities to the rest of the population. During this time they may be victims to agression, and possibly eviction from the anemone by more mature clownfish.",
     "latin": "Amphiprion ocellaris",
-    "order": 88,
+    "order": 86,
     "location": "Dumaguete, The Philippines",
     "tags": [
       "anemonefish",
@@ -1188,7 +1161,7 @@
     "title": "Pronghorn Spiny Lobster",
     "description": "",
     "latin": "Panulirus penicillatus",
-    "order": 89,
+    "order": 87,
     "location": "Cocos Island, Costa Rica",
     "tags": [
       "2017",
@@ -1202,7 +1175,7 @@
     "title": "Lumpsucker",
     "description": "Instead of having the normal type of pelvic fins (below), this fish has evolved disc-like fins and use them to adhere to the substrate.",
     "latin": "Cyclopterus lumpus",
-    "order": 90,
+    "order": 88,
     "location": "Gulen, Norway",
     "tags": [
       "2016",
@@ -1216,7 +1189,7 @@
     "title": "Norton 16H Motorcycles",
     "description": "More than 100 motorcycles were aboard the SS Thistlegorm before it sunk. Many of them are still there.",
     "latin": "",
-    "order": 91,
+    "order": 89,
     "location": "SS Thistlegorm Wreck, Egypt",
     "tags": [
       "wreck",
@@ -1230,7 +1203,7 @@
     "title": "The Dugongs of Marsha Shouna",
     "description": "Dugongs are believed to be inspirations behind tales of mermaids and in parts of Indonesia they are considered reincarnations of women. The word \"dugong\" means lady of the sea. It's herbivorous and feed uniquely on sea grass. Their numbers are very low and in some countries they are entirely depleted due to hunting, bycatch and habitat destruction. I was extremely lucky to encounter one in Marsha Shouna on the western coast of the Red Sea, once home to thousands of dugongs but now with very few individuals. The 100 km coastline along Marsa Alam had only seven dugongs left at the time of writing.",
     "latin": "Dugong dugon",
-    "order": 92,
+    "order": 90,
     "location": "Marsa Alam, Egypt",
     "tags": [
       "2014",
@@ -1244,7 +1217,7 @@
     "title": "Juvenile Blacktip Reef Shark",
     "description": "",
     "latin": "Carcharhinus melanopterus",
-    "order": 93,
+    "order": 91,
     "location": "Perhentian Besar, Malaysia",
     "tags": [
       "2015",
@@ -1257,7 +1230,7 @@
     "title": "SS Carnatic",
     "description": "A diver explores the wreck of SS Carnatic, which broke in half after hitting the reef near Shadwan Island. 31 people drowned.",
     "latin": "",
-    "order": 94,
+    "order": 92,
     "location": "SS Carnatic Wreck, Egypt",
     "tags": [
       "diver",
@@ -1271,7 +1244,7 @@
     "title": "Whitetip Reef Shark",
     "description": "The large oval eyes allow the whitetip to see well in dim light.",
     "latin": "Triaenodon obesus",
-    "order": 95,
+    "order": 93,
     "location": "Cocos Island, Costa Rica",
     "tags": [
       "2017",
@@ -1284,7 +1257,7 @@
     "title": "Nudibranch",
     "description": "Many nudibranchs use their brightly colored bodies to warn potential predators that they are full of distasteful chemicals. This is an alternative defence mechanism to having a hard shell, which most other molluscs use as primary protection.",
     "latin": "Hypselodoris infucata",
-    "order": 96,
+    "order": 94,
     "location": "Anilao, The Philippines",
     "tags": [
       "nudibranch",
@@ -1297,7 +1270,7 @@
     "title": "Magnificent Sea Anemone",
     "description": "The previous name for this anemone was the Ritteri Anemone, updated to Heteractis magnifica, or \"Magnificent Sea Anemone\". Perhaps so because it's too beautiful for the first dull name. The anemone can entirely retract it's tentacles. It's column, here in purple color, will then be exposed. On the matter of reproducing this anemone can do it both sexually and asexually—it can actually clone itself.",
     "latin": "Heteractis magnifica with Amphiprion perideraion",
-    "order": 97,
+    "order": 95,
     "location": "Anilao, The Philippines",
     "tags": [
       "2014",
@@ -1311,7 +1284,7 @@
     "title": "Green Turtle",
     "description": "The fat beneath the carapace of a C. Mydas is green, which is why it's common name is \"green turtle\".",
     "latin": "Chelonia mydas",
-    "order": 98,
+    "order": 96,
     "location": "Bonaire, The Netherlands",
     "tags": [
       "2016",
@@ -1325,7 +1298,7 @@
     "title": "Hermit Crabs",
     "description": "",
     "latin": "",
-    "order": 99,
+    "order": 97,
     "location": "Shaab El Erg, Egypt",
     "tags": [
       "portrait",
@@ -1340,7 +1313,7 @@
     "title": "Reef Manta Ray",
     "description": "The Maldives is home to around 5000 manta rays—the largest group of manta rays in the world.",
     "latin": "Manta alfredi",
-    "order": 100,
+    "order": 98,
     "location": "Baa Atoll, The Maldives",
     "tags": [
       "ray",
@@ -1354,7 +1327,7 @@
     "title": "Locomotive Engine",
     "description": "Two Stanier 8F locomotive engines, part of the SS Thistlegorm's cargo, sunk together with the ship. Both locomotives are separated from the wreck.",
     "latin": "",
-    "order": 101,
+    "order": 99,
     "location": "SS Thistlegorm Wreck, Egypt",
     "tags": [
       "diver",
@@ -1369,7 +1342,7 @@
     "title": "Whitetip Reef Shark",
     "description": "",
     "latin": "Triaenodon obesus",
-    "order": 102,
+    "order": 100,
     "location": "Cocos Island, Costa Rica",
     "tags": [
       "2017",
@@ -1382,7 +1355,7 @@
     "title": "Fuchsia Flatworm",
     "description": "Flatworms lack circulatory and respiratory organs (such as gills), and respiration is performed by diffusion through the worm's entire surface. They are somewhat similar to nudibranchs in appearance, but the similarity is only superficial. It's easy to distinguish them by the lack of antennas/rhinophores, that they generally move faster. And they are also flat.",
     "latin": "Pseudoceros ferrugineus",
-    "order": 103,
+    "order": 101,
     "location": "Dumaguete, The Philippines",
     "tags": [
       "2013",
@@ -1395,7 +1368,7 @@
     "title": "Atlantic Tarpon",
     "description": "A group of tarpons accompanied us during our night dives on Bonaire. These nocturnal hunters exploited the light from our torches to find prey.",
     "latin": "Megalops atlanticus",
-    "order": 104,
+    "order": 102,
     "location": "Bonaire, The Netherlands",
     "tags": [
       "2016",
@@ -1408,7 +1381,7 @@
     "title": "Tiger Shark",
     "description": "The tigers have excellent sense of smell and sight. Some native Hawaiians think their eyeballs have the power to look into the future.",
     "latin": "Galeocerdo cuvier",
-    "order": 105,
+    "order": 103,
     "location": "Cocos Island, Costa Rica",
     "tags": [
       "2017",
@@ -1421,7 +1394,7 @@
     "title": "Whitetip Reef Shark",
     "description": "The whitetip sharks let me close enough to get slapped by their caudal fins.",
     "latin": "Triaenodon obesus",
-    "order": 106,
+    "order": 104,
     "location": "Cocos Island, Costa Rica",
     "tags": [
       "2017",
@@ -1434,7 +1407,7 @@
     "title": "Whitetip Reef Shark",
     "description": "",
     "latin": "Triaenodon obesus",
-    "order": 107,
+    "order": 105,
     "location": "Cocos Island, Costa Rica",
     "tags": [
       "2017",
@@ -1447,7 +1420,7 @@
     "title": "Juvenile Boxfish",
     "description": "The members of the boxfish family display a unique behavior of blowing into the sand of the sea floor to uncover buried food, such as tasty worms and shrimps. The boxfish is one of those animals being consistently cute its entire lifetime, not just as juvenile.",
     "latin": "Ostracion cubicus",
-    "order": 108,
+    "order": 106,
     "location": "Anilao, The Philippines",
     "tags": [
       "2014",
@@ -1461,7 +1434,7 @@
     "title": "Reticulate Stargazer",
     "description": "Night dives at the Anilao pier feel like something from another world. The sandy bottom comes to life with all the crabs, shrimps, worms, slugs and bottom dwellers doing their brutal routine. Many of these animals feed at night, and the site turns to a large scale battlefield when the sun sets. A stargazer approached us in the midst of the chaos, landed on the sand and burrowed its tapered body, exposing only its big, heavy, flat head and a vertically slanted mouth. He waits for passing fish before jumping upwards while creating a vacuum to suck in the prey.",
     "latin": "Uranoscopus chinensis",
-    "order": 109,
+    "order": 107,
     "location": "Anilao, The Philippines",
     "tags": [
       "stargazer",
@@ -1476,7 +1449,7 @@
     "title": "Scalloped Hammerhead Shark",
     "description": "",
     "latin": "Sphyrna lewini",
-    "order": 110,
+    "order": 108,
     "location": "Cocos Island, Costa Rica",
     "tags": [
       "2017",
@@ -1489,7 +1462,7 @@
     "title": "Toad Crab",
     "description": "This decorator crab collects sea weed, sponges, algae and other particles in the water to improve its camouflage.",
     "latin": "Hyas coarctatus",
-    "order": 111,
+    "order": 109,
     "location": "Gulen, Norway",
     "tags": [
       "2016",
@@ -1502,7 +1475,7 @@
     "title": "Jordans Snapper",
     "description": "",
     "latin": "Lutjanus jordani",
-    "order": 112,
+    "order": 110,
     "location": "Cocos Island, Costa Rica",
     "tags": [
       "2017",
@@ -1515,7 +1488,7 @@
     "title": "Spinner Dolphin",
     "description": "Those times I'm lucky enough to hear whistles and clicking sounds I instantly change focus from finding small stuff, snails or whatever I'm up to at the moment, and instead scout for what could be dolphins. They are fast swimmers, so if they are around, they are not necessarily for long. Most often I will not find them, but sometimes I do, and some of these encounters I believe are the dolphins approaching me more than the other way around. They are curious, playful and intelligent creatures.",
     "latin": "Stenella longirostris",
-    "order": 113,
+    "order": 111,
     "location": "Egypt",
     "tags": [
       "2014",
@@ -1529,7 +1502,7 @@
     "title": "Reef Stonefish",
     "description": "Motionless, this fish sometimes stay at the same site for several months. Not agressive, but will inject a venom if stepped on. It's the world's most venomous fish.",
     "latin": "Synanceia verrucosa",
-    "order": 114,
+    "order": 112,
     "location": "The Barge Wreck, Egypt",
     "tags": [
       "potrait",
@@ -1543,7 +1516,7 @@
     "title": "Devil Scorpionfish",
     "description": "Normally, pectoral fins are used to swim but this fish has evolved two small stilts that allow it to walk and dig the seabed instead. While this is by no means unique for an ocean species, it's still fascinating to observe this type of irregularity. Perhaps, a long time ago another species did just the same, and that is why there are creatures (such as you and me) walking on land today.",
     "latin": "Scorpaenopsis diabolus",
-    "order": 115,
+    "order": 113,
     "location": "Anilao, The Philippines",
     "tags": [
       "2014",
@@ -1557,7 +1530,7 @@
     "title": "Bluespotted Ribbontail Ray",
     "description": "",
     "latin": "Taeniura lymma",
-    "order": 116,
+    "order": 114,
     "location": "Egypt",
     "tags": [
       "2014",
@@ -1571,7 +1544,7 @@
     "title": "The Hilma Hooker Wreck",
     "description": "After losing power off the coast of Bonaire, The Hilma Hooker was towed to the island's main pier. As this ship already was suspected by the DEA, a search was quickly conducted and 11.000 kg of marijuana was found. The owner of the ship however, was not. Hilma Hooker was starting to wear down and the hull was in dire need of maintenance. It was towed a couple of kilometers south in fear of disrupting boat traffic in case it sunk, which it promtly did. Now it's a great dive site, easily accessible on the western coast of Bonaire.",
     "latin": "",
-    "order": 117,
+    "order": 115,
     "location": "Bonaire, The Netherlands",
     "tags": [
       "2016",
@@ -1585,7 +1558,7 @@
     "title": "Indian Lionfish",
     "description": "",
     "latin": "Pterois miles",
-    "order": 118,
+    "order": 116,
     "location": "Shaab El Erg, Egypt",
     "tags": [
       "portrait",
@@ -1600,7 +1573,7 @@
     "title": "St. Johns Cave Systems",
     "description": "St. Johns is know for its array of caverns, tunnels, overhangs and swim-throughs. The sun pierce through the cracks, crevices and holes inside the caverns, guiding us through the maze. The majestetic area is like a forgotten world, mountains now covered in coral.",
     "latin": "",
-    "order": 119,
+    "order": 117,
     "location": "St. Johns Reef, Egypt",
     "tags": [
       "2014",
@@ -1613,7 +1586,7 @@
     "title": "Kunie's Goniobranchus",
     "description": "",
     "latin": "Goniobranchus kuniei",
-    "order": 120,
+    "order": 118,
     "location": "Anilao, The Philippines",
     "tags": [
       "2014",
@@ -1626,7 +1599,7 @@
     "title": "Potato Cod",
     "description": "This fish is bold. It may come really close and will sometimes tamper with your dive gear. It's latin name tukula means \"man-eater\" due to its large size, but it means no harm; it's just a curious and social fish.",
     "latin": "Epinephelus tukula",
-    "order": 121,
+    "order": 119,
     "location": "Cod Hole, Great Barrier Reef, Australia",
     "tags": [
       "2013",
@@ -1641,7 +1614,7 @@
     "title": "French Angelfish",
     "description": "",
     "latin": "Pomacanthus paru",
-    "order": 122,
+    "order": 120,
     "location": "Bonaire, The Netherlands",
     "tags": [
       "2016",
@@ -1655,7 +1628,7 @@
     "title": "Great Spider Crab",
     "description": "",
     "latin": "Hyas araneus",
-    "order": 123,
+    "order": 121,
     "location": "Sandefjord, Norway",
     "tags": [
       "2016",
@@ -1668,7 +1641,7 @@
     "title": "Spotted Scorpionfish",
     "description": "The scorpionfish is commonly found virtually invisible, blending in with the environment. Do not touch.",
     "latin": "Scorpaena plumieri",
-    "order": 124,
+    "order": 122,
     "location": "Bonaire, The Netherlands",
     "tags": [
       "2016",
@@ -1681,7 +1654,7 @@
     "title": "Chamberlain's Nembrotha",
     "description": "Perhaps the most distinctive characteristic of nudibranchs is the pair of tentacles on the head, called rhinophores. They are chemical sensors used to smell and taste the chemicals dissolved in the water, such as food and potential mates. Many species of nudibranchs can retract these vital organs to protect them against other fish.",
     "latin": "Nembrotha chamberlaini",
-    "order": 125,
+    "order": 123,
     "location": "Anilao, The Philippines",
     "tags": [
       "nudibranch",
@@ -1694,7 +1667,7 @@
     "title": "Scalloped Hammerhead Shark",
     "description": "",
     "latin": "Sphyrna lewini",
-    "order": 126,
+    "order": 124,
     "location": "Cocos Island, Costa Rica",
     "tags": [
       "2017",
@@ -1707,7 +1680,7 @@
     "title": "Spotted Moray Eel",
     "description": "Unlike most fish who use suction to capture their prey, moray eels use two sets of jaws in their throats to drag prey inside their mouths.",
     "latin": "Gymnothorax moringa",
-    "order": 127,
+    "order": 125,
     "location": "Bonaire, The Netherlands",
     "tags": [
       "2016",
@@ -1721,7 +1694,7 @@
     "title": "Thresher Shark",
     "description": "Malapascua is known for its legendary thresher sharks. They are usually found in deep waters, but when the sun starts to rise they ascend to the cleaning stations on the sloaps of Monad Shoal. Diving starts 05.00 am.",
     "latin": "Alopias macrourus",
-    "order": 128,
+    "order": 126,
     "location": "Malapascua, The Philippines",
     "tags": [
       "shark",
@@ -1734,7 +1707,7 @@
     "title": "Arminid Nudibranch",
     "description": "Nudibranchs have shells as larva, but shed them when they mature. Shells are heavy and make moving around difficult. Most molluscs use the shell as a primary defence, but nudibranchs have developed other techniques for protection, such as toxic secretion. A few make their own poisons, but most utilize the toxic metabolites from what they eat.",
     "latin": "Janolus sp.",
-    "order": 129,
+    "order": 127,
     "location": "Anilao, The Philippines",
     "tags": [
       "nudibranch",
@@ -1747,7 +1720,7 @@
     "title": "Spinner Dolphin",
     "description": "Dolphins use echolocation to \"see\" the environment, similar to a sonar or radar. They send out bursts of clicking sounds, and based on the frequency of the return signal, and how much time the signal used to return, the dolphin can estimate what kind of objects are nearby.",
     "latin": "Stenella longirostris",
-    "order": 130,
+    "order": 128,
     "location": "Egypt",
     "tags": [
       "2014",
@@ -1760,7 +1733,7 @@
     "title": "Scalloped Hammerhead Shark",
     "description": "The wide-set eyes give hammerheads long visual range, better than most sharks.",
     "latin": "Sphyrna lewini",
-    "order": 131,
+    "order": 129,
     "location": "Cocos Island, Costa Rica",
     "tags": [
       "2017",
@@ -1773,7 +1746,7 @@
     "title": "Coleman's Shrimp",
     "description": "The pair of shrimp clears a little patch on the fire urchin with their claws. The patch is just large enough to move freely around collecting small pieces of food while still being protected from predators by the urchin's toxic spines. The largest of the shrimps is always the female.",
     "latin": "Periclimenes colemani",
-    "order": 132,
+    "order": 130,
     "location": "Anilao, The Philippines",
     "tags": [
       "2014",
@@ -1787,7 +1760,7 @@
     "title": "Bullock's Hypselodoris",
     "description": "Nudibranchs have external gills (the yellow rosette on the back), hence its name, which translates to \"naked gill\".",
     "latin": "Hypselodoris bullocki",
-    "order": 133,
+    "order": 131,
     "location": "Anilao, The Philippines",
     "tags": [
       "nudibranch",
@@ -1800,7 +1773,7 @@
     "title": "Juvenile Blacktip Reef Shark",
     "description": "These, and many more, juvenile sharks were eager to become grown-up-sharks and tried to hunt small fish all day long. They didn't seem to mind me too much and allowed me to swim with them while they were hunting.",
     "latin": "Carcharhinus melanopterus",
-    "order": 134,
+    "order": 132,
     "location": "Perhentian Besar, Malaysia",
     "tags": [
       "2015",
@@ -1813,7 +1786,7 @@
     "title": "Painted Frogfish",
     "description": "The social activity of this fish is rather limited, and the male will sometimes eat the female if she stays around too long after mating.",
     "latin": "Antennarius pictus",
-    "order": 135,
+    "order": 133,
     "location": "Anilao, The Philippines",
     "tags": [
       "2014",
@@ -1827,7 +1800,7 @@
     "title": "Bobbit Worm",
     "description": "The bobbit is my favorite worm. It can grow up to a meter, has a stunning purple iridescence, five antennae to sense passing fish and a scissor-like mouth to split prey in half. Most of the body is covered in sand, just enough is exposed to ambush surprised fish. This worm is quite rare, shy, and mysterious.",
     "latin": "Eunice aphroditois",
-    "order": 136,
+    "order": 134,
     "location": "Anilao, The Philippines",
     "tags": [
       "worm",
@@ -1841,7 +1814,7 @@
     "title": "False Clown Anemonefish",
     "description": "Sea anemones are poisonous to most fish. The clownfish however is immune to their stinging tentacles and form a symbiotic relationship with the anemone where the clownfish receive protection from predators, and the anemone benefits from the clownfish' natural activity. For example, the wedging swimming movements from the clownfish stimulate water sirculation around its tentacles, increasing metabolism and growth.",
     "latin": "Amphiprion ocellaris",
-    "order": 137,
+    "order": 135,
     "location": "Dumaguete, The Philippines",
     "tags": [
       "anemonefish",
@@ -1857,7 +1830,7 @@
     "title": "Two-banded Anemonefish",
     "description": "",
     "latin": "Amphiprion bicinctus",
-    "order": 138,
+    "order": 136,
     "location": "Egypt",
     "tags": [
       "2015",
@@ -1870,7 +1843,7 @@
     "title": "Blackfin Barracuda",
     "description": "Barracudas aggregate in schools as protection against larger predators.",
     "latin": "Sphyraena genie",
-    "order": 139,
+    "order": 137,
     "location": "Egypt",
     "tags": [
       "2015",
@@ -1884,7 +1857,7 @@
     "title": "Green Turtle",
     "description": "It's believed that green turtles need between 20–50 years to reach sexual maturity, and a turtle's life is not easy so very few reach adulthood. Once, the estimate was one percent. It dropped to one thousandth. Previously suffering from unrestricted exploitation by humans, turtles are now having more like a global protection status. However, their slow reproductive rate, combined with increased development in coastal areas make the species very vulnerable. Many turtles are also lost due to accidental catch by fishermen.",
     "latin": "Chelonia mydas",
-    "order": 140,
+    "order": 138,
     "location": "Marsa Alam, Egypt",
     "tags": [
       "2014",
@@ -1897,7 +1870,7 @@
     "title": "Moon Jellyfish",
     "description": "The short tentacles around the bell of the moon jelly are poisonous to small marine animals, which the jelly sometimes eat. A complete meal is ensured by using a layer of mucus covering the creature to catch plankton.",
     "latin": "Aurelia aurita",
-    "order": 141,
+    "order": 139,
     "location": "Egypt",
     "tags": [
       "2015",
@@ -1910,7 +1883,7 @@
     "title": "The Bow of Chrisoula K",
     "description": "This cargo ship was headed for Jeddah packed with Italian tiles, but never made it.",
     "latin": "",
-    "order": 142,
+    "order": 140,
     "location": "Sha'ab Abu Nuhas Reef, Egypt",
     "tags": [
       "wreck",
@@ -1923,7 +1896,7 @@
     "title": "Blackfin Barracuda",
     "description": "A streamlined predator, very powerful with fearsome teeth. Its torpedo like body of almost pure muscle makes it extremely fast. A fascinating fish commonly seen schooling.",
     "latin": "Sphyraena genie",
-    "order": 143,
+    "order": 141,
     "location": "Apo Reef, The Philippines",
     "tags": [
       "2014",
@@ -1937,7 +1910,7 @@
     "title": "Scalloped Hammerhead Shark",
     "description": "",
     "latin": "Sphyrna lewini",
-    "order": 144,
+    "order": 142,
     "location": "Cocos Island, Costa Rica",
     "tags": [
       "2017",
@@ -1950,7 +1923,7 @@
     "title": "Red Sea Corals",
     "description": "Water temperatures in the Red Sea peaks at 35 degrees celcius. Most reefs bleach and die off in such conditions while the Red Sea corals linger on. They are remarkably resilient to high temperatures. Scientists are trying to figure out the key to this crucial ability, with hope of some day be able to salvage reefs currently suffering from rising sea temperatures in other parts of the world.",
     "latin": "",
-    "order": 145,
+    "order": 143,
     "location": "Egypt",
     "tags": [
       "2015",
@@ -1963,7 +1936,7 @@
     "title": "Christmas Tree Worm",
     "description": "This pair of feather-like tentacles, called radioles, is used for respiration and to catch floating plankton and microscopic plants. Each worm has one pair of these radioles.",
     "latin": "Spirobranchus giganteus",
-    "order": 146,
+    "order": 144,
     "location": "Bonaire, The Netherlands",
     "tags": [
       "2016",
@@ -1977,7 +1950,7 @@
     "title": "Leopard Anemone Shrimp",
     "description": "A rare, beautiful shrimp. It's name is derived from where it was found: the Izu Peninsula in Japan.",
     "latin": "Izucaris masudai",
-    "order": 147,
+    "order": 145,
     "location": "Anilao, The Philippines",
     "tags": [
       "shrimp",
@@ -1990,7 +1963,7 @@
     "title": "Graeffe's Sea Cucumber",
     "description": "The sea cucumbers are scavengers, crawling mostly around the sea floor. Not always though: since their gametes float around in the water column a vertical positioning is thought to increase the chance of successful reproduction for both male and female.",
     "latin": "Pearsonothuria graeffei",
-    "order": 148,
+    "order": 146,
     "location": "Anilao, The Philippines",
     "tags": [
       "sea-cucumber",
@@ -2004,7 +1977,7 @@
     "title": "French Grunt",
     "description": "",
     "latin": "Haemulon flavolineatum",
-    "order": 149,
+    "order": 147,
     "location": "Bonaire, The Netherlands",
     "tags": [
       "2016",
@@ -2018,7 +1991,7 @@
     "title": "Emma's Hypselodoris",
     "description": "",
     "latin": "Hypselodoris emma",
-    "order": 150,
+    "order": 148,
     "location": "Anilao, The Philippines",
     "tags": [
       "2014",
@@ -2031,7 +2004,7 @@
     "title": "Chain Moray Eel",
     "description": "",
     "latin": "Echidna catenata",
-    "order": 151,
+    "order": 149,
     "location": "Bonaire, The Netherlands",
     "tags": [
       "2016",
@@ -2045,7 +2018,7 @@
     "title": "Gloomy Tambja",
     "description": "",
     "latin": "Tambja morosa",
-    "order": 152,
+    "order": 150,
     "location": "Anilao, The Philippines",
     "tags": [
       "nudibranch",
@@ -2058,7 +2031,7 @@
     "title": "Green Turtle",
     "description": "The green turtles inhabit coastal areas of as many as 140 countries. The Caribbean Islands have one of the largest populations of green turtles in the world.",
     "latin": "Chelonia mydas",
-    "order": 153,
+    "order": 151,
     "location": "Bonaire, The Netherlands",
     "tags": [
       "2016",
@@ -2072,7 +2045,7 @@
     "title": "Tassled Scorpionfish",
     "description": "An ambush predator that excels at blending in with the surroundings. Highly venomous.",
     "latin": "Scorpaenopsis oxycephala",
-    "order": 154,
+    "order": 152,
     "location": "Egypt",
     "tags": [
       "2014",
@@ -2087,7 +2060,7 @@
     "title": "Bluecheek Butterflyfish",
     "description": "",
     "latin": "Chaetodon semilarvatus",
-    "order": 155,
+    "order": 153,
     "location": "Egypt",
     "tags": [
       "2015",
@@ -2100,7 +2073,7 @@
     "title": "Tube Dwelling Anemone",
     "description": "Not a true anemone, this animal construct a tube in the sand in which it lives. The entire body, including more than 200 tapering tentacles, can be retracted inside the tube for protection.",
     "latin": "Cerianthus sp. (not confirmed)",
-    "order": 156,
+    "order": 154,
     "location": "Anilao, The Philippines",
     "tags": [
       "2014",
@@ -2113,7 +2086,7 @@
     "title": "Dwarf Minke Whale",
     "description": "In Australia, a group of whales circled us and gradually came closer for each round they took. As they moved closer we could recognize their fine details, their uniqueness and beauty. Scientists in Australia use the spots on their skin to distinguish them from each other and is the primary method used to count the number of individuals. We dove with all together five minke whales for almost two hours before they perished into the open sea. It was a once-in-a-lifetime experience I will never forget.",
     "latin": "Undescribed (Balaenoptera acutorostrata subspecies)",
-    "order": 157,
+    "order": 155,
     "location": "Ribbon Reefs, Great Barrier Reef, Australia",
     "tags": [
       "2010",
@@ -2126,7 +2099,7 @@
     "title": "Glass Anemone Shrimp",
     "description": "",
     "latin": "Periclimenes brevicarpalis",
-    "order": 158,
+    "order": 156,
     "location": "Anilao, The Philippines",
     "tags": [
       "2014",
@@ -2139,7 +2112,7 @@
     "title": "Giant Frogfish",
     "description": "In just two weeks, the frogfish can change its own color to match the environment. They generally do not move very much, but sometimes use the pelvic fins (the ones below the body) to walk along the sea floor. Their pectoral fins (one on each side) are used for stability.",
     "latin": "Antennarius commerson",
-    "order": 159,
+    "order": 157,
     "location": "Anilao, The Philippines",
     "tags": [
       "frogfish",
@@ -2153,7 +2126,7 @@
     "title": "Juvenile Longhorn Cowfish",
     "description": "A peaceful fish having horns as defence to make it more difficult for predators to swallow it. The cowfishes are, sadly, a common target for the aquarium industry due to their adorable looks.",
     "latin": "Lactoria cornuta",
-    "order": 160,
+    "order": 158,
     "location": "Anilao, The Philippines",
     "tags": [
       "2014",
@@ -2168,7 +2141,7 @@
     "title": "Silky Shark",
     "description": "Once abundant in the world's oceans, now overfished and in some places depleted. The silky is the shark second most commonly taken as bycatch due to commercial fishing of tuna, it's favored prey.",
     "latin": "Carcharhinus falciformis",
-    "order": 161,
+    "order": 159,
     "location": "Elphinestone Reef, Egypt",
     "tags": [
       "shark",
@@ -2181,7 +2154,7 @@
     "title": "Juvenile Blacktip Reef Shark",
     "description": "",
     "latin": "Carcharhinus melanopterus",
-    "order": 162,
+    "order": 160,
     "location": "Perhentian Besar, Malaysia",
     "tags": [
       "2015",
@@ -2194,7 +2167,7 @@
     "title": "Banded Coral Shrimp",
     "description": "Prefers to live in caves, often seen upside down. Cleans parasites from fish cruising by.",
     "latin": "Stenopus hispidus",
-    "order": 163,
+    "order": 161,
     "location": "Bonaire, The Netherlands",
     "tags": [
       "2016",
@@ -2208,7 +2181,7 @@
     "title": "Fire Urchin",
     "description": "Often found in shallow areas, this type of urchin sometimes carpet the sandy floor in large aggregations. Having iridescent blue dots, radiant bodies and long spines, they contribute to brighten up the muddy coast of Anilao.",
     "latin": "Astropyga radiata",
-    "order": 164,
+    "order": 162,
     "location": "Anilao, The Philippines",
     "tags": [
       "2014",
@@ -2221,7 +2194,7 @@
     "title": "White Eyed Moray",
     "description": "Moray eels are shy creatures usually seen peeking out from rocks and coral formations with only their heads exposed. Most of the long slender body is hidden inside crevices, where it retreats completely if you approach too fast or come too near.",
     "latin": "Gymnothorax thyrsoideus",
-    "order": 165,
+    "order": 163,
     "location": "Dumaguete, The Philippines",
     "tags": [
       "2013",
@@ -2234,7 +2207,7 @@
     "title": "Titan Triggerfish",
     "description": "Scattered throughout the world's seas, the triggerfish is usually a solitary fish. It's territorial and can be nasty to intruders if there are eggs to protect. Be respectful and watch its signals, an erect dorsal spine (on top of the fish) means stay away.",
     "latin": "Balistoides viridescens",
-    "order": 166,
+    "order": 164,
     "location": "Egypt",
     "tags": [
       "triggerfish",
@@ -2249,7 +2222,7 @@
     "title": "Chestnut Moray Eel",
     "description": "",
     "latin": "Gymtothorax castaneus",
-    "order": 167,
+    "order": 165,
     "location": "Cocos Island, Costa Rica",
     "tags": [
       "2017",
@@ -2263,7 +2236,7 @@
     "title": "Tufted gray langur",
     "description": "A female langur and her baby. The offspring stay attached to their mother for the first three months of their lives.",
     "latin": "Semnopithecus priam",
-    "order": 168,
+    "order": 166,
     "location": "Sri Lanka",
     "tags": [
       "monkey",
@@ -2276,7 +2249,7 @@
     "title": "Scalloped Hammerhead Shark",
     "description": "Hammerheads are often seen in large schools during the day, but at night they feed solitary. The stingray is it's favored prey.",
     "latin": "Sphyrna lewini",
-    "order": 169,
+    "order": 167,
     "location": "Cocos Island, Costa Rica",
     "tags": [
       "2017",
@@ -2289,7 +2262,7 @@
     "title": "Round Ribbontail Ray",
     "description": "This type of ray is overfished across much of it's range. However, they thrive around Cocos and we saw them on almost all dives.",
     "latin": "Taeniura meyeni",
-    "order": 170,
+    "order": 168,
     "location": "Cocos Island, Costa Rica",
     "tags": [
       "2017"
@@ -2301,7 +2274,7 @@
     "title": "Dead Man's Fingers",
     "description": "Colonies of these soft corals are known to live for over 20 years in the cold northern Atlantic Ocean.",
     "latin": "Alcyonium digitatum",
-    "order": 171,
+    "order": 169,
     "location": "Sandefjord, Norway",
     "tags": [
       "soft-coral",
@@ -2316,7 +2289,7 @@
     "title": "White-spotted Hermit Crab",
     "description": "A hermit crab's home is the shell of a gastropod, usually snails. As they grow, larger shells are required. However, suitable intact shells are of limited resource and competition for the best shell among hermit crabs is common. If a crab looking for new vacancy finds a shell that is too large, it will stay in its current shell and wait by the vacant shell for other hermit crabs to arrive. As other crabs arrive and check the shell, they will do the same and when finally one finds the vacant shell suitable, each crab exchange shells in sequence.",
     "latin": "Dardanus megistos",
-    "order": 172,
+    "order": 170,
     "location": "Anilao, The Philippines",
     "tags": [
       "2014",
@@ -2330,7 +2303,7 @@
     "title": "Smooth Trunkfish",
     "description": "Using its large mouth, the trunkfish expel a jet of water on the seabed to reveal hidden treats like worms and small crustaceans.",
     "latin": "Lactophrys triqueter",
-    "order": 173,
+    "order": 171,
     "location": "Bonaire, The Netherlands",
     "tags": [
       "2016"
@@ -2342,7 +2315,7 @@
     "title": "Whitetip Reef Shark",
     "description": "Whitetips feed at night and their usual shy attitude during daytime disappear completely. You swim with hundreds of sharks when diving at night on Cocos. This dive is one of my all-time favorites.",
     "latin": "Triaenodon obesus",
-    "order": 174,
+    "order": 172,
     "location": "Cocos Island, Costa Rica",
     "tags": [
       "2017",
@@ -2355,7 +2328,7 @@
     "title": "Spotted Eagle Ray",
     "description": "The gorgeous eagle rays can grow up to five meters, including a whip-like tail.",
     "latin": "Aetobatus narinari",
-    "order": 175,
+    "order": 173,
     "location": "Cocos Island, Costa Rica",
     "tags": [
       "2017",
@@ -2368,7 +2341,7 @@
     "title": "Bluecheek Butterflyfish",
     "description": "Endemic to the Red Sea and Gulf of Aden, the bluecheek butterflyfish is one of the few species of fish that have long-term mates.",
     "latin": "Chaetodon semilarvatus",
-    "order": 176,
+    "order": 174,
     "location": "Egypt",
     "tags": [
       "2015",
@@ -2381,7 +2354,7 @@
     "title": "Potato Cod",
     "description": "A large, friendly and curious fellow. The potato cods are rare but territorial, thus quite easy to find once located. They seem to chill out at the same place, getting cleaned by wrasses. One of the potato cods on the barrier reef was so large it was nicknamed VW Beetle.",
     "latin": "Epinephelus tukula",
-    "order": 177,
+    "order": 175,
     "location": "Cod Hole, Great Barrier Reef, Australia",
     "tags": [
       "2013",
@@ -2396,7 +2369,7 @@
     "title": "Garden Eels",
     "description": "Sometimes mistaken for swaying seagrass, these small eels live in colonies that can reach over a thousand individuals. Each eel has its own burrow in the sand that it seldom leaves.",
     "latin": "",
-    "order": 178,
+    "order": 176,
     "location": "Dumaguete, The Philippines",
     "tags": [
       "eel",
@@ -2409,7 +2382,7 @@
     "title": "Common Lionfish",
     "description": "",
     "latin": "Pterois miles",
-    "order": 179,
+    "order": 177,
     "location": "Egypt",
     "tags": [
       "2015",
@@ -2424,7 +2397,7 @@
     "title": "Mexican Hogfish",
     "description": "All Bodianus d. start life as female and later become males.",
     "latin": "Bodianus diplotaenia",
-    "order": 180,
+    "order": 178,
     "location": "Cocos Island, Costa Rica",
     "tags": [
       "2017",
@@ -2438,7 +2411,7 @@
     "title": "Anna's Chromodoris",
     "description": "",
     "latin": "Chromodoris annae",
-    "order": 181,
+    "order": 179,
     "location": "Dumaguete, The Philippines",
     "tags": [
       "nudibranch",
@@ -2451,7 +2424,7 @@
     "title": "The Hilma Hooker Wreck",
     "description": "",
     "latin": "",
-    "order": 182,
+    "order": 180,
     "location": "Bonaire, The Netherlands",
     "tags": [
       "2016",
@@ -2465,7 +2438,7 @@
     "title": "Juvenile Blacktip Reef Shark",
     "description": "Patrolling the shallows, half a dozen or so juvenile blacktips are using the safe nursing grounds outside a small beach on the island Perhentian Besar to practice the skill of hunting.",
     "latin": "Carcharhinus melanopterus",
-    "order": 183,
+    "order": 181,
     "location": "Perhentian Besar, Malaysia",
     "tags": [
       "2015",
@@ -2478,7 +2451,7 @@
     "title": "Spotted Scorpionfish",
     "description": "Skin flaps and feathery fins help this fish to camouflage against the surrounding coral.",
     "latin": "Scorpaena plumieri",
-    "order": 184,
+    "order": 182,
     "location": "Cocos Island, Costa Rica",
     "tags": [
       "2017",
@@ -2490,7 +2463,7 @@
     "name": "DSC02484.jpg",
     "title": "Klara of Pandan Island",
     "description": "On a tiny island just outside Mindoro in the Philippines lives an old parrot named Klara, watched over by the two owners of the island. Over time I learned there was more to the story than just keeping a parrot as a pet. In fact, it's very touching but too long to write here. Ask me one time if you want to hear it.",
-    "order": 185,
+    "order": 183,
     "location": "Pandan Island, The Philippines",
     "tags": [
       "2014",
@@ -2503,7 +2476,7 @@
     "title": "Scalloped Hammerhead Shark",
     "description": "",
     "latin": "Sphyrna lewini",
-    "order": 186,
+    "order": 184,
     "location": "Cocos Island, Costa Rica",
     "tags": [
       "2017",
@@ -2516,7 +2489,7 @@
     "title": "Spottail grunt",
     "description": "Longer and thinner than most grunts, the spottail is named after the black botch at the base of the caudal fin.",
     "latin": "Haemulon maculicauda",
-    "order": 187,
+    "order": 185,
     "location": "Caño Island, Costa Rica",
     "tags": [
       "2017",
@@ -2529,7 +2502,7 @@
     "title": "Hermit Crab",
     "description": "",
     "latin": "",
-    "order": 188,
+    "order": 186,
     "location": "Baa Atoll, The Maldives",
     "tags": [
       "crab",
@@ -2543,7 +2516,7 @@
     "title": "Harlequin Swimming Crab",
     "description": "This cool crab, decorated with awesome symmetric spots, is part of a family that, with the help of a pair of broad paddle-like legs, can swim. It's around one centimeter long and can be seen around tube anemones.",
     "latin": "Lissocarcinus laevis",
-    "order": 189,
+    "order": 187,
     "location": "Anilao, The Philippines",
     "tags": [
       "2014",
@@ -2556,7 +2529,7 @@
     "title": "Shore Diving Bonaire",
     "description": "The entire coastline of Bonaire's leeside is fringed by a beautiful coral reef, most of it accessible from shore. The reef starts at about two meter depth, so you could easily stay the entire dive at only a few meters depth if you want.",
     "latin": "",
-    "order": 190,
+    "order": 188,
     "location": "Bonaire, The Netherlands",
     "tags": [
       "2016",
@@ -2569,7 +2542,7 @@
     "title": "Giant Moray Eel",
     "description": "Born as male and turns into female later in life, this eel can grow up to three meters long.",
     "latin": "Gymnothorax javanicus",
-    "order": 191,
+    "order": 189,
     "location": "Egypt",
     "tags": [
       "2014",
@@ -2583,7 +2556,7 @@
     "title": "Magnificent Chromodoris",
     "description": "",
     "latin": "Chromodoris magnifica",
-    "order": 192,
+    "order": 190,
     "location": "Anilao, The Philippines",
     "tags": [
       "nudibranch",
@@ -2596,7 +2569,7 @@
     "title": "Nudibranch",
     "description": "",
     "latin": "Limacia clavigera",
-    "order": 193,
+    "order": 191,
     "location": "Gulen, Norway",
     "tags": [
       "2016",
@@ -2609,7 +2582,7 @@
     "title": "Nudibranch",
     "description": "",
     "latin": "Phyllidiopsis shireenae",
-    "order": 194,
+    "order": 192,
     "location": "Anilao, The Philippines",
     "tags": [
       "nudibranch",
@@ -2622,7 +2595,7 @@
     "title": "Reticulated Chromodoris",
     "description": "",
     "latin": "Chromodoris reticulata",
-    "order": 195,
+    "order": 193,
     "location": "Anilao, The Philippines",
     "tags": [
       "nudibranch",
@@ -2635,7 +2608,7 @@
     "title": "Wire Coral Shrimp",
     "description": "Lives exclusively on the black coral whip, usually in pairs. I found only one, but they are very well camouflaged and small, so perhaps a second companion was around somewhere. You may wonder why the whip is called black coral when it's bright green, and the reason is due to its black inner skeleton. The outer flesh varies in color and P. Unciger shrimps adapt by changing their own skin to match the coral's color.",
     "latin": "Pontonides unciger",
-    "order": 196,
+    "order": 194,
     "location": "Anilao, The Philippines",
     "tags": [
       "2014",
