@@ -20,7 +20,7 @@
   "heroku-run-build-script": true,
   "dependencies": {
     "mongodb": "^3.6.3",
-    "next": "^10.0.4",
+    "next": "^12.1.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
