@@ -1,4 +1,3 @@
-const { pbkdf2 } = require("crypto");
 const fs = require("fs");
 
 const db = require("../server/db/index");

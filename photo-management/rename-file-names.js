@@ -1,4 +1,3 @@
-const localPhotoContent = require("../content.json");
 const { BUCKET, resizeTo } = require("../server/photos/constants");
 const { copyPhoto } = require("../server/photos/s3/s3-copier");
 const { listItems } = require("../server/photos/s3/s3-lister");

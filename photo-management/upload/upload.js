@@ -4,13 +4,10 @@ const minimist = require("minimist");
 
 const idGenerator = require("./id-generator");
 const s3Uploader = require("../../server/photos/s3/s3-uploader");
-const { resize, metadata: getMetadata, metadata } = require("./gm");
+const { resize, metadata: getMetadata } = require("./gm");
 const tempFileWriter = require("./temp-file-writer");
 const db = require("../../server/db");
-const { base } = require("../../server/photos/constants");
 const { resizeTo } = require("../../server/photos/constants");
-const photoDataFormatter = require("../../server/photos/photo-data-formatter");
-const { insert } = require("../../server/db");
 
 function resizeToMultiple(path) {
   return resizeTo.map((r) => resize(path, r.width, r.name));
@@ -41,18 +38,6 @@ function upload(id, file, resizedResults) {
   return resizeTo.map((r, index) =>
     upl(r.shortName, resizedResults[index].buffer)
   );
-}
-
-async function toDb({ id, file, additionalData, replace }) {
-  if (replace) {
-    console.log("Replacing photo %o", photo);
-    await db.update("photos", { key: id }, photo);
-  } else {
-    console.log("Inserting photo %o", photo);
-    await db.insert("photos", photo);
-  }
-
-  return photo;
 }
 
 async function processAndUploadFile(filePath, id) {

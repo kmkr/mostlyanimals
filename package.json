@@ -12,7 +12,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "npm eslint"
   },
   "dependencies": {
     "mongodb": "^3.6.3",
@@ -21,8 +22,12 @@
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
+    "@eslint/js": "^9.17.0",
     "aws-sdk": "^2.818.0",
     "debounce": "^1.1.0",
+    "eslint": "^9.17.0",
+    "eslint-plugin-react": "^7.37.2",
+    "globals": "^15.14.0",
     "gm": "^1.25.0",
     "intersection-observer": "^0.6.0",
     "minimist": "^1.2.5",

@@ -1,5 +1,4 @@
 import useHover from "./useHover";
-import Link from "next";
 
 const TopLogo = () => {
   const [hoverRef, isHovered] = useHover();
@@ -14,7 +13,7 @@ const TopLogo = () => {
             <>
               <p>A photo you like</p>
               <p>Rules, and what about download?</p>
-              <p>I'll gladly explain</p>
+              <p>I&apos;ll gladly explain</p>
             </>
           ) : (
             <>

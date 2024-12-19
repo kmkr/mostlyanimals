@@ -14,7 +14,7 @@ const Photo = ({ photo, setWidth }) => {
       rootMargin: "300px",
     };
 
-    const observer = new IntersectionObserver((entries, observer) => {
+    const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
           setInViewport(true);

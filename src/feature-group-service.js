@@ -11,10 +11,6 @@ function isInFeature(photo, featureSet) {
   });
 }
 
-function upcase(str) {
-  return str.charAt(0).toUpperCase() + str.slice(1);
-}
-
 module.exports.getFeatureName = (featureSet) => {
   if (!featureSet) {
     return;

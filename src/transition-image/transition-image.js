@@ -1,8 +1,6 @@
 import { useState } from "react";
 
-import { setLoaded, isLoaded } from "./loaded-images";
-
-const TransitionImage = ({ alt, onClick, src, srcSet, sizes }) => {
+const TransitionImage = ({ alt, onClick, srcSet, sizes }) => {
   const [visible, setVisible] = useState(false);
 
   function onLoad() {
@@ -11,11 +9,8 @@ const TransitionImage = ({ alt, onClick, src, srcSet, sizes }) => {
       return;
     }
 
-    setLoaded(src);
     setVisible(true);
   }
-
-  const isVisible = visible || isLoaded(src);
 
   return (
     <img

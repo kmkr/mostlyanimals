@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useEffect } from "react";
 
 import MAHead from "../src/ma-head";
 import Collage from "../src/collage/collage";
@@ -9,7 +9,6 @@ import TopLogo from "../src/top-logo";
 import DeepWater from "../src/deep-water";
 import { baseTitle } from "../src/title-service";
 import { getLastShownPhotoKey } from "../src/last-shown-photo-service";
-import { DEFAULT_VIEWPORT_WIDTH } from "../src/constants";
 
 function scrollToPhoto(key, retryNum) {
   setTimeout(() => {
@@ -63,7 +62,7 @@ function HomePage({ keywords, photos }) {
   );
 }
 
-export async function getStaticProps(context) {
+export async function getStaticProps() {
   return Promise.all([getPhotoData(), getAllKeywords()]).then(
     ([photos, allKeywords]) => {
       const mappedPhotos = photos.map(serverToClient);

@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 
 import MAHead from "../../src/ma-head";
 import { getPhotoData, getKeywordsForPhoto } from "../../src/view-data-service";
@@ -7,7 +7,6 @@ import { forOne } from "../../src/og-tags";
 import PhotoWrapper from "../../src/photos/photo-wrapper";
 import { photoTitle } from "../../src/title-service";
 import { setLastShownPhotoKey } from "../../src/last-shown-photo-service";
-import { DEFAULT_VIEWPORT_WIDTH } from "../../src/constants";
 
 function PhotoPage({ keywords, photo, nextPhoto, prevPhoto }) {
   useEffect(() => {

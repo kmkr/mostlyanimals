@@ -6,10 +6,6 @@ import getViewportWidth from "./get-width";
 import MidWater from "./mid-water";
 import { DEFAULT_VIEWPORT_WIDTH } from "../constants";
 
-function hasScrollbar() {
-  return document.body.offsetHeight >= window.innerHeight;
-}
-
 function isCollage(viewportWidth) {
   return viewportWidth > 1100;
 }

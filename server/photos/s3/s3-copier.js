@@ -1,7 +1,5 @@
 const { s3, generateParams } = require("./s3-wrapper");
 
-const { resizeTo } = require("../constants");
-
 const oneYear = 60 * 60 * 24 * 365;
 module.exports.copyPhoto = function (from, to) {
   return new Promise((resolve, reject) => {

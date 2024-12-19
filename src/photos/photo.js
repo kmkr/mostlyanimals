@@ -1,7 +1,6 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 
 import PhotoText from "./photo-text";
-import TransitionImage from "../transition-image/transition-image";
 
 function sizes(photo) {
   return photo.mode === "portrait"

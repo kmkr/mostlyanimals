@@ -1,4 +1,4 @@
-const { BASE, resizeTo } = require("./constants");
+const { BASE } = require("./constants");
 import buildSrcSet from "./src-set-builder";
 
 function getMode(resizeData) {
