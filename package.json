@@ -12,25 +12,21 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "test": "jest",
-    "test:watch": "npm run test -- --watch"
+    "start": "next start"
   },
-  "heroku-run-build-script": true,
   "dependencies": {
     "mongodb": "^3.6.3",
-    "next": "14.2.21",
+    "next": "^14.2.21",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "aws-sdk": "^2.818.0",
     "debounce": "^1.1.0",
-    "gm": "^1.23.1",
+    "gm": "^1.25.0",
     "intersection-observer": "^0.6.0",
     "minimist": "^1.2.5",
     "picturefill": "^3.0.3",
-    "prettier": "^2.2.1",
     "smoothscroll-polyfill": "^0.4.0",
     "throttleit": "^1.0.0"
   }
