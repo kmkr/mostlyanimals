@@ -7,7 +7,7 @@ const updateOneInCollection = require("./update");
 
 const url = process.env.SN_DB_URL;
 const getDb = new Promise((resolve, reject) => {
-  client = new MongoClient(url, {
+  const client = new MongoClient(url, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   });
