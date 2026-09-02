@@ -13,7 +13,7 @@ export SN_DB_URL=mongodb+srv://user:pass@splendidnudibranch.nxtor.mongodb.net/sp
 Install graphics magick:
 
 ```
-suco apt install graphicsmagick
+sudo apt install graphicsmagick
 ```
 
 ## Upload
