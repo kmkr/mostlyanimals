@@ -12,13 +12,13 @@ function expectNumberOfKeys() {
 module.exports.deletePhoto = function (key) {
   return new Promise((resolve, reject) => {
     return listItems(key).then((data) => {
-      if (data.length > expectNumberOfKeys()) {
+      if (data.length > expectNumberOfKeys() + 1) {
         return reject(
           new Error(
             `Expected ${expectNumberOfKeys()} keys with prefix ${key}, but found ${
               data.length
-            }. Aborting deletion`
-          )
+            }. Aborting deletion`,
+          ),
         );
       }
 
@@ -40,7 +40,7 @@ module.exports.deletePhoto = function (key) {
           }
 
           return resolve(data);
-        }
+        },
       );
     });
   });
