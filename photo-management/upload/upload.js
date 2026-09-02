@@ -97,12 +97,42 @@ async function replaceKeyWithFile(id, filePath) {
   console.log("Processing complete");
 }
 
+const CONTENT_FILE_PATH = path.resolve(__dirname, "../../content.json");
+
+function updateContentJson(newPhotos) {
+  if (!newPhotos || newPhotos.length === 0) {
+    return;
+  }
+
+  const rawContent = fs.readFileSync(CONTENT_FILE_PATH, "utf8");
+  const localPhotoContent = JSON.parse(rawContent);
+
+  const newEntries = newPhotos.map((photo) => ({
+    key: photo.key,
+    name: photo.name,
+    title: "",
+    description: photo.description || "",
+    order: 0,
+    location: "",
+    tags: [],
+  }));
+
+  const updatedContent = [...newEntries, ...localPhotoContent];
+  updatedContent.forEach((entry, index) => {
+    entry.order = index;
+  });
+
+  fs.writeFileSync(CONTENT_FILE_PATH, JSON.stringify(updatedContent, null, 2));
+  console.log(`Updated content.json with ${newPhotos.length} new photo(s)`);
+}
+
 async function insertFileWithKey(id, filePath) {
   console.log("Processing", filePath);
   const photo = await processAndUploadFile(filePath, id);
   console.log("Inserting photo %o", photo);
   await db.insert("photos", photo);
   console.log("Processing complete");
+  return photo;
 }
 
 (async function () {
@@ -119,9 +149,17 @@ async function insertFileWithKey(id, filePath) {
     }
     await replaceKeyWithFile(replaceKey, filePaths[0]);
   } else {
-    for (let filePath of filePaths) {
-      const id = idGenerator.id();
-      await insertFileWithKey(id, filePath);
+    const newPhotos = [];
+    try {
+      for (let filePath of filePaths) {
+        const id = idGenerator.id();
+        const photo = await insertFileWithKey(id, filePath);
+        newPhotos.push(photo);
+      }
+    } finally {
+      if (newPhotos.length > 0) {
+        updateContentJson(newPhotos);
+      }
     }
   }
 
