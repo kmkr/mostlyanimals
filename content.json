@@ -1,5 +1,147 @@
 [
   {
+    "key": "3c5c-409b",
+    "name": "DSC04100_AuroraHDR-edit.jpg",
+    "title": "Nordmarka lake",
+    "description": "",
+    "location": "Nordmarka, Oslo, Norway",
+    "tags": [
+      "2021",
+      "autumn",
+      "landscape",
+      "wood",
+      "lake"
+    ],
+    "width": 3000,
+    "height": 2001,
+    "resize": {
+      "thumb": {
+        "height": 147,
+        "width": 220,
+        "path": "3c5c-409b/mostlyanimals_3c5c-409b_thumb.jpg?ts=1788466382105"
+      },
+      "xsmall": {
+        "height": 334,
+        "width": 500,
+        "path": "3c5c-409b/mostlyanimals_3c5c-409b_xs.jpg?ts=1788466382105"
+      },
+      "small": {
+        "height": 667,
+        "width": 1000,
+        "path": "3c5c-409b/mostlyanimals_3c5c-409b_s.jpg?ts=1788466382105"
+      },
+      "medium": {
+        "height": 934,
+        "width": 1400,
+        "path": "3c5c-409b/mostlyanimals_3c5c-409b_m.jpg?ts=1788466382105"
+      },
+      "large": {
+        "height": 1267,
+        "width": 1900,
+        "path": "3c5c-409b/mostlyanimals_3c5c-409b_l.jpg?ts=1788466382105"
+      },
+      "xlarge": {
+        "height": 1708,
+        "width": 2560,
+        "path": "3c5c-409b/mostlyanimals_3c5c-409b_xl.jpg?ts=1788466382105"
+      }
+    }
+  },
+  {
+    "key": "c2b1-4ee1",
+    "name": "DSC04289_AuroraHDR-edit.jpg",
+    "title": "Nordmarka in Autumn",
+    "description": "",
+    "location": "Nordmarka, Oslo, Norway",
+    "tags": [
+      "2021",
+      "landscape",
+      "forest",
+      "autumn"
+    ],
+    "width": 3000,
+    "height": 1998,
+    "resize": {
+      "thumb": {
+        "height": 147,
+        "width": 220,
+        "path": "c2b1-4ee1/mostlyanimals_c2b1-4ee1_thumb.jpg?ts=1788466216672"
+      },
+      "xsmall": {
+        "height": 333,
+        "width": 500,
+        "path": "c2b1-4ee1/mostlyanimals_c2b1-4ee1_xs.jpg?ts=1788466216672"
+      },
+      "small": {
+        "height": 666,
+        "width": 1000,
+        "path": "c2b1-4ee1/mostlyanimals_c2b1-4ee1_s.jpg?ts=1788466216672"
+      },
+      "medium": {
+        "height": 932,
+        "width": 1400,
+        "path": "c2b1-4ee1/mostlyanimals_c2b1-4ee1_m.jpg?ts=1788466216672"
+      },
+      "large": {
+        "height": 1265,
+        "width": 1900,
+        "path": "c2b1-4ee1/mostlyanimals_c2b1-4ee1_l.jpg?ts=1788466216672"
+      },
+      "xlarge": {
+        "height": 1705,
+        "width": 2560,
+        "path": "c2b1-4ee1/mostlyanimals_c2b1-4ee1_xl.jpg?ts=1788466216672"
+      }
+    }
+  },
+  {
+    "key": "1b58-66fd",
+    "name": "DSC07145_AuroraHDR-edit.jpg",
+    "title": "Nittedal lake in Autumn",
+    "description": "",
+    "location": "Nittedal, Norway",
+    "tags": [
+      "2021",
+      "landscape",
+      "lake",
+      "autumn"
+    ],
+    "width": 3000,
+    "height": 1688,
+    "resize": {
+      "thumb": {
+        "height": 124,
+        "width": 220,
+        "path": "1b58-66fd/mostlyanimals_1b58-66fd_thumb.jpg?ts=1788466163188"
+      },
+      "xsmall": {
+        "height": 281,
+        "width": 500,
+        "path": "1b58-66fd/mostlyanimals_1b58-66fd_xs.jpg?ts=1788466163188"
+      },
+      "small": {
+        "height": 563,
+        "width": 1000,
+        "path": "1b58-66fd/mostlyanimals_1b58-66fd_s.jpg?ts=1788466163189"
+      },
+      "medium": {
+        "height": 788,
+        "width": 1400,
+        "path": "1b58-66fd/mostlyanimals_1b58-66fd_m.jpg?ts=1788466163189"
+      },
+      "large": {
+        "height": 1069,
+        "width": 1900,
+        "path": "1b58-66fd/mostlyanimals_1b58-66fd_l.jpg?ts=1788466163189"
+      },
+      "xlarge": {
+        "height": 1440,
+        "width": 2560,
+        "path": "1b58-66fd/mostlyanimals_1b58-66fd_xl.jpg?ts=1788466163189"
+      }
+    }
+  },
+  {
     "key": "7935-2f13",
     "name": "DSC00335.jpg",
     "title": "Mallard",
