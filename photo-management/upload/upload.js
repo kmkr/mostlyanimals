@@ -6,7 +6,6 @@ const idGenerator = require("./id-generator");
 const s3Uploader = require("../../server/photos/s3/s3-uploader");
 const { resize, metadata: getMetadata } = require("./gm");
 const tempFileWriter = require("./temp-file-writer");
-const db = require("../../server/db");
 const { resizeTo } = require("../../server/photos/constants");
 
 function resizeToMultiple(path) {
@@ -89,15 +88,40 @@ async function processAndUploadFile(filePath, id) {
   };
 }
 
+const CONTENT_FILE_PATH = path.resolve(__dirname, "../../content.json");
+
+function replaceKeyInContentJson(id, photo) {
+  const rawContent = fs.readFileSync(CONTENT_FILE_PATH, "utf8");
+  const localPhotoContent = JSON.parse(rawContent);
+
+  const index = localPhotoContent.findIndex((p) => p.key === id);
+  if (index === -1) {
+    throw new Error(`Photo with key ${id} not found in content.json`);
+  }
+
+  localPhotoContent[index] = {
+    ...localPhotoContent[index],
+    name: photo.name,
+    width: photo.width,
+    height: photo.height,
+    resize: photo.resize,
+    ...(photo.description ? { description: photo.description } : {}),
+  };
+
+  fs.writeFileSync(
+    CONTENT_FILE_PATH,
+    JSON.stringify(localPhotoContent, null, 2)
+  );
+  console.log(`Updated content.json for replaced photo ${id}`);
+}
+
 async function replaceKeyWithFile(id, filePath) {
   console.log("Processing", filePath);
   const photo = await processAndUploadFile(filePath, id);
   console.log("Replacing photo %o with %s", photo, filePath);
-  await db.update("photos", { key: id }, photo);
+  replaceKeyInContentJson(id, photo);
   console.log("Processing complete");
 }
-
-const CONTENT_FILE_PATH = path.resolve(__dirname, "../../content.json");
 
 function updateContentJson(newPhotos) {
   if (!newPhotos || newPhotos.length === 0) {
@@ -112,15 +136,14 @@ function updateContentJson(newPhotos) {
     name: photo.name,
     title: "",
     description: photo.description || "",
-    order: 0,
     location: "",
     tags: [],
+    width: photo.width,
+    height: photo.height,
+    resize: photo.resize,
   }));
 
   const updatedContent = [...newEntries, ...localPhotoContent];
-  updatedContent.forEach((entry, index) => {
-    entry.order = index;
-  });
 
   fs.writeFileSync(CONTENT_FILE_PATH, JSON.stringify(updatedContent, null, 2));
   console.log(`Updated content.json with ${newPhotos.length} new photo(s)`);
@@ -129,8 +152,7 @@ function updateContentJson(newPhotos) {
 async function insertFileWithKey(id, filePath) {
   console.log("Processing", filePath);
   const photo = await processAndUploadFile(filePath, id);
-  console.log("Inserting photo %o", photo);
-  await db.insert("photos", photo);
+  console.log("Uploaded photo %o", photo);
   console.log("Processing complete");
   return photo;
 }
