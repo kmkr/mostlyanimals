@@ -1,5 +1,142 @@
 [
   {
+    "key": "dd75-88cb",
+    "name": "DSC04253_AuroraHDR-edit.jpg",
+    "title": "Mushrooms",
+    "description": "",
+    "location": "Nordmarka, Oslo, Norway",
+    "tags": [
+      "mushrooms",
+      "2021"
+    ],
+    "width": 3000,
+    "height": 2011,
+    "resize": {
+      "thumb": {
+        "height": 147,
+        "width": 220,
+        "path": "dd75-88cb/mostlyanimals_dd75-88cb_thumb.jpg?ts=1788465479935"
+      },
+      "xsmall": {
+        "height": 335,
+        "width": 500,
+        "path": "dd75-88cb/mostlyanimals_dd75-88cb_xs.jpg?ts=1788465479935"
+      },
+      "small": {
+        "height": 670,
+        "width": 1000,
+        "path": "dd75-88cb/mostlyanimals_dd75-88cb_s.jpg?ts=1788465479935"
+      },
+      "medium": {
+        "height": 938,
+        "width": 1400,
+        "path": "dd75-88cb/mostlyanimals_dd75-88cb_m.jpg?ts=1788465479935"
+      },
+      "large": {
+        "height": 1274,
+        "width": 1900,
+        "path": "dd75-88cb/mostlyanimals_dd75-88cb_l.jpg?ts=1788465479935"
+      },
+      "xlarge": {
+        "height": 1716,
+        "width": 2560,
+        "path": "dd75-88cb/mostlyanimals_dd75-88cb_xl.jpg?ts=1788465479935"
+      }
+    }
+  },
+  {
+    "key": "63bb-c984",
+    "name": "DSC07244_AuroraHDR-edit.jpg",
+    "title": "Waterfall",
+    "description": "",
+    "location": "Nittedal, Norway",
+    "tags": [
+      "landscape",
+      "2021"
+    ],
+    "width": 3000,
+    "height": 1993,
+    "resize": {
+      "thumb": {
+        "height": 146,
+        "width": 220,
+        "path": "63bb-c984/mostlyanimals_63bb-c984_thumb.jpg?ts=1788465389108"
+      },
+      "xsmall": {
+        "height": 332,
+        "width": 500,
+        "path": "63bb-c984/mostlyanimals_63bb-c984_xs.jpg?ts=1788465389108"
+      },
+      "small": {
+        "height": 664,
+        "width": 1000,
+        "path": "63bb-c984/mostlyanimals_63bb-c984_s.jpg?ts=1788465389108"
+      },
+      "medium": {
+        "height": 930,
+        "width": 1400,
+        "path": "63bb-c984/mostlyanimals_63bb-c984_m.jpg?ts=1788465389108"
+      },
+      "large": {
+        "height": 1262,
+        "width": 1900,
+        "path": "63bb-c984/mostlyanimals_63bb-c984_l.jpg?ts=1788465389108"
+      },
+      "xlarge": {
+        "height": 1701,
+        "width": 2560,
+        "path": "63bb-c984/mostlyanimals_63bb-c984_xl.jpg?ts=1788465389108"
+      }
+    }
+  },
+  {
+    "key": "1cc2-514b",
+    "name": "DSC04355_AuroraHDR-edit.jpg",
+    "title": "Crooked Wood",
+    "description": "",
+    "location": "Nordmarka, Oslo, Norway",
+    "tags": [
+      "2021",
+      "landscape",
+      "autumn",
+      "forest"
+    ],
+    "width": 3000,
+    "height": 2000,
+    "resize": {
+      "thumb": {
+        "height": 147,
+        "width": 220,
+        "path": "1cc2-514b/mostlyanimals_1cc2-514b_thumb.jpg?ts=1788465244212"
+      },
+      "xsmall": {
+        "height": 333,
+        "width": 500,
+        "path": "1cc2-514b/mostlyanimals_1cc2-514b_xs.jpg?ts=1788465244212"
+      },
+      "small": {
+        "height": 667,
+        "width": 1000,
+        "path": "1cc2-514b/mostlyanimals_1cc2-514b_s.jpg?ts=1788465244212"
+      },
+      "medium": {
+        "height": 933,
+        "width": 1400,
+        "path": "1cc2-514b/mostlyanimals_1cc2-514b_m.jpg?ts=1788465244212"
+      },
+      "large": {
+        "height": 1267,
+        "width": 1900,
+        "path": "1cc2-514b/mostlyanimals_1cc2-514b_l.jpg?ts=1788465244212"
+      },
+      "xlarge": {
+        "height": 1707,
+        "width": 2560,
+        "path": "1cc2-514b/mostlyanimals_1cc2-514b_xl.jpg?ts=1788465244212"
+      }
+    }
+  },
+  {
     "key": "7fa0-24c9",
     "name": "DSC04090_AuroraHDR-edit.jpg",
     "title": "Nordmarka in Autumn",
@@ -8,7 +145,8 @@
     "tags": [
       "2021",
       "landscape",
-      "autumn"
+      "autumn",
+      "forest"
     ],
     "width": 3000,
     "height": 1999,
@@ -46,6 +184,53 @@
     }
   },
   {
+    "key": "7337-332d",
+    "name": "DSC08260.jpg",
+    "title": "Greylag goose",
+    "description": "These geese have a remarkable ability to remember where they've been and navigate long distances, often returning to the same breeding and wintering areas year after year.",
+    "latin": "Anser anser",
+    "location": "Bygdøy, Oslo, Norway",
+    "tags": [
+      "2021",
+      "goose",
+      "bird"
+    ],
+    "width": 2000,
+    "height": 3000,
+    "resize": {
+      "thumb": {
+        "height": 220,
+        "width": 147,
+        "path": "7337-332d/mostlyanimals_7337-332d_thumb.jpg?ts=1788419613674"
+      },
+      "xsmall": {
+        "height": 500,
+        "width": 333,
+        "path": "7337-332d/mostlyanimals_7337-332d_xs.jpg?ts=1788419613674"
+      },
+      "small": {
+        "height": 1000,
+        "width": 667,
+        "path": "7337-332d/mostlyanimals_7337-332d_s.jpg?ts=1788419613674"
+      },
+      "medium": {
+        "height": 1400,
+        "width": 933,
+        "path": "7337-332d/mostlyanimals_7337-332d_m.jpg?ts=1788419613674"
+      },
+      "large": {
+        "height": 1900,
+        "width": 1267,
+        "path": "7337-332d/mostlyanimals_7337-332d_l.jpg?ts=1788419613674"
+      },
+      "xlarge": {
+        "height": 2560,
+        "width": 1707,
+        "path": "7337-332d/mostlyanimals_7337-332d_xl.jpg?ts=1788419613674"
+      }
+    }
+  },
+  {
     "key": "b371-8e88",
     "name": "DSC04061_AuroraHDR-edit.jpg",
     "title": "Nordmarka in Autumn",
@@ -54,7 +239,8 @@
     "tags": [
       "2021",
       "landscape",
-      "autumn"
+      "autumn",
+      "forest"
     ],
     "width": 3000,
     "height": 2002,
@@ -92,6 +278,52 @@
     }
   },
   {
+    "key": "09c9-2654",
+    "name": "DSC08827.jpg",
+    "title": "Beekeepers",
+    "description": "",
+    "location": "St.hanshaugen, Oslo, Norway",
+    "tags": [
+      "2021",
+      "bee",
+      "insect"
+    ],
+    "width": 2000,
+    "height": 3000,
+    "resize": {
+      "thumb": {
+        "height": 220,
+        "width": 147,
+        "path": "09c9-2654/mostlyanimals_09c9-2654_thumb.jpg?ts=1788382238107"
+      },
+      "xsmall": {
+        "height": 500,
+        "width": 333,
+        "path": "09c9-2654/mostlyanimals_09c9-2654_xs.jpg?ts=1788382238108"
+      },
+      "small": {
+        "height": 1000,
+        "width": 667,
+        "path": "09c9-2654/mostlyanimals_09c9-2654_s.jpg?ts=1788382238108"
+      },
+      "medium": {
+        "height": 1400,
+        "width": 933,
+        "path": "09c9-2654/mostlyanimals_09c9-2654_m.jpg?ts=1788382238108"
+      },
+      "large": {
+        "height": 1900,
+        "width": 1267,
+        "path": "09c9-2654/mostlyanimals_09c9-2654_l.jpg?ts=1788382238108"
+      },
+      "xlarge": {
+        "height": 2560,
+        "width": 1707,
+        "path": "09c9-2654/mostlyanimals_09c9-2654_xl.jpg?ts=1788382238108"
+      }
+    }
+  },
+  {
     "key": "9e74-4f41",
     "name": "DSC04562_AuroraHDR-edit.jpg",
     "title": "Nordmarka lake",
@@ -100,6 +332,7 @@
     "tags": [
       "2021",
       "landscape",
+      "forest",
       "lake"
     ],
     "width": 3000,
@@ -147,7 +380,8 @@
     "tags": [
       "swan",
       "2021",
-      "bird"
+      "bird",
+      "animal"
     ],
     "width": 3000,
     "height": 2000,
@@ -273,99 +507,6 @@
         "height": 1707,
         "width": 2560,
         "path": "e487-04f4/mostlyanimals_e487-04f4_xl.jpg?ts=1788420964435"
-      }
-    }
-  },
-  {
-    "key": "7337-332d",
-    "name": "DSC08260.jpg",
-    "title": "Greylag goose",
-    "description": "These geese have a remarkable ability to remember where they've been and navigate long distances, often returning to the same breeding and wintering areas year after year.",
-    "latin": "Anser anser",
-    "location": "Bygdøy, Oslo, Norway",
-    "tags": [
-      "2021",
-      "goose",
-      "bird"
-    ],
-    "width": 2000,
-    "height": 3000,
-    "resize": {
-      "thumb": {
-        "height": 220,
-        "width": 147,
-        "path": "7337-332d/mostlyanimals_7337-332d_thumb.jpg?ts=1788419613674"
-      },
-      "xsmall": {
-        "height": 500,
-        "width": 333,
-        "path": "7337-332d/mostlyanimals_7337-332d_xs.jpg?ts=1788419613674"
-      },
-      "small": {
-        "height": 1000,
-        "width": 667,
-        "path": "7337-332d/mostlyanimals_7337-332d_s.jpg?ts=1788419613674"
-      },
-      "medium": {
-        "height": 1400,
-        "width": 933,
-        "path": "7337-332d/mostlyanimals_7337-332d_m.jpg?ts=1788419613674"
-      },
-      "large": {
-        "height": 1900,
-        "width": 1267,
-        "path": "7337-332d/mostlyanimals_7337-332d_l.jpg?ts=1788419613674"
-      },
-      "xlarge": {
-        "height": 2560,
-        "width": 1707,
-        "path": "7337-332d/mostlyanimals_7337-332d_xl.jpg?ts=1788419613674"
-      }
-    }
-  },
-  {
-    "key": "09c9-2654",
-    "name": "DSC08827.jpg",
-    "title": "Beekeepers",
-    "description": "",
-    "location": "St.hanshaugen, Oslo, Norway",
-    "tags": [
-      "2021",
-      "bee",
-      "insect"
-    ],
-    "width": 2000,
-    "height": 3000,
-    "resize": {
-      "thumb": {
-        "height": 220,
-        "width": 147,
-        "path": "09c9-2654/mostlyanimals_09c9-2654_thumb.jpg?ts=1788382238107"
-      },
-      "xsmall": {
-        "height": 500,
-        "width": 333,
-        "path": "09c9-2654/mostlyanimals_09c9-2654_xs.jpg?ts=1788382238108"
-      },
-      "small": {
-        "height": 1000,
-        "width": 667,
-        "path": "09c9-2654/mostlyanimals_09c9-2654_s.jpg?ts=1788382238108"
-      },
-      "medium": {
-        "height": 1400,
-        "width": 933,
-        "path": "09c9-2654/mostlyanimals_09c9-2654_m.jpg?ts=1788382238108"
-      },
-      "large": {
-        "height": 1900,
-        "width": 1267,
-        "path": "09c9-2654/mostlyanimals_09c9-2654_l.jpg?ts=1788382238108"
-      },
-      "xlarge": {
-        "height": 2560,
-        "width": 1707,
-        "path": "09c9-2654/mostlyanimals_09c9-2654_xl.jpg?ts=1788382238108"
       }
     }
   },
