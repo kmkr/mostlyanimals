@@ -1,9 +1,9 @@
-import { useState } from "react";
-import { useRouter } from "next/router";
 import Link from "next/link";
+import { useRouter } from "next/router";
+import { useState } from "react";
 
-import Photo from "./photo";
 import Navigation from "./navigation";
+import Photo from "./photo";
 import Sidebar from "./sidebar";
 
 import KeyboardEventHandler from "./keyboard-event-handler";
@@ -36,15 +36,9 @@ const PhotoWrapper = ({ selectedPhoto, nextPhoto, prevPhoto }) => {
       <Photo
         photo={selectedPhoto}
         preload={[nextPhoto, prevPhoto]}
-        next={
-          <Link href={`/photos/${nextPhoto.key}`}>
-            <a className="click-next" />
-          </Link>
-        }
+        next={<Link href={`/photos/${nextPhoto.key}`} className="click-next" />}
         previous={
-          <Link href={`/photos/${prevPhoto.key}`}>
-            <a className="click-previous" />
-          </Link>
+          <Link href={`/photos/${prevPhoto.key}`} className="click-previous" />
         }
       />
       <Sidebar

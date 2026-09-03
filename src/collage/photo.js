@@ -1,8 +1,8 @@
-import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
+import { useEffect, useRef, useState } from "react";
 
-import TransitionImage from "../transition-image/transition-image";
 import PhotoText from "../photos/photo-text";
+import TransitionImage from "../transition-image/transition-image";
 
 const Photo = ({ photo, setWidth }) => {
   const [inViewport, setInViewport] = useState(false);
@@ -36,21 +36,19 @@ const Photo = ({ photo, setWidth }) => {
       style={style}
     >
       <Link href={`/photos/${photo.key}`}>
-        <a>
-          {!!photo.title && (
-            <div className="overlay-title-wrapper">
-              <p className="title">{photo.title}</p>
-            </div>
-          )}
-          {inViewport && (
-            <TransitionImage
-              alt={photo.title}
-              src={`${photo.baseUrl}/${photo.resize.xsmall.path}`}
-              srcSet={photo.srcSet}
-              sizes="(min-width: 1100px) 30vw, 100vw"
-            />
-          )}
-        </a>
+        {!!photo.title && (
+          <div className="overlay-title-wrapper">
+            <p className="title">{photo.title}</p>
+          </div>
+        )}
+        {inViewport && (
+          <TransitionImage
+            alt={photo.title}
+            src={`${photo.baseUrl}/${photo.resize.xsmall.path}`}
+            srcSet={photo.srcSet}
+            sizes="(min-width: 1100px) 30vw, 100vw"
+          />
+        )}
       </Link>
 
       <div className="sn-dn-ns sn-mb-l">
