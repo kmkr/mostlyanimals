@@ -90,6 +90,12 @@ async function processAndUploadFile(filePath, id) {
 
 const CONTENT_FILE_PATH = path.resolve(__dirname, "../../content.json");
 
+function getYearFromShotAt(shotAt) {
+  if (!shotAt) return null;
+  const d = shotAt instanceof Date ? shotAt : new Date(shotAt);
+  return !isNaN(d.getTime()) ? String(d.getFullYear()) : null;
+}
+
 function replaceKeyInContentJson(id, photo) {
   const rawContent = fs.readFileSync(CONTENT_FILE_PATH, "utf8");
   const localPhotoContent = JSON.parse(rawContent);
@@ -99,12 +105,20 @@ function replaceKeyInContentJson(id, photo) {
     throw new Error(`Photo with key ${id} not found in content.json`);
   }
 
+  const year = getYearFromShotAt(photo.shot_at);
+  const currentTags = localPhotoContent[index].tags || [];
+  const updatedTags =
+    year && !currentTags.includes(year)
+      ? [year, ...currentTags]
+      : currentTags;
+
   localPhotoContent[index] = {
     ...localPhotoContent[index],
     name: photo.name,
     width: photo.width,
     height: photo.height,
     resize: photo.resize,
+    tags: updatedTags,
     ...(photo.description ? { description: photo.description } : {}),
   };
 
@@ -131,17 +145,20 @@ function updateContentJson(newPhotos) {
   const rawContent = fs.readFileSync(CONTENT_FILE_PATH, "utf8");
   const localPhotoContent = JSON.parse(rawContent);
 
-  const newEntries = newPhotos.map((photo) => ({
-    key: photo.key,
-    name: photo.name,
-    title: "",
-    description: photo.description || "",
-    location: "",
-    tags: [],
-    width: photo.width,
-    height: photo.height,
-    resize: photo.resize,
-  }));
+  const newEntries = newPhotos.map((photo) => {
+    const year = getYearFromShotAt(photo.shot_at);
+    return {
+      key: photo.key,
+      name: photo.name,
+      title: "",
+      description: photo.description || "",
+      location: "",
+      tags: year ? [year] : [],
+      width: photo.width,
+      height: photo.height,
+      resize: photo.resize,
+    };
+  });
 
   const updatedContent = [...newEntries, ...localPhotoContent];
 

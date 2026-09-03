@@ -1,5 +1,51 @@
 [
   {
+    "key": "7935-2f13",
+    "name": "DSC00335.jpg",
+    "title": "Mallard",
+    "description": "",
+    "location": "Oslo, Norway",
+    "tags": [
+      "2021",
+      "animal",
+      "duck"
+    ],
+    "width": 2176,
+    "height": 2902,
+    "resize": {
+      "thumb": {
+        "height": 220,
+        "width": 165,
+        "path": "7935-2f13/mostlyanimals_7935-2f13_thumb.jpg?ts=1788465693285"
+      },
+      "xsmall": {
+        "height": 500,
+        "width": 375,
+        "path": "7935-2f13/mostlyanimals_7935-2f13_xs.jpg?ts=1788465693285"
+      },
+      "small": {
+        "height": 1000,
+        "width": 750,
+        "path": "7935-2f13/mostlyanimals_7935-2f13_s.jpg?ts=1788465693286"
+      },
+      "medium": {
+        "height": 1400,
+        "width": 1050,
+        "path": "7935-2f13/mostlyanimals_7935-2f13_m.jpg?ts=1788465693286"
+      },
+      "large": {
+        "height": 1900,
+        "width": 1425,
+        "path": "7935-2f13/mostlyanimals_7935-2f13_l.jpg?ts=1788465693286"
+      },
+      "xlarge": {
+        "height": 2560,
+        "width": 1920,
+        "path": "7935-2f13/mostlyanimals_7935-2f13_xl.jpg?ts=1788465693286"
+      }
+    }
+  },
+  {
     "key": "dd75-88cb",
     "name": "DSC04253_AuroraHDR-edit.jpg",
     "title": "Mushrooms",

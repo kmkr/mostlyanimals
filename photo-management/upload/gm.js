@@ -28,15 +28,26 @@ module.exports.resize = function (filePath, size, sizeLabel) {
 };
 
 function parseDate(exifDate) {
-  // 2016:04:09 21:11:45 to 2016-04-09 21:11:45
-  return new Date(exifDate.replace(":", "-"));
+  if (!exifDate) return new Date();
+  const parts = exifDate.split(" ");
+  if (parts.length === 2) {
+    const datePart = parts[0].replace(/:/g, "-");
+    const timePart = parts[1];
+    const parsed = new Date(`${datePart}T${timePart}`);
+    if (!isNaN(parsed.getTime())) return parsed;
+  }
+  const fallback = new Date(exifDate.replace(":", "-"));
+  return isNaN(fallback.getTime()) ? new Date() : fallback;
 }
 
 function getMetadata(identification) {
   const exif = identification["Profile-EXIF"];
 
   if (!exif) {
-    return {};
+    return {
+      description: "",
+      shot_at: new Date(),
+    };
   }
 
   const dateTimeOrig = exif["Date Time Original"];
