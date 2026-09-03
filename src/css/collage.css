@@ -54,7 +54,7 @@
     color: var(--color-white);
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
   }
 
   #collage a p {
@@ -70,14 +70,13 @@
   }
 
   #collage .overlay-title-wrapper p.title {
-    margin-top: 4px;
-    font-size: var(--font-size-large);
-    letter-spacing: 4px;
+    font-size: var(--font-size-small);
+    letter-spacing: 2px;
   }
 
   @media (min-width: 1300px) {
     #collage .overlay-title-wrapper p.title {
-      font-size: var(--font-size-xlarge);
+      font-size: var(--font-size-medium);
     }
   }
 }
