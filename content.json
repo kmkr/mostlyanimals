@@ -1,5 +1,282 @@
 [
   {
+    "key": "a9a3-b99b",
+    "name": "DSC09928.jpg",
+    "title": "Muskox",
+    "description": "Musk oxen are ancient animals that lived alongside woolly mammoths. They disappeared from much of Europe and Scandinavia, but were reintroduced to Norway in the 20th century.",
+    "location": "Dovrefjell, Norway",
+    "latin": "Ovibos moschatus",
+    "tags": [
+      "2022",
+      "muskox",
+      "animal"
+    ],
+    "width": 3000,
+    "height": 2000,
+    "resize": {
+      "thumb": {
+        "height": 147,
+        "width": 220,
+        "path": "a9a3-b99b/mostlyanimals_a9a3-b99b_thumb.jpg?ts=1788502481780"
+      },
+      "xsmall": {
+        "height": 333,
+        "width": 500,
+        "path": "a9a3-b99b/mostlyanimals_a9a3-b99b_xs.jpg?ts=1788502481780"
+      },
+      "small": {
+        "height": 667,
+        "width": 1000,
+        "path": "a9a3-b99b/mostlyanimals_a9a3-b99b_s.jpg?ts=1788502481780"
+      },
+      "medium": {
+        "height": 933,
+        "width": 1400,
+        "path": "a9a3-b99b/mostlyanimals_a9a3-b99b_m.jpg?ts=1788502481780"
+      },
+      "large": {
+        "height": 1267,
+        "width": 1900,
+        "path": "a9a3-b99b/mostlyanimals_a9a3-b99b_l.jpg?ts=1788502481780"
+      },
+      "xlarge": {
+        "height": 1707,
+        "width": 2560,
+        "path": "a9a3-b99b/mostlyanimals_a9a3-b99b_xl.jpg?ts=1788502481780"
+      }
+    }
+  },
+  {
+    "key": "c990-2c7c",
+    "name": "DSC09905.jpg",
+    "title": "Muskox",
+    "description": "Musk oxen have two layers of fur, including an incredibly warm undercoat called qiviut, one of the finest and warmest natural fibers in the world.",
+    "latin": "Ovibos moschatus",
+    "location": "Dovrefjell, Norway",
+    "tags": [
+      "2022",
+      "muskox",
+      "animal"
+    ],
+    "width": 2250,
+    "height": 3000,
+    "resize": {
+      "thumb": {
+        "height": 220,
+        "width": 165,
+        "path": "c990-2c7c/mostlyanimals_c990-2c7c_thumb.jpg?ts=1788502471867"
+      },
+      "xsmall": {
+        "height": 500,
+        "width": 375,
+        "path": "c990-2c7c/mostlyanimals_c990-2c7c_xs.jpg?ts=1788502471867"
+      },
+      "small": {
+        "height": 1000,
+        "width": 750,
+        "path": "c990-2c7c/mostlyanimals_c990-2c7c_s.jpg?ts=1788502471867"
+      },
+      "medium": {
+        "height": 1400,
+        "width": 1050,
+        "path": "c990-2c7c/mostlyanimals_c990-2c7c_m.jpg?ts=1788502471867"
+      },
+      "large": {
+        "height": 1900,
+        "width": 1425,
+        "path": "c990-2c7c/mostlyanimals_c990-2c7c_l.jpg?ts=1788502471867"
+      },
+      "xlarge": {
+        "height": 2560,
+        "width": 1920,
+        "path": "c990-2c7c/mostlyanimals_c990-2c7c_xl.jpg?ts=1788502471867"
+      }
+    }
+  },
+  {
+    "key": "d3f8-25c3",
+    "name": "DSC09898.jpg",
+    "title": "Muskox",
+    "description": "Both males and females have horns, and the horns continue growing throughout their lives. In males, they develop a thick horn boss across the forehead, which they use for spectacular head-to-head clashes during the breeding season.",
+    "location": "Dovrefjell, Norway",
+    "latin": "Ovibos moschatus",
+    "tags": [
+      "2022",
+      "muskox",
+      "animal"
+    ],
+    "width": 3000,
+    "height": 1687,
+    "resize": {
+      "thumb": {
+        "height": 124,
+        "width": 220,
+        "path": "d3f8-25c3/mostlyanimals_d3f8-25c3_thumb.jpg?ts=1788502461975"
+      },
+      "xsmall": {
+        "height": 281,
+        "width": 500,
+        "path": "d3f8-25c3/mostlyanimals_d3f8-25c3_xs.jpg?ts=1788502461975"
+      },
+      "small": {
+        "height": 562,
+        "width": 1000,
+        "path": "d3f8-25c3/mostlyanimals_d3f8-25c3_s.jpg?ts=1788502461976"
+      },
+      "medium": {
+        "height": 787,
+        "width": 1400,
+        "path": "d3f8-25c3/mostlyanimals_d3f8-25c3_m.jpg?ts=1788502461976"
+      },
+      "large": {
+        "height": 1068,
+        "width": 1900,
+        "path": "d3f8-25c3/mostlyanimals_d3f8-25c3_l.jpg?ts=1788502461976"
+      },
+      "xlarge": {
+        "height": 1440,
+        "width": 2560,
+        "path": "d3f8-25c3/mostlyanimals_d3f8-25c3_xl.jpg?ts=1788502461976"
+      }
+    }
+  },
+  {
+    "key": "ec10-0b8a",
+    "name": "DSC07088.jpg",
+    "title": "Back country skiing in Rondane",
+    "description": "",
+    "location": "Rondane, Norway",
+    "tags": [
+      "2022",
+      "ski",
+      "landscape"
+    ],
+    "width": 3000,
+    "height": 2000,
+    "resize": {
+      "thumb": {
+        "height": 147,
+        "width": 220,
+        "path": "ec10-0b8a/mostlyanimals_ec10-0b8a_thumb.jpg?ts=1788502395610"
+      },
+      "xsmall": {
+        "height": 333,
+        "width": 500,
+        "path": "ec10-0b8a/mostlyanimals_ec10-0b8a_xs.jpg?ts=1788502395610"
+      },
+      "small": {
+        "height": 667,
+        "width": 1000,
+        "path": "ec10-0b8a/mostlyanimals_ec10-0b8a_s.jpg?ts=1788502395610"
+      },
+      "medium": {
+        "height": 933,
+        "width": 1400,
+        "path": "ec10-0b8a/mostlyanimals_ec10-0b8a_m.jpg?ts=1788502395610"
+      },
+      "large": {
+        "height": 1267,
+        "width": 1900,
+        "path": "ec10-0b8a/mostlyanimals_ec10-0b8a_l.jpg?ts=1788502395610"
+      },
+      "xlarge": {
+        "height": 1707,
+        "width": 2560,
+        "path": "ec10-0b8a/mostlyanimals_ec10-0b8a_xl.jpg?ts=1788502395610"
+      }
+    }
+  },
+  {
+    "key": "dad8-f3c3",
+    "name": "DSC06441.jpg",
+    "title": "Campfire dinner",
+    "description": "",
+    "location": "Finnemarka, Drammen, Norway",
+    "tags": [
+      "2022"
+    ],
+    "width": 3000,
+    "height": 2000,
+    "resize": {
+      "thumb": {
+        "height": 147,
+        "width": 220,
+        "path": "dad8-f3c3/mostlyanimals_dad8-f3c3_thumb.jpg?ts=1788502316270"
+      },
+      "xsmall": {
+        "height": 333,
+        "width": 500,
+        "path": "dad8-f3c3/mostlyanimals_dad8-f3c3_xs.jpg?ts=1788502316270"
+      },
+      "small": {
+        "height": 667,
+        "width": 1000,
+        "path": "dad8-f3c3/mostlyanimals_dad8-f3c3_s.jpg?ts=1788502316270"
+      },
+      "medium": {
+        "height": 933,
+        "width": 1400,
+        "path": "dad8-f3c3/mostlyanimals_dad8-f3c3_m.jpg?ts=1788502316270"
+      },
+      "large": {
+        "height": 1267,
+        "width": 1900,
+        "path": "dad8-f3c3/mostlyanimals_dad8-f3c3_l.jpg?ts=1788502316270"
+      },
+      "xlarge": {
+        "height": 1707,
+        "width": 2560,
+        "path": "dad8-f3c3/mostlyanimals_dad8-f3c3_xl.jpg?ts=1788502316270"
+      }
+    }
+  },
+  {
+    "key": "3534-3ad1",
+    "name": "DSC05966_AuroraHDR-edit.jpg",
+    "title": "Sunset at Grefsenkollen",
+    "description": "",
+    "location": "Oslo, Norway",
+    "tags": [
+      "2022",
+      "sunset",
+      "landscape"
+    ],
+    "width": 3000,
+    "height": 1999,
+    "resize": {
+      "thumb": {
+        "height": 147,
+        "width": 220,
+        "path": "3534-3ad1/mostlyanimals_3534-3ad1_thumb.jpg?ts=1788501842591"
+      },
+      "xsmall": {
+        "height": 333,
+        "width": 500,
+        "path": "3534-3ad1/mostlyanimals_3534-3ad1_xs.jpg?ts=1788501842591"
+      },
+      "small": {
+        "height": 666,
+        "width": 1000,
+        "path": "3534-3ad1/mostlyanimals_3534-3ad1_s.jpg?ts=1788501842591"
+      },
+      "medium": {
+        "height": 933,
+        "width": 1400,
+        "path": "3534-3ad1/mostlyanimals_3534-3ad1_m.jpg?ts=1788501842591"
+      },
+      "large": {
+        "height": 1266,
+        "width": 1900,
+        "path": "3534-3ad1/mostlyanimals_3534-3ad1_l.jpg?ts=1788501842591"
+      },
+      "xlarge": {
+        "height": 1706,
+        "width": 2560,
+        "path": "3534-3ad1/mostlyanimals_3534-3ad1_xl.jpg?ts=1788501842591"
+      }
+    }
+  },
+  {
     "key": "3c5c-409b",
     "name": "DSC04100_AuroraHDR-edit.jpg",
     "title": "Nordmarka lake",
