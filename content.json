@@ -2,7 +2,7 @@
   {
     "key": "ffaa-e46d",
     "name": "DSC09055.jpg",
-    "title": "Canada geese",
+    "title": "Canada Geese",
     "latin": "Branta canadensis",
     "description": "They're strongly territorial during breeding season, which may explain why the family swims in such a tight formation, with the parents guarding the goslings on either side.",
     "location": "Hakkloa, Norway",
@@ -189,7 +189,7 @@
   {
     "key": "6b36-c77e",
     "name": "DSC09147_AuroraHDR-edit.jpg",
-    "title": "Foggy lake",
+    "title": "Foggy Lake",
     "description": "",
     "location": "Hakkloa, Norway",
     "tags": [
@@ -235,7 +235,7 @@
   {
     "key": "8d14-8d26",
     "name": "DSC08533.jpg",
-    "title": "Back country chef",
+    "title": "Backcountry Chef",
     "description": "",
     "location": "Nordmarka, Oslo, Norway",
     "tags": [
@@ -326,7 +326,7 @@
   {
     "key": "b285-7493",
     "name": "DSC01148_AuroraHDR-edit.jpg",
-    "title": "Winter is near",
+    "title": "Winter Is Near",
     "description": "This photo was taken in late autumn, when the trees were shrouded in frosted fog.",
     "location": "Gudbrandsdalen, Norway",
     "tags": [
@@ -463,7 +463,7 @@
   {
     "key": "7fa5-da9b",
     "name": "DSC06676.jpg",
-    "title": "European hornet",
+    "title": "European Hornet",
     "latin": "Vespa crabro",
     "description": "Europe's largest social wasp and the only true hornet species native to Europe.",
     "location": "Roskilde, Denmark",
@@ -747,55 +747,57 @@
     }
   },
   {
-    "key": "6edf-adb1",
-    "name": "DSC01180.jpg",
+    "key": "e613-3e82",
+    "name": "DSC01148.jpg",
     "title": "Peafowl",
-    "description": "",
+    "latin": "Pavo cristatus",
+    "description": "Peacocks have a sharp spur on the back of each leg, just above the foot. These spurs are used for fighting, especially between males competing for territory or mates.",
     "location": "Byron Bay, Australia",
     "tags": [
       "2022",
-      "animal",
-      "bird"
+      "bird",
+      "animal"
     ],
-    "width": 3000,
-    "height": 2000,
+    "width": 2000,
+    "height": 3000,
     "resize": {
       "thumb": {
-        "height": 147,
-        "width": 220,
-        "path": "6edf-adb1/mostlyanimals_6edf-adb1_thumb.jpg?ts=1788506759972"
+        "height": 220,
+        "width": 147,
+        "path": "e613-3e82/mostlyanimals_e613-3e82_thumb.jpg?ts=1788506342097"
       },
       "xsmall": {
-        "height": 333,
-        "width": 500,
-        "path": "6edf-adb1/mostlyanimals_6edf-adb1_xs.jpg?ts=1788506759972"
+        "height": 500,
+        "width": 333,
+        "path": "e613-3e82/mostlyanimals_e613-3e82_xs.jpg?ts=1788506342097"
       },
       "small": {
-        "height": 667,
-        "width": 1000,
-        "path": "6edf-adb1/mostlyanimals_6edf-adb1_s.jpg?ts=1788506759972"
+        "height": 1000,
+        "width": 667,
+        "path": "e613-3e82/mostlyanimals_e613-3e82_s.jpg?ts=1788506342098"
       },
       "medium": {
-        "height": 933,
-        "width": 1400,
-        "path": "6edf-adb1/mostlyanimals_6edf-adb1_m.jpg?ts=1788506759972"
+        "height": 1400,
+        "width": 933,
+        "path": "e613-3e82/mostlyanimals_e613-3e82_m.jpg?ts=1788506342098"
       },
       "large": {
-        "height": 1267,
-        "width": 1900,
-        "path": "6edf-adb1/mostlyanimals_6edf-adb1_l.jpg?ts=1788506759972"
+        "height": 1900,
+        "width": 1267,
+        "path": "e613-3e82/mostlyanimals_e613-3e82_l.jpg?ts=1788506342098"
       },
       "xlarge": {
-        "height": 1707,
-        "width": 2560,
-        "path": "6edf-adb1/mostlyanimals_6edf-adb1_xl.jpg?ts=1788506759972"
+        "height": 2560,
+        "width": 1707,
+        "path": "e613-3e82/mostlyanimals_e613-3e82_xl.jpg?ts=1788506342098"
       }
     }
   },
   {
     "key": "2738-a923",
     "name": "DSC01307.jpg",
-    "title": "Kangaroo",
+    "title": "Eastern Grey Kangaroo",
+    "latin": "Macropus giganteus",
     "description": "",
     "location": "Queensland, Australia",
     "tags": [
@@ -986,7 +988,7 @@
   {
     "key": "cafe-e082",
     "name": "DSC02551.jpg",
-    "title": "Satin bowerbird",
+    "title": "Satin Bowerbird",
     "latin": "Ptilonorhynchus violaceus",
     "description": "Male satin bowerbirds build elaborate structures called bowers to attract females. They decorate them with blue objects (the bluer the better)—including feathers, berries, flowers, and even pieces of plastic.",
     "location": "Fraser Island, Australia",
@@ -1034,7 +1036,7 @@
   {
     "key": "d1d8-dd66",
     "name": "DSC01802.jpg",
-    "title": "Cane toad",
+    "title": "Cane Toad",
     "latin": "Rhinella marina",
     "description": "Cane toads were introduced to Australia in 1935 to control sugar-cane pests, but instead they became a major invasive species. Today, they are found across large parts of northern Australia and pose a serious threat to native wildlife because of their powerful toxin.",
     "location": "Queensland, Australia",
@@ -1130,7 +1132,8 @@
   {
     "key": "d2ad-86d6",
     "name": "DSC01262.jpg",
-    "title": "Kangaroo",
+    "title": "Eastern Grey Kangaroo",
+    "latin": "Macropus giganteus",
     "description": "",
     "location": "Queensland, Australia",
     "tags": [
@@ -1174,55 +1177,56 @@
     }
   },
   {
-    "key": "e613-3e82",
-    "name": "DSC01148.jpg",
+    "key": "6edf-adb1",
+    "name": "DSC01180.jpg",
     "title": "Peafowl",
-    "description": "",
+    "latin": "Pavo cristatus",
+    "description": "A peacock's brilliant blue color isn't mainly from blue pigment. Tiny microscopic structures in its feathers scatter and reflect light in a way that produces that intense metallic blue—so the color can appear to shift depending on the angle of the light.",
     "location": "Byron Bay, Australia",
     "tags": [
       "2022",
-      "bird",
-      "animal"
+      "animal",
+      "bird"
     ],
-    "width": 2000,
-    "height": 3000,
+    "width": 3000,
+    "height": 2000,
     "resize": {
       "thumb": {
-        "height": 220,
-        "width": 147,
-        "path": "e613-3e82/mostlyanimals_e613-3e82_thumb.jpg?ts=1788506342097"
+        "height": 147,
+        "width": 220,
+        "path": "6edf-adb1/mostlyanimals_6edf-adb1_thumb.jpg?ts=1788506759972"
       },
       "xsmall": {
-        "height": 500,
-        "width": 333,
-        "path": "e613-3e82/mostlyanimals_e613-3e82_xs.jpg?ts=1788506342097"
+        "height": 333,
+        "width": 500,
+        "path": "6edf-adb1/mostlyanimals_6edf-adb1_xs.jpg?ts=1788506759972"
       },
       "small": {
-        "height": 1000,
-        "width": 667,
-        "path": "e613-3e82/mostlyanimals_e613-3e82_s.jpg?ts=1788506342098"
+        "height": 667,
+        "width": 1000,
+        "path": "6edf-adb1/mostlyanimals_6edf-adb1_s.jpg?ts=1788506759972"
       },
       "medium": {
-        "height": 1400,
-        "width": 933,
-        "path": "e613-3e82/mostlyanimals_e613-3e82_m.jpg?ts=1788506342098"
+        "height": 933,
+        "width": 1400,
+        "path": "6edf-adb1/mostlyanimals_6edf-adb1_m.jpg?ts=1788506759972"
       },
       "large": {
-        "height": 1900,
-        "width": 1267,
-        "path": "e613-3e82/mostlyanimals_e613-3e82_l.jpg?ts=1788506342098"
+        "height": 1267,
+        "width": 1900,
+        "path": "6edf-adb1/mostlyanimals_6edf-adb1_l.jpg?ts=1788506759972"
       },
       "xlarge": {
-        "height": 2560,
-        "width": 1707,
-        "path": "e613-3e82/mostlyanimals_e613-3e82_xl.jpg?ts=1788506342098"
+        "height": 1707,
+        "width": 2560,
+        "path": "6edf-adb1/mostlyanimals_6edf-adb1_xl.jpg?ts=1788506759972"
       }
     }
   },
   {
     "key": "e378-e94e",
     "name": "DSC00691.jpg",
-    "title": "Australian brushturkey",
+    "title": "Australian Brushturkey",
     "latin": "Alectura lathami",
     "description": "",
     "location": "Queensland, Australia",
@@ -1498,7 +1502,7 @@
   {
     "key": "ec10-0b8a",
     "name": "DSC07088.jpg",
-    "title": "Back country skiing in Rondane",
+    "title": "Backcountry Skiing in Rondane",
     "description": "",
     "location": "Rondane, Norway",
     "tags": [
@@ -1544,7 +1548,7 @@
   {
     "key": "dad8-f3c3",
     "name": "DSC06441.jpg",
-    "title": "Campfire dinner",
+    "title": "Campfire Dinner",
     "description": "",
     "location": "Finnemarka, Drammen, Norway",
     "tags": [
@@ -1634,7 +1638,7 @@
   {
     "key": "3c5c-409b",
     "name": "DSC04100_AuroraHDR-edit.jpg",
-    "title": "Nordmarka lake",
+    "title": "Nordmarka Lake",
     "description": "",
     "location": "Nordmarka, Oslo, Norway",
     "tags": [
@@ -1729,7 +1733,7 @@
   {
     "key": "1b58-66fd",
     "name": "DSC07145_AuroraHDR-edit.jpg",
-    "title": "Nittedal lake in Autumn",
+    "title": "Nittedal Lake in Autumn",
     "description": "",
     "location": "Nittedal, Norway",
     "tags": [
@@ -2006,7 +2010,7 @@
   {
     "key": "7337-332d",
     "name": "DSC08260.jpg",
-    "title": "Greylag goose",
+    "title": "Greylag Goose",
     "description": "These geese have a remarkable ability to remember where they've been and navigate long distances, often returning to the same breeding and wintering areas year after year.",
     "latin": "Anser anser",
     "location": "Bygdøy, Oslo, Norway",
@@ -2146,7 +2150,7 @@
   {
     "key": "9e74-4f41",
     "name": "DSC04562_AuroraHDR-edit.jpg",
-    "title": "Nordmarka lake",
+    "title": "Nordmarka Lake",
     "description": "",
     "location": "Nordmarka, Oslo, Norway",
     "tags": [
@@ -2241,7 +2245,7 @@
   {
     "key": "0774-ed7f",
     "name": "DSC03578.jpg",
-    "title": "Aurlandsdalen hike",
+    "title": "Aurlandsdalen Hike",
     "description": "",
     "location": "Aurlandsdalen, Norway",
     "tags": [
@@ -3054,7 +3058,7 @@
   {
     "key": "68df-5a2a",
     "name": "DSC03595.jpg",
-    "title": "Slow-worm",
+    "title": "Slow-Worm",
     "description": "You'll find this worm basking in the sun. It's only superficially similar to a snake, and harmless (unless you're a snail or an insect).",
     "latin": "Anguis fragilis",
     "location": "Nordmarka, Oslo, Norway",
@@ -3638,7 +3642,14 @@
         "width": 2400,
         "path": "952e-255d/mostlyanimals_952e-255d_xxl.jpg"
       }
-    }
+    },
+    "title": "Blow fly",
+    "latin": "Calliphoridae (family)",
+    "tags": [
+      "2020",
+      "insect",
+      "portrait"
+    ]
   },
   {
     "key": "59cc-1547",
@@ -3682,7 +3693,14 @@
         "width": 3200,
         "path": "59cc-1547/mostlyanimals_59cc-1547_xxl.jpg"
       }
-    }
+    },
+    "title": "Long-jawed Orb Weaver",
+    "latin": "Tetragnathidae (faimily)",
+    "tags": [
+      "2020",
+      "spider",
+      "insect"
+    ]
   },
   {
     "key": "eca6-3171",
@@ -4206,7 +4224,7 @@
   {
     "key": "8c90-cdf4",
     "name": "2019-indo-DSC02932-Edit-2.jpg",
-    "title": "Flambouyant Cuttlefish",
+    "title": "Flamboyant Cuttlefish",
     "description": "The flambouyant cuttlefish flashes its hypnotic color scheme and pulses its fins when approached, possibly to signal its toxicity to potential predators.",
     "latin": "Metasepia pfefferi",
     "location": "Lembeh Strait, Indonesia",
@@ -4254,7 +4272,7 @@
   {
     "key": "327b-6617",
     "name": "2019-indo-DSC00010.jpg",
-    "title": "Mushroom Coral Reticuludia",
+    "title": "Mushroom Coral Reticulidia",
     "description": "There are over 3000 species of nudibranchs, and new ones are regularly found!",
     "latin": "Reticuludia Fungia",
     "location": "Misool, Raja Ampat, Indonesia",
@@ -5032,7 +5050,7 @@
   {
     "key": "0f15-e05e",
     "name": "2019-indo-DSC01548.jpg",
-    "title": "Bluestripe and Golden-lined Snappers",
+    "title": "Bluestripe and Golden-Lined Snappers",
     "description": "The goatfish (Mulloidichthys mimicus) is part of a weird relationship with the bluestripe snapper where it mimics its colors to look almost exactly the same. The reason for that is not entirely clear, but the goatfish is presumably a more preferred prey than the bluestrip snapper. So there may be some goatfish in the fish ball as well.",
     "latin": "Lutjanus kasmira and Lutjanus lutjanus",
     "location": "Dampier Strait, Raja Ampat, Indonesia",
@@ -5135,7 +5153,7 @@
   {
     "key": "078f-ccd8",
     "name": "2019-indo-DSC01287.jpg",
-    "title": "Red-legged Swimming Crab",
+    "title": "Red-Legged Swimming Crab",
     "description": "",
     "latin": "Portunus convexus",
     "location": "Dampier Strait, Raja Ampat, Indonesia",
@@ -6021,7 +6039,7 @@
   {
     "key": "c30c-193c",
     "name": "DSC03734.jpg",
-    "title": "White Eyed Moray",
+    "title": "White-Eyed Moray",
     "description": "",
     "latin": "Gymnothorax thyrsoideus",
     "location": "Anilao, The Philippines",
@@ -6538,7 +6556,7 @@
   {
     "key": "fdf1-66cb",
     "name": "DSC07289.jpg",
-    "title": "Crescent-tail Bigeye",
+    "title": "Crescent-Tail Bigeye",
     "description": "",
     "latin": "Priacanthus hamrur",
     "location": "Egypt",
@@ -7879,7 +7897,7 @@
   {
     "key": "06d6-d3bb",
     "name": "DSC03124.jpg",
-    "title": "Jordans Snapper",
+    "title": "Jordan's Snapper",
     "description": "",
     "latin": "Lutjanus jordani",
     "location": "Cocos Island, Costa Rica",
@@ -8242,7 +8260,7 @@
   {
     "key": "69d9-c147",
     "name": "DSC06145.jpg",
-    "title": "St. Johns Cave Systems",
+    "title": "St. John's Cave Systems",
     "description": "St. Johns is know for its array of caverns, tunnels, overhangs and swim-throughs. The sun pierce through the cracks, crevices and holes inside the caverns, guiding us through the maze. The majestetic area is like a forgotten world, mountains now covered in coral.",
     "location": "St. Johns Reef, Egypt",
     "tags": [
@@ -9220,7 +9238,7 @@
   {
     "key": "0dcf-9ad7",
     "name": "DSC07673.jpg",
-    "title": "Two-banded Anemonefish",
+    "title": "Two-Banded Anemonefish",
     "description": "",
     "latin": "Amphiprion bicinctus",
     "location": "Egypt",
@@ -10145,7 +10163,7 @@
   {
     "key": "2a33-aeb9",
     "name": "DSC02569.jpg",
-    "title": "Tube Dwelling Anemone",
+    "title": "Tube-Dwelling Anemone",
     "description": "Not a true anemone, this animal construct a tube in the sand in which it lives. The entire body, including more than 200 tapering tentacles, can be retracted inside the tube for protection.",
     "latin": "Cerianthus sp. (not confirmed)",
     "location": "Anilao, The Philippines",
@@ -10608,7 +10626,7 @@
   {
     "key": "f3e5-8721",
     "name": "DSC00692.jpg",
-    "title": "White Eyed Moray",
+    "title": "White-Eyed Moray",
     "description": "Moray eels are shy creatures usually seen peeking out from rocks and coral formations with only their heads exposed. Most of the long slender body is hidden inside crevices, where it retreats completely if you approach too fast or come too near.",
     "latin": "Gymnothorax thyrsoideus",
     "location": "Dumaguete, The Philippines",
@@ -10764,7 +10782,7 @@
   {
     "key": "12bd-d11f",
     "name": "DSC00054.jpg",
-    "title": "Tufted gray langur",
+    "title": "Tufted Gray Langur",
     "description": "A female langur and her baby. The offspring stay attached to their mother for the first three months of their lives.",
     "latin": "Semnopithecus priam",
     "location": "Sri Lanka",
@@ -10969,7 +10987,7 @@
   {
     "key": "0e26-7ca1",
     "name": "DSC04884.jpg",
-    "title": "White-spotted Hermit Crab",
+    "title": "White-Spotted Hermit Crab",
     "description": "A hermit crab's home is the shell of a gastropod, usually snails. As they grow, larger shells are required. However, suitable intact shells are of limited resource and competition for the best shell among hermit crabs is common. If a crab looking for new vacancy finds a shell that is too large, it will stay in its current shell and wait by the vacant shell for other hermit crabs to arrive. As other crabs arrive and check the shell, they will do the same and when finally one finds the vacant shell suitable, each crab exchange shells in sequence.",
     "latin": "Dardanus megistos",
     "location": "Anilao, The Philippines",
@@ -11686,7 +11704,7 @@
   {
     "key": "3c6f-3921",
     "name": "DSC04072.jpg",
-    "title": "Spottail grunt",
+    "title": "Spottail Grunt",
     "description": "Longer and thinner than most grunts, the spottail is named after the black botch at the base of the caudal fin.",
     "latin": "Haemulon maculicauda",
     "location": "Caño Island, Costa Rica",
