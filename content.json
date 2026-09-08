@@ -1,5 +1,420 @@
 [
   {
+    "key": "b904-17c5",
+    "name": "DSC09006.jpg",
+    "title": "Cloudberry",
+    "latin": "Rubus chamaemorus",
+    "description": "Cloudberries are dioecious — meaning male and female flowers grow on separate plants. So a patch of cloudberries only produces fruit where both male and female plants grow nearby, which is one reason they can be maddeningly scarce even where the plants themselves seem plentiful.",
+    "location": "Nordmarka, Oslo, Norway",
+    "tags": [
+      "2024",
+      "berry"
+    ],
+    "width": 2000,
+    "height": 3000,
+    "resize": {
+      "thumb": {
+        "height": 220,
+        "width": 147,
+        "path": "b904-17c5/mostlyanimals_b904-17c5_thumb.jpg?ts=1788891434662"
+      },
+      "xsmall": {
+        "height": 500,
+        "width": 333,
+        "path": "b904-17c5/mostlyanimals_b904-17c5_xs.jpg?ts=1788891434662"
+      },
+      "small": {
+        "height": 1000,
+        "width": 667,
+        "path": "b904-17c5/mostlyanimals_b904-17c5_s.jpg?ts=1788891434662"
+      },
+      "medium": {
+        "height": 1400,
+        "width": 933,
+        "path": "b904-17c5/mostlyanimals_b904-17c5_m.jpg?ts=1788891434662"
+      },
+      "large": {
+        "height": 1900,
+        "width": 1267,
+        "path": "b904-17c5/mostlyanimals_b904-17c5_l.jpg?ts=1788891434662"
+      },
+      "xlarge": {
+        "height": 2560,
+        "width": 1707,
+        "path": "b904-17c5/mostlyanimals_b904-17c5_xl.jpg?ts=1788891434662"
+      }
+    }
+  },
+  {
+    "key": "6b36-c77e",
+    "name": "DSC09147_AuroraHDR-edit.jpg",
+    "title": "Foggy lake",
+    "description": "",
+    "location": "Hakkloa, Norway",
+    "tags": [
+      "2024",
+      "fog",
+      "landscape"
+    ],
+    "width": 3000,
+    "height": 2000,
+    "resize": {
+      "thumb": {
+        "height": 147,
+        "width": 220,
+        "path": "6b36-c77e/mostlyanimals_6b36-c77e_thumb.jpg?ts=1788891344095"
+      },
+      "xsmall": {
+        "height": 333,
+        "width": 500,
+        "path": "6b36-c77e/mostlyanimals_6b36-c77e_xs.jpg?ts=1788891344095"
+      },
+      "small": {
+        "height": 667,
+        "width": 1000,
+        "path": "6b36-c77e/mostlyanimals_6b36-c77e_s.jpg?ts=1788891344095"
+      },
+      "medium": {
+        "height": 933,
+        "width": 1400,
+        "path": "6b36-c77e/mostlyanimals_6b36-c77e_m.jpg?ts=1788891344095"
+      },
+      "large": {
+        "height": 1267,
+        "width": 1900,
+        "path": "6b36-c77e/mostlyanimals_6b36-c77e_l.jpg?ts=1788891344095"
+      },
+      "xlarge": {
+        "height": 1707,
+        "width": 2560,
+        "path": "6b36-c77e/mostlyanimals_6b36-c77e_xl.jpg?ts=1788891344095"
+      }
+    }
+  },
+  {
+    "key": "8d14-8d26",
+    "name": "DSC08533.jpg",
+    "title": "Back country chef",
+    "description": "",
+    "location": "Nordmarka, Oslo, Norway",
+    "tags": [
+      "2024",
+      "sunset"
+    ],
+    "width": 3000,
+    "height": 2000,
+    "resize": {
+      "thumb": {
+        "height": 147,
+        "width": 220,
+        "path": "8d14-8d26/mostlyanimals_8d14-8d26_thumb.jpg?ts=1788891241969"
+      },
+      "xsmall": {
+        "height": 333,
+        "width": 500,
+        "path": "8d14-8d26/mostlyanimals_8d14-8d26_xs.jpg?ts=1788891241969"
+      },
+      "small": {
+        "height": 667,
+        "width": 1000,
+        "path": "8d14-8d26/mostlyanimals_8d14-8d26_s.jpg?ts=1788891241969"
+      },
+      "medium": {
+        "height": 933,
+        "width": 1400,
+        "path": "8d14-8d26/mostlyanimals_8d14-8d26_m.jpg?ts=1788891241969"
+      },
+      "large": {
+        "height": 1267,
+        "width": 1900,
+        "path": "8d14-8d26/mostlyanimals_8d14-8d26_l.jpg?ts=1788891241969"
+      },
+      "xlarge": {
+        "height": 1707,
+        "width": 2560,
+        "path": "8d14-8d26/mostlyanimals_8d14-8d26_xl.jpg?ts=1788891241969"
+      }
+    }
+  },
+  {
+    "key": "3bf2-7d1d",
+    "name": "DSC01277-HDR.jpg",
+    "title": "Sunset in Gudbrandsdalen",
+    "description": "",
+    "location": "Vinstra, Norway",
+    "tags": [
+      "2024",
+      "landscape",
+      "sunset"
+    ],
+    "width": 3000,
+    "height": 2000,
+    "resize": {
+      "thumb": {
+        "height": 147,
+        "width": 220,
+        "path": "3bf2-7d1d/mostlyanimals_3bf2-7d1d_thumb.jpg?ts=1788891173508"
+      },
+      "xsmall": {
+        "height": 333,
+        "width": 500,
+        "path": "3bf2-7d1d/mostlyanimals_3bf2-7d1d_xs.jpg?ts=1788891173508"
+      },
+      "small": {
+        "height": 667,
+        "width": 1000,
+        "path": "3bf2-7d1d/mostlyanimals_3bf2-7d1d_s.jpg?ts=1788891173508"
+      },
+      "medium": {
+        "height": 933,
+        "width": 1400,
+        "path": "3bf2-7d1d/mostlyanimals_3bf2-7d1d_m.jpg?ts=1788891173508"
+      },
+      "large": {
+        "height": 1267,
+        "width": 1900,
+        "path": "3bf2-7d1d/mostlyanimals_3bf2-7d1d_l.jpg?ts=1788891173508"
+      },
+      "xlarge": {
+        "height": 1707,
+        "width": 2560,
+        "path": "3bf2-7d1d/mostlyanimals_3bf2-7d1d_xl.jpg?ts=1788891173508"
+      }
+    }
+  },
+  {
+    "key": "b285-7493",
+    "name": "DSC01148_AuroraHDR-edit.jpg",
+    "title": "Winter is near",
+    "description": "This photo was taken in late autumn, when the trees were shrouded in frosted fog.",
+    "location": "Gudbrandsdalen, Norway",
+    "tags": [
+      "2024",
+      "landscape",
+      "fog"
+    ],
+    "width": 3000,
+    "height": 1993,
+    "resize": {
+      "thumb": {
+        "height": 146,
+        "width": 220,
+        "path": "b285-7493/mostlyanimals_b285-7493_thumb.jpg?ts=1788891009435"
+      },
+      "xsmall": {
+        "height": 332,
+        "width": 500,
+        "path": "b285-7493/mostlyanimals_b285-7493_xs.jpg?ts=1788891009435"
+      },
+      "small": {
+        "height": 664,
+        "width": 1000,
+        "path": "b285-7493/mostlyanimals_b285-7493_s.jpg?ts=1788891009435"
+      },
+      "medium": {
+        "height": 930,
+        "width": 1400,
+        "path": "b285-7493/mostlyanimals_b285-7493_m.jpg?ts=1788891009435"
+      },
+      "large": {
+        "height": 1262,
+        "width": 1900,
+        "path": "b285-7493/mostlyanimals_b285-7493_l.jpg?ts=1788891009435"
+      },
+      "xlarge": {
+        "height": 1701,
+        "width": 2560,
+        "path": "b285-7493/mostlyanimals_b285-7493_xl.jpg?ts=1788891009435"
+      }
+    }
+  },
+  {
+    "key": "72b1-ca41",
+    "name": "DSC00912.jpg",
+    "title": "Into the Fog",
+    "description": "",
+    "location": "Langsua National Park, Norway",
+    "tags": [
+      "2024",
+      "landscape",
+      "fog"
+    ],
+    "width": 3000,
+    "height": 2000,
+    "resize": {
+      "thumb": {
+        "height": 147,
+        "width": 220,
+        "path": "72b1-ca41/mostlyanimals_72b1-ca41_thumb.jpg?ts=1788890878203"
+      },
+      "xsmall": {
+        "height": 333,
+        "width": 500,
+        "path": "72b1-ca41/mostlyanimals_72b1-ca41_xs.jpg?ts=1788890878203"
+      },
+      "small": {
+        "height": 667,
+        "width": 1000,
+        "path": "72b1-ca41/mostlyanimals_72b1-ca41_s.jpg?ts=1788890878203"
+      },
+      "medium": {
+        "height": 933,
+        "width": 1400,
+        "path": "72b1-ca41/mostlyanimals_72b1-ca41_m.jpg?ts=1788890878203"
+      },
+      "large": {
+        "height": 1267,
+        "width": 1900,
+        "path": "72b1-ca41/mostlyanimals_72b1-ca41_l.jpg?ts=1788890878203"
+      },
+      "xlarge": {
+        "height": 1707,
+        "width": 2560,
+        "path": "72b1-ca41/mostlyanimals_72b1-ca41_xl.jpg?ts=1788890878203"
+      }
+    }
+  },
+  {
+    "key": "dc84-f6e6",
+    "name": "DSC05626-HDR.jpg",
+    "title": "",
+    "description": "",
+    "location": "",
+    "tags": [
+      "2023",
+      "landscape"
+    ],
+    "width": 3000,
+    "height": 2000,
+    "resize": {
+      "thumb": {
+        "height": 147,
+        "width": 220,
+        "path": "dc84-f6e6/mostlyanimals_dc84-f6e6_thumb.jpg?ts=1788890664632"
+      },
+      "xsmall": {
+        "height": 333,
+        "width": 500,
+        "path": "dc84-f6e6/mostlyanimals_dc84-f6e6_xs.jpg?ts=1788890664632"
+      },
+      "small": {
+        "height": 667,
+        "width": 1000,
+        "path": "dc84-f6e6/mostlyanimals_dc84-f6e6_s.jpg?ts=1788890664632"
+      },
+      "medium": {
+        "height": 933,
+        "width": 1400,
+        "path": "dc84-f6e6/mostlyanimals_dc84-f6e6_m.jpg?ts=1788890664632"
+      },
+      "large": {
+        "height": 1267,
+        "width": 1900,
+        "path": "dc84-f6e6/mostlyanimals_dc84-f6e6_l.jpg?ts=1788890664632"
+      },
+      "xlarge": {
+        "height": 1707,
+        "width": 2560,
+        "path": "dc84-f6e6/mostlyanimals_dc84-f6e6_xl.jpg?ts=1788890664632"
+      }
+    }
+  },
+  {
+    "key": "7fa5-da9b",
+    "name": "DSC06676.jpg",
+    "title": "European hornet",
+    "latin": "Vespa crabro",
+    "description": "Europe's largest social wasp and the only true hornet species native to Europe.",
+    "location": "Roskilde, Denmark",
+    "tags": [
+      "2023",
+      "insect",
+      "portrait",
+      "animal"
+    ],
+    "width": 3000,
+    "height": 2000,
+    "resize": {
+      "thumb": {
+        "height": 147,
+        "width": 220,
+        "path": "7fa5-da9b/mostlyanimals_7fa5-da9b_thumb.jpg?ts=1788890636156"
+      },
+      "xsmall": {
+        "height": 333,
+        "width": 500,
+        "path": "7fa5-da9b/mostlyanimals_7fa5-da9b_xs.jpg?ts=1788890636156"
+      },
+      "small": {
+        "height": 667,
+        "width": 1000,
+        "path": "7fa5-da9b/mostlyanimals_7fa5-da9b_s.jpg?ts=1788890636156"
+      },
+      "medium": {
+        "height": 933,
+        "width": 1400,
+        "path": "7fa5-da9b/mostlyanimals_7fa5-da9b_m.jpg?ts=1788890636156"
+      },
+      "large": {
+        "height": 1267,
+        "width": 1900,
+        "path": "7fa5-da9b/mostlyanimals_7fa5-da9b_l.jpg?ts=1788890636156"
+      },
+      "xlarge": {
+        "height": 1707,
+        "width": 2560,
+        "path": "7fa5-da9b/mostlyanimals_7fa5-da9b_xl.jpg?ts=1788890636156"
+      }
+    }
+  },
+  {
+    "key": "8b63-0bf4",
+    "name": "DSC06836.jpg",
+    "title": "Fallow Deer",
+    "latin": "Dama dama",
+    "description": "Jægersborg Dyrehave is home to around 2,000 free-ranging deer, and the animals have been roaming the parkland for centuries.",
+    "location": "Copenhagen, Denmark",
+    "tags": [
+      "2023",
+      "deer",
+      "animal"
+    ],
+    "width": 3000,
+    "height": 2000,
+    "resize": {
+      "thumb": {
+        "height": 147,
+        "width": 220,
+        "path": "8b63-0bf4/mostlyanimals_8b63-0bf4_thumb.jpg?ts=1788890488147"
+      },
+      "xsmall": {
+        "height": 333,
+        "width": 500,
+        "path": "8b63-0bf4/mostlyanimals_8b63-0bf4_xs.jpg?ts=1788890488147"
+      },
+      "small": {
+        "height": 667,
+        "width": 1000,
+        "path": "8b63-0bf4/mostlyanimals_8b63-0bf4_s.jpg?ts=1788890488147"
+      },
+      "medium": {
+        "height": 933,
+        "width": 1400,
+        "path": "8b63-0bf4/mostlyanimals_8b63-0bf4_m.jpg?ts=1788890488147"
+      },
+      "large": {
+        "height": 1267,
+        "width": 1900,
+        "path": "8b63-0bf4/mostlyanimals_8b63-0bf4_l.jpg?ts=1788890488147"
+      },
+      "xlarge": {
+        "height": 1707,
+        "width": 2560,
+        "path": "8b63-0bf4/mostlyanimals_8b63-0bf4_xl.jpg?ts=1788890488147"
+      }
+    }
+  },
+  {
     "key": "70e0-9828",
     "name": "DSC02022.jpg",
     "title": "Eastern Water Dragon",
