@@ -1,5 +1,146 @@
 [
   {
+    "key": "ffaa-e46d",
+    "name": "DSC09055.jpg",
+    "title": "Canada geese",
+    "latin": "Branta canadensis",
+    "description": "They're strongly territorial during breeding season, which may explain why the family swims in such a tight formation, with the parents guarding the goslings on either side.",
+    "location": "Hakkloa, Norway",
+    "tags": [
+      "2024",
+      "landscape",
+      "animal",
+      "bird",
+      "geese"
+    ],
+    "width": 3000,
+    "height": 2000,
+    "resize": {
+      "thumb": {
+        "height": 147,
+        "width": 220,
+        "path": "ffaa-e46d/mostlyanimals_ffaa-e46d_thumb.jpg?ts=1788891971941"
+      },
+      "xsmall": {
+        "height": 333,
+        "width": 500,
+        "path": "ffaa-e46d/mostlyanimals_ffaa-e46d_xs.jpg?ts=1788891971941"
+      },
+      "small": {
+        "height": 667,
+        "width": 1000,
+        "path": "ffaa-e46d/mostlyanimals_ffaa-e46d_s.jpg?ts=1788891971941"
+      },
+      "medium": {
+        "height": 933,
+        "width": 1400,
+        "path": "ffaa-e46d/mostlyanimals_ffaa-e46d_m.jpg?ts=1788891971941"
+      },
+      "large": {
+        "height": 1267,
+        "width": 1900,
+        "path": "ffaa-e46d/mostlyanimals_ffaa-e46d_l.jpg?ts=1788891971941"
+      },
+      "xlarge": {
+        "height": 1707,
+        "width": 2560,
+        "path": "ffaa-e46d/mostlyanimals_ffaa-e46d_xl.jpg?ts=1788891971941"
+      }
+    }
+  },
+  {
+    "key": "3e96-ea17",
+    "name": "DSC09028_AuroraHDR-edit.jpg",
+    "title": "Store Sandungen",
+    "description": "",
+    "location": "Nordmarka, Oslo, Norway",
+    "tags": [
+      "2024",
+      "lake",
+      "landscape"
+    ],
+    "width": 3000,
+    "height": 2002,
+    "resize": {
+      "thumb": {
+        "height": 147,
+        "width": 220,
+        "path": "3e96-ea17/mostlyanimals_3e96-ea17_thumb.jpg?ts=1788891853344"
+      },
+      "xsmall": {
+        "height": 334,
+        "width": 500,
+        "path": "3e96-ea17/mostlyanimals_3e96-ea17_xs.jpg?ts=1788891853344"
+      },
+      "small": {
+        "height": 667,
+        "width": 1000,
+        "path": "3e96-ea17/mostlyanimals_3e96-ea17_s.jpg?ts=1788891853345"
+      },
+      "medium": {
+        "height": 934,
+        "width": 1400,
+        "path": "3e96-ea17/mostlyanimals_3e96-ea17_m.jpg?ts=1788891853345"
+      },
+      "large": {
+        "height": 1268,
+        "width": 1900,
+        "path": "3e96-ea17/mostlyanimals_3e96-ea17_l.jpg?ts=1788891853345"
+      },
+      "xlarge": {
+        "height": 1708,
+        "width": 2560,
+        "path": "3e96-ea17/mostlyanimals_3e96-ea17_xl.jpg?ts=1788891853345"
+      }
+    }
+  },
+  {
+    "key": "30f7-0d66",
+    "name": "DSC00311_AuroraHDR-edit.jpg",
+    "title": "Aurlandsfjorden",
+    "description": "",
+    "location": "Vestland, Norway",
+    "tags": [
+      "2024",
+      "landscape",
+      "fjord"
+    ],
+    "width": 3000,
+    "height": 2000,
+    "resize": {
+      "thumb": {
+        "height": 147,
+        "width": 220,
+        "path": "30f7-0d66/mostlyanimals_30f7-0d66_thumb.jpg?ts=1788891722750"
+      },
+      "xsmall": {
+        "height": 333,
+        "width": 500,
+        "path": "30f7-0d66/mostlyanimals_30f7-0d66_xs.jpg?ts=1788891722751"
+      },
+      "small": {
+        "height": 667,
+        "width": 1000,
+        "path": "30f7-0d66/mostlyanimals_30f7-0d66_s.jpg?ts=1788891722751"
+      },
+      "medium": {
+        "height": 933,
+        "width": 1400,
+        "path": "30f7-0d66/mostlyanimals_30f7-0d66_m.jpg?ts=1788891722751"
+      },
+      "large": {
+        "height": 1267,
+        "width": 1900,
+        "path": "30f7-0d66/mostlyanimals_30f7-0d66_l.jpg?ts=1788891722751"
+      },
+      "xlarge": {
+        "height": 1707,
+        "width": 2560,
+        "path": "30f7-0d66/mostlyanimals_30f7-0d66_xl.jpg?ts=1788891722751"
+      }
+    }
+  },
+  {
     "key": "b904-17c5",
     "name": "DSC09006.jpg",
     "title": "Cloudberry",
