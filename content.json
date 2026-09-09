@@ -1,5 +1,146 @@
 [
   {
+    "key": "605b-e9d3",
+    "name": "DSC04878.jpg",
+    "title": "Sunrise at Øyungen",
+    "description": "",
+    "location": "Nordmarka, Oslo, Norway",
+    "tags": [
+      "2025",
+      "lake",
+      "landscape",
+      "sunrise"
+    ],
+    "width": 3000,
+    "height": 2000,
+    "resize": {
+      "thumb": {
+        "height": 147,
+        "width": 220,
+        "path": "605b-e9d3/mostlyanimals_605b-e9d3_thumb.jpg?ts=1788941528307"
+      },
+      "xsmall": {
+        "height": 333,
+        "width": 500,
+        "path": "605b-e9d3/mostlyanimals_605b-e9d3_xs.jpg?ts=1788941528307"
+      },
+      "small": {
+        "height": 667,
+        "width": 1000,
+        "path": "605b-e9d3/mostlyanimals_605b-e9d3_s.jpg?ts=1788941528308"
+      },
+      "medium": {
+        "height": 933,
+        "width": 1400,
+        "path": "605b-e9d3/mostlyanimals_605b-e9d3_m.jpg?ts=1788941528308"
+      },
+      "large": {
+        "height": 1267,
+        "width": 1900,
+        "path": "605b-e9d3/mostlyanimals_605b-e9d3_l.jpg?ts=1788941528308"
+      },
+      "xlarge": {
+        "height": 1707,
+        "width": 2560,
+        "path": "605b-e9d3/mostlyanimals_605b-e9d3_xl.jpg?ts=1788941528308"
+      }
+    }
+  },
+  {
+    "key": "5358-c8a1",
+    "name": "DSC04755-HDR.jpg",
+    "title": "Sunset at Elvannet",
+    "description": "",
+    "location": "Nordmarka, Oslo, Norway",
+    "tags": [
+      "2025",
+      "lake",
+      "sunset",
+      "landscape",
+      "cabin"
+    ],
+    "width": 3000,
+    "height": 2000,
+    "resize": {
+      "thumb": {
+        "height": 147,
+        "width": 220,
+        "path": "5358-c8a1/mostlyanimals_5358-c8a1_thumb.jpg?ts=1788941475306"
+      },
+      "xsmall": {
+        "height": 333,
+        "width": 500,
+        "path": "5358-c8a1/mostlyanimals_5358-c8a1_xs.jpg?ts=1788941475306"
+      },
+      "small": {
+        "height": 667,
+        "width": 1000,
+        "path": "5358-c8a1/mostlyanimals_5358-c8a1_s.jpg?ts=1788941475307"
+      },
+      "medium": {
+        "height": 933,
+        "width": 1400,
+        "path": "5358-c8a1/mostlyanimals_5358-c8a1_m.jpg?ts=1788941475307"
+      },
+      "large": {
+        "height": 1267,
+        "width": 1900,
+        "path": "5358-c8a1/mostlyanimals_5358-c8a1_l.jpg?ts=1788941475307"
+      },
+      "xlarge": {
+        "height": 1707,
+        "width": 2560,
+        "path": "5358-c8a1/mostlyanimals_5358-c8a1_xl.jpg?ts=1788941475307"
+      }
+    }
+  },
+  {
+    "key": "d731-ff95",
+    "name": "DSC03109.jpg",
+    "title": "Packrafting Femunden",
+    "description": "",
+    "location": "Femundsmarka, Norway",
+    "tags": [
+      "2025",
+      "landscape",
+      "lake"
+    ],
+    "width": 3000,
+    "height": 2000,
+    "resize": {
+      "thumb": {
+        "height": 147,
+        "width": 220,
+        "path": "d731-ff95/mostlyanimals_d731-ff95_thumb.jpg?ts=1788941436682"
+      },
+      "xsmall": {
+        "height": 333,
+        "width": 500,
+        "path": "d731-ff95/mostlyanimals_d731-ff95_xs.jpg?ts=1788941436682"
+      },
+      "small": {
+        "height": 667,
+        "width": 1000,
+        "path": "d731-ff95/mostlyanimals_d731-ff95_s.jpg?ts=1788941436682"
+      },
+      "medium": {
+        "height": 933,
+        "width": 1400,
+        "path": "d731-ff95/mostlyanimals_d731-ff95_m.jpg?ts=1788941436682"
+      },
+      "large": {
+        "height": 1267,
+        "width": 1900,
+        "path": "d731-ff95/mostlyanimals_d731-ff95_l.jpg?ts=1788941436682"
+      },
+      "xlarge": {
+        "height": 1707,
+        "width": 2560,
+        "path": "d731-ff95/mostlyanimals_d731-ff95_xl.jpg?ts=1788941436682"
+      }
+    }
+  },
+  {
     "key": "ffaa-e46d",
     "name": "DSC09055.jpg",
     "title": "Canada Geese",
