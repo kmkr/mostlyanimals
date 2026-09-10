@@ -7,7 +7,6 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <meta name="author" content="Kris-Mikael Krister" />
-        <meta name="illustrator" content="Hilde Dybdahl Johannessen" />
         <meta
           name="google-site-verification"
           content="GV2uFZR4en6znRvzODbQEjF4vuUK9J2kAmGw7BwAbnE"
@@ -43,6 +42,10 @@ function MyApp({ Component, pageProps }) {
         <link rel="icon" href="/images/favicon.ico" sizes="32x32" />
       </Head>
       <Component {...pageProps} />
+      <script
+        async
+        src="https://scripts.simpleanalyticscdn.com/latest.js"
+      ></script>
     </>
   );
 }
