@@ -1,5 +1,142 @@
 [
   {
+    "key": "a27f-df91",
+    "name": "DSC02712.jpg",
+    "title": "Stavelitippen",
+    "description": "",
+    "location": "Korkedalen, Senja, Norway",
+    "tags": [
+      "2026",
+      "landscape",
+      "mountain"
+    ],
+    "width": 3000,
+    "height": 2000,
+    "resize": {
+      "thumb": {
+        "height": 147,
+        "width": 220,
+        "path": "a27f-df91/mostlyanimals_a27f-df91_thumb.jpg?ts=1789068359410"
+      },
+      "xsmall": {
+        "height": 333,
+        "width": 500,
+        "path": "a27f-df91/mostlyanimals_a27f-df91_xs.jpg?ts=1789068359410"
+      },
+      "small": {
+        "height": 667,
+        "width": 1000,
+        "path": "a27f-df91/mostlyanimals_a27f-df91_s.jpg?ts=1789068359410"
+      },
+      "medium": {
+        "height": 933,
+        "width": 1400,
+        "path": "a27f-df91/mostlyanimals_a27f-df91_m.jpg?ts=1789068359410"
+      },
+      "large": {
+        "height": 1267,
+        "width": 1900,
+        "path": "a27f-df91/mostlyanimals_a27f-df91_l.jpg?ts=1789068359410"
+      },
+      "xlarge": {
+        "height": 1707,
+        "width": 2560,
+        "path": "a27f-df91/mostlyanimals_a27f-df91_xl.jpg?ts=1789068359410"
+      }
+    }
+  },
+  {
+    "key": "ab20-33fc",
+    "name": "DSC01443.jpg",
+    "title": "Sunset at Senja",
+    "description": "",
+    "location": "Finnmarksfjellet, Bjorelvnes, Norway",
+    "tags": [
+      "2026",
+      "sunset"
+    ],
+    "width": 3000,
+    "height": 2000,
+    "resize": {
+      "thumb": {
+        "height": 147,
+        "width": 220,
+        "path": "ab20-33fc/mostlyanimals_ab20-33fc_thumb.jpg?ts=1789067607471"
+      },
+      "xsmall": {
+        "height": 333,
+        "width": 500,
+        "path": "ab20-33fc/mostlyanimals_ab20-33fc_xs.jpg?ts=1789067607472"
+      },
+      "small": {
+        "height": 667,
+        "width": 1000,
+        "path": "ab20-33fc/mostlyanimals_ab20-33fc_s.jpg?ts=1789067607472"
+      },
+      "medium": {
+        "height": 933,
+        "width": 1400,
+        "path": "ab20-33fc/mostlyanimals_ab20-33fc_m.jpg?ts=1789067607472"
+      },
+      "large": {
+        "height": 1267,
+        "width": 1900,
+        "path": "ab20-33fc/mostlyanimals_ab20-33fc_l.jpg?ts=1789067607472"
+      },
+      "xlarge": {
+        "height": 1707,
+        "width": 2560,
+        "path": "ab20-33fc/mostlyanimals_ab20-33fc_xl.jpg?ts=1789067607472"
+      }
+    }
+  },
+  {
+    "key": "d09a-47c7",
+    "name": "DSC00906.jpg",
+    "title": "Sheathed Woodtuft",
+    "latin": "Kuehneromyces mutabilis",
+    "description": "Its species name mutabilis means \"changeable\" — and it's fitting in more ways than one. The caps look dramatically different depending on moisture: when wet they're smooth, greasy, and dark brown, but as they dry they fade from the center outward, creating that \"two-toned\" look that gives it names like \"two-toned woodtuft.\"",
+    "location": "",
+    "tags": [
+      "2026",
+      "mushroom"
+    ],
+    "width": 2000,
+    "height": 3000,
+    "resize": {
+      "thumb": {
+        "height": 220,
+        "width": 147,
+        "path": "d09a-47c7/mostlyanimals_d09a-47c7_thumb.jpg?ts=1789067713188"
+      },
+      "xsmall": {
+        "height": 500,
+        "width": 333,
+        "path": "d09a-47c7/mostlyanimals_d09a-47c7_xs.jpg?ts=1789067713189"
+      },
+      "small": {
+        "height": 1000,
+        "width": 667,
+        "path": "d09a-47c7/mostlyanimals_d09a-47c7_s.jpg?ts=1789067713189"
+      },
+      "medium": {
+        "height": 1400,
+        "width": 933,
+        "path": "d09a-47c7/mostlyanimals_d09a-47c7_m.jpg?ts=1789067713189"
+      },
+      "large": {
+        "height": 1900,
+        "width": 1267,
+        "path": "d09a-47c7/mostlyanimals_d09a-47c7_l.jpg?ts=1789067713189"
+      },
+      "xlarge": {
+        "height": 2560,
+        "width": 1707,
+        "path": "d09a-47c7/mostlyanimals_d09a-47c7_xl.jpg?ts=1789067713189"
+      }
+    }
+  },
+  {
     "key": "3db6-f386",
     "name": "DSC02647-HDR.jpg",
     "title": "Segla in Autumn",
@@ -138,6 +275,51 @@
     }
   },
   {
+    "key": "f5f6-1484",
+    "name": "DSC02491.jpg",
+    "title": "Sunset at Trollvik",
+    "description": "",
+    "location": "",
+    "tags": [
+      "2026",
+      "sunset"
+    ],
+    "width": 2000,
+    "height": 3000,
+    "resize": {
+      "thumb": {
+        "height": 220,
+        "width": 147,
+        "path": "f5f6-1484/mostlyanimals_f5f6-1484_thumb.jpg?ts=1789067204982"
+      },
+      "xsmall": {
+        "height": 500,
+        "width": 333,
+        "path": "f5f6-1484/mostlyanimals_f5f6-1484_xs.jpg?ts=1789067204982"
+      },
+      "small": {
+        "height": 1000,
+        "width": 667,
+        "path": "f5f6-1484/mostlyanimals_f5f6-1484_s.jpg?ts=1789067204982"
+      },
+      "medium": {
+        "height": 1400,
+        "width": 933,
+        "path": "f5f6-1484/mostlyanimals_f5f6-1484_m.jpg?ts=1789067204982"
+      },
+      "large": {
+        "height": 1900,
+        "width": 1267,
+        "path": "f5f6-1484/mostlyanimals_f5f6-1484_l.jpg?ts=1789067204982"
+      },
+      "xlarge": {
+        "height": 2560,
+        "width": 1707,
+        "path": "f5f6-1484/mostlyanimals_f5f6-1484_xl.jpg?ts=1789067204982"
+      }
+    }
+  },
+  {
     "key": "8ccc-b7c1",
     "name": "DSC02178-HDR.jpg",
     "title": "Juvvatnet",
@@ -181,51 +363,6 @@
         "height": 1707,
         "width": 2560,
         "path": "8ccc-b7c1/mostlyanimals_8ccc-b7c1_xl.jpg?ts=1789066964768"
-      }
-    }
-  },
-  {
-    "key": "f5f6-1484",
-    "name": "DSC02491.jpg",
-    "title": "Sunset at Trollvik",
-    "description": "",
-    "location": "",
-    "tags": [
-      "2026",
-      "sunset"
-    ],
-    "width": 2000,
-    "height": 3000,
-    "resize": {
-      "thumb": {
-        "height": 220,
-        "width": 147,
-        "path": "f5f6-1484/mostlyanimals_f5f6-1484_thumb.jpg?ts=1789067204982"
-      },
-      "xsmall": {
-        "height": 500,
-        "width": 333,
-        "path": "f5f6-1484/mostlyanimals_f5f6-1484_xs.jpg?ts=1789067204982"
-      },
-      "small": {
-        "height": 1000,
-        "width": 667,
-        "path": "f5f6-1484/mostlyanimals_f5f6-1484_s.jpg?ts=1789067204982"
-      },
-      "medium": {
-        "height": 1400,
-        "width": 933,
-        "path": "f5f6-1484/mostlyanimals_f5f6-1484_m.jpg?ts=1789067204982"
-      },
-      "large": {
-        "height": 1900,
-        "width": 1267,
-        "path": "f5f6-1484/mostlyanimals_f5f6-1484_l.jpg?ts=1789067204982"
-      },
-      "xlarge": {
-        "height": 2560,
-        "width": 1707,
-        "path": "f5f6-1484/mostlyanimals_f5f6-1484_xl.jpg?ts=1789067204982"
       }
     }
   },
@@ -275,51 +412,6 @@
     }
   },
   {
-    "key": "f127-2535",
-    "name": "DSC07928.jpg",
-    "title": "Skinnkollen",
-    "description": "",
-    "location": "Botnhamn, Senja, Norway",
-    "tags": [
-      "2026",
-      "mountain"
-    ],
-    "width": 2000,
-    "height": 3000,
-    "resize": {
-      "thumb": {
-        "height": 220,
-        "width": 147,
-        "path": "f127-2535/mostlyanimals_f127-2535_thumb.jpg?ts=1788986275204"
-      },
-      "xsmall": {
-        "height": 500,
-        "width": 333,
-        "path": "f127-2535/mostlyanimals_f127-2535_xs.jpg?ts=1788986275204"
-      },
-      "small": {
-        "height": 1000,
-        "width": 667,
-        "path": "f127-2535/mostlyanimals_f127-2535_s.jpg?ts=1788986275204"
-      },
-      "medium": {
-        "height": 1400,
-        "width": 933,
-        "path": "f127-2535/mostlyanimals_f127-2535_m.jpg?ts=1788986275204"
-      },
-      "large": {
-        "height": 1900,
-        "width": 1267,
-        "path": "f127-2535/mostlyanimals_f127-2535_l.jpg?ts=1788986275204"
-      },
-      "xlarge": {
-        "height": 2560,
-        "width": 1707,
-        "path": "f127-2535/mostlyanimals_f127-2535_xl.jpg?ts=1788986275204"
-      }
-    }
-  },
-  {
     "key": "fa33-68be",
     "name": "DSC06395.jpg",
     "title": "Breidtinden",
@@ -335,32 +427,32 @@
       "thumb": {
         "height": 147,
         "width": 220,
-        "path": "fa33-68be/mostlyanimals_fa33-68be_thumb.jpg?ts=1788986203941"
+        "path": "fa33-68be/mostlyanimals_fa33-68be_thumb.jpg?ts=1789068001467"
       },
       "xsmall": {
         "height": 333,
         "width": 500,
-        "path": "fa33-68be/mostlyanimals_fa33-68be_xs.jpg?ts=1788986203941"
+        "path": "fa33-68be/mostlyanimals_fa33-68be_xs.jpg?ts=1789068001467"
       },
       "small": {
         "height": 667,
         "width": 1000,
-        "path": "fa33-68be/mostlyanimals_fa33-68be_s.jpg?ts=1788986203941"
+        "path": "fa33-68be/mostlyanimals_fa33-68be_s.jpg?ts=1789068001468"
       },
       "medium": {
         "height": 933,
         "width": 1400,
-        "path": "fa33-68be/mostlyanimals_fa33-68be_m.jpg?ts=1788986203941"
+        "path": "fa33-68be/mostlyanimals_fa33-68be_m.jpg?ts=1789068001468"
       },
       "large": {
         "height": 1267,
         "width": 1900,
-        "path": "fa33-68be/mostlyanimals_fa33-68be_l.jpg?ts=1788986203941"
+        "path": "fa33-68be/mostlyanimals_fa33-68be_l.jpg?ts=1789068001468"
       },
       "xlarge": {
         "height": 1707,
         "width": 2560,
-        "path": "fa33-68be/mostlyanimals_fa33-68be_xl.jpg?ts=1788986203941"
+        "path": "fa33-68be/mostlyanimals_fa33-68be_xl.jpg?ts=1789068001468"
       }
     }
   },
@@ -429,32 +521,32 @@
       "thumb": {
         "height": 220,
         "width": 165,
-        "path": "6e99-00d2/mostlyanimals_6e99-00d2_thumb.jpg?ts=1788986579753"
+        "path": "6e99-00d2/mostlyanimals_6e99-00d2_thumb.jpg?ts=1789068182831"
       },
       "xsmall": {
         "height": 500,
         "width": 375,
-        "path": "6e99-00d2/mostlyanimals_6e99-00d2_xs.jpg?ts=1788986579753"
+        "path": "6e99-00d2/mostlyanimals_6e99-00d2_xs.jpg?ts=1789068182831"
       },
       "small": {
         "height": 1000,
         "width": 750,
-        "path": "6e99-00d2/mostlyanimals_6e99-00d2_s.jpg?ts=1788986579754"
+        "path": "6e99-00d2/mostlyanimals_6e99-00d2_s.jpg?ts=1789068182831"
       },
       "medium": {
         "height": 1400,
         "width": 1050,
-        "path": "6e99-00d2/mostlyanimals_6e99-00d2_m.jpg?ts=1788986579754"
+        "path": "6e99-00d2/mostlyanimals_6e99-00d2_m.jpg?ts=1789068182831"
       },
       "large": {
         "height": 1900,
         "width": 1425,
-        "path": "6e99-00d2/mostlyanimals_6e99-00d2_l.jpg?ts=1788986579754"
+        "path": "6e99-00d2/mostlyanimals_6e99-00d2_l.jpg?ts=1789068182831"
       },
       "xlarge": {
         "height": 2560,
         "width": 1920,
-        "path": "6e99-00d2/mostlyanimals_6e99-00d2_xl.jpg?ts=1788986579754"
+        "path": "6e99-00d2/mostlyanimals_6e99-00d2_xl.jpg?ts=1789068182831"
       }
     }
   },
@@ -500,6 +592,51 @@
         "height": 1440,
         "width": 2560,
         "path": "a89f-a807/mostlyanimals_a89f-a807_xl.jpg?ts=1788957445818"
+      }
+    }
+  },
+  {
+    "key": "f127-2535",
+    "name": "DSC07928.jpg",
+    "title": "Skinnkollen",
+    "description": "",
+    "location": "Botnhamn, Senja, Norway",
+    "tags": [
+      "2026",
+      "mountain"
+    ],
+    "width": 2000,
+    "height": 3000,
+    "resize": {
+      "thumb": {
+        "height": 220,
+        "width": 147,
+        "path": "f127-2535/mostlyanimals_f127-2535_thumb.jpg?ts=1788986275204"
+      },
+      "xsmall": {
+        "height": 500,
+        "width": 333,
+        "path": "f127-2535/mostlyanimals_f127-2535_xs.jpg?ts=1788986275204"
+      },
+      "small": {
+        "height": 1000,
+        "width": 667,
+        "path": "f127-2535/mostlyanimals_f127-2535_s.jpg?ts=1788986275204"
+      },
+      "medium": {
+        "height": 1400,
+        "width": 933,
+        "path": "f127-2535/mostlyanimals_f127-2535_m.jpg?ts=1788986275204"
+      },
+      "large": {
+        "height": 1900,
+        "width": 1267,
+        "path": "f127-2535/mostlyanimals_f127-2535_l.jpg?ts=1788986275204"
+      },
+      "xlarge": {
+        "height": 2560,
+        "width": 1707,
+        "path": "f127-2535/mostlyanimals_f127-2535_xl.jpg?ts=1788986275204"
       }
     }
   },
@@ -2521,7 +2658,7 @@
     "description": "",
     "location": "Nordmarka, Oslo, Norway",
     "tags": [
-      "mushrooms",
+      "mushroom",
       "2021"
     ],
     "width": 3000,
@@ -3033,7 +3170,7 @@
     "location": "",
     "tags": [
       "2021",
-      "mushrooms"
+      "mushroom"
     ],
     "width": 2003,
     "height": 3000,
