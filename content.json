@@ -1,5 +1,235 @@
 [
   {
+    "key": "3db6-f386",
+    "name": "DSC02647-HDR.jpg",
+    "title": "Segla in Autumn",
+    "description": "",
+    "location": "Fjordgård, Norway",
+    "tags": [
+      "2026",
+      "landscape",
+      "mountain"
+    ],
+    "width": 3000,
+    "height": 2000,
+    "resize": {
+      "thumb": {
+        "height": 147,
+        "width": 220,
+        "path": "3db6-f386/mostlyanimals_3db6-f386_thumb.jpg?ts=1789067488313"
+      },
+      "xsmall": {
+        "height": 333,
+        "width": 500,
+        "path": "3db6-f386/mostlyanimals_3db6-f386_xs.jpg?ts=1789067488313"
+      },
+      "small": {
+        "height": 667,
+        "width": 1000,
+        "path": "3db6-f386/mostlyanimals_3db6-f386_s.jpg?ts=1789067488314"
+      },
+      "medium": {
+        "height": 933,
+        "width": 1400,
+        "path": "3db6-f386/mostlyanimals_3db6-f386_m.jpg?ts=1789067488314"
+      },
+      "large": {
+        "height": 1267,
+        "width": 1900,
+        "path": "3db6-f386/mostlyanimals_3db6-f386_l.jpg?ts=1789067488314"
+      },
+      "xlarge": {
+        "height": 1707,
+        "width": 2560,
+        "path": "3db6-f386/mostlyanimals_3db6-f386_xl.jpg?ts=1789067488314"
+      }
+    }
+  },
+  {
+    "key": "0fed-5497",
+    "name": "DSC00969.jpg",
+    "title": "Chanterelle",
+    "latin": "Cantharellus cibarius",
+    "description": "Chanterelles don't really grow alone underground like many mushrooms — they form a mycorrhizal partnership with tree roots, trading minerals and water for sugars from the tree.",
+    "location": "Bjorelvnes, Norway",
+    "tags": [
+      "2026",
+      "mushroom"
+    ],
+    "width": 2000,
+    "height": 3000,
+    "resize": {
+      "thumb": {
+        "height": 220,
+        "width": 147,
+        "path": "0fed-5497/mostlyanimals_0fed-5497_thumb.jpg?ts=1789067247270"
+      },
+      "xsmall": {
+        "height": 500,
+        "width": 333,
+        "path": "0fed-5497/mostlyanimals_0fed-5497_xs.jpg?ts=1789067247270"
+      },
+      "small": {
+        "height": 1000,
+        "width": 667,
+        "path": "0fed-5497/mostlyanimals_0fed-5497_s.jpg?ts=1789067247271"
+      },
+      "medium": {
+        "height": 1400,
+        "width": 933,
+        "path": "0fed-5497/mostlyanimals_0fed-5497_m.jpg?ts=1789067247271"
+      },
+      "large": {
+        "height": 1900,
+        "width": 1267,
+        "path": "0fed-5497/mostlyanimals_0fed-5497_l.jpg?ts=1789067247271"
+      },
+      "xlarge": {
+        "height": 2560,
+        "width": 1707,
+        "path": "0fed-5497/mostlyanimals_0fed-5497_xl.jpg?ts=1789067247271"
+      }
+    }
+  },
+  {
+    "key": "f16e-54c3",
+    "name": "DSC02165.jpg",
+    "title": "Glacier Walk",
+    "description": "",
+    "location": "Styggebrean, Lom, Norway",
+    "tags": [
+      "2026",
+      "glacier",
+      "landscape"
+    ],
+    "width": 3000,
+    "height": 2000,
+    "resize": {
+      "thumb": {
+        "height": 147,
+        "width": 220,
+        "path": "f16e-54c3/mostlyanimals_f16e-54c3_thumb.jpg?ts=1789067041491"
+      },
+      "xsmall": {
+        "height": 333,
+        "width": 500,
+        "path": "f16e-54c3/mostlyanimals_f16e-54c3_xs.jpg?ts=1789067041491"
+      },
+      "small": {
+        "height": 667,
+        "width": 1000,
+        "path": "f16e-54c3/mostlyanimals_f16e-54c3_s.jpg?ts=1789067041492"
+      },
+      "medium": {
+        "height": 933,
+        "width": 1400,
+        "path": "f16e-54c3/mostlyanimals_f16e-54c3_m.jpg?ts=1789067041492"
+      },
+      "large": {
+        "height": 1267,
+        "width": 1900,
+        "path": "f16e-54c3/mostlyanimals_f16e-54c3_l.jpg?ts=1789067041492"
+      },
+      "xlarge": {
+        "height": 1707,
+        "width": 2560,
+        "path": "f16e-54c3/mostlyanimals_f16e-54c3_xl.jpg?ts=1789067041492"
+      }
+    }
+  },
+  {
+    "key": "8ccc-b7c1",
+    "name": "DSC02178-HDR.jpg",
+    "title": "Juvvatnet",
+    "description": "",
+    "location": "Lom, Norway",
+    "tags": [
+      "2026",
+      "lake",
+      "glacier",
+      "landscape"
+    ],
+    "width": 3000,
+    "height": 2000,
+    "resize": {
+      "thumb": {
+        "height": 147,
+        "width": 220,
+        "path": "8ccc-b7c1/mostlyanimals_8ccc-b7c1_thumb.jpg?ts=1789066964767"
+      },
+      "xsmall": {
+        "height": 333,
+        "width": 500,
+        "path": "8ccc-b7c1/mostlyanimals_8ccc-b7c1_xs.jpg?ts=1789066964767"
+      },
+      "small": {
+        "height": 667,
+        "width": 1000,
+        "path": "8ccc-b7c1/mostlyanimals_8ccc-b7c1_s.jpg?ts=1789066964768"
+      },
+      "medium": {
+        "height": 933,
+        "width": 1400,
+        "path": "8ccc-b7c1/mostlyanimals_8ccc-b7c1_m.jpg?ts=1789066964768"
+      },
+      "large": {
+        "height": 1267,
+        "width": 1900,
+        "path": "8ccc-b7c1/mostlyanimals_8ccc-b7c1_l.jpg?ts=1789066964768"
+      },
+      "xlarge": {
+        "height": 1707,
+        "width": 2560,
+        "path": "8ccc-b7c1/mostlyanimals_8ccc-b7c1_xl.jpg?ts=1789066964768"
+      }
+    }
+  },
+  {
+    "key": "f5f6-1484",
+    "name": "DSC02491.jpg",
+    "title": "Sunset at Trollvik",
+    "description": "",
+    "location": "",
+    "tags": [
+      "2026",
+      "sunset"
+    ],
+    "width": 2000,
+    "height": 3000,
+    "resize": {
+      "thumb": {
+        "height": 220,
+        "width": 147,
+        "path": "f5f6-1484/mostlyanimals_f5f6-1484_thumb.jpg?ts=1789067204982"
+      },
+      "xsmall": {
+        "height": 500,
+        "width": 333,
+        "path": "f5f6-1484/mostlyanimals_f5f6-1484_xs.jpg?ts=1789067204982"
+      },
+      "small": {
+        "height": 1000,
+        "width": 667,
+        "path": "f5f6-1484/mostlyanimals_f5f6-1484_s.jpg?ts=1789067204982"
+      },
+      "medium": {
+        "height": 1400,
+        "width": 933,
+        "path": "f5f6-1484/mostlyanimals_f5f6-1484_m.jpg?ts=1789067204982"
+      },
+      "large": {
+        "height": 1900,
+        "width": 1267,
+        "path": "f5f6-1484/mostlyanimals_f5f6-1484_l.jpg?ts=1789067204982"
+      },
+      "xlarge": {
+        "height": 2560,
+        "width": 1707,
+        "path": "f5f6-1484/mostlyanimals_f5f6-1484_xl.jpg?ts=1789067204982"
+      }
+    }
+  },
+  {
     "key": "f743-1586",
     "name": "DSC05315.jpg",
     "title": "Gisundet at Night",
