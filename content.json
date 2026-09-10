@@ -2,7 +2,7 @@
   {
     "key": "f743-1586",
     "name": "DSC05315.jpg",
-    "title": "",
+    "title": "Gisundet at Night",
     "description": "",
     "location": "Ravnereiret, Trollvika, Norway",
     "tags": [
@@ -45,11 +45,59 @@
     }
   },
   {
+    "key": "6e99-00d2",
+    "name": "DSC06908.jpg",
+    "title": "Arctic Terns",
+    "latin": "Sterna paradisaea",
+    "description": "The Arctic tern makes the longest migration of any animal on Earth. It flies from its Arctic breeding grounds all the way to the Antarctic and back each year — a round trip of roughly 70,000–90,000 km (about 44,000–56,000 miles) annually.",
+    "location": "Stonglandseidet, Senja, Norway",
+    "tags": [
+      "2026",
+      "bird",
+      "animal",
+      "sunset"
+    ],
+    "width": 1500,
+    "height": 2000,
+    "resize": {
+      "thumb": {
+        "height": 220,
+        "width": 165,
+        "path": "6e99-00d2/mostlyanimals_6e99-00d2_thumb.jpg?ts=1788986579753"
+      },
+      "xsmall": {
+        "height": 500,
+        "width": 375,
+        "path": "6e99-00d2/mostlyanimals_6e99-00d2_xs.jpg?ts=1788986579753"
+      },
+      "small": {
+        "height": 1000,
+        "width": 750,
+        "path": "6e99-00d2/mostlyanimals_6e99-00d2_s.jpg?ts=1788986579754"
+      },
+      "medium": {
+        "height": 1400,
+        "width": 1050,
+        "path": "6e99-00d2/mostlyanimals_6e99-00d2_m.jpg?ts=1788986579754"
+      },
+      "large": {
+        "height": 1900,
+        "width": 1425,
+        "path": "6e99-00d2/mostlyanimals_6e99-00d2_l.jpg?ts=1788986579754"
+      },
+      "xlarge": {
+        "height": 2560,
+        "width": 1920,
+        "path": "6e99-00d2/mostlyanimals_6e99-00d2_xl.jpg?ts=1788986579754"
+      }
+    }
+  },
+  {
     "key": "f127-2535",
     "name": "DSC07928.jpg",
     "title": "Skinnkollen",
     "description": "",
-    "location": "",
+    "location": "Botnhamn, Senja, Norway",
     "tags": [
       "2026",
       "mountain"
@@ -228,7 +276,7 @@
   {
     "key": "1f49-32b1",
     "name": "DSC05131.jpg",
-    "title": "Botnhamn at Night",
+    "title": "Bergsbotn at Night",
     "description": "",
     "location": "Senja, Norway",
     "tags": [
