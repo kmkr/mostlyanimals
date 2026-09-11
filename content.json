@@ -1,5 +1,148 @@
 [
   {
+    "key": "6d22-48be",
+    "name": "DSC09540.jpg",
+    "title": "Western Honey Bee",
+    "latin": "Apis mellifera",
+    "description": "The western honey bee communicates through dance. The dancers' Hivemates sometimes butt their heads against the dancer and produce a little \"stop signal\" buzz to tell her the advertised location was a bad one when they disagree.",
+    "location": "Finnfjordbotn, Norway",
+    "tags": [
+      "2026",
+      "insect",
+      "bee",
+      "animal"
+    ],
+    "width": 2000,
+    "height": 3000,
+    "resize": {
+      "thumb": {
+        "height": 220,
+        "width": 147,
+        "path": "6d22-48be/mostlyanimals_6d22-48be_thumb.jpg?ts=1789115490110"
+      },
+      "xsmall": {
+        "height": 500,
+        "width": 333,
+        "path": "6d22-48be/mostlyanimals_6d22-48be_xs.jpg?ts=1789115490110"
+      },
+      "small": {
+        "height": 1000,
+        "width": 667,
+        "path": "6d22-48be/mostlyanimals_6d22-48be_s.jpg?ts=1789115490110"
+      },
+      "medium": {
+        "height": 1400,
+        "width": 933,
+        "path": "6d22-48be/mostlyanimals_6d22-48be_m.jpg?ts=1789115490110"
+      },
+      "large": {
+        "height": 1900,
+        "width": 1267,
+        "path": "6d22-48be/mostlyanimals_6d22-48be_l.jpg?ts=1789115490110"
+      },
+      "xlarge": {
+        "height": 2560,
+        "width": 1707,
+        "path": "6d22-48be/mostlyanimals_6d22-48be_xl.jpg?ts=1789115490110"
+      }
+    }
+  },
+  {
+    "key": "d029-fa39",
+    "name": "DSC09514.jpg",
+    "title": "Pearl-bordered Fritillary",
+    "latin": "Boloria euphrosyne",
+    "description": "Butterflies in this family \"taste\" with their feet — females drum leaves with their forelegs to chemically confirm it's the right violet before laying an egg.",
+    "location": "Grasmyra, Senja, Norway",
+    "tags": [
+      "2026",
+      "butterfly",
+      "animal",
+      "insect",
+      "portrait"
+    ],
+    "width": 3000,
+    "height": 2000,
+    "resize": {
+      "thumb": {
+        "height": 147,
+        "width": 220,
+        "path": "d029-fa39/mostlyanimals_d029-fa39_thumb.jpg?ts=1789115246820"
+      },
+      "xsmall": {
+        "height": 333,
+        "width": 500,
+        "path": "d029-fa39/mostlyanimals_d029-fa39_xs.jpg?ts=1789115246820"
+      },
+      "small": {
+        "height": 667,
+        "width": 1000,
+        "path": "d029-fa39/mostlyanimals_d029-fa39_s.jpg?ts=1789115246820"
+      },
+      "medium": {
+        "height": 933,
+        "width": 1400,
+        "path": "d029-fa39/mostlyanimals_d029-fa39_m.jpg?ts=1789115246820"
+      },
+      "large": {
+        "height": 1267,
+        "width": 1900,
+        "path": "d029-fa39/mostlyanimals_d029-fa39_l.jpg?ts=1789115246820"
+      },
+      "xlarge": {
+        "height": 1707,
+        "width": 2560,
+        "path": "d029-fa39/mostlyanimals_d029-fa39_xl.jpg?ts=1789115246820"
+      }
+    }
+  },
+  {
+    "key": "9121-5b00",
+    "name": "DSC05133.jpg",
+    "title": "Botnvatnet",
+    "description": "",
+    "location": "Bergsbotn, Senja, Norway",
+    "tags": [
+      "2026",
+      "northern.lights",
+      "lake"
+    ],
+    "width": 3000,
+    "height": 2000,
+    "resize": {
+      "thumb": {
+        "height": 147,
+        "width": 220,
+        "path": "9121-5b00/mostlyanimals_9121-5b00_thumb.jpg?ts=1789115134268"
+      },
+      "xsmall": {
+        "height": 333,
+        "width": 500,
+        "path": "9121-5b00/mostlyanimals_9121-5b00_xs.jpg?ts=1789115134268"
+      },
+      "small": {
+        "height": 667,
+        "width": 1000,
+        "path": "9121-5b00/mostlyanimals_9121-5b00_s.jpg?ts=1789115134268"
+      },
+      "medium": {
+        "height": 933,
+        "width": 1400,
+        "path": "9121-5b00/mostlyanimals_9121-5b00_m.jpg?ts=1789115134268"
+      },
+      "large": {
+        "height": 1267,
+        "width": 1900,
+        "path": "9121-5b00/mostlyanimals_9121-5b00_l.jpg?ts=1789115134268"
+      },
+      "xlarge": {
+        "height": 1707,
+        "width": 2560,
+        "path": "9121-5b00/mostlyanimals_9121-5b00_xl.jpg?ts=1789115134268"
+      }
+    }
+  },
+  {
     "key": "a27f-df91",
     "name": "DSC02712.jpg",
     "title": "Stavelitippen",
@@ -507,7 +650,7 @@
     "name": "DSC06908.jpg",
     "title": "Arctic Terns",
     "latin": "Sterna paradisaea",
-    "description": "The Arctic tern makes the longest migration of any animal on Earth. It flies from its Arctic breeding grounds all the way to the Antarctic and back each year — a round trip of roughly 70,000–90,000 km (about 44,000–56,000 miles) annually.",
+    "description": "The Arctic tern makes the longest migration of any animal on Earth. It flies from its Arctic breeding grounds all the way to the Antarctic and back each year — a round trip of roughly 70,000–90,000 km annually.",
     "location": "Stonglandseidet, Senja, Norway",
     "tags": [
       "2026",
