@@ -7,7 +7,7 @@ import Photo from "./photo";
 import Sidebar from "./sidebar";
 
 import KeyboardEventHandler from "./keyboard-event-handler";
-import type { ClientPhoto } from "../types";
+import type { DetailPagePhoto } from "../types";
 import type { SyntheticEvent } from "react";
 
 const PhotoWrapper = ({
@@ -15,9 +15,9 @@ const PhotoWrapper = ({
   nextPhoto,
   prevPhoto,
 }: {
-  selectedPhoto: ClientPhoto;
-  nextPhoto: ClientPhoto;
-  prevPhoto: ClientPhoto;
+  selectedPhoto: DetailPagePhoto;
+  nextPhoto: DetailPagePhoto;
+  prevPhoto: DetailPagePhoto;
 }) => {
   const [sidebarExpanded, setSidebarExpanded] = useState(true);
   const router = useRouter();

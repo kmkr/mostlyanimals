@@ -8,13 +8,13 @@ import PhotoWrapper from "../../src/photos/photo-wrapper";
 import { photoTitle } from "../../src/title-service";
 import { setLastShownPhotoKey } from "../../src/last-shown-photo-service";
 import type { GetStaticPaths, GetStaticProps } from "next";
-import type { ClientPhoto } from "../../src/types";
+import type { DetailPagePhoto } from "../../src/types";
 
 type PhotoPageProps = {
   keywords: string[];
-  photo: ClientPhoto;
-  nextPhoto: ClientPhoto;
-  prevPhoto: ClientPhoto;
+  photo: DetailPagePhoto;
+  nextPhoto: DetailPagePhoto;
+  prevPhoto: DetailPagePhoto;
 };
 
 function PhotoPage({ keywords, photo, nextPhoto, prevPhoto }: PhotoPageProps) {

@@ -1,10 +1,10 @@
 import { useEffect, useRef } from "react";
 
 import PhotoText from "./photo-text";
-import type { ClientPhoto } from "../types";
+import type { DetailPagePhoto } from "../types";
 import type { ReactNode } from "react";
 
-function sizes(photo: ClientPhoto) {
+function sizes(photo: DetailPagePhoto) {
   return photo.mode === "portrait"
     ? "(min-width: 1100px) 50vw, 100vw"
     : "(min-width: 1100px) 95vw, 100vw";
@@ -12,7 +12,7 @@ function sizes(photo: ClientPhoto) {
 
 let timeout: number | undefined;
 
-function doPreload(photos: ClientPhoto[]) {
+function doPreload(photos: DetailPagePhoto[]) {
   if (timeout) {
     window.clearTimeout(timeout);
   }
@@ -37,8 +37,8 @@ const Photo = ({
 }: {
   next: ReactNode;
   previous: ReactNode;
-  photo: ClientPhoto;
-  preload: ClientPhoto[];
+  photo: DetailPagePhoto;
+  preload: DetailPagePhoto[];
 }) => {
   const wrapperRef = useRef<HTMLDivElement>(null);
 

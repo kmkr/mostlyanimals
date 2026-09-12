@@ -39,7 +39,7 @@ npx tsc --noEmit
 - Keep the `key` field stable for each photo. Delete and replace flows depend on those keys and the related resize metadata.
 - Preserve the existing `resize` structure (`thumb`, `xsmall`, `small`, `medium`, `large`, `xlarge`) whenever editing a photo entry; these names are used throughout the front-end rendering code.
 - Most gallery metadata is stringly typed in the JSON: `location` is a human-readable string, `tags` is an array of lowercase-ish values, and keyword generation derives from location, title, and tags.
-- `src/types.ts` defines the app's photo contracts (`RawPhoto`, `ClientPhoto`, etc.). If you add or rename fields, keep those TypeScript shapes aligned with the JSON and rendering code.
+- `src/types.ts` defines the app's photo contracts (`RawPhoto`, `DetailPagePhoto`, `CollagePhoto`, etc.). If you add or rename fields, keep those TypeScript shapes aligned with the JSON and rendering code.
 - The repo's ESLint config ignores `.next/*` and `photo-management/*`; those are operational/generated paths, not app code to edit in normal feature work.
 
 ## Repo-specific docs to consult

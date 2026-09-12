@@ -1,6 +1,6 @@
 import { BASE_SITE_DESCRIPTION } from "./constants";
 import { photoTitle, featureTitle } from "./title-service";
-import type { ClientPhoto } from "./types";
+import type { DetailPagePhoto } from "./types";
 
 const name = "Mostly Animals";
 
@@ -8,7 +8,7 @@ function buildUrl({
   selectedPhoto,
   feature,
 }: {
-  selectedPhoto?: ClientPhoto;
+  selectedPhoto?: DetailPagePhoto;
   feature?: string[] | null;
 }) {
   let url = "https://www.mostlyanimals.net";
@@ -29,7 +29,7 @@ const feature = null;
 const featureName = null;
 
 export function forOne(
-  selectedPhoto: ClientPhoto
+  selectedPhoto: DetailPagePhoto
 ): Record<string, string | number | null> {
   const selectedPhotoSize = selectedPhoto.resize.medium;
   const photoUrl = [selectedPhoto.baseUrl, selectedPhotoSize.path].join("/");

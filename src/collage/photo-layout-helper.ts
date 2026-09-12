@@ -1,13 +1,13 @@
 const MAX_VIEWPORT_WIDTH = 2560;
 const PHOTO_GAP = 8;
 const PHOTOS_PER_ROW = 3;
-import type { ClientPhoto, PhotoGroup } from "../types";
+import type { CollagePhoto, PhotoGroup } from "../types";
 
 /**
  * Returns the displayed image width-to-height ratio.
  */
-function getAspectRatio(photo: ClientPhoto) {
-  return photo.resize.small.width / photo.resize.small.height;
+function getAspectRatio(photo: CollagePhoto) {
+  return photo.aspectRatio;
 }
 
 /**
@@ -32,7 +32,7 @@ function getTargetRowHeight(viewportWidth: number) {
  * key, row height, and laid-out photo objects.
  */
 export default function setWidthHelper(
-  photos: ClientPhoto[],
+  photos: CollagePhoto[],
   viewportWidth: number
 ): PhotoGroup[] {
   const remainingPhotos = [...photos];

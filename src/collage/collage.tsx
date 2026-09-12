@@ -5,7 +5,7 @@ import throttle from "./throttle";
 import getViewportWidth from "./get-width";
 import MidWater from "./mid-water";
 import { DEFAULT_VIEWPORT_WIDTH } from "../constants";
-import type { ClientPhoto, PhotoGroup as PhotoGroupData } from "../types";
+import type { CollagePhoto, PhotoGroup as PhotoGroupData } from "../types";
 
 function isCollage(viewportWidth: number) {
   return viewportWidth > 1100;
@@ -33,8 +33,8 @@ const Collage = ({
   featuredPhotos,
   nonFeaturedPhotos,
 }: {
-  featuredPhotos: ClientPhoto[];
-  nonFeaturedPhotos: ClientPhoto[];
+  featuredPhotos: CollagePhoto[];
+  nonFeaturedPhotos: CollagePhoto[];
 }) => {
   const [viewportWidth, setViewportWidth] = useState(DEFAULT_VIEWPORT_WIDTH);
 

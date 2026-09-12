@@ -33,7 +33,7 @@ export interface RawPhoto {
   year?: string | null;
 }
 
-export interface ClientPhoto {
+export interface DetailPagePhoto {
   key: string;
   name: string;
   title: string | null;
@@ -47,7 +47,18 @@ export interface ClientPhoto {
   featured?: boolean;
 }
 
-export interface LayoutPhoto extends ClientPhoto {
+export interface CollagePhoto {
+  key: string;
+  title: string | null;
+  description: string | null;
+  latin: string | null;
+  location: string | null;
+  aspectRatio: number;
+  srcSet: string;
+  featured?: boolean;
+}
+
+export interface LayoutPhoto extends CollagePhoto {
   displayedWidth: number;
 }
 

@@ -1,7 +1,7 @@
 const BASE_TITLE = "Mostly Animals";
-import type { ClientPhoto } from "./types";
+import type { DetailPagePhoto } from "./types";
 
-export function photoTitle(photo: Pick<ClientPhoto, "title">): string {
+export function photoTitle(photo: Pick<DetailPagePhoto, "title">): string {
   return [photo.title, BASE_TITLE].filter(Boolean).join(" :: ");
 };
 

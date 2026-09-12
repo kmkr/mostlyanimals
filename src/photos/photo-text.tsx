@@ -1,6 +1,11 @@
-import type { ClientPhoto } from "../types";
+import type { DetailPagePhoto } from "../types";
 
-const PhotoText = ({ photo }: { photo: ClientPhoto }) => (
+type PhotoTextData = Pick<
+  DetailPagePhoto,
+  "title" | "latin" | "description" | "location"
+>;
+
+const PhotoText = ({ photo }: { photo: PhotoTextData }) => (
   <div className="photo-text-wrapper">
     <p className="title">{photo.title}</p>
     <p className="latin">{photo.latin}</p>

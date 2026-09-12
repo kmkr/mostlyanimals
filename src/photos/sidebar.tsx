@@ -1,5 +1,5 @@
 import PhotoText from "./photo-text";
-import type { ClientPhoto } from "../types";
+import type { DetailPagePhoto } from "../types";
 import type { MouseEventHandler } from "react";
 
 const Sidebar = ({
@@ -8,7 +8,7 @@ const Sidebar = ({
   onToggleExpanded,
 }: {
   expanded: boolean;
-  photo: ClientPhoto;
+  photo: DetailPagePhoto;
   onToggleExpanded: MouseEventHandler<HTMLAnchorElement>;
 }) => (
   <div id="sidebar-wrapper" className={photo.mode}>
