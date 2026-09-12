@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import Photo from "./photo";
-import setPhotoWidth from "./set-width-helper";
+import setPhotoWidth from "./photo-layout-helper";
 import throttle from "./throttle";
 import getViewportWidth from "./get-width";
 import MidWater from "./mid-water";

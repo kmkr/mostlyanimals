@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 import MAHead from "../../src/ma-head";
 import { getPhotoData, getKeywordsForPhoto } from "../../src/view-data-service";
@@ -7,11 +7,28 @@ import { forOne } from "../../src/og-tags";
 import PhotoWrapper from "../../src/photos/photo-wrapper";
 import { photoTitle } from "../../src/title-service";
 import { setLastShownPhotoKey } from "../../src/last-shown-photo-service";
+import getViewportWidth from "../../src/collage/get-width";
+import { getOrderedPhotos } from "../../src/collage/photo-layout-helper";
+import { DEFAULT_VIEWPORT_WIDTH } from "../../src/constants";
 
-function PhotoPage({ keywords, photo, nextPhoto, prevPhoto }) {
+function PhotoPage({ keywords, photo, photos }) {
+  const [viewportWidth, setViewportWidth] = useState(DEFAULT_VIEWPORT_WIDTH);
+
   useEffect(() => {
     setLastShownPhotoKey(photo.key);
-  });
+    setViewportWidth(getViewportWidth());
+  }, [photo.key]);
+
+  const orderedPhotos = getOrderedPhotos(photos, viewportWidth);
+  const selectedPhotoIndex = orderedPhotos.findIndex(
+    (orderedPhoto) => orderedPhoto.key === photo.key
+  );
+  const nextPhotoFromViewport =
+    orderedPhotos[(selectedPhotoIndex + 1) % orderedPhotos.length];
+  const prevPhotoFromViewport =
+    orderedPhotos[
+      (selectedPhotoIndex - 1 + orderedPhotos.length) % orderedPhotos.length
+    ];
 
   return (
     <>
@@ -23,8 +40,8 @@ function PhotoPage({ keywords, photo, nextPhoto, prevPhoto }) {
 
       <div id="container">
         <PhotoWrapper
-          nextPhoto={nextPhoto}
-          prevPhoto={prevPhoto}
+          nextPhoto={nextPhotoFromViewport}
+          prevPhoto={prevPhotoFromViewport}
           selectedPhoto={photo}
         />
       </div>
@@ -60,20 +77,11 @@ export async function getStaticProps(context) {
 
   const photoKeywords = getKeywordsForPhoto(selectedPhoto);
 
-  const nextPhotoIndex =
-    selectedPhotoIndex === photos.length - 1 ? 0 : selectedPhotoIndex + 1;
-  const prevPhotoIndex =
-    selectedPhotoIndex === 0 ? photos.length - 1 : selectedPhotoIndex - 1;
-
-  const nextPhoto = photos[nextPhotoIndex];
-  const prevPhoto = photos[prevPhotoIndex];
-
   return {
     props: {
       keywords: photoKeywords,
       photo: serverToClient(selectedPhoto),
-      nextPhoto: serverToClient(nextPhoto),
-      prevPhoto: serverToClient(prevPhoto),
+      photos: photos.map(serverToClient),
     },
   };
 }
