@@ -30,8 +30,6 @@
     "gm": "^1.25.0",
     "intersection-observer": "^0.6.0",
     "minimist": "^1.2.5",
-    "picturefill": "^3.0.3",
-    "smoothscroll-polyfill": "^0.4.0",
     "throttleit": "^1.0.0"
   }
 }
