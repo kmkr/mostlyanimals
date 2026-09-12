@@ -2,3 +2,4 @@ node_modules
 npm-debug.log
 *.map
 .next
+tsconfig.tsbuildinfo
