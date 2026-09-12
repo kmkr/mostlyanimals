@@ -14,11 +14,6 @@ function MyApp({ Component, pageProps }: AppProps) {
           content="GV2uFZR4en6znRvzODbQEjF4vuUK9J2kAmGw7BwAbnE"
         />
         <link
-          href="https://fonts.googleapis.com/css?family=Raleway:300,600"
-          rel="stylesheet"
-          type="text/css"
-        />
-        <link
           rel="icon"
           type="image/png"
           href="/images/favicon-100.png"
