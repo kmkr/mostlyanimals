@@ -1,7 +1,7 @@
 const MAX_VIEWPORT_WIDTH = 2560;
 const PHOTO_GAP = 8;
-const PORTRAIT_INDEX_ORDER = [0, 2, 1, 1, 0, 2];
-import type { ClientPhoto, LayoutPhoto, PhotoGroup } from "../types";
+const PHOTOS_PER_ROW = 3;
+import type { ClientPhoto, PhotoGroup } from "../types";
 
 /**
  * Returns the displayed image width-to-height ratio.
@@ -26,103 +26,30 @@ function getTargetRowHeight(viewportWidth: number) {
 }
 
 /**
- * Identifies portrait photos from their source dimensions.
- */
-function isPortrait(photo: ClientPhoto) {
-  return photo.resize.small.height > photo.resize.small.width;
-}
-
-/**
- * Takes the next photo for a row, placing a portrait at its preferred index
- * when one is available and otherwise consuming a landscape photo.
- */
-function getNextPhoto(
-  remainingLandscapes: ClientPhoto[],
-  remainingPortraits: ClientPhoto[],
-  currentIndex: number,
-  preferredPortraitIndex: number
-): ClientPhoto | undefined {
-  if (currentIndex === preferredPortraitIndex && remainingPortraits.length) {
-    return remainingPortraits.shift();
-  }
-
-  return remainingLandscapes.length
-    ? remainingLandscapes.shift()
-    : remainingPortraits.shift();
-}
-
-/**
- * Chooses a portrait index while avoiding the index used by the previous row.
- */
-function getPreferredPortraitIndex(
-  rowIndex: number,
-  previousPortraitIndex: number | null
-) {
-  for (let offset = 0; offset < PORTRAIT_INDEX_ORDER.length; offset++) {
-    const preferredIndex =
-      PORTRAIT_INDEX_ORDER[
-        (rowIndex + offset) % PORTRAIT_INDEX_ORDER.length
-      ];
-    if (preferredIndex !== previousPortraitIndex) {
-      return preferredIndex;
-    }
-  }
-
-  return PORTRAIT_INDEX_ORDER[rowIndex % PORTRAIT_INDEX_ORDER.length];
-}
-
-/**
  * Groups photos into justified rows and adds a displayed width to each photo.
  *
- * Rows are ordered by viewport width, target height, and orientation. The
- * returned groups contain a key, row height, and laid-out photo objects.
+ * Photos are already ordered in content.json. The returned groups contain a
+ * key, row height, and laid-out photo objects.
  */
 export default function setWidthHelper(
-  _photos: ClientPhoto[],
+  photos: ClientPhoto[],
   viewportWidth: number
 ): PhotoGroup[] {
-  const remainingLandscapes = _photos.filter((photo) => !isPortrait(photo));
-  const remainingPortraits = _photos.filter(isPortrait);
+  const remainingPhotos = [...photos];
   const totalWidth = Math.min(viewportWidth, MAX_VIEWPORT_WIDTH);
   const targetRowHeight = getTargetRowHeight(viewportWidth);
   const groups = [];
-  let rowIndex = 0;
-  let previousPortraitIndex = null;
 
-  while (remainingLandscapes.length || remainingPortraits.length) {
-    const row = [];
+  while (remainingPhotos.length) {
+    const row = remainingPhotos.splice(0, PHOTOS_PER_ROW);
     let aspectRatioTotal = 0;
-    const preferredPortraitIndex = getPreferredPortraitIndex(
-      rowIndex,
-      previousPortraitIndex
-    );
 
-    while (remainingLandscapes.length || remainingPortraits.length) {
-      const photo = getNextPhoto(
-        remainingLandscapes,
-        remainingPortraits,
-        row.length,
-        preferredPortraitIndex
-      );
-      if (!photo) {
-        break;
-      }
-      row.push(photo);
+    for (const photo of row) {
       aspectRatioTotal += getAspectRatio(photo);
-
-      const gaps = (row.length + 1) * PHOTO_GAP;
-      const estimatedHeight = (totalWidth - gaps) / aspectRatioTotal;
-
-      if (
-        estimatedHeight <= targetRowHeight &&
-        (row.some(isPortrait) || !remainingPortraits.length)
-      ) {
-        break;
-      }
     }
 
     const isFinalRow =
-      !remainingLandscapes.length && !remainingPortraits.length;
+      !remainingPhotos.length;
     const gaps = (row.length + 1) * PHOTO_GAP;
     const availableWidth = totalWidth - gaps;
     const estimatedHeight = availableWidth / aspectRatioTotal;
@@ -138,25 +65,7 @@ export default function setWidthHelper(
         displayedWidth: height * getAspectRatio(photo),
       })),
     });
-    const portraitIndex = row.findIndex(isPortrait);
-    if (portraitIndex !== -1) {
-      previousPortraitIndex = portraitIndex;
-    }
-    rowIndex += 1;
   }
 
   return groups;
-}
-
-/**
- * Returns the same viewport-specific order used by the collage without rows.
- */
-export function getOrderedPhotos(
-  photos: ClientPhoto[],
-  viewportWidth: number
-): LayoutPhoto[] {
-  return setWidthHelper(photos, viewportWidth).reduce<LayoutPhoto[]>(
-    (orderedPhotos, group) => orderedPhotos.concat(group.photos),
-    []
-  );
 }

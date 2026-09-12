@@ -29,6 +29,14 @@ This resizes variants, uploads them to S3, and prepends new entries directly to 
 
 Update `content.json` directly at will (titles, descriptions, locations, tags, or reordering entries). Commit your changes to git.
 
+To arrange the catalog into three-photo desktop rows with alternating portrait positions, run:
+
+```
+npm run reorder-photos
+```
+
+This updates `content.json` in place. Review and commit the resulting order. New uploads are still prepended, so run this command again when the collage order should be recalculated.
+
 ## Delete a photo
 
 Delete a photo from S3 and remove it from `content.json` by running:

@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 
 import MAHead from "../../src/ma-head";
 import { getPhotoData, getKeywordsForPhoto } from "../../src/view-data-service";
@@ -7,36 +7,20 @@ import { forOne } from "../../src/og-tags";
 import PhotoWrapper from "../../src/photos/photo-wrapper";
 import { photoTitle } from "../../src/title-service";
 import { setLastShownPhotoKey } from "../../src/last-shown-photo-service";
-import getViewportWidth from "../../src/collage/get-width";
-import { getOrderedPhotos } from "../../src/collage/photo-layout-helper";
-import { DEFAULT_VIEWPORT_WIDTH } from "../../src/constants";
 import type { GetStaticPaths, GetStaticProps } from "next";
 import type { ClientPhoto } from "../../src/types";
 
 type PhotoPageProps = {
   keywords: string[];
   photo: ClientPhoto;
-  photos: ClientPhoto[];
+  nextPhoto: ClientPhoto;
+  prevPhoto: ClientPhoto;
 };
 
-function PhotoPage({ keywords, photo, photos }: PhotoPageProps) {
-  const [viewportWidth, setViewportWidth] = useState(DEFAULT_VIEWPORT_WIDTH);
-
+function PhotoPage({ keywords, photo, nextPhoto, prevPhoto }: PhotoPageProps) {
   useEffect(() => {
     setLastShownPhotoKey(photo.key);
-    setViewportWidth(getViewportWidth());
   }, [photo.key]);
-
-  const orderedPhotos = getOrderedPhotos(photos, viewportWidth);
-  const selectedPhotoIndex = orderedPhotos.findIndex(
-    (orderedPhoto) => orderedPhoto.key === photo.key
-  );
-  const nextPhotoFromViewport =
-    orderedPhotos[(selectedPhotoIndex + 1) % orderedPhotos.length];
-  const prevPhotoFromViewport =
-    orderedPhotos[
-      (selectedPhotoIndex - 1 + orderedPhotos.length) % orderedPhotos.length
-    ];
 
   return (
     <>
@@ -48,8 +32,8 @@ function PhotoPage({ keywords, photo, photos }: PhotoPageProps) {
 
       <div id="container">
         <PhotoWrapper
-          nextPhoto={nextPhotoFromViewport}
-          prevPhoto={prevPhotoFromViewport}
+          nextPhoto={nextPhoto}
+          prevPhoto={prevPhoto}
           selectedPhoto={photo}
         />
       </div>
@@ -87,14 +71,19 @@ export const getStaticProps: GetStaticProps<PhotoPageProps> = async (
   };
 
   const photoKeywords = getKeywordsForPhoto(selectedPhoto);
+  const nextPhotoIndex =
+    selectedPhotoIndex === photos.length - 1 ? 0 : selectedPhotoIndex + 1;
+  const prevPhotoIndex =
+    selectedPhotoIndex === 0 ? photos.length - 1 : selectedPhotoIndex - 1;
 
   return {
     props: {
       keywords: photoKeywords,
       photo: serverToClient(selectedPhoto),
-      photos: photos.map(serverToClient),
+      nextPhoto: serverToClient(photos[nextPhotoIndex]),
+      prevPhoto: serverToClient(photos[prevPhotoIndex]),
     },
   };
-}
+};
 
 export default PhotoPage;

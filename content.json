@@ -1,50 +1,5 @@
 [
   {
-    "key": "ab20-33fc",
-    "name": "DSC01443.jpg",
-    "title": "Sunset at Senja",
-    "description": "",
-    "location": "Finnmarksfjellet, Bjorelvnes, Norway",
-    "tags": [
-      "2026",
-      "sunset"
-    ],
-    "width": 3000,
-    "height": 2000,
-    "resize": {
-      "thumb": {
-        "height": 147,
-        "width": 220,
-        "path": "ab20-33fc/mostlyanimals_ab20-33fc_thumb.jpg?ts=1789067607471"
-      },
-      "xsmall": {
-        "height": 333,
-        "width": 500,
-        "path": "ab20-33fc/mostlyanimals_ab20-33fc_xs.jpg?ts=1789067607472"
-      },
-      "small": {
-        "height": 667,
-        "width": 1000,
-        "path": "ab20-33fc/mostlyanimals_ab20-33fc_s.jpg?ts=1789067607472"
-      },
-      "medium": {
-        "height": 933,
-        "width": 1400,
-        "path": "ab20-33fc/mostlyanimals_ab20-33fc_m.jpg?ts=1789067607472"
-      },
-      "large": {
-        "height": 1267,
-        "width": 1900,
-        "path": "ab20-33fc/mostlyanimals_ab20-33fc_l.jpg?ts=1789067607472"
-      },
-      "xlarge": {
-        "height": 1707,
-        "width": 2560,
-        "path": "ab20-33fc/mostlyanimals_ab20-33fc_xl.jpg?ts=1789067607472"
-      }
-    }
-  },
-  {
     "key": "6d22-48be",
     "name": "DSC09540.jpg",
     "title": "Western Honey Bee",
@@ -89,6 +44,51 @@
         "height": 2560,
         "width": 1707,
         "path": "6d22-48be/mostlyanimals_6d22-48be_xl.jpg?ts=1789115490110"
+      }
+    }
+  },
+  {
+    "key": "ab20-33fc",
+    "name": "DSC01443.jpg",
+    "title": "Sunset at Senja",
+    "description": "",
+    "location": "Finnmarksfjellet, Bjorelvnes, Norway",
+    "tags": [
+      "2026",
+      "sunset"
+    ],
+    "width": 3000,
+    "height": 2000,
+    "resize": {
+      "thumb": {
+        "height": 147,
+        "width": 220,
+        "path": "ab20-33fc/mostlyanimals_ab20-33fc_thumb.jpg?ts=1789067607471"
+      },
+      "xsmall": {
+        "height": 333,
+        "width": 500,
+        "path": "ab20-33fc/mostlyanimals_ab20-33fc_xs.jpg?ts=1789067607472"
+      },
+      "small": {
+        "height": 667,
+        "width": 1000,
+        "path": "ab20-33fc/mostlyanimals_ab20-33fc_s.jpg?ts=1789067607472"
+      },
+      "medium": {
+        "height": 933,
+        "width": 1400,
+        "path": "ab20-33fc/mostlyanimals_ab20-33fc_m.jpg?ts=1789067607472"
+      },
+      "large": {
+        "height": 1267,
+        "width": 1900,
+        "path": "ab20-33fc/mostlyanimals_ab20-33fc_l.jpg?ts=1789067607472"
+      },
+      "xlarge": {
+        "height": 1707,
+        "width": 2560,
+        "path": "ab20-33fc/mostlyanimals_ab20-33fc_xl.jpg?ts=1789067607472"
       }
     }
   },
@@ -694,51 +694,6 @@
     }
   },
   {
-    "key": "a89f-a807",
-    "name": "DSC05761.jpg",
-    "title": "",
-    "description": "",
-    "location": "Finnsnes, Norway",
-    "tags": [
-      "2026",
-      "boat"
-    ],
-    "width": 3000,
-    "height": 1688,
-    "resize": {
-      "thumb": {
-        "height": 124,
-        "width": 220,
-        "path": "a89f-a807/mostlyanimals_a89f-a807_thumb.jpg?ts=1788957445817"
-      },
-      "xsmall": {
-        "height": 281,
-        "width": 500,
-        "path": "a89f-a807/mostlyanimals_a89f-a807_xs.jpg?ts=1788957445817"
-      },
-      "small": {
-        "height": 563,
-        "width": 1000,
-        "path": "a89f-a807/mostlyanimals_a89f-a807_s.jpg?ts=1788957445818"
-      },
-      "medium": {
-        "height": 788,
-        "width": 1400,
-        "path": "a89f-a807/mostlyanimals_a89f-a807_m.jpg?ts=1788957445818"
-      },
-      "large": {
-        "height": 1069,
-        "width": 1900,
-        "path": "a89f-a807/mostlyanimals_a89f-a807_l.jpg?ts=1788957445818"
-      },
-      "xlarge": {
-        "height": 1440,
-        "width": 2560,
-        "path": "a89f-a807/mostlyanimals_a89f-a807_xl.jpg?ts=1788957445818"
-      }
-    }
-  },
-  {
     "key": "f127-2535",
     "name": "DSC07928.jpg",
     "title": "Skinnkollen",
@@ -780,6 +735,51 @@
         "height": 2560,
         "width": 1707,
         "path": "f127-2535/mostlyanimals_f127-2535_xl.jpg?ts=1788986275204"
+      }
+    }
+  },
+  {
+    "key": "a89f-a807",
+    "name": "DSC05761.jpg",
+    "title": "",
+    "description": "",
+    "location": "Finnsnes, Norway",
+    "tags": [
+      "2026",
+      "boat"
+    ],
+    "width": 3000,
+    "height": 1688,
+    "resize": {
+      "thumb": {
+        "height": 124,
+        "width": 220,
+        "path": "a89f-a807/mostlyanimals_a89f-a807_thumb.jpg?ts=1788957445817"
+      },
+      "xsmall": {
+        "height": 281,
+        "width": 500,
+        "path": "a89f-a807/mostlyanimals_a89f-a807_xs.jpg?ts=1788957445817"
+      },
+      "small": {
+        "height": 563,
+        "width": 1000,
+        "path": "a89f-a807/mostlyanimals_a89f-a807_s.jpg?ts=1788957445818"
+      },
+      "medium": {
+        "height": 788,
+        "width": 1400,
+        "path": "a89f-a807/mostlyanimals_a89f-a807_m.jpg?ts=1788957445818"
+      },
+      "large": {
+        "height": 1069,
+        "width": 1900,
+        "path": "a89f-a807/mostlyanimals_a89f-a807_l.jpg?ts=1788957445818"
+      },
+      "xlarge": {
+        "height": 1440,
+        "width": 2560,
+        "path": "a89f-a807/mostlyanimals_a89f-a807_xl.jpg?ts=1788957445818"
       }
     }
   },
@@ -923,6 +923,52 @@
     }
   },
   {
+    "key": "b904-17c5",
+    "name": "DSC09006.jpg",
+    "title": "Cloudberry",
+    "latin": "Rubus chamaemorus",
+    "description": "Cloudberries are dioecious — meaning male and female flowers grow on separate plants. So a patch of cloudberries only produces fruit where both male and female plants grow nearby, which is one reason they can be maddeningly scarce even where the plants themselves seem plentiful.",
+    "location": "Nordmarka, Oslo, Norway",
+    "tags": [
+      "2024",
+      "berry"
+    ],
+    "width": 2000,
+    "height": 3000,
+    "resize": {
+      "thumb": {
+        "height": 220,
+        "width": 147,
+        "path": "b904-17c5/mostlyanimals_b904-17c5_thumb.jpg?ts=1788891434662"
+      },
+      "xsmall": {
+        "height": 500,
+        "width": 333,
+        "path": "b904-17c5/mostlyanimals_b904-17c5_xs.jpg?ts=1788891434662"
+      },
+      "small": {
+        "height": 1000,
+        "width": 667,
+        "path": "b904-17c5/mostlyanimals_b904-17c5_s.jpg?ts=1788891434662"
+      },
+      "medium": {
+        "height": 1400,
+        "width": 933,
+        "path": "b904-17c5/mostlyanimals_b904-17c5_m.jpg?ts=1788891434662"
+      },
+      "large": {
+        "height": 1900,
+        "width": 1267,
+        "path": "b904-17c5/mostlyanimals_b904-17c5_l.jpg?ts=1788891434662"
+      },
+      "xlarge": {
+        "height": 2560,
+        "width": 1707,
+        "path": "b904-17c5/mostlyanimals_b904-17c5_xl.jpg?ts=1788891434662"
+      }
+    }
+  },
+  {
     "key": "5358-c8a1",
     "name": "DSC04755-HDR.jpg",
     "title": "Sunset at Elvannet",
@@ -971,6 +1017,53 @@
     }
   },
   {
+    "key": "fde9-c208",
+    "name": "DSC02735.jpg",
+    "title": "Dingo",
+    "latin": "Canis lupus dingo",
+    "description": "Dingoes can rotate their heads almost 180° and have unusually flexible necks, which helps them track sounds and movement when hunting. They also communicate extensively through howling rather than barking.",
+    "location": "Fraser Island, Australia",
+    "tags": [
+      "2022",
+      "animal",
+      "portrait"
+    ],
+    "width": 2000,
+    "height": 3000,
+    "resize": {
+      "thumb": {
+        "height": 220,
+        "width": 147,
+        "path": "fde9-c208/mostlyanimals_fde9-c208_thumb.jpg?ts=1788889997947"
+      },
+      "xsmall": {
+        "height": 500,
+        "width": 333,
+        "path": "fde9-c208/mostlyanimals_fde9-c208_xs.jpg?ts=1788889997947"
+      },
+      "small": {
+        "height": 1000,
+        "width": 667,
+        "path": "fde9-c208/mostlyanimals_fde9-c208_s.jpg?ts=1788889997948"
+      },
+      "medium": {
+        "height": 1400,
+        "width": 933,
+        "path": "fde9-c208/mostlyanimals_fde9-c208_m.jpg?ts=1788889997948"
+      },
+      "large": {
+        "height": 1900,
+        "width": 1267,
+        "path": "fde9-c208/mostlyanimals_fde9-c208_l.jpg?ts=1788889997948"
+      },
+      "xlarge": {
+        "height": 2560,
+        "width": 1707,
+        "path": "fde9-c208/mostlyanimals_fde9-c208_xl.jpg?ts=1788889997948"
+      }
+    }
+  },
+  {
     "key": "3e96-ea17",
     "name": "DSC09028_AuroraHDR-edit.jpg",
     "title": "Store Sandungen",
@@ -1013,6 +1106,53 @@
         "height": 1708,
         "width": 2560,
         "path": "3e96-ea17/mostlyanimals_3e96-ea17_xl.jpg?ts=1788891853345"
+      }
+    }
+  },
+  {
+    "key": "e613-3e82",
+    "name": "DSC01148.jpg",
+    "title": "Peafowl",
+    "latin": "Pavo cristatus",
+    "description": "Peacocks have a sharp spur on the back of each leg, just above the foot. These spurs are used for fighting, especially between males competing for territory or mates.",
+    "location": "Byron Bay, Australia",
+    "tags": [
+      "2022",
+      "bird",
+      "animal"
+    ],
+    "width": 2000,
+    "height": 3000,
+    "resize": {
+      "thumb": {
+        "height": 220,
+        "width": 147,
+        "path": "e613-3e82/mostlyanimals_e613-3e82_thumb.jpg?ts=1788506342097"
+      },
+      "xsmall": {
+        "height": 500,
+        "width": 333,
+        "path": "e613-3e82/mostlyanimals_e613-3e82_xs.jpg?ts=1788506342097"
+      },
+      "small": {
+        "height": 1000,
+        "width": 667,
+        "path": "e613-3e82/mostlyanimals_e613-3e82_s.jpg?ts=1788506342098"
+      },
+      "medium": {
+        "height": 1400,
+        "width": 933,
+        "path": "e613-3e82/mostlyanimals_e613-3e82_m.jpg?ts=1788506342098"
+      },
+      "large": {
+        "height": 1900,
+        "width": 1267,
+        "path": "e613-3e82/mostlyanimals_e613-3e82_l.jpg?ts=1788506342098"
+      },
+      "xlarge": {
+        "height": 2560,
+        "width": 1707,
+        "path": "e613-3e82/mostlyanimals_e613-3e82_xl.jpg?ts=1788506342098"
       }
     }
   },
@@ -1112,52 +1252,6 @@
     }
   },
   {
-    "key": "b904-17c5",
-    "name": "DSC09006.jpg",
-    "title": "Cloudberry",
-    "latin": "Rubus chamaemorus",
-    "description": "Cloudberries are dioecious — meaning male and female flowers grow on separate plants. So a patch of cloudberries only produces fruit where both male and female plants grow nearby, which is one reason they can be maddeningly scarce even where the plants themselves seem plentiful.",
-    "location": "Nordmarka, Oslo, Norway",
-    "tags": [
-      "2024",
-      "berry"
-    ],
-    "width": 2000,
-    "height": 3000,
-    "resize": {
-      "thumb": {
-        "height": 220,
-        "width": 147,
-        "path": "b904-17c5/mostlyanimals_b904-17c5_thumb.jpg?ts=1788891434662"
-      },
-      "xsmall": {
-        "height": 500,
-        "width": 333,
-        "path": "b904-17c5/mostlyanimals_b904-17c5_xs.jpg?ts=1788891434662"
-      },
-      "small": {
-        "height": 1000,
-        "width": 667,
-        "path": "b904-17c5/mostlyanimals_b904-17c5_s.jpg?ts=1788891434662"
-      },
-      "medium": {
-        "height": 1400,
-        "width": 933,
-        "path": "b904-17c5/mostlyanimals_b904-17c5_m.jpg?ts=1788891434662"
-      },
-      "large": {
-        "height": 1900,
-        "width": 1267,
-        "path": "b904-17c5/mostlyanimals_b904-17c5_l.jpg?ts=1788891434662"
-      },
-      "xlarge": {
-        "height": 2560,
-        "width": 1707,
-        "path": "b904-17c5/mostlyanimals_b904-17c5_xl.jpg?ts=1788891434662"
-      }
-    }
-  },
-  {
     "key": "6b36-c77e",
     "name": "DSC09147_AuroraHDR-edit.jpg",
     "title": "Foggy Lake",
@@ -1204,6 +1298,54 @@
     }
   },
   {
+    "key": "fbf4-d288",
+    "name": "DSC01941.jpg",
+    "title": "Eastern Water Dragon",
+    "latin": "Intellagama lesueurii",
+    "description": "When threatened, these dragons can sprint on the surface of the water using their powerful hind legs, and their long, muscular tail for balance.",
+    "location": "Queensland, Australia",
+    "tags": [
+      "2022",
+      "lizard",
+      "animal",
+      "portrait"
+    ],
+    "width": 2000,
+    "height": 3000,
+    "resize": {
+      "thumb": {
+        "height": 220,
+        "width": 147,
+        "path": "fbf4-d288/mostlyanimals_fbf4-d288_thumb.jpg?ts=1788888995277"
+      },
+      "xsmall": {
+        "height": 500,
+        "width": 333,
+        "path": "fbf4-d288/mostlyanimals_fbf4-d288_xs.jpg?ts=1788888995277"
+      },
+      "small": {
+        "height": 1000,
+        "width": 667,
+        "path": "fbf4-d288/mostlyanimals_fbf4-d288_s.jpg?ts=1788888995277"
+      },
+      "medium": {
+        "height": 1400,
+        "width": 933,
+        "path": "fbf4-d288/mostlyanimals_fbf4-d288_m.jpg?ts=1788888995277"
+      },
+      "large": {
+        "height": 1900,
+        "width": 1267,
+        "path": "fbf4-d288/mostlyanimals_fbf4-d288_l.jpg?ts=1788888995277"
+      },
+      "xlarge": {
+        "height": 2560,
+        "width": 1707,
+        "path": "fbf4-d288/mostlyanimals_fbf4-d288_xl.jpg?ts=1788888995277"
+      }
+    }
+  },
+  {
     "key": "8d14-8d26",
     "name": "DSC08533.jpg",
     "title": "Backcountry Chef",
@@ -1245,6 +1387,53 @@
         "height": 1707,
         "width": 2560,
         "path": "8d14-8d26/mostlyanimals_8d14-8d26_xl.jpg?ts=1788891241969"
+      }
+    }
+  },
+  {
+    "key": "d2ad-86d6",
+    "name": "DSC01262.jpg",
+    "title": "Eastern Grey Kangaroo",
+    "latin": "Macropus giganteus",
+    "description": "",
+    "location": "Queensland, Australia",
+    "tags": [
+      "2022",
+      "animal",
+      "kangaroo"
+    ],
+    "width": 2000,
+    "height": 3000,
+    "resize": {
+      "thumb": {
+        "height": 220,
+        "width": 147,
+        "path": "d2ad-86d6/mostlyanimals_d2ad-86d6_thumb.jpg?ts=1788506685267"
+      },
+      "xsmall": {
+        "height": 500,
+        "width": 333,
+        "path": "d2ad-86d6/mostlyanimals_d2ad-86d6_xs.jpg?ts=1788506685267"
+      },
+      "small": {
+        "height": 1000,
+        "width": 667,
+        "path": "d2ad-86d6/mostlyanimals_d2ad-86d6_s.jpg?ts=1788506685267"
+      },
+      "medium": {
+        "height": 1400,
+        "width": 933,
+        "path": "d2ad-86d6/mostlyanimals_d2ad-86d6_m.jpg?ts=1788506685267"
+      },
+      "large": {
+        "height": 1900,
+        "width": 1267,
+        "path": "d2ad-86d6/mostlyanimals_d2ad-86d6_l.jpg?ts=1788506685267"
+      },
+      "xlarge": {
+        "height": 2560,
+        "width": 1707,
+        "path": "d2ad-86d6/mostlyanimals_d2ad-86d6_xl.jpg?ts=1788506685267"
       }
     }
   },
@@ -1432,6 +1621,97 @@
     }
   },
   {
+    "key": "06f7-5d46",
+    "name": "DSC00323.jpg",
+    "title": "Emma 💛",
+    "description": "",
+    "location": "Vinstra, Norway",
+    "tags": [
+      "2022"
+    ],
+    "width": 2000,
+    "height": 3000,
+    "resize": {
+      "thumb": {
+        "height": 220,
+        "width": 147,
+        "path": "06f7-5d46/mostlyanimals_06f7-5d46_thumb.jpg?ts=1788506118452"
+      },
+      "xsmall": {
+        "height": 500,
+        "width": 333,
+        "path": "06f7-5d46/mostlyanimals_06f7-5d46_xs.jpg?ts=1788506118452"
+      },
+      "small": {
+        "height": 1000,
+        "width": 667,
+        "path": "06f7-5d46/mostlyanimals_06f7-5d46_s.jpg?ts=1788506118453"
+      },
+      "medium": {
+        "height": 1400,
+        "width": 933,
+        "path": "06f7-5d46/mostlyanimals_06f7-5d46_m.jpg?ts=1788506118453"
+      },
+      "large": {
+        "height": 1900,
+        "width": 1267,
+        "path": "06f7-5d46/mostlyanimals_06f7-5d46_l.jpg?ts=1788506118453"
+      },
+      "xlarge": {
+        "height": 2560,
+        "width": 1707,
+        "path": "06f7-5d46/mostlyanimals_06f7-5d46_xl.jpg?ts=1788506118453"
+      }
+    }
+  },
+  {
+    "key": "c990-2c7c",
+    "name": "DSC09905.jpg",
+    "title": "Muskox",
+    "description": "Musk oxen have two layers of fur, including an incredibly warm undercoat called qiviut, one of the finest and warmest natural fibers in the world.",
+    "latin": "Ovibos moschatus",
+    "location": "Dovrefjell, Norway",
+    "tags": [
+      "2022",
+      "muskox",
+      "animal"
+    ],
+    "width": 2250,
+    "height": 3000,
+    "resize": {
+      "thumb": {
+        "height": 220,
+        "width": 165,
+        "path": "c990-2c7c/mostlyanimals_c990-2c7c_thumb.jpg?ts=1788502471867"
+      },
+      "xsmall": {
+        "height": 500,
+        "width": 375,
+        "path": "c990-2c7c/mostlyanimals_c990-2c7c_xs.jpg?ts=1788502471867"
+      },
+      "small": {
+        "height": 1000,
+        "width": 750,
+        "path": "c990-2c7c/mostlyanimals_c990-2c7c_s.jpg?ts=1788502471867"
+      },
+      "medium": {
+        "height": 1400,
+        "width": 1050,
+        "path": "c990-2c7c/mostlyanimals_c990-2c7c_m.jpg?ts=1788502471867"
+      },
+      "large": {
+        "height": 1900,
+        "width": 1425,
+        "path": "c990-2c7c/mostlyanimals_c990-2c7c_l.jpg?ts=1788502471867"
+      },
+      "xlarge": {
+        "height": 2560,
+        "width": 1920,
+        "path": "c990-2c7c/mostlyanimals_c990-2c7c_xl.jpg?ts=1788502471867"
+      }
+    }
+  },
+  {
     "key": "7fa5-da9b",
     "name": "DSC06676.jpg",
     "title": "European Hornet",
@@ -1575,53 +1855,6 @@
     }
   },
   {
-    "key": "fde9-c208",
-    "name": "DSC02735.jpg",
-    "title": "Dingo",
-    "latin": "Canis lupus dingo",
-    "description": "Dingoes can rotate their heads almost 180° and have unusually flexible necks, which helps them track sounds and movement when hunting. They also communicate extensively through howling rather than barking.",
-    "location": "Fraser Island, Australia",
-    "tags": [
-      "2022",
-      "animal",
-      "portrait"
-    ],
-    "width": 2000,
-    "height": 3000,
-    "resize": {
-      "thumb": {
-        "height": 220,
-        "width": 147,
-        "path": "fde9-c208/mostlyanimals_fde9-c208_thumb.jpg?ts=1788889997947"
-      },
-      "xsmall": {
-        "height": 500,
-        "width": 333,
-        "path": "fde9-c208/mostlyanimals_fde9-c208_xs.jpg?ts=1788889997947"
-      },
-      "small": {
-        "height": 1000,
-        "width": 667,
-        "path": "fde9-c208/mostlyanimals_fde9-c208_s.jpg?ts=1788889997948"
-      },
-      "medium": {
-        "height": 1400,
-        "width": 933,
-        "path": "fde9-c208/mostlyanimals_fde9-c208_m.jpg?ts=1788889997948"
-      },
-      "large": {
-        "height": 1900,
-        "width": 1267,
-        "path": "fde9-c208/mostlyanimals_fde9-c208_l.jpg?ts=1788889997948"
-      },
-      "xlarge": {
-        "height": 2560,
-        "width": 1707,
-        "path": "fde9-c208/mostlyanimals_fde9-c208_xl.jpg?ts=1788889997948"
-      }
-    }
-  },
-  {
     "key": "e991-8f8e",
     "name": "DSC03399.jpg",
     "title": "Cane Toad",
@@ -1666,6 +1899,52 @@
         "height": 1707,
         "width": 2560,
         "path": "e991-8f8e/mostlyanimals_e991-8f8e_xl.jpg?ts=1788889642981"
+      }
+    }
+  },
+  {
+    "key": "7935-2f13",
+    "name": "DSC00335.jpg",
+    "title": "Mallard",
+    "description": "",
+    "location": "Oslo, Norway",
+    "tags": [
+      "2021",
+      "animal",
+      "duck"
+    ],
+    "width": 2176,
+    "height": 2902,
+    "resize": {
+      "thumb": {
+        "height": 220,
+        "width": 165,
+        "path": "7935-2f13/mostlyanimals_7935-2f13_thumb.jpg?ts=1788465693285"
+      },
+      "xsmall": {
+        "height": 500,
+        "width": 375,
+        "path": "7935-2f13/mostlyanimals_7935-2f13_xs.jpg?ts=1788465693285"
+      },
+      "small": {
+        "height": 1000,
+        "width": 750,
+        "path": "7935-2f13/mostlyanimals_7935-2f13_s.jpg?ts=1788465693286"
+      },
+      "medium": {
+        "height": 1400,
+        "width": 1050,
+        "path": "7935-2f13/mostlyanimals_7935-2f13_m.jpg?ts=1788465693286"
+      },
+      "large": {
+        "height": 1900,
+        "width": 1425,
+        "path": "7935-2f13/mostlyanimals_7935-2f13_l.jpg?ts=1788465693286"
+      },
+      "xlarge": {
+        "height": 2560,
+        "width": 1920,
+        "path": "7935-2f13/mostlyanimals_7935-2f13_xl.jpg?ts=1788465693286"
       }
     }
   },
@@ -1718,16 +1997,16 @@
     }
   },
   {
-    "key": "e613-3e82",
-    "name": "DSC01148.jpg",
-    "title": "Peafowl",
-    "latin": "Pavo cristatus",
-    "description": "Peacocks have a sharp spur on the back of each leg, just above the foot. These spurs are used for fighting, especially between males competing for territory or mates.",
-    "location": "Byron Bay, Australia",
+    "key": "7337-332d",
+    "name": "DSC08260.jpg",
+    "title": "Greylag Goose",
+    "description": "These geese have a remarkable ability to remember where they've been and navigate long distances, often returning to the same breeding and wintering areas year after year.",
+    "latin": "Anser anser",
+    "location": "Bygdøy, Oslo, Norway",
     "tags": [
-      "2022",
-      "bird",
-      "animal"
+      "2021",
+      "goose",
+      "bird"
     ],
     "width": 2000,
     "height": 3000,
@@ -1735,32 +2014,32 @@
       "thumb": {
         "height": 220,
         "width": 147,
-        "path": "e613-3e82/mostlyanimals_e613-3e82_thumb.jpg?ts=1788506342097"
+        "path": "7337-332d/mostlyanimals_7337-332d_thumb.jpg?ts=1788419613674"
       },
       "xsmall": {
         "height": 500,
         "width": 333,
-        "path": "e613-3e82/mostlyanimals_e613-3e82_xs.jpg?ts=1788506342097"
+        "path": "7337-332d/mostlyanimals_7337-332d_xs.jpg?ts=1788419613674"
       },
       "small": {
         "height": 1000,
         "width": 667,
-        "path": "e613-3e82/mostlyanimals_e613-3e82_s.jpg?ts=1788506342098"
+        "path": "7337-332d/mostlyanimals_7337-332d_s.jpg?ts=1788419613674"
       },
       "medium": {
         "height": 1400,
         "width": 933,
-        "path": "e613-3e82/mostlyanimals_e613-3e82_m.jpg?ts=1788506342098"
+        "path": "7337-332d/mostlyanimals_7337-332d_m.jpg?ts=1788419613674"
       },
       "large": {
         "height": 1900,
         "width": 1267,
-        "path": "e613-3e82/mostlyanimals_e613-3e82_l.jpg?ts=1788506342098"
+        "path": "7337-332d/mostlyanimals_7337-332d_l.jpg?ts=1788419613674"
       },
       "xlarge": {
         "height": 2560,
         "width": 1707,
-        "path": "e613-3e82/mostlyanimals_e613-3e82_xl.jpg?ts=1788506342098"
+        "path": "7337-332d/mostlyanimals_7337-332d_xl.jpg?ts=1788419613674"
       }
     }
   },
@@ -1809,6 +2088,52 @@
         "height": 1707,
         "width": 2560,
         "path": "2738-a923/mostlyanimals_2738-a923_xl.jpg?ts=1788889367066"
+      }
+    }
+  },
+  {
+    "key": "09c9-2654",
+    "name": "DSC08827.jpg",
+    "title": "Beekeepers",
+    "description": "",
+    "location": "St.hanshaugen, Oslo, Norway",
+    "tags": [
+      "2021",
+      "bee",
+      "insect"
+    ],
+    "width": 2000,
+    "height": 3000,
+    "resize": {
+      "thumb": {
+        "height": 220,
+        "width": 147,
+        "path": "09c9-2654/mostlyanimals_09c9-2654_thumb.jpg?ts=1788382238107"
+      },
+      "xsmall": {
+        "height": 500,
+        "width": 333,
+        "path": "09c9-2654/mostlyanimals_09c9-2654_xs.jpg?ts=1788382238108"
+      },
+      "small": {
+        "height": 1000,
+        "width": 667,
+        "path": "09c9-2654/mostlyanimals_09c9-2654_s.jpg?ts=1788382238108"
+      },
+      "medium": {
+        "height": 1400,
+        "width": 933,
+        "path": "09c9-2654/mostlyanimals_09c9-2654_m.jpg?ts=1788382238108"
+      },
+      "large": {
+        "height": 1900,
+        "width": 1267,
+        "path": "09c9-2654/mostlyanimals_09c9-2654_l.jpg?ts=1788382238108"
+      },
+      "xlarge": {
+        "height": 2560,
+        "width": 1707,
+        "path": "09c9-2654/mostlyanimals_09c9-2654_xl.jpg?ts=1788382238108"
       }
     }
   },
@@ -1909,54 +2234,6 @@
     }
   },
   {
-    "key": "fbf4-d288",
-    "name": "DSC01941.jpg",
-    "title": "Eastern Water Dragon",
-    "latin": "Intellagama lesueurii",
-    "description": "When threatened, these dragons can sprint on the surface of the water using their powerful hind legs, and their long, muscular tail for balance.",
-    "location": "Queensland, Australia",
-    "tags": [
-      "2022",
-      "lizard",
-      "animal",
-      "portrait"
-    ],
-    "width": 2000,
-    "height": 3000,
-    "resize": {
-      "thumb": {
-        "height": 220,
-        "width": 147,
-        "path": "fbf4-d288/mostlyanimals_fbf4-d288_thumb.jpg?ts=1788888995277"
-      },
-      "xsmall": {
-        "height": 500,
-        "width": 333,
-        "path": "fbf4-d288/mostlyanimals_fbf4-d288_xs.jpg?ts=1788888995277"
-      },
-      "small": {
-        "height": 1000,
-        "width": 667,
-        "path": "fbf4-d288/mostlyanimals_fbf4-d288_s.jpg?ts=1788888995277"
-      },
-      "medium": {
-        "height": 1400,
-        "width": 933,
-        "path": "fbf4-d288/mostlyanimals_fbf4-d288_m.jpg?ts=1788888995277"
-      },
-      "large": {
-        "height": 1900,
-        "width": 1267,
-        "path": "fbf4-d288/mostlyanimals_fbf4-d288_l.jpg?ts=1788888995277"
-      },
-      "xlarge": {
-        "height": 2560,
-        "width": 1707,
-        "path": "fbf4-d288/mostlyanimals_fbf4-d288_xl.jpg?ts=1788888995277"
-      }
-    }
-  },
-  {
     "key": "cafe-e082",
     "name": "DSC02551.jpg",
     "title": "Satin Bowerbird",
@@ -2053,6 +2330,97 @@
     }
   },
   {
+    "key": "2d8e-991f",
+    "name": "DSC04213_AuroraHDR-edit.jpg",
+    "title": "Mushrooms",
+    "description": "Nordmarka, Oslo, Norway",
+    "location": "",
+    "tags": [
+      "2021",
+      "mushroom"
+    ],
+    "width": 2003,
+    "height": 3000,
+    "resize": {
+      "thumb": {
+        "height": 220,
+        "width": 147,
+        "path": "2d8e-991f/mostlyanimals_2d8e-991f_thumb.jpg?ts=1788381919394"
+      },
+      "xsmall": {
+        "height": 500,
+        "width": 334,
+        "path": "2d8e-991f/mostlyanimals_2d8e-991f_xs.jpg?ts=1788381919394"
+      },
+      "small": {
+        "height": 1000,
+        "width": 668,
+        "path": "2d8e-991f/mostlyanimals_2d8e-991f_s.jpg?ts=1788381919394"
+      },
+      "medium": {
+        "height": 1400,
+        "width": 935,
+        "path": "2d8e-991f/mostlyanimals_2d8e-991f_m.jpg?ts=1788381919394"
+      },
+      "large": {
+        "height": 1900,
+        "width": 1269,
+        "path": "2d8e-991f/mostlyanimals_2d8e-991f_l.jpg?ts=1788381919394"
+      },
+      "xlarge": {
+        "height": 2560,
+        "width": 1709,
+        "path": "2d8e-991f/mostlyanimals_2d8e-991f_xl.jpg?ts=1788381919394"
+      }
+    }
+  },
+  {
+    "key": "3afb-1f14",
+    "name": "DSC05560_AuroraHDR-edit.jpg",
+    "title": "Sunrise in Stroplsjødalen",
+    "description": "",
+    "location": "Dovrefjell, Norway",
+    "tags": [
+      "2021",
+      "ski",
+      "dovrefjell"
+    ],
+    "width": 1920,
+    "height": 2560,
+    "resize": {
+      "thumb": {
+        "height": 220,
+        "width": 165,
+        "path": "3afb-1f14/mostlyanimals_3afb-1f14_thumb.jpg?ts=1611685507204"
+      },
+      "xsmall": {
+        "height": 500,
+        "width": 375,
+        "path": "3afb-1f14/mostlyanimals_3afb-1f14_xs.jpg?ts=1611685507204"
+      },
+      "small": {
+        "height": 1000,
+        "width": 750,
+        "path": "3afb-1f14/mostlyanimals_3afb-1f14_s.jpg?ts=1611685507204"
+      },
+      "medium": {
+        "height": 1400,
+        "width": 1050,
+        "path": "3afb-1f14/mostlyanimals_3afb-1f14_m.jpg?ts=1611685507204"
+      },
+      "large": {
+        "height": 1900,
+        "width": 1425,
+        "path": "3afb-1f14/mostlyanimals_3afb-1f14_l.jpg?ts=1611685507204"
+      },
+      "xlarge": {
+        "height": 2560,
+        "width": 1920,
+        "path": "3afb-1f14/mostlyanimals_3afb-1f14_xl.jpg?ts=1611685507204"
+      }
+    }
+  },
+  {
     "key": "84c9-a378",
     "name": "DSC01879.jpg",
     "title": "Eastern Water Dragon",
@@ -2097,53 +2465,6 @@
         "height": 1707,
         "width": 2560,
         "path": "84c9-a378/mostlyanimals_84c9-a378_xl.jpg?ts=1788528720510"
-      }
-    }
-  },
-  {
-    "key": "d2ad-86d6",
-    "name": "DSC01262.jpg",
-    "title": "Eastern Grey Kangaroo",
-    "latin": "Macropus giganteus",
-    "description": "",
-    "location": "Queensland, Australia",
-    "tags": [
-      "2022",
-      "animal",
-      "kangaroo"
-    ],
-    "width": 2000,
-    "height": 3000,
-    "resize": {
-      "thumb": {
-        "height": 220,
-        "width": 147,
-        "path": "d2ad-86d6/mostlyanimals_d2ad-86d6_thumb.jpg?ts=1788506685267"
-      },
-      "xsmall": {
-        "height": 500,
-        "width": 333,
-        "path": "d2ad-86d6/mostlyanimals_d2ad-86d6_xs.jpg?ts=1788506685267"
-      },
-      "small": {
-        "height": 1000,
-        "width": 667,
-        "path": "d2ad-86d6/mostlyanimals_d2ad-86d6_s.jpg?ts=1788506685267"
-      },
-      "medium": {
-        "height": 1400,
-        "width": 933,
-        "path": "d2ad-86d6/mostlyanimals_d2ad-86d6_m.jpg?ts=1788506685267"
-      },
-      "large": {
-        "height": 1900,
-        "width": 1267,
-        "path": "d2ad-86d6/mostlyanimals_d2ad-86d6_l.jpg?ts=1788506685267"
-      },
-      "xlarge": {
-        "height": 2560,
-        "width": 1707,
-        "path": "d2ad-86d6/mostlyanimals_d2ad-86d6_xl.jpg?ts=1788506685267"
       }
     }
   },
@@ -2286,46 +2607,52 @@
     }
   },
   {
-    "key": "06f7-5d46",
-    "name": "DSC00323.jpg",
-    "title": "Emma 💛",
+    "key": "8031-fab5",
+    "name": "DSC01078.jpg",
+    "title": "Domestic Pigeon",
     "description": "",
-    "location": "Vinstra, Norway",
+    "location": "Oslo, Norway",
     "tags": [
-      "2022"
+      "bird",
+      "2020"
     ],
-    "width": 2000,
-    "height": 3000,
+    "width": 1734,
+    "height": 2312,
     "resize": {
       "thumb": {
         "height": 220,
-        "width": 147,
-        "path": "06f7-5d46/mostlyanimals_06f7-5d46_thumb.jpg?ts=1788506118452"
+        "width": 165,
+        "path": "8031-fab5/mostlyanimals_8031-fab5_thumb.jpg"
       },
       "xsmall": {
         "height": 500,
-        "width": 333,
-        "path": "06f7-5d46/mostlyanimals_06f7-5d46_xs.jpg?ts=1788506118452"
+        "width": 375,
+        "path": "8031-fab5/mostlyanimals_8031-fab5_xs.jpg"
       },
       "small": {
         "height": 1000,
-        "width": 667,
-        "path": "06f7-5d46/mostlyanimals_06f7-5d46_s.jpg?ts=1788506118453"
+        "width": 750,
+        "path": "8031-fab5/mostlyanimals_8031-fab5_s.jpg"
       },
       "medium": {
         "height": 1400,
-        "width": 933,
-        "path": "06f7-5d46/mostlyanimals_06f7-5d46_m.jpg?ts=1788506118453"
+        "width": 1050,
+        "path": "8031-fab5/mostlyanimals_8031-fab5_m.jpg"
       },
       "large": {
         "height": 1900,
-        "width": 1267,
-        "path": "06f7-5d46/mostlyanimals_06f7-5d46_l.jpg?ts=1788506118453"
+        "width": 1425,
+        "path": "8031-fab5/mostlyanimals_8031-fab5_l.jpg"
       },
       "xlarge": {
         "height": 2560,
-        "width": 1707,
-        "path": "06f7-5d46/mostlyanimals_06f7-5d46_xl.jpg?ts=1788506118453"
+        "width": 1920,
+        "path": "8031-fab5/mostlyanimals_8031-fab5_xl.jpg"
+      },
+      "xxlarge": {
+        "height": 3200,
+        "width": 2400,
+        "path": "8031-fab5/mostlyanimals_8031-fab5_xxl.jpg"
       }
     }
   },
@@ -2377,49 +2704,52 @@
     }
   },
   {
-    "key": "c990-2c7c",
-    "name": "DSC09905.jpg",
-    "title": "Muskox",
-    "description": "Musk oxen have two layers of fur, including an incredibly warm undercoat called qiviut, one of the finest and warmest natural fibers in the world.",
-    "latin": "Ovibos moschatus",
-    "location": "Dovrefjell, Norway",
+    "key": "dc74-488c",
+    "name": "DSC02405.jpg",
+    "title": "Hover Fly",
+    "description": "",
+    "location": "Oslo, Norway",
     "tags": [
-      "2022",
-      "muskox",
-      "animal"
+      "insect",
+      "2020"
     ],
-    "width": 2250,
-    "height": 3000,
+    "width": 1920,
+    "height": 2560,
     "resize": {
       "thumb": {
         "height": 220,
         "width": 165,
-        "path": "c990-2c7c/mostlyanimals_c990-2c7c_thumb.jpg?ts=1788502471867"
+        "path": "dc74-488c/mostlyanimals_dc74-488c_thumb.jpg"
       },
       "xsmall": {
         "height": 500,
         "width": 375,
-        "path": "c990-2c7c/mostlyanimals_c990-2c7c_xs.jpg?ts=1788502471867"
+        "path": "dc74-488c/mostlyanimals_dc74-488c_xs.jpg"
       },
       "small": {
         "height": 1000,
         "width": 750,
-        "path": "c990-2c7c/mostlyanimals_c990-2c7c_s.jpg?ts=1788502471867"
+        "path": "dc74-488c/mostlyanimals_dc74-488c_s.jpg"
       },
       "medium": {
         "height": 1400,
         "width": 1050,
-        "path": "c990-2c7c/mostlyanimals_c990-2c7c_m.jpg?ts=1788502471867"
+        "path": "dc74-488c/mostlyanimals_dc74-488c_m.jpg"
       },
       "large": {
         "height": 1900,
         "width": 1425,
-        "path": "c990-2c7c/mostlyanimals_c990-2c7c_l.jpg?ts=1788502471867"
+        "path": "dc74-488c/mostlyanimals_dc74-488c_l.jpg"
       },
       "xlarge": {
         "height": 2560,
         "width": 1920,
-        "path": "c990-2c7c/mostlyanimals_c990-2c7c_xl.jpg?ts=1788502471867"
+        "path": "dc74-488c/mostlyanimals_dc74-488c_xl.jpg"
+      },
+      "xxlarge": {
+        "height": 3200,
+        "width": 2400,
+        "path": "dc74-488c/mostlyanimals_dc74-488c_xxl.jpg"
       }
     }
   },
@@ -2467,6 +2797,55 @@
         "height": 1440,
         "width": 2560,
         "path": "d3f8-25c3/mostlyanimals_d3f8-25c3_xl.jpg?ts=1788502461976"
+      }
+    }
+  },
+  {
+    "key": "3c8c-c348",
+    "name": "DSC04477.jpg",
+    "title": "Scottish Fold",
+    "description": "This queen is named Aprikos (Apricot) and her human Nikolai grows catnip for her and gives her regular grooming. They are good friends.",
+    "tags": [
+      "cat",
+      "2019"
+    ],
+    "width": 1920,
+    "height": 2560,
+    "resize": {
+      "thumb": {
+        "height": 220,
+        "width": 165,
+        "path": "3c8c-c348/mostlyanimals_3c8c-c348_thumb.jpg"
+      },
+      "xsmall": {
+        "height": 500,
+        "width": 375,
+        "path": "3c8c-c348/mostlyanimals_3c8c-c348_xs.jpg"
+      },
+      "small": {
+        "height": 1000,
+        "width": 750,
+        "path": "3c8c-c348/mostlyanimals_3c8c-c348_s.jpg"
+      },
+      "medium": {
+        "height": 1400,
+        "width": 1050,
+        "path": "3c8c-c348/mostlyanimals_3c8c-c348_m.jpg"
+      },
+      "large": {
+        "height": 1900,
+        "width": 1425,
+        "path": "3c8c-c348/mostlyanimals_3c8c-c348_l.jpg"
+      },
+      "xlarge": {
+        "height": 2560,
+        "width": 1920,
+        "path": "3c8c-c348/mostlyanimals_3c8c-c348_xl.jpg"
+      },
+      "xxlarge": {
+        "height": 3200,
+        "width": 2400,
+        "path": "3c8c-c348/mostlyanimals_3c8c-c348_xxl.jpg"
       }
     }
   },
@@ -2607,6 +2986,56 @@
     }
   },
   {
+    "key": "7584-37d5",
+    "name": "DSC08049.jpg",
+    "title": "Moose",
+    "description": "",
+    "location": "Brønnøy, Norway",
+    "tags": [
+      "moose",
+      "2020"
+    ],
+    "width": 1920,
+    "height": 2560,
+    "resize": {
+      "thumb": {
+        "height": 220,
+        "width": 165,
+        "path": "7584-37d5/mostlyanimals_7584-37d5_thumb.jpg"
+      },
+      "xsmall": {
+        "height": 500,
+        "width": 375,
+        "path": "7584-37d5/mostlyanimals_7584-37d5_xs.jpg"
+      },
+      "small": {
+        "height": 1000,
+        "width": 750,
+        "path": "7584-37d5/mostlyanimals_7584-37d5_s.jpg"
+      },
+      "medium": {
+        "height": 1400,
+        "width": 1050,
+        "path": "7584-37d5/mostlyanimals_7584-37d5_m.jpg"
+      },
+      "large": {
+        "height": 1900,
+        "width": 1425,
+        "path": "7584-37d5/mostlyanimals_7584-37d5_l.jpg"
+      },
+      "xlarge": {
+        "height": 2560,
+        "width": 1920,
+        "path": "7584-37d5/mostlyanimals_7584-37d5_xl.jpg"
+      },
+      "xxlarge": {
+        "height": 3200,
+        "width": 2400,
+        "path": "7584-37d5/mostlyanimals_7584-37d5_xxl.jpg"
+      }
+    }
+  },
+  {
     "key": "3c5c-409b",
     "name": "DSC04100_AuroraHDR-edit.jpg",
     "title": "Nordmarka Lake",
@@ -2653,6 +3082,57 @@
         "path": "3c5c-409b/mostlyanimals_3c5c-409b_xl.jpg?ts=1788466382105"
       }
     }
+  },
+  {
+    "key": "952e-255d",
+    "name": "DSC08815.jpg",
+    "description": "",
+    "width": 1920,
+    "height": 2560,
+    "resize": {
+      "thumb": {
+        "height": 220,
+        "width": 165,
+        "path": "952e-255d/mostlyanimals_952e-255d_thumb.jpg"
+      },
+      "xsmall": {
+        "height": 500,
+        "width": 375,
+        "path": "952e-255d/mostlyanimals_952e-255d_xs.jpg"
+      },
+      "small": {
+        "height": 1000,
+        "width": 750,
+        "path": "952e-255d/mostlyanimals_952e-255d_s.jpg"
+      },
+      "medium": {
+        "height": 1400,
+        "width": 1050,
+        "path": "952e-255d/mostlyanimals_952e-255d_m.jpg"
+      },
+      "large": {
+        "height": 1900,
+        "width": 1425,
+        "path": "952e-255d/mostlyanimals_952e-255d_l.jpg"
+      },
+      "xlarge": {
+        "height": 2560,
+        "width": 1920,
+        "path": "952e-255d/mostlyanimals_952e-255d_xl.jpg"
+      },
+      "xxlarge": {
+        "height": 3200,
+        "width": 2400,
+        "path": "952e-255d/mostlyanimals_952e-255d_xxl.jpg"
+      }
+    },
+    "title": "Blow fly",
+    "latin": "Calliphoridae (family)",
+    "tags": [
+      "2020",
+      "insect",
+      "portrait"
+    ]
   },
   {
     "key": "c2b1-4ee1",
@@ -2749,52 +3229,6 @@
     }
   },
   {
-    "key": "7935-2f13",
-    "name": "DSC00335.jpg",
-    "title": "Mallard",
-    "description": "",
-    "location": "Oslo, Norway",
-    "tags": [
-      "2021",
-      "animal",
-      "duck"
-    ],
-    "width": 2176,
-    "height": 2902,
-    "resize": {
-      "thumb": {
-        "height": 220,
-        "width": 165,
-        "path": "7935-2f13/mostlyanimals_7935-2f13_thumb.jpg?ts=1788465693285"
-      },
-      "xsmall": {
-        "height": 500,
-        "width": 375,
-        "path": "7935-2f13/mostlyanimals_7935-2f13_xs.jpg?ts=1788465693285"
-      },
-      "small": {
-        "height": 1000,
-        "width": 750,
-        "path": "7935-2f13/mostlyanimals_7935-2f13_s.jpg?ts=1788465693286"
-      },
-      "medium": {
-        "height": 1400,
-        "width": 1050,
-        "path": "7935-2f13/mostlyanimals_7935-2f13_m.jpg?ts=1788465693286"
-      },
-      "large": {
-        "height": 1900,
-        "width": 1425,
-        "path": "7935-2f13/mostlyanimals_7935-2f13_l.jpg?ts=1788465693286"
-      },
-      "xlarge": {
-        "height": 2560,
-        "width": 1920,
-        "path": "7935-2f13/mostlyanimals_7935-2f13_xl.jpg?ts=1788465693286"
-      }
-    }
-  },
-  {
     "key": "dd75-88cb",
     "name": "DSC04253_AuroraHDR-edit.jpg",
     "title": "Mushrooms",
@@ -2881,6 +3315,110 @@
         "height": 1701,
         "width": 2560,
         "path": "63bb-c984/mostlyanimals_63bb-c984_xl.jpg?ts=1788465389108"
+      }
+    }
+  },
+  {
+    "key": "0292-c7e6",
+    "name": "2019-indo-DSC03105.jpg",
+    "title": "Broadclub Cuttlefish",
+    "description": "Cuttlefish have three hearts! One that pumps blood around the body and two pumping blood to the gills.",
+    "latin": "Sepia latimanus",
+    "location": "Lembeh Strait, Indonesia",
+    "tags": [
+      "2019",
+      "portrait",
+      "shrimp"
+    ],
+    "width": 2400,
+    "height": 3200,
+    "resize": {
+      "thumb": {
+        "height": 220,
+        "width": 165,
+        "path": "0292-c7e6/mostlyanimals_0292-c7e6_thumb.jpg"
+      },
+      "xsmall": {
+        "height": 500,
+        "width": 375,
+        "path": "0292-c7e6/mostlyanimals_0292-c7e6_xs.jpg"
+      },
+      "small": {
+        "height": 1000,
+        "width": 750,
+        "path": "0292-c7e6/mostlyanimals_0292-c7e6_s.jpg"
+      },
+      "medium": {
+        "height": 1400,
+        "width": 1050,
+        "path": "0292-c7e6/mostlyanimals_0292-c7e6_m.jpg"
+      },
+      "large": {
+        "height": 1900,
+        "width": 1425,
+        "path": "0292-c7e6/mostlyanimals_0292-c7e6_l.jpg"
+      },
+      "xlarge": {
+        "height": 2560,
+        "width": 1920,
+        "path": "0292-c7e6/mostlyanimals_0292-c7e6_xl.jpg"
+      },
+      "xxlarge": {
+        "height": 3200,
+        "width": 2400,
+        "path": "0292-c7e6/mostlyanimals_0292-c7e6_xxl.jpg"
+      }
+    }
+  },
+  {
+    "key": "5b0f-af8f",
+    "name": "2019-indo-DSC02196.jpg",
+    "title": "Purple-Edged Ceratosoma",
+    "description": "Identification of sea slugs are often difficult. The keys to identification in this case is the broken purple rigde together with the placement of the three mantle lobes on both sides of the body. One lobe on either side of the head, one on the side of the gills, and one between those two.",
+    "latin": "Ceratosoma tenue",
+    "location": "Lembeh Strait, Indonesia",
+    "tags": [
+      "nudibranch",
+      "2019",
+      "portrait"
+    ],
+    "width": 1656,
+    "height": 2208,
+    "resize": {
+      "thumb": {
+        "height": 220,
+        "width": 165,
+        "path": "5b0f-af8f/mostlyanimals_5b0f-af8f_thumb.jpg"
+      },
+      "xsmall": {
+        "height": 500,
+        "width": 375,
+        "path": "5b0f-af8f/mostlyanimals_5b0f-af8f_xs.jpg"
+      },
+      "small": {
+        "height": 1000,
+        "width": 750,
+        "path": "5b0f-af8f/mostlyanimals_5b0f-af8f_s.jpg"
+      },
+      "medium": {
+        "height": 1400,
+        "width": 1050,
+        "path": "5b0f-af8f/mostlyanimals_5b0f-af8f_m.jpg"
+      },
+      "large": {
+        "height": 1900,
+        "width": 1425,
+        "path": "5b0f-af8f/mostlyanimals_5b0f-af8f_l.jpg"
+      },
+      "xlarge": {
+        "height": 2560,
+        "width": 1920,
+        "path": "5b0f-af8f/mostlyanimals_5b0f-af8f_xl.jpg"
+      },
+      "xxlarge": {
+        "height": 3200,
+        "width": 2400,
+        "path": "5b0f-af8f/mostlyanimals_5b0f-af8f_xxl.jpg"
       }
     }
   },
@@ -2979,53 +3517,6 @@
     }
   },
   {
-    "key": "7337-332d",
-    "name": "DSC08260.jpg",
-    "title": "Greylag Goose",
-    "description": "These geese have a remarkable ability to remember where they've been and navigate long distances, often returning to the same breeding and wintering areas year after year.",
-    "latin": "Anser anser",
-    "location": "Bygdøy, Oslo, Norway",
-    "tags": [
-      "2021",
-      "goose",
-      "bird"
-    ],
-    "width": 2000,
-    "height": 3000,
-    "resize": {
-      "thumb": {
-        "height": 220,
-        "width": 147,
-        "path": "7337-332d/mostlyanimals_7337-332d_thumb.jpg?ts=1788419613674"
-      },
-      "xsmall": {
-        "height": 500,
-        "width": 333,
-        "path": "7337-332d/mostlyanimals_7337-332d_xs.jpg?ts=1788419613674"
-      },
-      "small": {
-        "height": 1000,
-        "width": 667,
-        "path": "7337-332d/mostlyanimals_7337-332d_s.jpg?ts=1788419613674"
-      },
-      "medium": {
-        "height": 1400,
-        "width": 933,
-        "path": "7337-332d/mostlyanimals_7337-332d_m.jpg?ts=1788419613674"
-      },
-      "large": {
-        "height": 1900,
-        "width": 1267,
-        "path": "7337-332d/mostlyanimals_7337-332d_l.jpg?ts=1788419613674"
-      },
-      "xlarge": {
-        "height": 2560,
-        "width": 1707,
-        "path": "7337-332d/mostlyanimals_7337-332d_xl.jpg?ts=1788419613674"
-      }
-    }
-  },
-  {
     "key": "b371-8e88",
     "name": "DSC04061_AuroraHDR-edit.jpg",
     "title": "Nordmarka in Autumn",
@@ -3073,52 +3564,6 @@
     }
   },
   {
-    "key": "09c9-2654",
-    "name": "DSC08827.jpg",
-    "title": "Beekeepers",
-    "description": "",
-    "location": "St.hanshaugen, Oslo, Norway",
-    "tags": [
-      "2021",
-      "bee",
-      "insect"
-    ],
-    "width": 2000,
-    "height": 3000,
-    "resize": {
-      "thumb": {
-        "height": 220,
-        "width": 147,
-        "path": "09c9-2654/mostlyanimals_09c9-2654_thumb.jpg?ts=1788382238107"
-      },
-      "xsmall": {
-        "height": 500,
-        "width": 333,
-        "path": "09c9-2654/mostlyanimals_09c9-2654_xs.jpg?ts=1788382238108"
-      },
-      "small": {
-        "height": 1000,
-        "width": 667,
-        "path": "09c9-2654/mostlyanimals_09c9-2654_s.jpg?ts=1788382238108"
-      },
-      "medium": {
-        "height": 1400,
-        "width": 933,
-        "path": "09c9-2654/mostlyanimals_09c9-2654_m.jpg?ts=1788382238108"
-      },
-      "large": {
-        "height": 1900,
-        "width": 1267,
-        "path": "09c9-2654/mostlyanimals_09c9-2654_l.jpg?ts=1788382238108"
-      },
-      "xlarge": {
-        "height": 2560,
-        "width": 1707,
-        "path": "09c9-2654/mostlyanimals_09c9-2654_xl.jpg?ts=1788382238108"
-      }
-    }
-  },
-  {
     "key": "9e74-4f41",
     "name": "DSC04562_AuroraHDR-edit.jpg",
     "title": "Nordmarka Lake",
@@ -3162,6 +3607,57 @@
         "height": 1708,
         "width": 2560,
         "path": "9e74-4f41/mostlyanimals_9e74-4f41_xl.jpg?ts=1788421566912"
+      }
+    }
+  },
+  {
+    "key": "168a-8d7d",
+    "name": "2019-indo-DSC02160.jpg",
+    "title": "Bullock's Hypselodoris",
+    "description": "Nudibranchs are hermaphrodites; simultaneously both male and female. They are still reproducing sexually and must hook up with a mate.",
+    "latin": "Hypselodoris bullocki",
+    "location": "Lembeh Strait, Indonesia",
+    "tags": [
+      "nudibranch",
+      "2019"
+    ],
+    "width": 2021,
+    "height": 2694,
+    "resize": {
+      "thumb": {
+        "height": 220,
+        "width": 165,
+        "path": "168a-8d7d/mostlyanimals_168a-8d7d_thumb.jpg"
+      },
+      "xsmall": {
+        "height": 500,
+        "width": 375,
+        "path": "168a-8d7d/mostlyanimals_168a-8d7d_xs.jpg"
+      },
+      "small": {
+        "height": 1000,
+        "width": 750,
+        "path": "168a-8d7d/mostlyanimals_168a-8d7d_s.jpg"
+      },
+      "medium": {
+        "height": 1400,
+        "width": 1050,
+        "path": "168a-8d7d/mostlyanimals_168a-8d7d_m.jpg"
+      },
+      "large": {
+        "height": 1900,
+        "width": 1425,
+        "path": "168a-8d7d/mostlyanimals_168a-8d7d_l.jpg"
+      },
+      "xlarge": {
+        "height": 2560,
+        "width": 1920,
+        "path": "168a-8d7d/mostlyanimals_168a-8d7d_xl.jpg"
+      },
+      "xxlarge": {
+        "height": 3200,
+        "width": 2401,
+        "path": "168a-8d7d/mostlyanimals_168a-8d7d_xxl.jpg"
       }
     }
   },
@@ -3214,6 +3710,58 @@
     }
   },
   {
+    "key": "327b-6617",
+    "name": "2019-indo-DSC00010.jpg",
+    "title": "Mushroom Coral Reticulidia",
+    "description": "There are over 3000 species of nudibranchs, and new ones are regularly found!",
+    "latin": "Reticuludia Fungia",
+    "location": "Misool, Raja Ampat, Indonesia",
+    "tags": [
+      "nudibranch",
+      "2019",
+      "portrait"
+    ],
+    "width": 1859,
+    "height": 2478,
+    "resize": {
+      "thumb": {
+        "height": 220,
+        "width": 165,
+        "path": "327b-6617/mostlyanimals_327b-6617_thumb.jpg"
+      },
+      "xsmall": {
+        "height": 500,
+        "width": 375,
+        "path": "327b-6617/mostlyanimals_327b-6617_xs.jpg"
+      },
+      "small": {
+        "height": 1000,
+        "width": 750,
+        "path": "327b-6617/mostlyanimals_327b-6617_s.jpg"
+      },
+      "medium": {
+        "height": 1400,
+        "width": 1050,
+        "path": "327b-6617/mostlyanimals_327b-6617_m.jpg"
+      },
+      "large": {
+        "height": 1900,
+        "width": 1425,
+        "path": "327b-6617/mostlyanimals_327b-6617_l.jpg"
+      },
+      "xlarge": {
+        "height": 2560,
+        "width": 1921,
+        "path": "327b-6617/mostlyanimals_327b-6617_xl.jpg"
+      },
+      "xxlarge": {
+        "height": 3200,
+        "width": 2401,
+        "path": "327b-6617/mostlyanimals_327b-6617_xxl.jpg"
+      }
+    }
+  },
+  {
     "key": "0774-ed7f",
     "name": "DSC03578.jpg",
     "title": "Aurlandsdalen Hike",
@@ -3255,6 +3803,58 @@
         "height": 1707,
         "width": 2560,
         "path": "0774-ed7f/mostlyanimals_0774-ed7f_xl.jpg?ts=1788421406213"
+      }
+    }
+  },
+  {
+    "key": "94ad-4ce1",
+    "name": "2019-indo-DSC02981.jpg",
+    "title": "Skeleton Shrimp",
+    "description": "The rear legs are used to hook itself to plants where it lives, in this case a bryozoan. Front claws are used for hunting and moving around.",
+    "latin": "Caprellid sp.",
+    "location": "Lembeh Strait, Indonesia",
+    "tags": [
+      "2019",
+      "portrait",
+      "shrimp"
+    ],
+    "width": 1047,
+    "height": 1571,
+    "resize": {
+      "thumb": {
+        "height": 220,
+        "width": 147,
+        "path": "94ad-4ce1/mostlyanimals_94ad-4ce1_thumb.jpg"
+      },
+      "xsmall": {
+        "height": 500,
+        "width": 333,
+        "path": "94ad-4ce1/mostlyanimals_94ad-4ce1_xs.jpg"
+      },
+      "small": {
+        "height": 1000,
+        "width": 666,
+        "path": "94ad-4ce1/mostlyanimals_94ad-4ce1_s.jpg"
+      },
+      "medium": {
+        "height": 1400,
+        "width": 933,
+        "path": "94ad-4ce1/mostlyanimals_94ad-4ce1_m.jpg"
+      },
+      "large": {
+        "height": 1900,
+        "width": 1266,
+        "path": "94ad-4ce1/mostlyanimals_94ad-4ce1_l.jpg"
+      },
+      "xlarge": {
+        "height": 2560,
+        "width": 1706,
+        "path": "94ad-4ce1/mostlyanimals_94ad-4ce1_xl.jpg"
+      },
+      "xxlarge": {
+        "height": 3200,
+        "width": 2133,
+        "path": "94ad-4ce1/mostlyanimals_94ad-4ce1_xxl.jpg"
       }
     }
   },
@@ -3302,51 +3902,6 @@
         "height": 1707,
         "width": 2560,
         "path": "e487-04f4/mostlyanimals_e487-04f4_xl.jpg?ts=1788420964435"
-      }
-    }
-  },
-  {
-    "key": "2d8e-991f",
-    "name": "DSC04213_AuroraHDR-edit.jpg",
-    "title": "Mushrooms",
-    "description": "Nordmarka, Oslo, Norway",
-    "location": "",
-    "tags": [
-      "2021",
-      "mushroom"
-    ],
-    "width": 2003,
-    "height": 3000,
-    "resize": {
-      "thumb": {
-        "height": 220,
-        "width": 147,
-        "path": "2d8e-991f/mostlyanimals_2d8e-991f_thumb.jpg?ts=1788381919394"
-      },
-      "xsmall": {
-        "height": 500,
-        "width": 334,
-        "path": "2d8e-991f/mostlyanimals_2d8e-991f_xs.jpg?ts=1788381919394"
-      },
-      "small": {
-        "height": 1000,
-        "width": 668,
-        "path": "2d8e-991f/mostlyanimals_2d8e-991f_s.jpg?ts=1788381919394"
-      },
-      "medium": {
-        "height": 1400,
-        "width": 935,
-        "path": "2d8e-991f/mostlyanimals_2d8e-991f_m.jpg?ts=1788381919394"
-      },
-      "large": {
-        "height": 1900,
-        "width": 1269,
-        "path": "2d8e-991f/mostlyanimals_2d8e-991f_l.jpg?ts=1788381919394"
-      },
-      "xlarge": {
-        "height": 2560,
-        "width": 1709,
-        "path": "2d8e-991f/mostlyanimals_2d8e-991f_xl.jpg?ts=1788381919394"
       }
     }
   },
@@ -3488,6 +4043,110 @@
     }
   },
   {
+    "key": "cf55-50f0",
+    "name": "2019-indo-DSC01148.jpg",
+    "title": "Ribboned Sweetlips",
+    "description": "This species is certainly named after their protruding fat sweet lips.",
+    "latin": "Plectorhinchus polytaenia",
+    "location": "Dampier Strait, Raja Ampat, Indonesia",
+    "tags": [
+      "fish",
+      "2019",
+      "school"
+    ],
+    "width": 2400,
+    "height": 3200,
+    "resize": {
+      "thumb": {
+        "height": 220,
+        "width": 165,
+        "path": "cf55-50f0/mostlyanimals_cf55-50f0_thumb.jpg"
+      },
+      "xsmall": {
+        "height": 500,
+        "width": 375,
+        "path": "cf55-50f0/mostlyanimals_cf55-50f0_xs.jpg"
+      },
+      "small": {
+        "height": 1000,
+        "width": 750,
+        "path": "cf55-50f0/mostlyanimals_cf55-50f0_s.jpg"
+      },
+      "medium": {
+        "height": 1400,
+        "width": 1050,
+        "path": "cf55-50f0/mostlyanimals_cf55-50f0_m.jpg"
+      },
+      "large": {
+        "height": 1900,
+        "width": 1425,
+        "path": "cf55-50f0/mostlyanimals_cf55-50f0_l.jpg"
+      },
+      "xlarge": {
+        "height": 2560,
+        "width": 1920,
+        "path": "cf55-50f0/mostlyanimals_cf55-50f0_xl.jpg"
+      },
+      "xxlarge": {
+        "height": 3200,
+        "width": 2400,
+        "path": "cf55-50f0/mostlyanimals_cf55-50f0_xxl.jpg"
+      }
+    }
+  },
+  {
+    "key": "e486-b0c6",
+    "name": "2019-indo-DSC02312.jpg",
+    "title": "Nudibranch",
+    "description": "Some nudibranchs are adapted to resemble small pieces of soft coral.",
+    "latin": "Tritonia sp.",
+    "location": "Lembeh Strait, Indonesia",
+    "tags": [
+      "nudibranch",
+      "2019",
+      "portrait"
+    ],
+    "width": 2014,
+    "height": 2685,
+    "resize": {
+      "thumb": {
+        "height": 220,
+        "width": 165,
+        "path": "e486-b0c6/mostlyanimals_e486-b0c6_thumb.jpg"
+      },
+      "xsmall": {
+        "height": 500,
+        "width": 375,
+        "path": "e486-b0c6/mostlyanimals_e486-b0c6_xs.jpg"
+      },
+      "small": {
+        "height": 1000,
+        "width": 750,
+        "path": "e486-b0c6/mostlyanimals_e486-b0c6_s.jpg"
+      },
+      "medium": {
+        "height": 1400,
+        "width": 1050,
+        "path": "e486-b0c6/mostlyanimals_e486-b0c6_m.jpg"
+      },
+      "large": {
+        "height": 1900,
+        "width": 1425,
+        "path": "e486-b0c6/mostlyanimals_e486-b0c6_l.jpg"
+      },
+      "xlarge": {
+        "height": 2560,
+        "width": 1920,
+        "path": "e486-b0c6/mostlyanimals_e486-b0c6_xl.jpg"
+      },
+      "xxlarge": {
+        "height": 3200,
+        "width": 2400,
+        "path": "e486-b0c6/mostlyanimals_e486-b0c6_xxl.jpg"
+      }
+    }
+  },
+  {
     "key": "59d7-2f19",
     "name": "DSC05776.jpg",
     "title": "Muskox",
@@ -3530,52 +4189,6 @@
         "height": 1707,
         "width": 2560,
         "path": "59d7-2f19/mostlyanimals_59d7-2f19_xl.jpg?ts=1615035368996"
-      }
-    }
-  },
-  {
-    "key": "3afb-1f14",
-    "name": "DSC05560_AuroraHDR-edit.jpg",
-    "title": "Sunrise in Stroplsjødalen",
-    "description": "",
-    "location": "Dovrefjell, Norway",
-    "tags": [
-      "2021",
-      "ski",
-      "dovrefjell"
-    ],
-    "width": 1920,
-    "height": 2560,
-    "resize": {
-      "thumb": {
-        "height": 220,
-        "width": 165,
-        "path": "3afb-1f14/mostlyanimals_3afb-1f14_thumb.jpg?ts=1611685507204"
-      },
-      "xsmall": {
-        "height": 500,
-        "width": 375,
-        "path": "3afb-1f14/mostlyanimals_3afb-1f14_xs.jpg?ts=1611685507204"
-      },
-      "small": {
-        "height": 1000,
-        "width": 750,
-        "path": "3afb-1f14/mostlyanimals_3afb-1f14_s.jpg?ts=1611685507204"
-      },
-      "medium": {
-        "height": 1400,
-        "width": 1050,
-        "path": "3afb-1f14/mostlyanimals_3afb-1f14_m.jpg?ts=1611685507204"
-      },
-      "large": {
-        "height": 1900,
-        "width": 1425,
-        "path": "3afb-1f14/mostlyanimals_3afb-1f14_l.jpg?ts=1611685507204"
-      },
-      "xlarge": {
-        "height": 2560,
-        "width": 1920,
-        "path": "3afb-1f14/mostlyanimals_3afb-1f14_xl.jpg?ts=1611685507204"
       }
     }
   },
@@ -3676,56 +4289,6 @@
     }
   },
   {
-    "key": "8031-fab5",
-    "name": "DSC01078.jpg",
-    "title": "Domestic Pigeon",
-    "description": "",
-    "location": "Oslo, Norway",
-    "tags": [
-      "bird",
-      "2020"
-    ],
-    "width": 1734,
-    "height": 2312,
-    "resize": {
-      "thumb": {
-        "height": 220,
-        "width": 165,
-        "path": "8031-fab5/mostlyanimals_8031-fab5_thumb.jpg"
-      },
-      "xsmall": {
-        "height": 500,
-        "width": 375,
-        "path": "8031-fab5/mostlyanimals_8031-fab5_xs.jpg"
-      },
-      "small": {
-        "height": 1000,
-        "width": 750,
-        "path": "8031-fab5/mostlyanimals_8031-fab5_s.jpg"
-      },
-      "medium": {
-        "height": 1400,
-        "width": 1050,
-        "path": "8031-fab5/mostlyanimals_8031-fab5_m.jpg"
-      },
-      "large": {
-        "height": 1900,
-        "width": 1425,
-        "path": "8031-fab5/mostlyanimals_8031-fab5_l.jpg"
-      },
-      "xlarge": {
-        "height": 2560,
-        "width": 1920,
-        "path": "8031-fab5/mostlyanimals_8031-fab5_xl.jpg"
-      },
-      "xxlarge": {
-        "height": 3200,
-        "width": 2400,
-        "path": "8031-fab5/mostlyanimals_8031-fab5_xxl.jpg"
-      }
-    }
-  },
-  {
     "key": "cba1-5f8e",
     "name": "DSC02273.jpg",
     "title": "Western Honey Bee",
@@ -3776,52 +4339,54 @@
     }
   },
   {
-    "key": "dc74-488c",
-    "name": "DSC02405.jpg",
-    "title": "Hover Fly",
+    "key": "63fe-8d32",
+    "name": "2019-indo-DSC03116.jpg",
+    "title": "Shortfin Lionfish",
     "description": "",
-    "location": "Oslo, Norway",
+    "latin": "Dendrochirus brachypterus",
+    "location": "Lembeh Strait, Indonesia",
     "tags": [
-      "insect",
-      "2020"
+      "2019",
+      "portrait",
+      "scorpionfish"
     ],
-    "width": 1920,
-    "height": 2560,
+    "width": 2400,
+    "height": 3200,
     "resize": {
       "thumb": {
         "height": 220,
         "width": 165,
-        "path": "dc74-488c/mostlyanimals_dc74-488c_thumb.jpg"
+        "path": "63fe-8d32/mostlyanimals_63fe-8d32_thumb.jpg"
       },
       "xsmall": {
         "height": 500,
         "width": 375,
-        "path": "dc74-488c/mostlyanimals_dc74-488c_xs.jpg"
+        "path": "63fe-8d32/mostlyanimals_63fe-8d32_xs.jpg"
       },
       "small": {
         "height": 1000,
         "width": 750,
-        "path": "dc74-488c/mostlyanimals_dc74-488c_s.jpg"
+        "path": "63fe-8d32/mostlyanimals_63fe-8d32_s.jpg"
       },
       "medium": {
         "height": 1400,
         "width": 1050,
-        "path": "dc74-488c/mostlyanimals_dc74-488c_m.jpg"
+        "path": "63fe-8d32/mostlyanimals_63fe-8d32_m.jpg"
       },
       "large": {
         "height": 1900,
         "width": 1425,
-        "path": "dc74-488c/mostlyanimals_dc74-488c_l.jpg"
+        "path": "63fe-8d32/mostlyanimals_63fe-8d32_l.jpg"
       },
       "xlarge": {
         "height": 2560,
         "width": 1920,
-        "path": "dc74-488c/mostlyanimals_dc74-488c_xl.jpg"
+        "path": "63fe-8d32/mostlyanimals_63fe-8d32_xl.jpg"
       },
       "xxlarge": {
         "height": 3200,
         "width": 2400,
-        "path": "dc74-488c/mostlyanimals_dc74-488c_xxl.jpg"
+        "path": "63fe-8d32/mostlyanimals_63fe-8d32_xxl.jpg"
       }
     }
   },
@@ -3876,6 +4441,58 @@
     }
   },
   {
+    "key": "0f15-e05e",
+    "name": "2019-indo-DSC01548.jpg",
+    "title": "Bluestripe and Golden-Lined Snappers",
+    "description": "The goatfish (Mulloidichthys mimicus) is part of a weird relationship with the bluestripe snapper where it mimics its colors to look almost exactly the same. The reason for that is not entirely clear, but the goatfish is presumably a more preferred prey than the bluestrip snapper. So there may be some goatfish in the fish ball as well.",
+    "latin": "Lutjanus kasmira and Lutjanus lutjanus",
+    "location": "Dampier Strait, Raja Ampat, Indonesia",
+    "tags": [
+      "fish",
+      "school",
+      "2019"
+    ],
+    "width": 2400,
+    "height": 3200,
+    "resize": {
+      "thumb": {
+        "height": 220,
+        "width": 165,
+        "path": "0f15-e05e/mostlyanimals_0f15-e05e_thumb.jpg"
+      },
+      "xsmall": {
+        "height": 500,
+        "width": 375,
+        "path": "0f15-e05e/mostlyanimals_0f15-e05e_xs.jpg"
+      },
+      "small": {
+        "height": 1000,
+        "width": 750,
+        "path": "0f15-e05e/mostlyanimals_0f15-e05e_s.jpg"
+      },
+      "medium": {
+        "height": 1400,
+        "width": 1050,
+        "path": "0f15-e05e/mostlyanimals_0f15-e05e_m.jpg"
+      },
+      "large": {
+        "height": 1900,
+        "width": 1425,
+        "path": "0f15-e05e/mostlyanimals_0f15-e05e_l.jpg"
+      },
+      "xlarge": {
+        "height": 2560,
+        "width": 1920,
+        "path": "0f15-e05e/mostlyanimals_0f15-e05e_xl.jpg"
+      },
+      "xxlarge": {
+        "height": 3200,
+        "width": 2400,
+        "path": "0f15-e05e/mostlyanimals_0f15-e05e_xxl.jpg"
+      }
+    }
+  },
+  {
     "key": "6c76-0e4c",
     "name": "DSC03035.jpg",
     "title": "Western Honey Bee",
@@ -3922,6 +4539,58 @@
         "height": 1800,
         "width": 3200,
         "path": "6c76-0e4c/mostlyanimals_6c76-0e4c_xxl.jpg"
+      }
+    }
+  },
+  {
+    "key": "f5ee-b679",
+    "name": "2019-indo-DSC02240.jpg",
+    "title": "Bobbit Worm",
+    "description": "Little is known about the behaviour of bobbit worms. It's theorized that the worm doesn’t see at all but uses its excellent receptors to detect movement in the water to sense nearby fish.",
+    "latin": "Eunice aphroditois",
+    "location": "Lembeh Strait, Indonesia",
+    "tags": [
+      "worm",
+      "2019",
+      "portrait"
+    ],
+    "width": 2400,
+    "height": 3200,
+    "resize": {
+      "thumb": {
+        "height": 220,
+        "width": 165,
+        "path": "f5ee-b679/mostlyanimals_f5ee-b679_thumb.jpg"
+      },
+      "xsmall": {
+        "height": 500,
+        "width": 375,
+        "path": "f5ee-b679/mostlyanimals_f5ee-b679_xs.jpg"
+      },
+      "small": {
+        "height": 1000,
+        "width": 750,
+        "path": "f5ee-b679/mostlyanimals_f5ee-b679_s.jpg"
+      },
+      "medium": {
+        "height": 1400,
+        "width": 1050,
+        "path": "f5ee-b679/mostlyanimals_f5ee-b679_m.jpg"
+      },
+      "large": {
+        "height": 1900,
+        "width": 1425,
+        "path": "f5ee-b679/mostlyanimals_f5ee-b679_l.jpg"
+      },
+      "xlarge": {
+        "height": 2560,
+        "width": 1920,
+        "path": "f5ee-b679/mostlyanimals_f5ee-b679_xl.jpg"
+      },
+      "xxlarge": {
+        "height": 3200,
+        "width": 2400,
+        "path": "f5ee-b679/mostlyanimals_f5ee-b679_xxl.jpg"
       }
     }
   },
@@ -4080,51 +4749,54 @@
     }
   },
   {
-    "key": "3c8c-c348",
-    "name": "DSC04477.jpg",
-    "title": "Scottish Fold",
-    "description": "This queen is named Aprikos (Apricot) and her human Nikolai grows catnip for her and gives her regular grooming. They are good friends.",
+    "key": "3f78-8ea1",
+    "name": "DSC02949.jpg",
+    "title": "Starry Grouper",
+    "description": "Groupers typically have large mouths, fat lips and stout bodies. The starry grouper is relatively small, but still fearless enough to stay still and stare back when I was snapping a shot.",
+    "latin": "Epinephelus labriformis",
+    "location": "Cocos Island, Costa Rica",
     "tags": [
-      "cat",
-      "2019"
+      "2017",
+      "portrait",
+      "fish"
     ],
-    "width": 1920,
-    "height": 2560,
+    "width": 1440,
+    "height": 1920,
     "resize": {
       "thumb": {
         "height": 220,
         "width": 165,
-        "path": "3c8c-c348/mostlyanimals_3c8c-c348_thumb.jpg"
+        "path": "3f78-8ea1/mostlyanimals_3f78-8ea1_thumb.jpg"
       },
       "xsmall": {
         "height": 500,
         "width": 375,
-        "path": "3c8c-c348/mostlyanimals_3c8c-c348_xs.jpg"
+        "path": "3f78-8ea1/mostlyanimals_3f78-8ea1_xs.jpg"
       },
       "small": {
         "height": 1000,
         "width": 750,
-        "path": "3c8c-c348/mostlyanimals_3c8c-c348_s.jpg"
+        "path": "3f78-8ea1/mostlyanimals_3f78-8ea1_s.jpg"
       },
       "medium": {
         "height": 1400,
         "width": 1050,
-        "path": "3c8c-c348/mostlyanimals_3c8c-c348_m.jpg"
+        "path": "3f78-8ea1/mostlyanimals_3f78-8ea1_m.jpg"
       },
       "large": {
         "height": 1900,
         "width": 1425,
-        "path": "3c8c-c348/mostlyanimals_3c8c-c348_l.jpg"
+        "path": "3f78-8ea1/mostlyanimals_3f78-8ea1_l.jpg"
       },
       "xlarge": {
         "height": 2560,
         "width": 1920,
-        "path": "3c8c-c348/mostlyanimals_3c8c-c348_xl.jpg"
+        "path": "3f78-8ea1/mostlyanimals_3f78-8ea1_xl.jpg"
       },
       "xxlarge": {
         "height": 3200,
         "width": 2400,
-        "path": "3c8c-c348/mostlyanimals_3c8c-c348_xxl.jpg"
+        "path": "3f78-8ea1/mostlyanimals_3f78-8ea1_xxl.jpg"
       }
     }
   },
@@ -4176,6 +4848,57 @@
         "height": 1800,
         "width": 3200,
         "path": "a047-c4e6/mostlyanimals_a047-c4e6_xxl.jpg"
+      }
+    }
+  },
+  {
+    "key": "83d7-9222",
+    "name": "DSC07758.jpg",
+    "title": "Crocodilefish",
+    "description": "",
+    "latin": "Papilloculiceps longiceps",
+    "location": "Yolanda Lagoon, Egypt",
+    "tags": [
+      "portrait",
+      "2018"
+    ],
+    "width": 1920,
+    "height": 2560,
+    "resize": {
+      "thumb": {
+        "height": 220,
+        "width": 165,
+        "path": "83d7-9222/mostlyanimals_83d7-9222_thumb.jpg"
+      },
+      "xsmall": {
+        "height": 500,
+        "width": 375,
+        "path": "83d7-9222/mostlyanimals_83d7-9222_xs.jpg"
+      },
+      "small": {
+        "height": 1000,
+        "width": 750,
+        "path": "83d7-9222/mostlyanimals_83d7-9222_s.jpg"
+      },
+      "medium": {
+        "height": 1400,
+        "width": 1050,
+        "path": "83d7-9222/mostlyanimals_83d7-9222_m.jpg"
+      },
+      "large": {
+        "height": 1900,
+        "width": 1425,
+        "path": "83d7-9222/mostlyanimals_83d7-9222_l.jpg"
+      },
+      "xlarge": {
+        "height": 2560,
+        "width": 1920,
+        "path": "83d7-9222/mostlyanimals_83d7-9222_xl.jpg"
+      },
+      "xxlarge": {
+        "height": 3200,
+        "width": 2400,
+        "path": "83d7-9222/mostlyanimals_83d7-9222_xxl.jpg"
       }
     }
   },
@@ -4379,6 +5102,108 @@
     }
   },
   {
+    "key": "c30c-193c",
+    "name": "DSC03734.jpg",
+    "title": "White-Eyed Moray",
+    "description": "",
+    "latin": "Gymnothorax thyrsoideus",
+    "location": "Anilao, The Philippines",
+    "tags": [
+      "eel",
+      "2014"
+    ],
+    "width": 1559,
+    "height": 2079,
+    "resize": {
+      "thumb": {
+        "height": 220,
+        "width": 165,
+        "path": "c30c-193c/mostlyanimals_c30c-193c_thumb.jpg"
+      },
+      "xsmall": {
+        "height": 500,
+        "width": 375,
+        "path": "c30c-193c/mostlyanimals_c30c-193c_xs.jpg"
+      },
+      "small": {
+        "height": 1000,
+        "width": 750,
+        "path": "c30c-193c/mostlyanimals_c30c-193c_s.jpg"
+      },
+      "medium": {
+        "height": 1400,
+        "width": 1050,
+        "path": "c30c-193c/mostlyanimals_c30c-193c_m.jpg"
+      },
+      "large": {
+        "height": 1900,
+        "width": 1425,
+        "path": "c30c-193c/mostlyanimals_c30c-193c_l.jpg"
+      },
+      "xlarge": {
+        "height": 2560,
+        "width": 1920,
+        "path": "c30c-193c/mostlyanimals_c30c-193c_xl.jpg"
+      },
+      "xxlarge": {
+        "height": 3200,
+        "width": 2400,
+        "path": "c30c-193c/mostlyanimals_c30c-193c_xxl.jpg"
+      }
+    }
+  },
+  {
+    "key": "abd5-dde1",
+    "name": "DSC02397.jpg",
+    "title": "Scalloped Hammerhead Shark",
+    "description": "All of our dives on Cocos featured hammerheads, most shy and in the distance like here. One of my best memories from Cocos was the ascent on a site called Manuelita, which we dove many times. What we didn't realize at first was that the hammerheads had disperged and moved away when we got there. Immediately when we started to ascend they returned. During our safety stop we saw the hoards coming from all directions and reuniting at the cleaning stations on the ocean floor.",
+    "latin": "Sphyrna lewini",
+    "location": "Cocos Island, Costa Rica",
+    "tags": [
+      "2017",
+      "shark"
+    ],
+    "width": 3080,
+    "height": 4107,
+    "resize": {
+      "thumb": {
+        "height": 220,
+        "width": 165,
+        "path": "abd5-dde1/mostlyanimals_abd5-dde1_thumb.jpg"
+      },
+      "xsmall": {
+        "height": 500,
+        "width": 375,
+        "path": "abd5-dde1/mostlyanimals_abd5-dde1_xs.jpg"
+      },
+      "small": {
+        "height": 1000,
+        "width": 750,
+        "path": "abd5-dde1/mostlyanimals_abd5-dde1_s.jpg"
+      },
+      "medium": {
+        "height": 1400,
+        "width": 1050,
+        "path": "abd5-dde1/mostlyanimals_abd5-dde1_m.jpg"
+      },
+      "large": {
+        "height": 1900,
+        "width": 1425,
+        "path": "abd5-dde1/mostlyanimals_abd5-dde1_l.jpg"
+      },
+      "xlarge": {
+        "height": 2560,
+        "width": 1920,
+        "path": "abd5-dde1/mostlyanimals_abd5-dde1_xl.jpg"
+      },
+      "xxlarge": {
+        "height": 3200,
+        "width": 2400,
+        "path": "abd5-dde1/mostlyanimals_abd5-dde1_xxl.jpg"
+      }
+    }
+  },
+  {
     "key": "eee5-c9ac",
     "name": "DSC07247.jpg",
     "title": "Paragliders from Skredfjellet",
@@ -4424,56 +5249,6 @@
         "height": 1800,
         "width": 3200,
         "path": "eee5-c9ac/mostlyanimals_eee5-c9ac_xxl.jpg"
-      }
-    }
-  },
-  {
-    "key": "7584-37d5",
-    "name": "DSC08049.jpg",
-    "title": "Moose",
-    "description": "",
-    "location": "Brønnøy, Norway",
-    "tags": [
-      "moose",
-      "2020"
-    ],
-    "width": 1920,
-    "height": 2560,
-    "resize": {
-      "thumb": {
-        "height": 220,
-        "width": 165,
-        "path": "7584-37d5/mostlyanimals_7584-37d5_thumb.jpg"
-      },
-      "xsmall": {
-        "height": 500,
-        "width": 375,
-        "path": "7584-37d5/mostlyanimals_7584-37d5_xs.jpg"
-      },
-      "small": {
-        "height": 1000,
-        "width": 750,
-        "path": "7584-37d5/mostlyanimals_7584-37d5_s.jpg"
-      },
-      "medium": {
-        "height": 1400,
-        "width": 1050,
-        "path": "7584-37d5/mostlyanimals_7584-37d5_m.jpg"
-      },
-      "large": {
-        "height": 1900,
-        "width": 1425,
-        "path": "7584-37d5/mostlyanimals_7584-37d5_l.jpg"
-      },
-      "xlarge": {
-        "height": 2560,
-        "width": 1920,
-        "path": "7584-37d5/mostlyanimals_7584-37d5_xl.jpg"
-      },
-      "xxlarge": {
-        "height": 3200,
-        "width": 2400,
-        "path": "7584-37d5/mostlyanimals_7584-37d5_xxl.jpg"
       }
     }
   },
@@ -4572,57 +5347,6 @@
     }
   },
   {
-    "key": "952e-255d",
-    "name": "DSC08815.jpg",
-    "description": "",
-    "width": 1920,
-    "height": 2560,
-    "resize": {
-      "thumb": {
-        "height": 220,
-        "width": 165,
-        "path": "952e-255d/mostlyanimals_952e-255d_thumb.jpg"
-      },
-      "xsmall": {
-        "height": 500,
-        "width": 375,
-        "path": "952e-255d/mostlyanimals_952e-255d_xs.jpg"
-      },
-      "small": {
-        "height": 1000,
-        "width": 750,
-        "path": "952e-255d/mostlyanimals_952e-255d_s.jpg"
-      },
-      "medium": {
-        "height": 1400,
-        "width": 1050,
-        "path": "952e-255d/mostlyanimals_952e-255d_m.jpg"
-      },
-      "large": {
-        "height": 1900,
-        "width": 1425,
-        "path": "952e-255d/mostlyanimals_952e-255d_l.jpg"
-      },
-      "xlarge": {
-        "height": 2560,
-        "width": 1920,
-        "path": "952e-255d/mostlyanimals_952e-255d_xl.jpg"
-      },
-      "xxlarge": {
-        "height": 3200,
-        "width": 2400,
-        "path": "952e-255d/mostlyanimals_952e-255d_xxl.jpg"
-      }
-    },
-    "title": "Blow fly",
-    "latin": "Calliphoridae (family)",
-    "tags": [
-      "2020",
-      "insect",
-      "portrait"
-    ]
-  },
-  {
     "key": "59cc-1547",
     "name": "DSC08858.jpg",
     "description": "",
@@ -4674,6 +5398,59 @@
     ]
   },
   {
+    "key": "ddf1-8991",
+    "name": "DSC09197.jpg",
+    "title": "Gracile Lizardfish",
+    "description": "Lizardfish are frequent visitors of sandy or muddy areas and lie sometimes partly buried on the sea floor.",
+    "latin": "Saurida gracilis",
+    "location": "Baa Atoll, The Maldives",
+    "tags": [
+      "fish",
+      "2018",
+      "lizardfish",
+      "portrait"
+    ],
+    "width": 2527,
+    "height": 3369,
+    "resize": {
+      "thumb": {
+        "height": 220,
+        "width": 165,
+        "path": "ddf1-8991/mostlyanimals_ddf1-8991_thumb.jpg"
+      },
+      "xsmall": {
+        "height": 500,
+        "width": 375,
+        "path": "ddf1-8991/mostlyanimals_ddf1-8991_xs.jpg"
+      },
+      "small": {
+        "height": 1000,
+        "width": 750,
+        "path": "ddf1-8991/mostlyanimals_ddf1-8991_s.jpg"
+      },
+      "medium": {
+        "height": 1400,
+        "width": 1050,
+        "path": "ddf1-8991/mostlyanimals_ddf1-8991_m.jpg"
+      },
+      "large": {
+        "height": 1900,
+        "width": 1425,
+        "path": "ddf1-8991/mostlyanimals_ddf1-8991_l.jpg"
+      },
+      "xlarge": {
+        "height": 2560,
+        "width": 1920,
+        "path": "ddf1-8991/mostlyanimals_ddf1-8991_xl.jpg"
+      },
+      "xxlarge": {
+        "height": 3200,
+        "width": 2400,
+        "path": "ddf1-8991/mostlyanimals_ddf1-8991_xxl.jpg"
+      }
+    }
+  },
+  {
     "key": "eca6-3171",
     "name": "20200824-DSC00599.jpg",
     "title": "Purple Coneflower",
@@ -4720,6 +5497,57 @@
         "height": 1800,
         "width": 3200,
         "path": "eca6-3171/mostlyanimals_eca6-3171_xxl.jpg"
+      }
+    }
+  },
+  {
+    "key": "36bd-dbb7",
+    "name": "DSC03638.jpg",
+    "title": "Scalloped Hammerhead Shark",
+    "description": "Sharks can detect electrical fields created by other animals using specialized sensory organs. For the hammerheads, these organs are spread over the oddly wide-shaped head to boost the sensitivity.",
+    "latin": "Sphyrna lewini",
+    "location": "Cocos Island, Costa Rica",
+    "tags": [
+      "2017",
+      "shark"
+    ],
+    "width": 3524,
+    "height": 4699,
+    "resize": {
+      "thumb": {
+        "height": 220,
+        "width": 165,
+        "path": "36bd-dbb7/mostlyanimals_36bd-dbb7_thumb.jpg"
+      },
+      "xsmall": {
+        "height": 500,
+        "width": 375,
+        "path": "36bd-dbb7/mostlyanimals_36bd-dbb7_xs.jpg"
+      },
+      "small": {
+        "height": 1000,
+        "width": 750,
+        "path": "36bd-dbb7/mostlyanimals_36bd-dbb7_s.jpg"
+      },
+      "medium": {
+        "height": 1400,
+        "width": 1050,
+        "path": "36bd-dbb7/mostlyanimals_36bd-dbb7_m.jpg"
+      },
+      "large": {
+        "height": 1900,
+        "width": 1425,
+        "path": "36bd-dbb7/mostlyanimals_36bd-dbb7_l.jpg"
+      },
+      "xlarge": {
+        "height": 2560,
+        "width": 1920,
+        "path": "36bd-dbb7/mostlyanimals_36bd-dbb7_xl.jpg"
+      },
+      "xxlarge": {
+        "height": 3200,
+        "width": 2400,
+        "path": "36bd-dbb7/mostlyanimals_36bd-dbb7_xxl.jpg"
       }
     }
   },
@@ -4777,6 +5605,58 @@
     }
   },
   {
+    "key": "d985-bf0d",
+    "name": "DSC00366.jpg",
+    "title": "Lumpsucker",
+    "description": "Instead of having the normal type of pelvic fins (below), this fish has evolved disc-like fins and use them to adhere to the substrate.",
+    "latin": "Cyclopterus lumpus",
+    "location": "Gulen, Norway",
+    "tags": [
+      "2016",
+      "portrait",
+      "fish"
+    ],
+    "width": 1787,
+    "height": 2382,
+    "resize": {
+      "thumb": {
+        "height": 220,
+        "width": 165,
+        "path": "d985-bf0d/mostlyanimals_d985-bf0d_thumb.jpg"
+      },
+      "xsmall": {
+        "height": 500,
+        "width": 375,
+        "path": "d985-bf0d/mostlyanimals_d985-bf0d_xs.jpg"
+      },
+      "small": {
+        "height": 1000,
+        "width": 750,
+        "path": "d985-bf0d/mostlyanimals_d985-bf0d_s.jpg"
+      },
+      "medium": {
+        "height": 1400,
+        "width": 1050,
+        "path": "d985-bf0d/mostlyanimals_d985-bf0d_m.jpg"
+      },
+      "large": {
+        "height": 1900,
+        "width": 1425,
+        "path": "d985-bf0d/mostlyanimals_d985-bf0d_l.jpg"
+      },
+      "xlarge": {
+        "height": 2560,
+        "width": 1921,
+        "path": "d985-bf0d/mostlyanimals_d985-bf0d_xl.jpg"
+      },
+      "xxlarge": {
+        "height": 3200,
+        "width": 2401,
+        "path": "d985-bf0d/mostlyanimals_d985-bf0d_xxl.jpg"
+      }
+    }
+  },
+  {
     "key": "20d3-74ce",
     "name": "2019-indo-DSC01009-Edit.jpg",
     "title": "Hawksbill Sea Turtle",
@@ -4825,58 +5705,6 @@
         "height": 1800,
         "width": 3200,
         "path": "20d3-74ce/mostlyanimals_20d3-74ce_xxl.jpg"
-      }
-    }
-  },
-  {
-    "key": "0292-c7e6",
-    "name": "2019-indo-DSC03105.jpg",
-    "title": "Broadclub Cuttlefish",
-    "description": "Cuttlefish have three hearts! One that pumps blood around the body and two pumping blood to the gills.",
-    "latin": "Sepia latimanus",
-    "location": "Lembeh Strait, Indonesia",
-    "tags": [
-      "2019",
-      "portrait",
-      "shrimp"
-    ],
-    "width": 2400,
-    "height": 3200,
-    "resize": {
-      "thumb": {
-        "height": 220,
-        "width": 165,
-        "path": "0292-c7e6/mostlyanimals_0292-c7e6_thumb.jpg"
-      },
-      "xsmall": {
-        "height": 500,
-        "width": 375,
-        "path": "0292-c7e6/mostlyanimals_0292-c7e6_xs.jpg"
-      },
-      "small": {
-        "height": 1000,
-        "width": 750,
-        "path": "0292-c7e6/mostlyanimals_0292-c7e6_s.jpg"
-      },
-      "medium": {
-        "height": 1400,
-        "width": 1050,
-        "path": "0292-c7e6/mostlyanimals_0292-c7e6_m.jpg"
-      },
-      "large": {
-        "height": 1900,
-        "width": 1425,
-        "path": "0292-c7e6/mostlyanimals_0292-c7e6_l.jpg"
-      },
-      "xlarge": {
-        "height": 2560,
-        "width": 1920,
-        "path": "0292-c7e6/mostlyanimals_0292-c7e6_xl.jpg"
-      },
-      "xxlarge": {
-        "height": 3200,
-        "width": 2400,
-        "path": "0292-c7e6/mostlyanimals_0292-c7e6_xxl.jpg"
       }
     }
   },
@@ -4930,58 +5758,6 @@
         "height": 1800,
         "width": 3200,
         "path": "8259-794d/mostlyanimals_8259-794d_xxl.jpg"
-      }
-    }
-  },
-  {
-    "key": "5b0f-af8f",
-    "name": "2019-indo-DSC02196.jpg",
-    "title": "Purple-Edged Ceratosoma",
-    "description": "Identification of sea slugs are often difficult. The keys to identification in this case is the broken purple rigde together with the placement of the three mantle lobes on both sides of the body. One lobe on either side of the head, one on the side of the gills, and one between those two.",
-    "latin": "Ceratosoma tenue",
-    "location": "Lembeh Strait, Indonesia",
-    "tags": [
-      "nudibranch",
-      "2019",
-      "portrait"
-    ],
-    "width": 1656,
-    "height": 2208,
-    "resize": {
-      "thumb": {
-        "height": 220,
-        "width": 165,
-        "path": "5b0f-af8f/mostlyanimals_5b0f-af8f_thumb.jpg"
-      },
-      "xsmall": {
-        "height": 500,
-        "width": 375,
-        "path": "5b0f-af8f/mostlyanimals_5b0f-af8f_xs.jpg"
-      },
-      "small": {
-        "height": 1000,
-        "width": 750,
-        "path": "5b0f-af8f/mostlyanimals_5b0f-af8f_s.jpg"
-      },
-      "medium": {
-        "height": 1400,
-        "width": 1050,
-        "path": "5b0f-af8f/mostlyanimals_5b0f-af8f_m.jpg"
-      },
-      "large": {
-        "height": 1900,
-        "width": 1425,
-        "path": "5b0f-af8f/mostlyanimals_5b0f-af8f_l.jpg"
-      },
-      "xlarge": {
-        "height": 2560,
-        "width": 1920,
-        "path": "5b0f-af8f/mostlyanimals_5b0f-af8f_xl.jpg"
-      },
-      "xxlarge": {
-        "height": 3200,
-        "width": 2400,
-        "path": "5b0f-af8f/mostlyanimals_5b0f-af8f_xxl.jpg"
       }
     }
   },
@@ -5090,6 +5866,108 @@
     }
   },
   {
+    "key": "1ade-8c18",
+    "name": "DSC03018.jpg",
+    "title": "Whitetip Reef Shark",
+    "description": "The large oval eyes allow the whitetip to see well in dim light.",
+    "latin": "Triaenodon obesus",
+    "location": "Cocos Island, Costa Rica",
+    "tags": [
+      "2017",
+      "shark"
+    ],
+    "width": 2771,
+    "height": 3695,
+    "resize": {
+      "thumb": {
+        "height": 220,
+        "width": 165,
+        "path": "1ade-8c18/mostlyanimals_1ade-8c18_thumb.jpg"
+      },
+      "xsmall": {
+        "height": 500,
+        "width": 375,
+        "path": "1ade-8c18/mostlyanimals_1ade-8c18_xs.jpg"
+      },
+      "small": {
+        "height": 1000,
+        "width": 750,
+        "path": "1ade-8c18/mostlyanimals_1ade-8c18_s.jpg"
+      },
+      "medium": {
+        "height": 1400,
+        "width": 1050,
+        "path": "1ade-8c18/mostlyanimals_1ade-8c18_m.jpg"
+      },
+      "large": {
+        "height": 1900,
+        "width": 1425,
+        "path": "1ade-8c18/mostlyanimals_1ade-8c18_l.jpg"
+      },
+      "xlarge": {
+        "height": 2560,
+        "width": 1920,
+        "path": "1ade-8c18/mostlyanimals_1ade-8c18_xl.jpg"
+      },
+      "xxlarge": {
+        "height": 3200,
+        "width": 2400,
+        "path": "1ade-8c18/mostlyanimals_1ade-8c18_xxl.jpg"
+      }
+    }
+  },
+  {
+    "key": "f13a-491f",
+    "name": "DSC00792.jpg",
+    "title": "Fuchsia Flatworm",
+    "description": "Flatworms lack circulatory and respiratory organs (such as gills), and respiration is performed by diffusion through the worm's entire surface. They are somewhat similar to nudibranchs in appearance, but the similarity is only superficial. It's easy to distinguish them by the lack of antennas/rhinophores, that they generally move faster. And they are also flat.",
+    "latin": "Pseudoceros ferrugineus",
+    "location": "Dumaguete, The Philippines",
+    "tags": [
+      "2013",
+      "worm"
+    ],
+    "width": 1585,
+    "height": 2113,
+    "resize": {
+      "thumb": {
+        "height": 220,
+        "width": 165,
+        "path": "f13a-491f/mostlyanimals_f13a-491f_thumb.jpg"
+      },
+      "xsmall": {
+        "height": 500,
+        "width": 375,
+        "path": "f13a-491f/mostlyanimals_f13a-491f_xs.jpg"
+      },
+      "small": {
+        "height": 1000,
+        "width": 750,
+        "path": "f13a-491f/mostlyanimals_f13a-491f_s.jpg"
+      },
+      "medium": {
+        "height": 1400,
+        "width": 1050,
+        "path": "f13a-491f/mostlyanimals_f13a-491f_m.jpg"
+      },
+      "large": {
+        "height": 1900,
+        "width": 1425,
+        "path": "f13a-491f/mostlyanimals_f13a-491f_l.jpg"
+      },
+      "xlarge": {
+        "height": 2560,
+        "width": 1920,
+        "path": "f13a-491f/mostlyanimals_f13a-491f_xl.jpg"
+      },
+      "xxlarge": {
+        "height": 3200,
+        "width": 2400,
+        "path": "f13a-491f/mostlyanimals_f13a-491f_xxl.jpg"
+      }
+    }
+  },
+  {
     "key": "7843-a3ca",
     "name": "2019-indo-DSC02438.jpg",
     "title": "Nudibranch",
@@ -5142,57 +6020,6 @@
     }
   },
   {
-    "key": "168a-8d7d",
-    "name": "2019-indo-DSC02160.jpg",
-    "title": "Bullock's Hypselodoris",
-    "description": "Nudibranchs are hermaphrodites; simultaneously both male and female. They are still reproducing sexually and must hook up with a mate.",
-    "latin": "Hypselodoris bullocki",
-    "location": "Lembeh Strait, Indonesia",
-    "tags": [
-      "nudibranch",
-      "2019"
-    ],
-    "width": 2021,
-    "height": 2694,
-    "resize": {
-      "thumb": {
-        "height": 220,
-        "width": 165,
-        "path": "168a-8d7d/mostlyanimals_168a-8d7d_thumb.jpg"
-      },
-      "xsmall": {
-        "height": 500,
-        "width": 375,
-        "path": "168a-8d7d/mostlyanimals_168a-8d7d_xs.jpg"
-      },
-      "small": {
-        "height": 1000,
-        "width": 750,
-        "path": "168a-8d7d/mostlyanimals_168a-8d7d_s.jpg"
-      },
-      "medium": {
-        "height": 1400,
-        "width": 1050,
-        "path": "168a-8d7d/mostlyanimals_168a-8d7d_m.jpg"
-      },
-      "large": {
-        "height": 1900,
-        "width": 1425,
-        "path": "168a-8d7d/mostlyanimals_168a-8d7d_l.jpg"
-      },
-      "xlarge": {
-        "height": 2560,
-        "width": 1920,
-        "path": "168a-8d7d/mostlyanimals_168a-8d7d_xl.jpg"
-      },
-      "xxlarge": {
-        "height": 3200,
-        "width": 2401,
-        "path": "168a-8d7d/mostlyanimals_168a-8d7d_xxl.jpg"
-      }
-    }
-  },
-  {
     "key": "8c90-cdf4",
     "name": "2019-indo-DSC02932-Edit-2.jpg",
     "title": "Flamboyant Cuttlefish",
@@ -5237,58 +6064,6 @@
         "height": 1440,
         "width": 2560,
         "path": "8c90-cdf4/mostlyanimals_8c90-cdf4_xl.jpg?ts=1609881297639"
-      }
-    }
-  },
-  {
-    "key": "327b-6617",
-    "name": "2019-indo-DSC00010.jpg",
-    "title": "Mushroom Coral Reticulidia",
-    "description": "There are over 3000 species of nudibranchs, and new ones are regularly found!",
-    "latin": "Reticuludia Fungia",
-    "location": "Misool, Raja Ampat, Indonesia",
-    "tags": [
-      "nudibranch",
-      "2019",
-      "portrait"
-    ],
-    "width": 1859,
-    "height": 2478,
-    "resize": {
-      "thumb": {
-        "height": 220,
-        "width": 165,
-        "path": "327b-6617/mostlyanimals_327b-6617_thumb.jpg"
-      },
-      "xsmall": {
-        "height": 500,
-        "width": 375,
-        "path": "327b-6617/mostlyanimals_327b-6617_xs.jpg"
-      },
-      "small": {
-        "height": 1000,
-        "width": 750,
-        "path": "327b-6617/mostlyanimals_327b-6617_s.jpg"
-      },
-      "medium": {
-        "height": 1400,
-        "width": 1050,
-        "path": "327b-6617/mostlyanimals_327b-6617_m.jpg"
-      },
-      "large": {
-        "height": 1900,
-        "width": 1425,
-        "path": "327b-6617/mostlyanimals_327b-6617_l.jpg"
-      },
-      "xlarge": {
-        "height": 2560,
-        "width": 1921,
-        "path": "327b-6617/mostlyanimals_327b-6617_xl.jpg"
-      },
-      "xxlarge": {
-        "height": 3200,
-        "width": 2401,
-        "path": "327b-6617/mostlyanimals_327b-6617_xxl.jpg"
       }
     }
   },
@@ -5400,6 +6175,59 @@
     }
   },
   {
+    "key": "c2f4-81c3",
+    "name": "DSC03448.jpg",
+    "title": "Reticulate Stargazer",
+    "description": "Night dives at the Anilao pier feel like something from another world. The sandy bottom comes to life with all the crabs, shrimps, worms, slugs and bottom dwellers doing their brutal routine. Many of these animals feed at night, and the site turns to a large scale battlefield when the sun sets. A stargazer approached us in the midst of the chaos, landed on the sand and burrowed its tapered body, exposing only its big, heavy, flat head and a vertically slanted mouth. He waits for passing fish before jumping upwards while creating a vacuum to suck in the prey.",
+    "latin": "Uranoscopus chinensis",
+    "location": "Anilao, The Philippines",
+    "tags": [
+      "stargazer",
+      "2014",
+      "portrait",
+      "fish"
+    ],
+    "width": 2606,
+    "height": 3475,
+    "resize": {
+      "thumb": {
+        "height": 220,
+        "width": 165,
+        "path": "c2f4-81c3/mostlyanimals_c2f4-81c3_thumb.jpg"
+      },
+      "xsmall": {
+        "height": 500,
+        "width": 375,
+        "path": "c2f4-81c3/mostlyanimals_c2f4-81c3_xs.jpg"
+      },
+      "small": {
+        "height": 1000,
+        "width": 750,
+        "path": "c2f4-81c3/mostlyanimals_c2f4-81c3_s.jpg"
+      },
+      "medium": {
+        "height": 1400,
+        "width": 1050,
+        "path": "c2f4-81c3/mostlyanimals_c2f4-81c3_m.jpg"
+      },
+      "large": {
+        "height": 1900,
+        "width": 1425,
+        "path": "c2f4-81c3/mostlyanimals_c2f4-81c3_l.jpg"
+      },
+      "xlarge": {
+        "height": 2560,
+        "width": 1920,
+        "path": "c2f4-81c3/mostlyanimals_c2f4-81c3_xl.jpg"
+      },
+      "xxlarge": {
+        "height": 3200,
+        "width": 2400,
+        "path": "c2f4-81c3/mostlyanimals_c2f4-81c3_xxl.jpg"
+      }
+    }
+  },
+  {
     "key": "360a-e20e",
     "name": "2019-indo-DSC09757.jpg",
     "title": "Nudibranch",
@@ -5452,54 +6280,52 @@
     }
   },
   {
-    "key": "94ad-4ce1",
-    "name": "2019-indo-DSC02981.jpg",
-    "title": "Skeleton Shrimp",
-    "description": "The rear legs are used to hook itself to plants where it lives, in this case a bryozoan. Front claws are used for hunting and moving around.",
-    "latin": "Caprellid sp.",
-    "location": "Lembeh Strait, Indonesia",
+    "key": "69d9-c147",
+    "name": "DSC06145.jpg",
+    "title": "St. John's Cave Systems",
+    "description": "St. Johns is know for its array of caverns, tunnels, overhangs and swim-throughs. The sun pierce through the cracks, crevices and holes inside the caverns, guiding us through the maze. The majestetic area is like a forgotten world, mountains now covered in coral.",
+    "location": "St. Johns Reef, Egypt",
     "tags": [
-      "2019",
-      "portrait",
-      "shrimp"
+      "2014",
+      "diver"
     ],
-    "width": 1047,
-    "height": 1571,
+    "width": 3648,
+    "height": 4864,
     "resize": {
       "thumb": {
         "height": 220,
-        "width": 147,
-        "path": "94ad-4ce1/mostlyanimals_94ad-4ce1_thumb.jpg"
+        "width": 165,
+        "path": "69d9-c147/mostlyanimals_69d9-c147_thumb.jpg"
       },
       "xsmall": {
         "height": 500,
-        "width": 333,
-        "path": "94ad-4ce1/mostlyanimals_94ad-4ce1_xs.jpg"
+        "width": 375,
+        "path": "69d9-c147/mostlyanimals_69d9-c147_xs.jpg"
       },
       "small": {
         "height": 1000,
-        "width": 666,
-        "path": "94ad-4ce1/mostlyanimals_94ad-4ce1_s.jpg"
+        "width": 750,
+        "path": "69d9-c147/mostlyanimals_69d9-c147_s.jpg"
       },
       "medium": {
         "height": 1400,
-        "width": 933,
-        "path": "94ad-4ce1/mostlyanimals_94ad-4ce1_m.jpg"
+        "width": 1050,
+        "path": "69d9-c147/mostlyanimals_69d9-c147_m.jpg"
       },
       "large": {
         "height": 1900,
-        "width": 1266,
-        "path": "94ad-4ce1/mostlyanimals_94ad-4ce1_l.jpg"
+        "width": 1425,
+        "path": "69d9-c147/mostlyanimals_69d9-c147_l.jpg"
       },
       "xlarge": {
         "height": 2560,
-        "width": 1706,
-        "path": "94ad-4ce1/mostlyanimals_94ad-4ce1_xl.jpg"
+        "width": 1920,
+        "path": "69d9-c147/mostlyanimals_69d9-c147_xl.jpg"
       },
       "xxlarge": {
         "height": 3200,
-        "width": 2133,
-        "path": "94ad-4ce1/mostlyanimals_94ad-4ce1_xxl.jpg"
+        "width": 2400,
+        "path": "69d9-c147/mostlyanimals_69d9-c147_xxl.jpg"
       }
     }
   },
@@ -5556,6 +6382,57 @@
     }
   },
   {
+    "key": "be35-646d",
+    "name": "DSC06693.jpg",
+    "title": "Spinner Dolphin",
+    "description": "Dolphins use echolocation to \"see\" the environment, similar to a sonar or radar. They send out bursts of clicking sounds, and based on the frequency of the return signal, and how much time the signal used to return, the dolphin can estimate what kind of objects are nearby.",
+    "latin": "Stenella longirostris",
+    "location": "Egypt",
+    "tags": [
+      "2014",
+      "dolphin"
+    ],
+    "width": 2449,
+    "height": 3265,
+    "resize": {
+      "thumb": {
+        "height": 220,
+        "width": 165,
+        "path": "be35-646d/mostlyanimals_be35-646d_thumb.jpg"
+      },
+      "xsmall": {
+        "height": 500,
+        "width": 375,
+        "path": "be35-646d/mostlyanimals_be35-646d_xs.jpg"
+      },
+      "small": {
+        "height": 1000,
+        "width": 750,
+        "path": "be35-646d/mostlyanimals_be35-646d_s.jpg"
+      },
+      "medium": {
+        "height": 1400,
+        "width": 1050,
+        "path": "be35-646d/mostlyanimals_be35-646d_m.jpg"
+      },
+      "large": {
+        "height": 1900,
+        "width": 1425,
+        "path": "be35-646d/mostlyanimals_be35-646d_l.jpg"
+      },
+      "xlarge": {
+        "height": 2560,
+        "width": 1920,
+        "path": "be35-646d/mostlyanimals_be35-646d_xl.jpg"
+      },
+      "xxlarge": {
+        "height": 3200,
+        "width": 2400,
+        "path": "be35-646d/mostlyanimals_be35-646d_xxl.jpg"
+      }
+    }
+  },
+  {
     "key": "2b01-89cf",
     "name": "2019-indo-DSC01059.jpg",
     "title": "Broadclub Cuttlefish",
@@ -5604,58 +6481,6 @@
         "height": 1800,
         "width": 3200,
         "path": "2b01-89cf/mostlyanimals_2b01-89cf_xxl.jpg"
-      }
-    }
-  },
-  {
-    "key": "cf55-50f0",
-    "name": "2019-indo-DSC01148.jpg",
-    "title": "Ribboned Sweetlips",
-    "description": "This species is certainly named after their protruding fat sweet lips.",
-    "latin": "Plectorhinchus polytaenia",
-    "location": "Dampier Strait, Raja Ampat, Indonesia",
-    "tags": [
-      "fish",
-      "2019",
-      "school"
-    ],
-    "width": 2400,
-    "height": 3200,
-    "resize": {
-      "thumb": {
-        "height": 220,
-        "width": 165,
-        "path": "cf55-50f0/mostlyanimals_cf55-50f0_thumb.jpg"
-      },
-      "xsmall": {
-        "height": 500,
-        "width": 375,
-        "path": "cf55-50f0/mostlyanimals_cf55-50f0_xs.jpg"
-      },
-      "small": {
-        "height": 1000,
-        "width": 750,
-        "path": "cf55-50f0/mostlyanimals_cf55-50f0_s.jpg"
-      },
-      "medium": {
-        "height": 1400,
-        "width": 1050,
-        "path": "cf55-50f0/mostlyanimals_cf55-50f0_m.jpg"
-      },
-      "large": {
-        "height": 1900,
-        "width": 1425,
-        "path": "cf55-50f0/mostlyanimals_cf55-50f0_l.jpg"
-      },
-      "xlarge": {
-        "height": 2560,
-        "width": 1920,
-        "path": "cf55-50f0/mostlyanimals_cf55-50f0_xl.jpg"
-      },
-      "xxlarge": {
-        "height": 3200,
-        "width": 2400,
-        "path": "cf55-50f0/mostlyanimals_cf55-50f0_xxl.jpg"
       }
     }
   },
@@ -5712,58 +6537,6 @@
     }
   },
   {
-    "key": "e486-b0c6",
-    "name": "2019-indo-DSC02312.jpg",
-    "title": "Nudibranch",
-    "description": "Some nudibranchs are adapted to resemble small pieces of soft coral.",
-    "latin": "Tritonia sp.",
-    "location": "Lembeh Strait, Indonesia",
-    "tags": [
-      "nudibranch",
-      "2019",
-      "portrait"
-    ],
-    "width": 2014,
-    "height": 2685,
-    "resize": {
-      "thumb": {
-        "height": 220,
-        "width": 165,
-        "path": "e486-b0c6/mostlyanimals_e486-b0c6_thumb.jpg"
-      },
-      "xsmall": {
-        "height": 500,
-        "width": 375,
-        "path": "e486-b0c6/mostlyanimals_e486-b0c6_xs.jpg"
-      },
-      "small": {
-        "height": 1000,
-        "width": 750,
-        "path": "e486-b0c6/mostlyanimals_e486-b0c6_s.jpg"
-      },
-      "medium": {
-        "height": 1400,
-        "width": 1050,
-        "path": "e486-b0c6/mostlyanimals_e486-b0c6_m.jpg"
-      },
-      "large": {
-        "height": 1900,
-        "width": 1425,
-        "path": "e486-b0c6/mostlyanimals_e486-b0c6_l.jpg"
-      },
-      "xlarge": {
-        "height": 2560,
-        "width": 1920,
-        "path": "e486-b0c6/mostlyanimals_e486-b0c6_xl.jpg"
-      },
-      "xxlarge": {
-        "height": 3200,
-        "width": 2400,
-        "path": "e486-b0c6/mostlyanimals_e486-b0c6_xxl.jpg"
-      }
-    }
-  },
-  {
     "key": "c27c-b6d4",
     "name": "2019-indo-DSC02121.jpg",
     "title": "Red-Lined Jorunna",
@@ -5812,6 +6585,58 @@
         "height": 1800,
         "width": 3200,
         "path": "c27c-b6d4/mostlyanimals_c27c-b6d4_xxl.jpg"
+      }
+    }
+  },
+  {
+    "key": "8a84-1f32",
+    "name": "DSC03425.jpg",
+    "title": "Bobbit Worm",
+    "description": "The bobbit is my favorite worm. It can grow up to a meter, has a stunning purple iridescence, five antennae to sense passing fish and a scissor-like mouth to split prey in half. Most of the body is covered in sand, just enough is exposed to ambush surprised fish. This worm is quite rare, shy, and mysterious.",
+    "latin": "Eunice aphroditois",
+    "location": "Anilao, The Philippines",
+    "tags": [
+      "worm",
+      "2014",
+      "portrait"
+    ],
+    "width": 1553,
+    "height": 2071,
+    "resize": {
+      "thumb": {
+        "height": 220,
+        "width": 165,
+        "path": "8a84-1f32/mostlyanimals_8a84-1f32_thumb.jpg"
+      },
+      "xsmall": {
+        "height": 500,
+        "width": 375,
+        "path": "8a84-1f32/mostlyanimals_8a84-1f32_xs.jpg"
+      },
+      "small": {
+        "height": 1000,
+        "width": 750,
+        "path": "8a84-1f32/mostlyanimals_8a84-1f32_s.jpg"
+      },
+      "medium": {
+        "height": 1400,
+        "width": 1050,
+        "path": "8a84-1f32/mostlyanimals_8a84-1f32_m.jpg"
+      },
+      "large": {
+        "height": 1900,
+        "width": 1425,
+        "path": "8a84-1f32/mostlyanimals_8a84-1f32_l.jpg"
+      },
+      "xlarge": {
+        "height": 2560,
+        "width": 1920,
+        "path": "8a84-1f32/mostlyanimals_8a84-1f32_xl.jpg"
+      },
+      "xxlarge": {
+        "height": 3200,
+        "width": 2400,
+        "path": "8a84-1f32/mostlyanimals_8a84-1f32_xxl.jpg"
       }
     }
   },
@@ -5867,6 +6692,56 @@
     }
   },
   {
+    "key": "ab1f-3797",
+    "name": "DSC07475.jpg",
+    "title": "Red Sea Corals",
+    "description": "Water temperatures in the Red Sea peaks at 35 degrees celcius. Most reefs bleach and die off in such conditions while the Red Sea corals linger on. They are remarkably resilient to high temperatures. Scientists are trying to figure out the key to this crucial ability, with hope of some day be able to salvage reefs currently suffering from rising sea temperatures in other parts of the world.",
+    "location": "Egypt",
+    "tags": [
+      "2015",
+      "coral"
+    ],
+    "width": 3648,
+    "height": 4864,
+    "resize": {
+      "thumb": {
+        "height": 220,
+        "width": 165,
+        "path": "ab1f-3797/mostlyanimals_ab1f-3797_thumb.jpg"
+      },
+      "xsmall": {
+        "height": 500,
+        "width": 375,
+        "path": "ab1f-3797/mostlyanimals_ab1f-3797_xs.jpg"
+      },
+      "small": {
+        "height": 1000,
+        "width": 750,
+        "path": "ab1f-3797/mostlyanimals_ab1f-3797_s.jpg"
+      },
+      "medium": {
+        "height": 1400,
+        "width": 1050,
+        "path": "ab1f-3797/mostlyanimals_ab1f-3797_m.jpg"
+      },
+      "large": {
+        "height": 1900,
+        "width": 1425,
+        "path": "ab1f-3797/mostlyanimals_ab1f-3797_l.jpg"
+      },
+      "xlarge": {
+        "height": 2560,
+        "width": 1920,
+        "path": "ab1f-3797/mostlyanimals_ab1f-3797_xl.jpg"
+      },
+      "xxlarge": {
+        "height": 3200,
+        "width": 2400,
+        "path": "ab1f-3797/mostlyanimals_ab1f-3797_xxl.jpg"
+      }
+    }
+  },
+  {
     "key": "0603-b260",
     "name": "2019-indo-DSC01139.jpg",
     "title": "Ribboned Sweetlips",
@@ -5910,58 +6785,6 @@
         "height": 1440,
         "width": 2560,
         "path": "0603-b260/mostlyanimals_0603-b260_xl.jpg?ts=1609881500314"
-      }
-    }
-  },
-  {
-    "key": "63fe-8d32",
-    "name": "2019-indo-DSC03116.jpg",
-    "title": "Shortfin Lionfish",
-    "description": "",
-    "latin": "Dendrochirus brachypterus",
-    "location": "Lembeh Strait, Indonesia",
-    "tags": [
-      "2019",
-      "portrait",
-      "scorpionfish"
-    ],
-    "width": 2400,
-    "height": 3200,
-    "resize": {
-      "thumb": {
-        "height": 220,
-        "width": 165,
-        "path": "63fe-8d32/mostlyanimals_63fe-8d32_thumb.jpg"
-      },
-      "xsmall": {
-        "height": 500,
-        "width": 375,
-        "path": "63fe-8d32/mostlyanimals_63fe-8d32_xs.jpg"
-      },
-      "small": {
-        "height": 1000,
-        "width": 750,
-        "path": "63fe-8d32/mostlyanimals_63fe-8d32_s.jpg"
-      },
-      "medium": {
-        "height": 1400,
-        "width": 1050,
-        "path": "63fe-8d32/mostlyanimals_63fe-8d32_m.jpg"
-      },
-      "large": {
-        "height": 1900,
-        "width": 1425,
-        "path": "63fe-8d32/mostlyanimals_63fe-8d32_l.jpg"
-      },
-      "xlarge": {
-        "height": 2560,
-        "width": 1920,
-        "path": "63fe-8d32/mostlyanimals_63fe-8d32_xl.jpg"
-      },
-      "xxlarge": {
-        "height": 3200,
-        "width": 2400,
-        "path": "63fe-8d32/mostlyanimals_63fe-8d32_xxl.jpg"
       }
     }
   },
@@ -6015,58 +6838,6 @@
         "height": 1800,
         "width": 3200,
         "path": "a78d-f920/mostlyanimals_a78d-f920_xxl.jpg"
-      }
-    }
-  },
-  {
-    "key": "0f15-e05e",
-    "name": "2019-indo-DSC01548.jpg",
-    "title": "Bluestripe and Golden-Lined Snappers",
-    "description": "The goatfish (Mulloidichthys mimicus) is part of a weird relationship with the bluestripe snapper where it mimics its colors to look almost exactly the same. The reason for that is not entirely clear, but the goatfish is presumably a more preferred prey than the bluestrip snapper. So there may be some goatfish in the fish ball as well.",
-    "latin": "Lutjanus kasmira and Lutjanus lutjanus",
-    "location": "Dampier Strait, Raja Ampat, Indonesia",
-    "tags": [
-      "fish",
-      "school",
-      "2019"
-    ],
-    "width": 2400,
-    "height": 3200,
-    "resize": {
-      "thumb": {
-        "height": 220,
-        "width": 165,
-        "path": "0f15-e05e/mostlyanimals_0f15-e05e_thumb.jpg"
-      },
-      "xsmall": {
-        "height": 500,
-        "width": 375,
-        "path": "0f15-e05e/mostlyanimals_0f15-e05e_xs.jpg"
-      },
-      "small": {
-        "height": 1000,
-        "width": 750,
-        "path": "0f15-e05e/mostlyanimals_0f15-e05e_s.jpg"
-      },
-      "medium": {
-        "height": 1400,
-        "width": 1050,
-        "path": "0f15-e05e/mostlyanimals_0f15-e05e_m.jpg"
-      },
-      "large": {
-        "height": 1900,
-        "width": 1425,
-        "path": "0f15-e05e/mostlyanimals_0f15-e05e_l.jpg"
-      },
-      "xlarge": {
-        "height": 2560,
-        "width": 1920,
-        "path": "0f15-e05e/mostlyanimals_0f15-e05e_xl.jpg"
-      },
-      "xxlarge": {
-        "height": 3200,
-        "width": 2400,
-        "path": "0f15-e05e/mostlyanimals_0f15-e05e_xxl.jpg"
       }
     }
   },
@@ -6174,6 +6945,109 @@
     }
   },
   {
+    "key": "9531-6cc7",
+    "name": "DSC04222.jpg",
+    "title": "Graeffe's Sea Cucumber",
+    "description": "The sea cucumbers are scavengers, crawling mostly around the sea floor. Not always though: since their gametes float around in the water column a vertical positioning is thought to increase the chance of successful reproduction for both male and female.",
+    "latin": "Pearsonothuria graeffei",
+    "location": "Anilao, The Philippines",
+    "tags": [
+      "sea-cucumber",
+      "2014",
+      "portrait"
+    ],
+    "width": 3648,
+    "height": 4864,
+    "resize": {
+      "thumb": {
+        "height": 220,
+        "width": 165,
+        "path": "9531-6cc7/mostlyanimals_9531-6cc7_thumb.jpg"
+      },
+      "xsmall": {
+        "height": 500,
+        "width": 375,
+        "path": "9531-6cc7/mostlyanimals_9531-6cc7_xs.jpg"
+      },
+      "small": {
+        "height": 1000,
+        "width": 750,
+        "path": "9531-6cc7/mostlyanimals_9531-6cc7_s.jpg"
+      },
+      "medium": {
+        "height": 1400,
+        "width": 1050,
+        "path": "9531-6cc7/mostlyanimals_9531-6cc7_m.jpg"
+      },
+      "large": {
+        "height": 1900,
+        "width": 1425,
+        "path": "9531-6cc7/mostlyanimals_9531-6cc7_l.jpg"
+      },
+      "xlarge": {
+        "height": 2560,
+        "width": 1920,
+        "path": "9531-6cc7/mostlyanimals_9531-6cc7_xl.jpg"
+      },
+      "xxlarge": {
+        "height": 3200,
+        "width": 2400,
+        "path": "9531-6cc7/mostlyanimals_9531-6cc7_xxl.jpg"
+      }
+    }
+  },
+  {
+    "key": "60b7-319a",
+    "name": "DSC04913.jpg",
+    "title": "Glass Anemone Shrimp",
+    "description": "",
+    "latin": "Periclimenes brevicarpalis",
+    "location": "Anilao, The Philippines",
+    "tags": [
+      "2014",
+      "shrimp"
+    ],
+    "width": 1246,
+    "height": 1661,
+    "resize": {
+      "thumb": {
+        "height": 220,
+        "width": 165,
+        "path": "60b7-319a/mostlyanimals_60b7-319a_thumb.jpg"
+      },
+      "xsmall": {
+        "height": 500,
+        "width": 375,
+        "path": "60b7-319a/mostlyanimals_60b7-319a_xs.jpg"
+      },
+      "small": {
+        "height": 1000,
+        "width": 750,
+        "path": "60b7-319a/mostlyanimals_60b7-319a_s.jpg"
+      },
+      "medium": {
+        "height": 1400,
+        "width": 1050,
+        "path": "60b7-319a/mostlyanimals_60b7-319a_m.jpg"
+      },
+      "large": {
+        "height": 1900,
+        "width": 1425,
+        "path": "60b7-319a/mostlyanimals_60b7-319a_l.jpg"
+      },
+      "xlarge": {
+        "height": 2560,
+        "width": 1920,
+        "path": "60b7-319a/mostlyanimals_60b7-319a_xl.jpg"
+      },
+      "xxlarge": {
+        "height": 3200,
+        "width": 2400,
+        "path": "60b7-319a/mostlyanimals_60b7-319a_xxl.jpg"
+      }
+    }
+  },
+  {
     "key": "b6fc-9466",
     "name": "2019-indo-DSC01956.jpg",
     "title": "Balloonfish",
@@ -6274,58 +7148,6 @@
         "height": 1800,
         "width": 3200,
         "path": "080e-8df7/mostlyanimals_080e-8df7_xxl.jpg"
-      }
-    }
-  },
-  {
-    "key": "f5ee-b679",
-    "name": "2019-indo-DSC02240.jpg",
-    "title": "Bobbit Worm",
-    "description": "Little is known about the behaviour of bobbit worms. It's theorized that the worm doesn’t see at all but uses its excellent receptors to detect movement in the water to sense nearby fish.",
-    "latin": "Eunice aphroditois",
-    "location": "Lembeh Strait, Indonesia",
-    "tags": [
-      "worm",
-      "2019",
-      "portrait"
-    ],
-    "width": 2400,
-    "height": 3200,
-    "resize": {
-      "thumb": {
-        "height": 220,
-        "width": 165,
-        "path": "f5ee-b679/mostlyanimals_f5ee-b679_thumb.jpg"
-      },
-      "xsmall": {
-        "height": 500,
-        "width": 375,
-        "path": "f5ee-b679/mostlyanimals_f5ee-b679_xs.jpg"
-      },
-      "small": {
-        "height": 1000,
-        "width": 750,
-        "path": "f5ee-b679/mostlyanimals_f5ee-b679_s.jpg"
-      },
-      "medium": {
-        "height": 1400,
-        "width": 1050,
-        "path": "f5ee-b679/mostlyanimals_f5ee-b679_m.jpg"
-      },
-      "large": {
-        "height": 1900,
-        "width": 1425,
-        "path": "f5ee-b679/mostlyanimals_f5ee-b679_l.jpg"
-      },
-      "xlarge": {
-        "height": 2560,
-        "width": 1920,
-        "path": "f5ee-b679/mostlyanimals_f5ee-b679_xl.jpg"
-      },
-      "xxlarge": {
-        "height": 3200,
-        "width": 2400,
-        "path": "f5ee-b679/mostlyanimals_f5ee-b679_xxl.jpg"
       }
     }
   },
@@ -6436,6 +7258,57 @@
     }
   },
   {
+    "key": "a703-bba5",
+    "name": "DSC02544.jpg",
+    "title": "Fire Urchin",
+    "description": "Often found in shallow areas, this type of urchin sometimes carpet the sandy floor in large aggregations. Having iridescent blue dots, radiant bodies and long spines, they contribute to brighten up the muddy coast of Anilao.",
+    "latin": "Astropyga radiata",
+    "location": "Anilao, The Philippines",
+    "tags": [
+      "2014",
+      "urchin"
+    ],
+    "width": 2208,
+    "height": 2944,
+    "resize": {
+      "thumb": {
+        "height": 220,
+        "width": 165,
+        "path": "a703-bba5/mostlyanimals_a703-bba5_thumb.jpg"
+      },
+      "xsmall": {
+        "height": 500,
+        "width": 375,
+        "path": "a703-bba5/mostlyanimals_a703-bba5_xs.jpg"
+      },
+      "small": {
+        "height": 1000,
+        "width": 750,
+        "path": "a703-bba5/mostlyanimals_a703-bba5_s.jpg"
+      },
+      "medium": {
+        "height": 1400,
+        "width": 1050,
+        "path": "a703-bba5/mostlyanimals_a703-bba5_m.jpg"
+      },
+      "large": {
+        "height": 1900,
+        "width": 1425,
+        "path": "a703-bba5/mostlyanimals_a703-bba5_l.jpg"
+      },
+      "xlarge": {
+        "height": 2560,
+        "width": 1920,
+        "path": "a703-bba5/mostlyanimals_a703-bba5_xl.jpg"
+      },
+      "xxlarge": {
+        "height": 3200,
+        "width": 2400,
+        "path": "a703-bba5/mostlyanimals_a703-bba5_xxl.jpg"
+      }
+    }
+  },
+  {
     "key": "688f-c261",
     "name": "2019-indo-DSC02650.jpg",
     "title": "Harlequin Swimming Crab",
@@ -6488,6 +7361,59 @@
     }
   },
   {
+    "key": "5935-f39a",
+    "name": "DSC07389.jpg",
+    "title": "Titan Triggerfish",
+    "description": "Scattered throughout the world's seas, the triggerfish is usually a solitary fish. It's territorial and can be nasty to intruders if there are eggs to protect. Be respectful and watch its signals, an erect dorsal spine (on top of the fish) means stay away.",
+    "latin": "Balistoides viridescens",
+    "location": "Egypt",
+    "tags": [
+      "triggerfish",
+      "2015",
+      "fish",
+      "portrait"
+    ],
+    "width": 3648,
+    "height": 4864,
+    "resize": {
+      "thumb": {
+        "height": 220,
+        "width": 165,
+        "path": "5935-f39a/mostlyanimals_5935-f39a_thumb.jpg"
+      },
+      "xsmall": {
+        "height": 500,
+        "width": 375,
+        "path": "5935-f39a/mostlyanimals_5935-f39a_xs.jpg"
+      },
+      "small": {
+        "height": 1000,
+        "width": 750,
+        "path": "5935-f39a/mostlyanimals_5935-f39a_s.jpg"
+      },
+      "medium": {
+        "height": 1400,
+        "width": 1050,
+        "path": "5935-f39a/mostlyanimals_5935-f39a_m.jpg"
+      },
+      "large": {
+        "height": 1900,
+        "width": 1425,
+        "path": "5935-f39a/mostlyanimals_5935-f39a_l.jpg"
+      },
+      "xlarge": {
+        "height": 2560,
+        "width": 1920,
+        "path": "5935-f39a/mostlyanimals_5935-f39a_xl.jpg"
+      },
+      "xxlarge": {
+        "height": 3200,
+        "width": 2400,
+        "path": "5935-f39a/mostlyanimals_5935-f39a_xxl.jpg"
+      }
+    }
+  },
+  {
     "key": "bdd7-12e6",
     "name": "2019-indo-DSC03230-Edit.jpg",
     "title": "Apolegma's Hypselodoris",
@@ -6536,6 +7462,58 @@
         "height": 1800,
         "width": 3200,
         "path": "bdd7-12e6/mostlyanimals_bdd7-12e6_xxl.jpg"
+      }
+    }
+  },
+  {
+    "key": "0e26-7ca1",
+    "name": "DSC04884.jpg",
+    "title": "White-Spotted Hermit Crab",
+    "description": "A hermit crab's home is the shell of a gastropod, usually snails. As they grow, larger shells are required. However, suitable intact shells are of limited resource and competition for the best shell among hermit crabs is common. If a crab looking for new vacancy finds a shell that is too large, it will stay in its current shell and wait by the vacant shell for other hermit crabs to arrive. As other crabs arrive and check the shell, they will do the same and when finally one finds the vacant shell suitable, each crab exchange shells in sequence.",
+    "latin": "Dardanus megistos",
+    "location": "Anilao, The Philippines",
+    "tags": [
+      "2014",
+      "hermit-crab",
+      "crab"
+    ],
+    "width": 1896,
+    "height": 2528,
+    "resize": {
+      "thumb": {
+        "height": 220,
+        "width": 165,
+        "path": "0e26-7ca1/mostlyanimals_0e26-7ca1_thumb.jpg"
+      },
+      "xsmall": {
+        "height": 500,
+        "width": 375,
+        "path": "0e26-7ca1/mostlyanimals_0e26-7ca1_xs.jpg"
+      },
+      "small": {
+        "height": 1000,
+        "width": 750,
+        "path": "0e26-7ca1/mostlyanimals_0e26-7ca1_s.jpg"
+      },
+      "medium": {
+        "height": 1400,
+        "width": 1050,
+        "path": "0e26-7ca1/mostlyanimals_0e26-7ca1_m.jpg"
+      },
+      "large": {
+        "height": 1900,
+        "width": 1425,
+        "path": "0e26-7ca1/mostlyanimals_0e26-7ca1_l.jpg"
+      },
+      "xlarge": {
+        "height": 2560,
+        "width": 1920,
+        "path": "0e26-7ca1/mostlyanimals_0e26-7ca1_xl.jpg"
+      },
+      "xxlarge": {
+        "height": 3200,
+        "width": 2400,
+        "path": "0e26-7ca1/mostlyanimals_0e26-7ca1_xxl.jpg"
       }
     }
   },
@@ -6640,58 +7618,6 @@
         "height": 1800,
         "width": 3200,
         "path": "6398-4e8c/mostlyanimals_6398-4e8c_xxl.jpg"
-      }
-    }
-  },
-  {
-    "key": "3f78-8ea1",
-    "name": "DSC02949.jpg",
-    "title": "Starry Grouper",
-    "description": "Groupers typically have large mouths, fat lips and stout bodies. The starry grouper is relatively small, but still fearless enough to stay still and stare back when I was snapping a shot.",
-    "latin": "Epinephelus labriformis",
-    "location": "Cocos Island, Costa Rica",
-    "tags": [
-      "2017",
-      "portrait",
-      "fish"
-    ],
-    "width": 1440,
-    "height": 1920,
-    "resize": {
-      "thumb": {
-        "height": 220,
-        "width": 165,
-        "path": "3f78-8ea1/mostlyanimals_3f78-8ea1_thumb.jpg"
-      },
-      "xsmall": {
-        "height": 500,
-        "width": 375,
-        "path": "3f78-8ea1/mostlyanimals_3f78-8ea1_xs.jpg"
-      },
-      "small": {
-        "height": 1000,
-        "width": 750,
-        "path": "3f78-8ea1/mostlyanimals_3f78-8ea1_s.jpg"
-      },
-      "medium": {
-        "height": 1400,
-        "width": 1050,
-        "path": "3f78-8ea1/mostlyanimals_3f78-8ea1_m.jpg"
-      },
-      "large": {
-        "height": 1900,
-        "width": 1425,
-        "path": "3f78-8ea1/mostlyanimals_3f78-8ea1_l.jpg"
-      },
-      "xlarge": {
-        "height": 2560,
-        "width": 1920,
-        "path": "3f78-8ea1/mostlyanimals_3f78-8ea1_xl.jpg"
-      },
-      "xxlarge": {
-        "height": 3200,
-        "width": 2400,
-        "path": "3f78-8ea1/mostlyanimals_3f78-8ea1_xxl.jpg"
       }
     }
   },
@@ -6801,6 +7727,108 @@
     }
   },
   {
+    "key": "cc3a-0143",
+    "name": "DSC07841.jpg",
+    "title": "Bluecheek Butterflyfish",
+    "description": "Endemic to the Red Sea and Gulf of Aden, the bluecheek butterflyfish is one of the few species of fish that have long-term mates.",
+    "latin": "Chaetodon semilarvatus",
+    "location": "Egypt",
+    "tags": [
+      "2015",
+      "fish"
+    ],
+    "width": 3648,
+    "height": 4864,
+    "resize": {
+      "thumb": {
+        "height": 220,
+        "width": 165,
+        "path": "cc3a-0143/mostlyanimals_cc3a-0143_thumb.jpg"
+      },
+      "xsmall": {
+        "height": 500,
+        "width": 375,
+        "path": "cc3a-0143/mostlyanimals_cc3a-0143_xs.jpg"
+      },
+      "small": {
+        "height": 1000,
+        "width": 750,
+        "path": "cc3a-0143/mostlyanimals_cc3a-0143_s.jpg"
+      },
+      "medium": {
+        "height": 1400,
+        "width": 1050,
+        "path": "cc3a-0143/mostlyanimals_cc3a-0143_m.jpg"
+      },
+      "large": {
+        "height": 1900,
+        "width": 1425,
+        "path": "cc3a-0143/mostlyanimals_cc3a-0143_l.jpg"
+      },
+      "xlarge": {
+        "height": 2560,
+        "width": 1920,
+        "path": "cc3a-0143/mostlyanimals_cc3a-0143_xl.jpg"
+      },
+      "xxlarge": {
+        "height": 3200,
+        "width": 2400,
+        "path": "cc3a-0143/mostlyanimals_cc3a-0143_xxl.jpg"
+      }
+    }
+  },
+  {
+    "key": "844e-be39",
+    "name": "DSC09129.jpg",
+    "title": "Juvenile Blacktip Reef Shark",
+    "description": "Patrolling the shallows, half a dozen or so juvenile blacktips are using the safe nursing grounds outside a small beach on the island Perhentian Besar to practice the skill of hunting.",
+    "latin": "Carcharhinus melanopterus",
+    "location": "Perhentian Besar, Malaysia",
+    "tags": [
+      "2015",
+      "shark"
+    ],
+    "width": 3008,
+    "height": 4010,
+    "resize": {
+      "thumb": {
+        "height": 220,
+        "width": 165,
+        "path": "844e-be39/mostlyanimals_844e-be39_thumb.jpg"
+      },
+      "xsmall": {
+        "height": 500,
+        "width": 375,
+        "path": "844e-be39/mostlyanimals_844e-be39_xs.jpg"
+      },
+      "small": {
+        "height": 1000,
+        "width": 750,
+        "path": "844e-be39/mostlyanimals_844e-be39_s.jpg"
+      },
+      "medium": {
+        "height": 1400,
+        "width": 1050,
+        "path": "844e-be39/mostlyanimals_844e-be39_m.jpg"
+      },
+      "large": {
+        "height": 1900,
+        "width": 1425,
+        "path": "844e-be39/mostlyanimals_844e-be39_l.jpg"
+      },
+      "xlarge": {
+        "height": 2560,
+        "width": 1920,
+        "path": "844e-be39/mostlyanimals_844e-be39_xl.jpg"
+      },
+      "xxlarge": {
+        "height": 3200,
+        "width": 2400,
+        "path": "844e-be39/mostlyanimals_844e-be39_xxl.jpg"
+      }
+    }
+  },
+  {
     "key": "ad37-97d7",
     "name": "DSC04037.jpg",
     "title": "Southern Stingray",
@@ -6905,57 +7933,6 @@
     }
   },
   {
-    "key": "83d7-9222",
-    "name": "DSC07758.jpg",
-    "title": "Crocodilefish",
-    "description": "",
-    "latin": "Papilloculiceps longiceps",
-    "location": "Yolanda Lagoon, Egypt",
-    "tags": [
-      "portrait",
-      "2018"
-    ],
-    "width": 1920,
-    "height": 2560,
-    "resize": {
-      "thumb": {
-        "height": 220,
-        "width": 165,
-        "path": "83d7-9222/mostlyanimals_83d7-9222_thumb.jpg"
-      },
-      "xsmall": {
-        "height": 500,
-        "width": 375,
-        "path": "83d7-9222/mostlyanimals_83d7-9222_xs.jpg"
-      },
-      "small": {
-        "height": 1000,
-        "width": 750,
-        "path": "83d7-9222/mostlyanimals_83d7-9222_s.jpg"
-      },
-      "medium": {
-        "height": 1400,
-        "width": 1050,
-        "path": "83d7-9222/mostlyanimals_83d7-9222_m.jpg"
-      },
-      "large": {
-        "height": 1900,
-        "width": 1425,
-        "path": "83d7-9222/mostlyanimals_83d7-9222_l.jpg"
-      },
-      "xlarge": {
-        "height": 2560,
-        "width": 1920,
-        "path": "83d7-9222/mostlyanimals_83d7-9222_xl.jpg"
-      },
-      "xxlarge": {
-        "height": 3200,
-        "width": 2400,
-        "path": "83d7-9222/mostlyanimals_83d7-9222_xxl.jpg"
-      }
-    }
-  },
-  {
     "key": "eaa5-55ad",
     "name": "DSC08044.jpg",
     "title": "Pygmy Sweepers",
@@ -7004,57 +7981,6 @@
         "height": 1800,
         "width": 3200,
         "path": "eaa5-55ad/mostlyanimals_eaa5-55ad_xxl.jpg"
-      }
-    }
-  },
-  {
-    "key": "c30c-193c",
-    "name": "DSC03734.jpg",
-    "title": "White-Eyed Moray",
-    "description": "",
-    "latin": "Gymnothorax thyrsoideus",
-    "location": "Anilao, The Philippines",
-    "tags": [
-      "eel",
-      "2014"
-    ],
-    "width": 1559,
-    "height": 2079,
-    "resize": {
-      "thumb": {
-        "height": 220,
-        "width": 165,
-        "path": "c30c-193c/mostlyanimals_c30c-193c_thumb.jpg"
-      },
-      "xsmall": {
-        "height": 500,
-        "width": 375,
-        "path": "c30c-193c/mostlyanimals_c30c-193c_xs.jpg"
-      },
-      "small": {
-        "height": 1000,
-        "width": 750,
-        "path": "c30c-193c/mostlyanimals_c30c-193c_s.jpg"
-      },
-      "medium": {
-        "height": 1400,
-        "width": 1050,
-        "path": "c30c-193c/mostlyanimals_c30c-193c_m.jpg"
-      },
-      "large": {
-        "height": 1900,
-        "width": 1425,
-        "path": "c30c-193c/mostlyanimals_c30c-193c_l.jpg"
-      },
-      "xlarge": {
-        "height": 2560,
-        "width": 1920,
-        "path": "c30c-193c/mostlyanimals_c30c-193c_xl.jpg"
-      },
-      "xxlarge": {
-        "height": 3200,
-        "width": 2400,
-        "path": "c30c-193c/mostlyanimals_c30c-193c_xxl.jpg"
       }
     }
   },
@@ -7110,6 +8036,57 @@
     }
   },
   {
+    "key": "740c-d25d",
+    "name": "DSC03276.jpg",
+    "title": "Spotted Scorpionfish",
+    "description": "Skin flaps and feathery fins help this fish to camouflage against the surrounding coral.",
+    "latin": "Scorpaena plumieri",
+    "location": "Cocos Island, Costa Rica",
+    "tags": [
+      "2017",
+      "portrait"
+    ],
+    "width": 2111,
+    "height": 2814,
+    "resize": {
+      "thumb": {
+        "height": 220,
+        "width": 165,
+        "path": "740c-d25d/mostlyanimals_740c-d25d_thumb.jpg"
+      },
+      "xsmall": {
+        "height": 500,
+        "width": 375,
+        "path": "740c-d25d/mostlyanimals_740c-d25d_xs.jpg"
+      },
+      "small": {
+        "height": 1000,
+        "width": 750,
+        "path": "740c-d25d/mostlyanimals_740c-d25d_s.jpg"
+      },
+      "medium": {
+        "height": 1400,
+        "width": 1050,
+        "path": "740c-d25d/mostlyanimals_740c-d25d_m.jpg"
+      },
+      "large": {
+        "height": 1900,
+        "width": 1425,
+        "path": "740c-d25d/mostlyanimals_740c-d25d_l.jpg"
+      },
+      "xlarge": {
+        "height": 2560,
+        "width": 1920,
+        "path": "740c-d25d/mostlyanimals_740c-d25d_xl.jpg"
+      },
+      "xxlarge": {
+        "height": 3200,
+        "width": 2401,
+        "path": "740c-d25d/mostlyanimals_740c-d25d_xxl.jpg"
+      }
+    }
+  },
+  {
     "key": "06bb-b76d",
     "name": "DSC00208.jpg",
     "title": "Common Starfish",
@@ -7157,6 +8134,57 @@
         "height": 1800,
         "width": 3200,
         "path": "06bb-b76d/mostlyanimals_06bb-b76d_xxl.jpg"
+      }
+    }
+  },
+  {
+    "key": "0ad3-06a5",
+    "name": "DSC04214.jpg",
+    "title": "Reticulated Chromodoris",
+    "description": "",
+    "latin": "Chromodoris reticulata",
+    "location": "Anilao, The Philippines",
+    "tags": [
+      "nudibranch",
+      "2014"
+    ],
+    "width": 2276,
+    "height": 3035,
+    "resize": {
+      "thumb": {
+        "height": 220,
+        "width": 165,
+        "path": "0ad3-06a5/mostlyanimals_0ad3-06a5_thumb.jpg"
+      },
+      "xsmall": {
+        "height": 500,
+        "width": 375,
+        "path": "0ad3-06a5/mostlyanimals_0ad3-06a5_xs.jpg"
+      },
+      "small": {
+        "height": 1000,
+        "width": 750,
+        "path": "0ad3-06a5/mostlyanimals_0ad3-06a5_s.jpg"
+      },
+      "medium": {
+        "height": 1400,
+        "width": 1050,
+        "path": "0ad3-06a5/mostlyanimals_0ad3-06a5_m.jpg"
+      },
+      "large": {
+        "height": 1900,
+        "width": 1425,
+        "path": "0ad3-06a5/mostlyanimals_0ad3-06a5_l.jpg"
+      },
+      "xlarge": {
+        "height": 2560,
+        "width": 1920,
+        "path": "0ad3-06a5/mostlyanimals_0ad3-06a5_xl.jpg"
+      },
+      "xxlarge": {
+        "height": 3200,
+        "width": 2400,
+        "path": "0ad3-06a5/mostlyanimals_0ad3-06a5_xxl.jpg"
       }
     }
   },
@@ -7266,57 +8294,6 @@
     }
   },
   {
-    "key": "abd5-dde1",
-    "name": "DSC02397.jpg",
-    "title": "Scalloped Hammerhead Shark",
-    "description": "All of our dives on Cocos featured hammerheads, most shy and in the distance like here. One of my best memories from Cocos was the ascent on a site called Manuelita, which we dove many times. What we didn't realize at first was that the hammerheads had disperged and moved away when we got there. Immediately when we started to ascend they returned. During our safety stop we saw the hoards coming from all directions and reuniting at the cleaning stations on the ocean floor.",
-    "latin": "Sphyrna lewini",
-    "location": "Cocos Island, Costa Rica",
-    "tags": [
-      "2017",
-      "shark"
-    ],
-    "width": 3080,
-    "height": 4107,
-    "resize": {
-      "thumb": {
-        "height": 220,
-        "width": 165,
-        "path": "abd5-dde1/mostlyanimals_abd5-dde1_thumb.jpg"
-      },
-      "xsmall": {
-        "height": 500,
-        "width": 375,
-        "path": "abd5-dde1/mostlyanimals_abd5-dde1_xs.jpg"
-      },
-      "small": {
-        "height": 1000,
-        "width": 750,
-        "path": "abd5-dde1/mostlyanimals_abd5-dde1_s.jpg"
-      },
-      "medium": {
-        "height": 1400,
-        "width": 1050,
-        "path": "abd5-dde1/mostlyanimals_abd5-dde1_m.jpg"
-      },
-      "large": {
-        "height": 1900,
-        "width": 1425,
-        "path": "abd5-dde1/mostlyanimals_abd5-dde1_l.jpg"
-      },
-      "xlarge": {
-        "height": 2560,
-        "width": 1920,
-        "path": "abd5-dde1/mostlyanimals_abd5-dde1_xl.jpg"
-      },
-      "xxlarge": {
-        "height": 3200,
-        "width": 2400,
-        "path": "abd5-dde1/mostlyanimals_abd5-dde1_xxl.jpg"
-      }
-    }
-  },
-  {
     "key": "0fd6-6fc7",
     "name": "DSC03660.jpg",
     "title": "Chamberlain's Nembrotha",
@@ -7416,59 +8393,6 @@
         "height": 1800,
         "width": 3200,
         "path": "48d1-eb77/mostlyanimals_48d1-eb77_xxl.jpg"
-      }
-    }
-  },
-  {
-    "key": "ddf1-8991",
-    "name": "DSC09197.jpg",
-    "title": "Gracile Lizardfish",
-    "description": "Lizardfish are frequent visitors of sandy or muddy areas and lie sometimes partly buried on the sea floor.",
-    "latin": "Saurida gracilis",
-    "location": "Baa Atoll, The Maldives",
-    "tags": [
-      "fish",
-      "2018",
-      "lizardfish",
-      "portrait"
-    ],
-    "width": 2527,
-    "height": 3369,
-    "resize": {
-      "thumb": {
-        "height": 220,
-        "width": 165,
-        "path": "ddf1-8991/mostlyanimals_ddf1-8991_thumb.jpg"
-      },
-      "xsmall": {
-        "height": 500,
-        "width": 375,
-        "path": "ddf1-8991/mostlyanimals_ddf1-8991_xs.jpg"
-      },
-      "small": {
-        "height": 1000,
-        "width": 750,
-        "path": "ddf1-8991/mostlyanimals_ddf1-8991_s.jpg"
-      },
-      "medium": {
-        "height": 1400,
-        "width": 1050,
-        "path": "ddf1-8991/mostlyanimals_ddf1-8991_m.jpg"
-      },
-      "large": {
-        "height": 1900,
-        "width": 1425,
-        "path": "ddf1-8991/mostlyanimals_ddf1-8991_l.jpg"
-      },
-      "xlarge": {
-        "height": 2560,
-        "width": 1920,
-        "path": "ddf1-8991/mostlyanimals_ddf1-8991_xl.jpg"
-      },
-      "xxlarge": {
-        "height": 3200,
-        "width": 2400,
-        "path": "ddf1-8991/mostlyanimals_ddf1-8991_xxl.jpg"
       }
     }
   },
@@ -7577,57 +8501,6 @@
     }
   },
   {
-    "key": "36bd-dbb7",
-    "name": "DSC03638.jpg",
-    "title": "Scalloped Hammerhead Shark",
-    "description": "Sharks can detect electrical fields created by other animals using specialized sensory organs. For the hammerheads, these organs are spread over the oddly wide-shaped head to boost the sensitivity.",
-    "latin": "Sphyrna lewini",
-    "location": "Cocos Island, Costa Rica",
-    "tags": [
-      "2017",
-      "shark"
-    ],
-    "width": 3524,
-    "height": 4699,
-    "resize": {
-      "thumb": {
-        "height": 220,
-        "width": 165,
-        "path": "36bd-dbb7/mostlyanimals_36bd-dbb7_thumb.jpg"
-      },
-      "xsmall": {
-        "height": 500,
-        "width": 375,
-        "path": "36bd-dbb7/mostlyanimals_36bd-dbb7_xs.jpg"
-      },
-      "small": {
-        "height": 1000,
-        "width": 750,
-        "path": "36bd-dbb7/mostlyanimals_36bd-dbb7_s.jpg"
-      },
-      "medium": {
-        "height": 1400,
-        "width": 1050,
-        "path": "36bd-dbb7/mostlyanimals_36bd-dbb7_m.jpg"
-      },
-      "large": {
-        "height": 1900,
-        "width": 1425,
-        "path": "36bd-dbb7/mostlyanimals_36bd-dbb7_l.jpg"
-      },
-      "xlarge": {
-        "height": 2560,
-        "width": 1920,
-        "path": "36bd-dbb7/mostlyanimals_36bd-dbb7_xl.jpg"
-      },
-      "xxlarge": {
-        "height": 3200,
-        "width": 2400,
-        "path": "36bd-dbb7/mostlyanimals_36bd-dbb7_xxl.jpg"
-      }
-    }
-  },
-  {
     "key": "4956-9efa",
     "name": "DSC00266.jpg",
     "title": "False Clown Anemonefish",
@@ -7730,58 +8603,6 @@
         "height": 1802,
         "width": 3200,
         "path": "9c53-e6dc/mostlyanimals_9c53-e6dc_xxl.jpg"
-      }
-    }
-  },
-  {
-    "key": "d985-bf0d",
-    "name": "DSC00366.jpg",
-    "title": "Lumpsucker",
-    "description": "Instead of having the normal type of pelvic fins (below), this fish has evolved disc-like fins and use them to adhere to the substrate.",
-    "latin": "Cyclopterus lumpus",
-    "location": "Gulen, Norway",
-    "tags": [
-      "2016",
-      "portrait",
-      "fish"
-    ],
-    "width": 1787,
-    "height": 2382,
-    "resize": {
-      "thumb": {
-        "height": 220,
-        "width": 165,
-        "path": "d985-bf0d/mostlyanimals_d985-bf0d_thumb.jpg"
-      },
-      "xsmall": {
-        "height": 500,
-        "width": 375,
-        "path": "d985-bf0d/mostlyanimals_d985-bf0d_xs.jpg"
-      },
-      "small": {
-        "height": 1000,
-        "width": 750,
-        "path": "d985-bf0d/mostlyanimals_d985-bf0d_s.jpg"
-      },
-      "medium": {
-        "height": 1400,
-        "width": 1050,
-        "path": "d985-bf0d/mostlyanimals_d985-bf0d_m.jpg"
-      },
-      "large": {
-        "height": 1900,
-        "width": 1425,
-        "path": "d985-bf0d/mostlyanimals_d985-bf0d_l.jpg"
-      },
-      "xlarge": {
-        "height": 2560,
-        "width": 1921,
-        "path": "d985-bf0d/mostlyanimals_d985-bf0d_xl.jpg"
-      },
-      "xxlarge": {
-        "height": 3200,
-        "width": 2401,
-        "path": "d985-bf0d/mostlyanimals_d985-bf0d_xxl.jpg"
       }
     }
   },
@@ -7987,57 +8808,6 @@
         "height": 1800,
         "width": 3200,
         "path": "5c7b-6819/mostlyanimals_5c7b-6819_xxl.jpg"
-      }
-    }
-  },
-  {
-    "key": "1ade-8c18",
-    "name": "DSC03018.jpg",
-    "title": "Whitetip Reef Shark",
-    "description": "The large oval eyes allow the whitetip to see well in dim light.",
-    "latin": "Triaenodon obesus",
-    "location": "Cocos Island, Costa Rica",
-    "tags": [
-      "2017",
-      "shark"
-    ],
-    "width": 2771,
-    "height": 3695,
-    "resize": {
-      "thumb": {
-        "height": 220,
-        "width": 165,
-        "path": "1ade-8c18/mostlyanimals_1ade-8c18_thumb.jpg"
-      },
-      "xsmall": {
-        "height": 500,
-        "width": 375,
-        "path": "1ade-8c18/mostlyanimals_1ade-8c18_xs.jpg"
-      },
-      "small": {
-        "height": 1000,
-        "width": 750,
-        "path": "1ade-8c18/mostlyanimals_1ade-8c18_s.jpg"
-      },
-      "medium": {
-        "height": 1400,
-        "width": 1050,
-        "path": "1ade-8c18/mostlyanimals_1ade-8c18_m.jpg"
-      },
-      "large": {
-        "height": 1900,
-        "width": 1425,
-        "path": "1ade-8c18/mostlyanimals_1ade-8c18_l.jpg"
-      },
-      "xlarge": {
-        "height": 2560,
-        "width": 1920,
-        "path": "1ade-8c18/mostlyanimals_1ade-8c18_xl.jpg"
-      },
-      "xxlarge": {
-        "height": 3200,
-        "width": 2400,
-        "path": "1ade-8c18/mostlyanimals_1ade-8c18_xxl.jpg"
       }
     }
   },
@@ -8404,57 +9174,6 @@
     }
   },
   {
-    "key": "f13a-491f",
-    "name": "DSC00792.jpg",
-    "title": "Fuchsia Flatworm",
-    "description": "Flatworms lack circulatory and respiratory organs (such as gills), and respiration is performed by diffusion through the worm's entire surface. They are somewhat similar to nudibranchs in appearance, but the similarity is only superficial. It's easy to distinguish them by the lack of antennas/rhinophores, that they generally move faster. And they are also flat.",
-    "latin": "Pseudoceros ferrugineus",
-    "location": "Dumaguete, The Philippines",
-    "tags": [
-      "2013",
-      "worm"
-    ],
-    "width": 1585,
-    "height": 2113,
-    "resize": {
-      "thumb": {
-        "height": 220,
-        "width": 165,
-        "path": "f13a-491f/mostlyanimals_f13a-491f_thumb.jpg"
-      },
-      "xsmall": {
-        "height": 500,
-        "width": 375,
-        "path": "f13a-491f/mostlyanimals_f13a-491f_xs.jpg"
-      },
-      "small": {
-        "height": 1000,
-        "width": 750,
-        "path": "f13a-491f/mostlyanimals_f13a-491f_s.jpg"
-      },
-      "medium": {
-        "height": 1400,
-        "width": 1050,
-        "path": "f13a-491f/mostlyanimals_f13a-491f_m.jpg"
-      },
-      "large": {
-        "height": 1900,
-        "width": 1425,
-        "path": "f13a-491f/mostlyanimals_f13a-491f_l.jpg"
-      },
-      "xlarge": {
-        "height": 2560,
-        "width": 1920,
-        "path": "f13a-491f/mostlyanimals_f13a-491f_xl.jpg"
-      },
-      "xxlarge": {
-        "height": 3200,
-        "width": 2400,
-        "path": "f13a-491f/mostlyanimals_f13a-491f_xxl.jpg"
-      }
-    }
-  },
-  {
     "key": "928b-5f17",
     "name": "DSC01136.jpg",
     "title": "Atlantic Tarpon",
@@ -8707,59 +9426,6 @@
         "height": 1800,
         "width": 3200,
         "path": "fc74-a4d4/mostlyanimals_fc74-a4d4_xxl.jpg"
-      }
-    }
-  },
-  {
-    "key": "c2f4-81c3",
-    "name": "DSC03448.jpg",
-    "title": "Reticulate Stargazer",
-    "description": "Night dives at the Anilao pier feel like something from another world. The sandy bottom comes to life with all the crabs, shrimps, worms, slugs and bottom dwellers doing their brutal routine. Many of these animals feed at night, and the site turns to a large scale battlefield when the sun sets. A stargazer approached us in the midst of the chaos, landed on the sand and burrowed its tapered body, exposing only its big, heavy, flat head and a vertically slanted mouth. He waits for passing fish before jumping upwards while creating a vacuum to suck in the prey.",
-    "latin": "Uranoscopus chinensis",
-    "location": "Anilao, The Philippines",
-    "tags": [
-      "stargazer",
-      "2014",
-      "portrait",
-      "fish"
-    ],
-    "width": 2606,
-    "height": 3475,
-    "resize": {
-      "thumb": {
-        "height": 220,
-        "width": 165,
-        "path": "c2f4-81c3/mostlyanimals_c2f4-81c3_thumb.jpg"
-      },
-      "xsmall": {
-        "height": 500,
-        "width": 375,
-        "path": "c2f4-81c3/mostlyanimals_c2f4-81c3_xs.jpg"
-      },
-      "small": {
-        "height": 1000,
-        "width": 750,
-        "path": "c2f4-81c3/mostlyanimals_c2f4-81c3_s.jpg"
-      },
-      "medium": {
-        "height": 1400,
-        "width": 1050,
-        "path": "c2f4-81c3/mostlyanimals_c2f4-81c3_m.jpg"
-      },
-      "large": {
-        "height": 1900,
-        "width": 1425,
-        "path": "c2f4-81c3/mostlyanimals_c2f4-81c3_l.jpg"
-      },
-      "xlarge": {
-        "height": 2560,
-        "width": 1920,
-        "path": "c2f4-81c3/mostlyanimals_c2f4-81c3_xl.jpg"
-      },
-      "xxlarge": {
-        "height": 3200,
-        "width": 2400,
-        "path": "c2f4-81c3/mostlyanimals_c2f4-81c3_xxl.jpg"
       }
     }
   },
@@ -9225,56 +9891,6 @@
         "height": 1800,
         "width": 3200,
         "path": "ddfd-0bd5/mostlyanimals_ddfd-0bd5_xxl.jpg"
-      }
-    }
-  },
-  {
-    "key": "69d9-c147",
-    "name": "DSC06145.jpg",
-    "title": "St. John's Cave Systems",
-    "description": "St. Johns is know for its array of caverns, tunnels, overhangs and swim-throughs. The sun pierce through the cracks, crevices and holes inside the caverns, guiding us through the maze. The majestetic area is like a forgotten world, mountains now covered in coral.",
-    "location": "St. Johns Reef, Egypt",
-    "tags": [
-      "2014",
-      "diver"
-    ],
-    "width": 3648,
-    "height": 4864,
-    "resize": {
-      "thumb": {
-        "height": 220,
-        "width": 165,
-        "path": "69d9-c147/mostlyanimals_69d9-c147_thumb.jpg"
-      },
-      "xsmall": {
-        "height": 500,
-        "width": 375,
-        "path": "69d9-c147/mostlyanimals_69d9-c147_xs.jpg"
-      },
-      "small": {
-        "height": 1000,
-        "width": 750,
-        "path": "69d9-c147/mostlyanimals_69d9-c147_s.jpg"
-      },
-      "medium": {
-        "height": 1400,
-        "width": 1050,
-        "path": "69d9-c147/mostlyanimals_69d9-c147_m.jpg"
-      },
-      "large": {
-        "height": 1900,
-        "width": 1425,
-        "path": "69d9-c147/mostlyanimals_69d9-c147_l.jpg"
-      },
-      "xlarge": {
-        "height": 2560,
-        "width": 1920,
-        "path": "69d9-c147/mostlyanimals_69d9-c147_xl.jpg"
-      },
-      "xxlarge": {
-        "height": 3200,
-        "width": 2400,
-        "path": "69d9-c147/mostlyanimals_69d9-c147_xxl.jpg"
       }
     }
   },
@@ -9793,57 +10409,6 @@
     }
   },
   {
-    "key": "be35-646d",
-    "name": "DSC06693.jpg",
-    "title": "Spinner Dolphin",
-    "description": "Dolphins use echolocation to \"see\" the environment, similar to a sonar or radar. They send out bursts of clicking sounds, and based on the frequency of the return signal, and how much time the signal used to return, the dolphin can estimate what kind of objects are nearby.",
-    "latin": "Stenella longirostris",
-    "location": "Egypt",
-    "tags": [
-      "2014",
-      "dolphin"
-    ],
-    "width": 2449,
-    "height": 3265,
-    "resize": {
-      "thumb": {
-        "height": 220,
-        "width": 165,
-        "path": "be35-646d/mostlyanimals_be35-646d_thumb.jpg"
-      },
-      "xsmall": {
-        "height": 500,
-        "width": 375,
-        "path": "be35-646d/mostlyanimals_be35-646d_xs.jpg"
-      },
-      "small": {
-        "height": 1000,
-        "width": 750,
-        "path": "be35-646d/mostlyanimals_be35-646d_s.jpg"
-      },
-      "medium": {
-        "height": 1400,
-        "width": 1050,
-        "path": "be35-646d/mostlyanimals_be35-646d_m.jpg"
-      },
-      "large": {
-        "height": 1900,
-        "width": 1425,
-        "path": "be35-646d/mostlyanimals_be35-646d_l.jpg"
-      },
-      "xlarge": {
-        "height": 2560,
-        "width": 1920,
-        "path": "be35-646d/mostlyanimals_be35-646d_xl.jpg"
-      },
-      "xxlarge": {
-        "height": 3200,
-        "width": 2400,
-        "path": "be35-646d/mostlyanimals_be35-646d_xxl.jpg"
-      }
-    }
-  },
-  {
     "key": "a680-e885",
     "name": "DSC02499.jpg",
     "title": "Scalloped Hammerhead Shark",
@@ -10097,58 +10662,6 @@
         "height": 1800,
         "width": 3200,
         "path": "8d64-2fda/mostlyanimals_8d64-2fda_xxl.jpg"
-      }
-    }
-  },
-  {
-    "key": "8a84-1f32",
-    "name": "DSC03425.jpg",
-    "title": "Bobbit Worm",
-    "description": "The bobbit is my favorite worm. It can grow up to a meter, has a stunning purple iridescence, five antennae to sense passing fish and a scissor-like mouth to split prey in half. Most of the body is covered in sand, just enough is exposed to ambush surprised fish. This worm is quite rare, shy, and mysterious.",
-    "latin": "Eunice aphroditois",
-    "location": "Anilao, The Philippines",
-    "tags": [
-      "worm",
-      "2014",
-      "portrait"
-    ],
-    "width": 1553,
-    "height": 2071,
-    "resize": {
-      "thumb": {
-        "height": 220,
-        "width": 165,
-        "path": "8a84-1f32/mostlyanimals_8a84-1f32_thumb.jpg"
-      },
-      "xsmall": {
-        "height": 500,
-        "width": 375,
-        "path": "8a84-1f32/mostlyanimals_8a84-1f32_xs.jpg"
-      },
-      "small": {
-        "height": 1000,
-        "width": 750,
-        "path": "8a84-1f32/mostlyanimals_8a84-1f32_s.jpg"
-      },
-      "medium": {
-        "height": 1400,
-        "width": 1050,
-        "path": "8a84-1f32/mostlyanimals_8a84-1f32_m.jpg"
-      },
-      "large": {
-        "height": 1900,
-        "width": 1425,
-        "path": "8a84-1f32/mostlyanimals_8a84-1f32_l.jpg"
-      },
-      "xlarge": {
-        "height": 2560,
-        "width": 1920,
-        "path": "8a84-1f32/mostlyanimals_8a84-1f32_xl.jpg"
-      },
-      "xxlarge": {
-        "height": 3200,
-        "width": 2400,
-        "path": "8a84-1f32/mostlyanimals_8a84-1f32_xxl.jpg"
       }
     }
   },
@@ -10565,56 +11078,6 @@
     }
   },
   {
-    "key": "ab1f-3797",
-    "name": "DSC07475.jpg",
-    "title": "Red Sea Corals",
-    "description": "Water temperatures in the Red Sea peaks at 35 degrees celcius. Most reefs bleach and die off in such conditions while the Red Sea corals linger on. They are remarkably resilient to high temperatures. Scientists are trying to figure out the key to this crucial ability, with hope of some day be able to salvage reefs currently suffering from rising sea temperatures in other parts of the world.",
-    "location": "Egypt",
-    "tags": [
-      "2015",
-      "coral"
-    ],
-    "width": 3648,
-    "height": 4864,
-    "resize": {
-      "thumb": {
-        "height": 220,
-        "width": 165,
-        "path": "ab1f-3797/mostlyanimals_ab1f-3797_thumb.jpg"
-      },
-      "xsmall": {
-        "height": 500,
-        "width": 375,
-        "path": "ab1f-3797/mostlyanimals_ab1f-3797_xs.jpg"
-      },
-      "small": {
-        "height": 1000,
-        "width": 750,
-        "path": "ab1f-3797/mostlyanimals_ab1f-3797_s.jpg"
-      },
-      "medium": {
-        "height": 1400,
-        "width": 1050,
-        "path": "ab1f-3797/mostlyanimals_ab1f-3797_m.jpg"
-      },
-      "large": {
-        "height": 1900,
-        "width": 1425,
-        "path": "ab1f-3797/mostlyanimals_ab1f-3797_l.jpg"
-      },
-      "xlarge": {
-        "height": 2560,
-        "width": 1920,
-        "path": "ab1f-3797/mostlyanimals_ab1f-3797_xl.jpg"
-      },
-      "xxlarge": {
-        "height": 3200,
-        "width": 2400,
-        "path": "ab1f-3797/mostlyanimals_ab1f-3797_xxl.jpg"
-      }
-    }
-  },
-  {
     "key": "1be4-6afa",
     "name": "DSC02188.jpg",
     "title": "Christmas Tree Worm",
@@ -10714,58 +11177,6 @@
         "height": 1800,
         "width": 3200,
         "path": "230f-144c/mostlyanimals_230f-144c_xxl.jpg"
-      }
-    }
-  },
-  {
-    "key": "9531-6cc7",
-    "name": "DSC04222.jpg",
-    "title": "Graeffe's Sea Cucumber",
-    "description": "The sea cucumbers are scavengers, crawling mostly around the sea floor. Not always though: since their gametes float around in the water column a vertical positioning is thought to increase the chance of successful reproduction for both male and female.",
-    "latin": "Pearsonothuria graeffei",
-    "location": "Anilao, The Philippines",
-    "tags": [
-      "sea-cucumber",
-      "2014",
-      "portrait"
-    ],
-    "width": 3648,
-    "height": 4864,
-    "resize": {
-      "thumb": {
-        "height": 220,
-        "width": 165,
-        "path": "9531-6cc7/mostlyanimals_9531-6cc7_thumb.jpg"
-      },
-      "xsmall": {
-        "height": 500,
-        "width": 375,
-        "path": "9531-6cc7/mostlyanimals_9531-6cc7_xs.jpg"
-      },
-      "small": {
-        "height": 1000,
-        "width": 750,
-        "path": "9531-6cc7/mostlyanimals_9531-6cc7_s.jpg"
-      },
-      "medium": {
-        "height": 1400,
-        "width": 1050,
-        "path": "9531-6cc7/mostlyanimals_9531-6cc7_m.jpg"
-      },
-      "large": {
-        "height": 1900,
-        "width": 1425,
-        "path": "9531-6cc7/mostlyanimals_9531-6cc7_l.jpg"
-      },
-      "xlarge": {
-        "height": 2560,
-        "width": 1920,
-        "path": "9531-6cc7/mostlyanimals_9531-6cc7_xl.jpg"
-      },
-      "xxlarge": {
-        "height": 3200,
-        "width": 2400,
-        "path": "9531-6cc7/mostlyanimals_9531-6cc7_xxl.jpg"
       }
     }
   },
@@ -11234,57 +11645,6 @@
     }
   },
   {
-    "key": "60b7-319a",
-    "name": "DSC04913.jpg",
-    "title": "Glass Anemone Shrimp",
-    "description": "",
-    "latin": "Periclimenes brevicarpalis",
-    "location": "Anilao, The Philippines",
-    "tags": [
-      "2014",
-      "shrimp"
-    ],
-    "width": 1246,
-    "height": 1661,
-    "resize": {
-      "thumb": {
-        "height": 220,
-        "width": 165,
-        "path": "60b7-319a/mostlyanimals_60b7-319a_thumb.jpg"
-      },
-      "xsmall": {
-        "height": 500,
-        "width": 375,
-        "path": "60b7-319a/mostlyanimals_60b7-319a_xs.jpg"
-      },
-      "small": {
-        "height": 1000,
-        "width": 750,
-        "path": "60b7-319a/mostlyanimals_60b7-319a_s.jpg"
-      },
-      "medium": {
-        "height": 1400,
-        "width": 1050,
-        "path": "60b7-319a/mostlyanimals_60b7-319a_m.jpg"
-      },
-      "large": {
-        "height": 1900,
-        "width": 1425,
-        "path": "60b7-319a/mostlyanimals_60b7-319a_l.jpg"
-      },
-      "xlarge": {
-        "height": 2560,
-        "width": 1920,
-        "path": "60b7-319a/mostlyanimals_60b7-319a_xl.jpg"
-      },
-      "xxlarge": {
-        "height": 3200,
-        "width": 2400,
-        "path": "60b7-319a/mostlyanimals_60b7-319a_xxl.jpg"
-      }
-    }
-  },
-  {
     "key": "a098-5d24",
     "name": "DSC03769.jpg",
     "title": "Giant Frogfish",
@@ -11544,57 +11904,6 @@
     }
   },
   {
-    "key": "a703-bba5",
-    "name": "DSC02544.jpg",
-    "title": "Fire Urchin",
-    "description": "Often found in shallow areas, this type of urchin sometimes carpet the sandy floor in large aggregations. Having iridescent blue dots, radiant bodies and long spines, they contribute to brighten up the muddy coast of Anilao.",
-    "latin": "Astropyga radiata",
-    "location": "Anilao, The Philippines",
-    "tags": [
-      "2014",
-      "urchin"
-    ],
-    "width": 2208,
-    "height": 2944,
-    "resize": {
-      "thumb": {
-        "height": 220,
-        "width": 165,
-        "path": "a703-bba5/mostlyanimals_a703-bba5_thumb.jpg"
-      },
-      "xsmall": {
-        "height": 500,
-        "width": 375,
-        "path": "a703-bba5/mostlyanimals_a703-bba5_xs.jpg"
-      },
-      "small": {
-        "height": 1000,
-        "width": 750,
-        "path": "a703-bba5/mostlyanimals_a703-bba5_s.jpg"
-      },
-      "medium": {
-        "height": 1400,
-        "width": 1050,
-        "path": "a703-bba5/mostlyanimals_a703-bba5_m.jpg"
-      },
-      "large": {
-        "height": 1900,
-        "width": 1425,
-        "path": "a703-bba5/mostlyanimals_a703-bba5_l.jpg"
-      },
-      "xlarge": {
-        "height": 2560,
-        "width": 1920,
-        "path": "a703-bba5/mostlyanimals_a703-bba5_xl.jpg"
-      },
-      "xxlarge": {
-        "height": 3200,
-        "width": 2400,
-        "path": "a703-bba5/mostlyanimals_a703-bba5_xxl.jpg"
-      }
-    }
-  },
-  {
     "key": "f3e5-8721",
     "name": "DSC00692.jpg",
     "title": "White-Eyed Moray",
@@ -11642,59 +11951,6 @@
         "height": 1800,
         "width": 3200,
         "path": "f3e5-8721/mostlyanimals_f3e5-8721_xxl.jpg"
-      }
-    }
-  },
-  {
-    "key": "5935-f39a",
-    "name": "DSC07389.jpg",
-    "title": "Titan Triggerfish",
-    "description": "Scattered throughout the world's seas, the triggerfish is usually a solitary fish. It's territorial and can be nasty to intruders if there are eggs to protect. Be respectful and watch its signals, an erect dorsal spine (on top of the fish) means stay away.",
-    "latin": "Balistoides viridescens",
-    "location": "Egypt",
-    "tags": [
-      "triggerfish",
-      "2015",
-      "fish",
-      "portrait"
-    ],
-    "width": 3648,
-    "height": 4864,
-    "resize": {
-      "thumb": {
-        "height": 220,
-        "width": 165,
-        "path": "5935-f39a/mostlyanimals_5935-f39a_thumb.jpg"
-      },
-      "xsmall": {
-        "height": 500,
-        "width": 375,
-        "path": "5935-f39a/mostlyanimals_5935-f39a_xs.jpg"
-      },
-      "small": {
-        "height": 1000,
-        "width": 750,
-        "path": "5935-f39a/mostlyanimals_5935-f39a_s.jpg"
-      },
-      "medium": {
-        "height": 1400,
-        "width": 1050,
-        "path": "5935-f39a/mostlyanimals_5935-f39a_m.jpg"
-      },
-      "large": {
-        "height": 1900,
-        "width": 1425,
-        "path": "5935-f39a/mostlyanimals_5935-f39a_l.jpg"
-      },
-      "xlarge": {
-        "height": 2560,
-        "width": 1920,
-        "path": "5935-f39a/mostlyanimals_5935-f39a_xl.jpg"
-      },
-      "xxlarge": {
-        "height": 3200,
-        "width": 2400,
-        "path": "5935-f39a/mostlyanimals_5935-f39a_xxl.jpg"
       }
     }
   },
@@ -11956,58 +12212,6 @@
     }
   },
   {
-    "key": "0e26-7ca1",
-    "name": "DSC04884.jpg",
-    "title": "White-Spotted Hermit Crab",
-    "description": "A hermit crab's home is the shell of a gastropod, usually snails. As they grow, larger shells are required. However, suitable intact shells are of limited resource and competition for the best shell among hermit crabs is common. If a crab looking for new vacancy finds a shell that is too large, it will stay in its current shell and wait by the vacant shell for other hermit crabs to arrive. As other crabs arrive and check the shell, they will do the same and when finally one finds the vacant shell suitable, each crab exchange shells in sequence.",
-    "latin": "Dardanus megistos",
-    "location": "Anilao, The Philippines",
-    "tags": [
-      "2014",
-      "hermit-crab",
-      "crab"
-    ],
-    "width": 1896,
-    "height": 2528,
-    "resize": {
-      "thumb": {
-        "height": 220,
-        "width": 165,
-        "path": "0e26-7ca1/mostlyanimals_0e26-7ca1_thumb.jpg"
-      },
-      "xsmall": {
-        "height": 500,
-        "width": 375,
-        "path": "0e26-7ca1/mostlyanimals_0e26-7ca1_xs.jpg"
-      },
-      "small": {
-        "height": 1000,
-        "width": 750,
-        "path": "0e26-7ca1/mostlyanimals_0e26-7ca1_s.jpg"
-      },
-      "medium": {
-        "height": 1400,
-        "width": 1050,
-        "path": "0e26-7ca1/mostlyanimals_0e26-7ca1_m.jpg"
-      },
-      "large": {
-        "height": 1900,
-        "width": 1425,
-        "path": "0e26-7ca1/mostlyanimals_0e26-7ca1_l.jpg"
-      },
-      "xlarge": {
-        "height": 2560,
-        "width": 1920,
-        "path": "0e26-7ca1/mostlyanimals_0e26-7ca1_xl.jpg"
-      },
-      "xxlarge": {
-        "height": 3200,
-        "width": 2400,
-        "path": "0e26-7ca1/mostlyanimals_0e26-7ca1_xxl.jpg"
-      }
-    }
-  },
-  {
     "key": "caa9-36e8",
     "name": "DSC02022.jpg",
     "title": "Smooth Trunkfish",
@@ -12156,57 +12360,6 @@
         "height": 1801,
         "width": 3200,
         "path": "5460-5bf5/mostlyanimals_5460-5bf5_xxl.jpg"
-      }
-    }
-  },
-  {
-    "key": "cc3a-0143",
-    "name": "DSC07841.jpg",
-    "title": "Bluecheek Butterflyfish",
-    "description": "Endemic to the Red Sea and Gulf of Aden, the bluecheek butterflyfish is one of the few species of fish that have long-term mates.",
-    "latin": "Chaetodon semilarvatus",
-    "location": "Egypt",
-    "tags": [
-      "2015",
-      "fish"
-    ],
-    "width": 3648,
-    "height": 4864,
-    "resize": {
-      "thumb": {
-        "height": 220,
-        "width": 165,
-        "path": "cc3a-0143/mostlyanimals_cc3a-0143_thumb.jpg"
-      },
-      "xsmall": {
-        "height": 500,
-        "width": 375,
-        "path": "cc3a-0143/mostlyanimals_cc3a-0143_xs.jpg"
-      },
-      "small": {
-        "height": 1000,
-        "width": 750,
-        "path": "cc3a-0143/mostlyanimals_cc3a-0143_s.jpg"
-      },
-      "medium": {
-        "height": 1400,
-        "width": 1050,
-        "path": "cc3a-0143/mostlyanimals_cc3a-0143_m.jpg"
-      },
-      "large": {
-        "height": 1900,
-        "width": 1425,
-        "path": "cc3a-0143/mostlyanimals_cc3a-0143_l.jpg"
-      },
-      "xlarge": {
-        "height": 2560,
-        "width": 1920,
-        "path": "cc3a-0143/mostlyanimals_cc3a-0143_xl.jpg"
-      },
-      "xxlarge": {
-        "height": 3200,
-        "width": 2400,
-        "path": "cc3a-0143/mostlyanimals_cc3a-0143_xxl.jpg"
       }
     }
   },
@@ -12466,108 +12619,6 @@
         "height": 1800,
         "width": 3200,
         "path": "2963-e10b/mostlyanimals_2963-e10b_xxl.jpg"
-      }
-    }
-  },
-  {
-    "key": "844e-be39",
-    "name": "DSC09129.jpg",
-    "title": "Juvenile Blacktip Reef Shark",
-    "description": "Patrolling the shallows, half a dozen or so juvenile blacktips are using the safe nursing grounds outside a small beach on the island Perhentian Besar to practice the skill of hunting.",
-    "latin": "Carcharhinus melanopterus",
-    "location": "Perhentian Besar, Malaysia",
-    "tags": [
-      "2015",
-      "shark"
-    ],
-    "width": 3008,
-    "height": 4010,
-    "resize": {
-      "thumb": {
-        "height": 220,
-        "width": 165,
-        "path": "844e-be39/mostlyanimals_844e-be39_thumb.jpg"
-      },
-      "xsmall": {
-        "height": 500,
-        "width": 375,
-        "path": "844e-be39/mostlyanimals_844e-be39_xs.jpg"
-      },
-      "small": {
-        "height": 1000,
-        "width": 750,
-        "path": "844e-be39/mostlyanimals_844e-be39_s.jpg"
-      },
-      "medium": {
-        "height": 1400,
-        "width": 1050,
-        "path": "844e-be39/mostlyanimals_844e-be39_m.jpg"
-      },
-      "large": {
-        "height": 1900,
-        "width": 1425,
-        "path": "844e-be39/mostlyanimals_844e-be39_l.jpg"
-      },
-      "xlarge": {
-        "height": 2560,
-        "width": 1920,
-        "path": "844e-be39/mostlyanimals_844e-be39_xl.jpg"
-      },
-      "xxlarge": {
-        "height": 3200,
-        "width": 2400,
-        "path": "844e-be39/mostlyanimals_844e-be39_xxl.jpg"
-      }
-    }
-  },
-  {
-    "key": "740c-d25d",
-    "name": "DSC03276.jpg",
-    "title": "Spotted Scorpionfish",
-    "description": "Skin flaps and feathery fins help this fish to camouflage against the surrounding coral.",
-    "latin": "Scorpaena plumieri",
-    "location": "Cocos Island, Costa Rica",
-    "tags": [
-      "2017",
-      "portrait"
-    ],
-    "width": 2111,
-    "height": 2814,
-    "resize": {
-      "thumb": {
-        "height": 220,
-        "width": 165,
-        "path": "740c-d25d/mostlyanimals_740c-d25d_thumb.jpg"
-      },
-      "xsmall": {
-        "height": 500,
-        "width": 375,
-        "path": "740c-d25d/mostlyanimals_740c-d25d_xs.jpg"
-      },
-      "small": {
-        "height": 1000,
-        "width": 750,
-        "path": "740c-d25d/mostlyanimals_740c-d25d_s.jpg"
-      },
-      "medium": {
-        "height": 1400,
-        "width": 1050,
-        "path": "740c-d25d/mostlyanimals_740c-d25d_m.jpg"
-      },
-      "large": {
-        "height": 1900,
-        "width": 1425,
-        "path": "740c-d25d/mostlyanimals_740c-d25d_l.jpg"
-      },
-      "xlarge": {
-        "height": 2560,
-        "width": 1920,
-        "path": "740c-d25d/mostlyanimals_740c-d25d_xl.jpg"
-      },
-      "xxlarge": {
-        "height": 3200,
-        "width": 2401,
-        "path": "740c-d25d/mostlyanimals_740c-d25d_xxl.jpg"
       }
     }
   },
@@ -13027,57 +13078,6 @@
         "height": 1800,
         "width": 3200,
         "path": "4475-db68/mostlyanimals_4475-db68_xxl.jpg"
-      }
-    }
-  },
-  {
-    "key": "0ad3-06a5",
-    "name": "DSC04214.jpg",
-    "title": "Reticulated Chromodoris",
-    "description": "",
-    "latin": "Chromodoris reticulata",
-    "location": "Anilao, The Philippines",
-    "tags": [
-      "nudibranch",
-      "2014"
-    ],
-    "width": 2276,
-    "height": 3035,
-    "resize": {
-      "thumb": {
-        "height": 220,
-        "width": 165,
-        "path": "0ad3-06a5/mostlyanimals_0ad3-06a5_thumb.jpg"
-      },
-      "xsmall": {
-        "height": 500,
-        "width": 375,
-        "path": "0ad3-06a5/mostlyanimals_0ad3-06a5_xs.jpg"
-      },
-      "small": {
-        "height": 1000,
-        "width": 750,
-        "path": "0ad3-06a5/mostlyanimals_0ad3-06a5_s.jpg"
-      },
-      "medium": {
-        "height": 1400,
-        "width": 1050,
-        "path": "0ad3-06a5/mostlyanimals_0ad3-06a5_m.jpg"
-      },
-      "large": {
-        "height": 1900,
-        "width": 1425,
-        "path": "0ad3-06a5/mostlyanimals_0ad3-06a5_l.jpg"
-      },
-      "xlarge": {
-        "height": 2560,
-        "width": 1920,
-        "path": "0ad3-06a5/mostlyanimals_0ad3-06a5_xl.jpg"
-      },
-      "xxlarge": {
-        "height": 3200,
-        "width": 2400,
-        "path": "0ad3-06a5/mostlyanimals_0ad3-06a5_xxl.jpg"
       }
     }
   },

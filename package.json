@@ -13,7 +13,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "reorder-photos": "node photo-management/reorder-content.js"
   },
   "dependencies": {
     "eslint-config-next": "16.3.5",
