@@ -11,7 +11,7 @@ function createCustomEvent(
   return evt as globalThis.CustomEvent;
 }
 
-if (typeof window.CustomEvent !== "function") {
+if (typeof window !== "undefined" && typeof window.CustomEvent !== "function") {
   Object.defineProperty(createCustomEvent, "prototype", {
     value: window.Event.prototype,
     writable: true,

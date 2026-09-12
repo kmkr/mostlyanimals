@@ -2,6 +2,7 @@ import Head from "next/head";
 import type { AppProps } from "next/app";
 
 import "../src/css/app.css";
+import "../src/polyfills";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
