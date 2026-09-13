@@ -14,11 +14,11 @@
 
   /* all */
   .photo-and-text {
-    padding: 30px;
+    padding: 0 30px;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: calc(100vh - 60px);
+    height: 100vh;
   }
 
   .photo-wrapper {
@@ -27,7 +27,7 @@
 
   .photo-wrapper img {
     max-width: 100%;
-    max-height: calc(100vh - 60px);
+    max-height: 100vh;
   }
 
   .photo-wrapper .click-previous,
@@ -88,6 +88,29 @@
 .photo-text-wrapper .location {
   font-size: var(--font-size-small);
   letter-spacing: 1.5px;
+}
+
+.photo-nav-button {
+  position: fixed;
+  z-index: 7;
+  bottom: 24px;
+  font-size: 40px;
+  text-decoration: none;
+  transition-duration: 0.3s;
+  transition-property: color, background-color;
+}
+
+.photo-nav-button:hover,
+.photo-nav-button:focus-visible {
+  color: var(--color-pink);
+}
+
+.photo-nav-previous {
+  left: 30px;
+}
+
+.photo-nav-next {
+  right: 30px;
 }
 
 @media (max-width: 1100px) {

@@ -6,9 +6,9 @@ import Navigation from "./navigation";
 import Photo from "./photo";
 import Sidebar from "./sidebar";
 
-import KeyboardEventHandler from "./keyboard-event-handler";
-import type { DetailPagePhoto } from "../types";
 import type { SyntheticEvent } from "react";
+import type { DetailPagePhoto } from "../types";
+import KeyboardEventHandler from "./keyboard-event-handler";
 
 const PhotoWrapper = ({
   selectedPhoto,
@@ -53,6 +53,20 @@ const PhotoWrapper = ({
           <Link href={`/photos/${prevPhoto.key}`} className="click-previous" />
         }
       />
+      <Link
+        href={`/photos/${prevPhoto.key}`}
+        className="photo-nav-button photo-nav-previous"
+        aria-label="Previous photo"
+      >
+        &larr;
+      </Link>
+      <Link
+        href={`/photos/${nextPhoto.key}`}
+        className="photo-nav-button photo-nav-next"
+        aria-label="Next photo"
+      >
+        &rarr;
+      </Link>
       <Sidebar
         expanded={sidebarExpanded}
         onToggleExpanded={toggleSidebar}
