@@ -14,6 +14,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint .",
+    "test": "jest",
     "reorder-photos": "node photo-management/reorder-content.js"
   },
   "dependencies": {
@@ -38,6 +39,7 @@
     "globals": "^15.14.0",
     "gm": "^1.25.0",
     "intersection-observer": "^0.6.0",
+    "jest": "^30.5.1",
     "minimist": "^1.2.5",
     "throttleit": "^1.0.0",
     "typescript": "^6.0.3"

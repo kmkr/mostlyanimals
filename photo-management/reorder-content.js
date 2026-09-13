@@ -70,16 +70,25 @@ function reorderPhotos(photos) {
   return reorderedPhotos;
 }
 
-const content = JSON.parse(fs.readFileSync(CONTENT_FILE_PATH, "utf8"));
-const featured = content.filter((photo) => photo.featured);
-const nonFeatured = content.filter((photo) => !photo.featured);
-const reorderedContent = [
-  ...reorderPhotos(featured),
-  ...reorderPhotos(nonFeatured),
-];
+function reorderContent(content) {
+  const featured = content.filter((photo) => photo.featured);
+  const nonFeatured = content.filter((photo) => !photo.featured);
+  return [...reorderPhotos(featured), ...reorderPhotos(nonFeatured)];
+}
 
-fs.writeFileSync(
-  CONTENT_FILE_PATH,
-  `${JSON.stringify(reorderedContent, null, 2)}\n`
-);
-console.log(`Reordered ${reorderedContent.length} photos in content.json.`);
+if (require.main === module) {
+  const content = JSON.parse(fs.readFileSync(CONTENT_FILE_PATH, "utf8"));
+  const reorderedContent = reorderContent(content);
+
+  fs.writeFileSync(
+    CONTENT_FILE_PATH,
+    `${JSON.stringify(reorderedContent, null, 2)}\n`
+  );
+  console.log(`Reordered ${reorderedContent.length} photos in content.json.`);
+}
+
+module.exports = {
+  isPortrait,
+  reorderPhotos,
+  reorderContent,
+};
