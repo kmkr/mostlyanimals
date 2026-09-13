@@ -1,3 +1,8 @@
+.photo-wrapper img {
+  /* Prevent the inline image baseline from leaving a gap below the photo. */
+  display: block;
+}
+
 @media (min-width: 1100px) {
   /* landscape */
 
