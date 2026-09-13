@@ -1,4 +1,4 @@
-import { BUCKET, resizeTo } from "../server/photos/constants";
+import { BUCKET, resizeTo } from "../server/photos/constants.js";
 import { copyPhoto } from "../server/photos/s3/s3-copier";
 import { listItems } from "../server/photos/s3/s3-lister";
 import updatePhotoHandler from "../server/photos/update/index";

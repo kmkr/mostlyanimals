@@ -1,6 +1,6 @@
 import gm from "gm";
 
-export function resize(filePath: string, size: number, sizeLabel: string) {
+export function resize(filePath, size, sizeLabel) {
   return new Promise((resolve, reject) => {
     console.log("[resizer.js] Resizing file %s to %s", filePath, size);
     gm(filePath)
@@ -59,7 +59,7 @@ function getMetadata(identification) {
   };
 }
 
-export function metadata(filePath: string) {
+export function metadata(filePath) {
   return new Promise((resolve, reject) => {
     gm(filePath).identify((err, value) => {
       if (err) {

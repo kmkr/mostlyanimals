@@ -1,10 +1,7 @@
 import fs from "fs";
-import { id } from "./id-generator";
+import { id } from "./id-generator.js";
 
-export default function writeTempFile(file: {
-  originalname: string;
-  buffer: Buffer;
-}) {
+export default function writeTempFile(file) {
   const temp = "/tmp";
   const tempFile = `${temp}/${id()}_${file.originalname}`;
   return new Promise((resolve, reject) => {

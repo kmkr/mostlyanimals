@@ -1,12 +1,8 @@
-import { s3, generateParams } from "./s3-wrapper";
+import { s3, generateParams } from "./s3-wrapper.js";
 
 const oneYear = 60 * 60 * 24 * 365;
 
-export default function s3Uploader(
-  buffer: Buffer,
-  name: string,
-  mimetype: string
-): Promise<{ uri: string }> {
+export default function s3Uploader(buffer, name, mimetype) {
   return new Promise((resolve, reject) => {
     const params = generateParams({
       ACL: "public-read",

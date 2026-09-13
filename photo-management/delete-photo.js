@@ -1,8 +1,11 @@
 import fs from "fs";
 import path from "path";
+import { fileURLToPath } from "url";
 import minimist from "minimist";
-import deletePhotoHandler from "../server/photos/delete/index";
+import deletePhotoHandler from "../server/photos/delete/index.js";
 
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 const CONTENT_FILE_PATH = path.resolve(__dirname, "../content.json");
 
 const argv = minimist(process.argv.slice(2));
