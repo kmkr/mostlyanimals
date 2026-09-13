@@ -35,7 +35,7 @@ To arrange the catalog into three-photo desktop rows with alternating portrait p
 npm run reorder-photos
 ```
 
-This updates `content.json` in place. Review and commit the resulting order. New uploads are still prepended, so run this command again when the collage order should be recalculated.
+This updates `content.json` in place. Portraits are promoted by at most three rows when finding a preferred slot. Review and commit the resulting order. New uploads are still prepended, so run this command again when the collage order should be recalculated.
 
 ## Delete a photo
 
