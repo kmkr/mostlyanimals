@@ -1,19 +1,22 @@
-import { S3_BASE } from "./constants";
-import buildSrcSet from "./src-set-builder";
 import type {
-  DetailPagePhoto,
   CollagePhoto,
+  DetailPagePhoto,
   RawPhoto,
   ResizeData,
 } from "../../src/types";
+import { S3_BASE } from "./constants";
+import buildSrcSet from "./src-set-builder";
 
 function getMode(resizeData: ResizeData): DetailPagePhoto["mode"] {
-  const { width, height } = resizeData[Object.keys(resizeData)[0] as keyof ResizeData];
+  const { width, height } =
+    resizeData[Object.keys(resizeData)[0] as keyof ResizeData];
 
   return width > height ? "landscape" : "portrait";
 }
 
-export function serverToClient(photo: RawPhoto): DetailPagePhoto {
+export function convertServerDTOToDetailPageDTO(
+  photo: RawPhoto,
+): DetailPagePhoto {
   return {
     name: photo.name,
     key: photo.key,
@@ -26,9 +29,9 @@ export function serverToClient(photo: RawPhoto): DetailPagePhoto {
     resize: photo.resize,
     srcSet: buildSrcSet(S3_BASE, photo.resize),
   };
-};
+}
 
-export function serverToCollagePhoto(photo: RawPhoto): CollagePhoto {
+export function convertServerDTOToCollageDTO(photo: RawPhoto): CollagePhoto {
   return {
     key: photo.key,
     title: photo.title || null,

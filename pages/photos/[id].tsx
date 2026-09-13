@@ -1,14 +1,14 @@
 import { useEffect } from "react";
 
+import type { GetStaticPaths, GetStaticProps } from "next";
+import { convertServerDTOToDetailPageDTO } from "../../server/photos/photo-data-conversion";
+import { setLastShownPhotoKey } from "../../src/last-shown-photo-service";
 import MAHead from "../../src/ma-head";
-import { getPhotoData, getKeywordsForPhoto } from "../../src/view-data-service";
-import { serverToClient } from "../../server/photos/photo-data-conversion";
 import { forOne } from "../../src/og-tags";
 import PhotoWrapper from "../../src/photos/photo-wrapper";
 import { photoTitle } from "../../src/title-service";
-import { setLastShownPhotoKey } from "../../src/last-shown-photo-service";
-import type { GetStaticPaths, GetStaticProps } from "next";
 import type { DetailPagePhoto } from "../../src/types";
+import { getKeywordsForPhoto, getPhotoData } from "../../src/view-data-service";
 
 type PhotoPageProps = {
   keywords: string[];
@@ -54,21 +54,19 @@ export const getStaticPaths: GetStaticPaths = async () => {
 };
 
 export const getStaticProps: GetStaticProps<PhotoPageProps> = async (
-  context
+  context,
 ) => {
   const photos = await getPhotoData();
   const photoId = context.params?.id;
 
-  const selectedPhotoIndex = photos.findIndex(
-    (photo) => photo.key === photoId
-  );
+  const selectedPhotoIndex = photos.findIndex((photo) => photo.key === photoId);
   const selectedPhoto = photos[selectedPhotoIndex];
 
   if (!selectedPhoto) {
     return {
       notFound: true,
     };
-  };
+  }
 
   const photoKeywords = getKeywordsForPhoto(selectedPhoto);
   const nextPhotoIndex =
@@ -79,9 +77,9 @@ export const getStaticProps: GetStaticProps<PhotoPageProps> = async (
   return {
     props: {
       keywords: photoKeywords,
-      photo: serverToClient(selectedPhoto),
-      nextPhoto: serverToClient(photos[nextPhotoIndex]),
-      prevPhoto: serverToClient(photos[prevPhotoIndex]),
+      photo: convertServerDTOToDetailPageDTO(selectedPhoto),
+      nextPhoto: convertServerDTOToDetailPageDTO(photos[nextPhotoIndex]),
+      prevPhoto: convertServerDTOToDetailPageDTO(photos[prevPhotoIndex]),
     },
   };
 };

@@ -1,16 +1,16 @@
 import { useEffect } from "react";
 
-import MAHead from "../src/ma-head";
-import Collage from "../src/collage/collage";
-import { getPhotoData, getAllKeywords } from "../src/view-data-service";
-import { serverToCollagePhoto } from "../server/photos/photo-data-conversion";
-import { forAll } from "../src/og-tags";
-import TopLogo from "../src/top-logo";
-import DeepWater from "../src/deep-water";
-import { baseTitle } from "../src/title-service";
-import { getLastShownPhotoKey } from "../src/last-shown-photo-service";
 import type { MouseEvent } from "react";
+import { convertServerDTOToCollageDTO } from "../server/photos/photo-data-conversion";
+import Collage from "../src/collage/collage";
+import DeepWater from "../src/deep-water";
+import { getLastShownPhotoKey } from "../src/last-shown-photo-service";
+import MAHead from "../src/ma-head";
+import { forAll } from "../src/og-tags";
+import { baseTitle } from "../src/title-service";
+import TopLogo from "../src/top-logo";
 import type { CollagePhoto } from "../src/types";
+import { getAllKeywords, getPhotoData } from "../src/view-data-service";
 
 function scrollToPhoto(key: string, retryNum: number): void {
   setTimeout(() => {
@@ -77,14 +77,14 @@ function HomePage({
 export async function getStaticProps() {
   return Promise.all([getPhotoData(), getAllKeywords()]).then(
     ([photos, allKeywords]) => {
-      const mappedPhotos = photos.map(serverToCollagePhoto);
+      const mappedPhotos = photos.map(convertServerDTOToCollageDTO);
       return {
         props: {
           keywords: allKeywords,
           photos: mappedPhotos,
         },
       };
-    }
+    },
   );
 }
 
