@@ -3,7 +3,6 @@ const path = require("path");
 
 const CONTENT_FILE_PATH = path.resolve(__dirname, "../content.json");
 const PHOTOS_PER_ROW = 3;
-const MAX_PORTRAIT_ROW_ADVANCE = 3;
 const PORTRAIT_INDEX_ORDER = [0, 2, 1, 1, 0, 2];
 
 function isPortrait(photo) {
@@ -12,12 +11,7 @@ function isPortrait(photo) {
 
 function reorderPhotos(photos) {
   const remainingLandscapes = photos.filter((photo) => !isPortrait(photo));
-  const remainingPortraits = photos
-    .map((photo, index) => ({
-      originalRow: Math.floor(index / PHOTOS_PER_ROW),
-      photo,
-    }))
-    .filter(({ photo }) => isPortrait(photo));
+  const remainingPortraits = photos.filter(isPortrait);
   const reorderedPhotos = [];
   let rowIndex = 0;
   let previousPortraitIndex = null;
@@ -42,10 +36,8 @@ function reorderPhotos(photos) {
       (remainingLandscapes.length || remainingPortraits.length)
     ) {
       const portrait =
-        row.length === preferredPortraitIndex &&
-        remainingPortraits[0]?.originalRow <=
-          rowIndex + MAX_PORTRAIT_ROW_ADVANCE
-          ? remainingPortraits.shift().photo
+        row.length === preferredPortraitIndex
+          ? remainingPortraits.shift()
           : null;
       const photo =
         row.length === preferredPortraitIndex && portrait
@@ -56,7 +48,7 @@ function reorderPhotos(photos) {
         break;
       }
 
-      row.push(photo.photo || photo);
+      row.push(photo);
     }
 
     reorderedPhotos.push(...row);

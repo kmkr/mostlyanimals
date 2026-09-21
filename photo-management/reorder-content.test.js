@@ -50,18 +50,20 @@ describe("reorderPhotos", () => {
     ]);
   });
 
-  test("does not promote a portrait by more than three rows", () => {
+  test("keeps portrait order when filling portrait positions", () => {
     const photos = [
       ...Array.from({ length: 12 }, (_, index) =>
         photo(`landscape-${index}`, false)
       ),
-      photo("portrait", true),
+      photo("portrait-1", true),
+      photo("portrait-2", true),
     ];
     const result = reorderPhotos(photos);
-    const originalRow = Math.floor(photos.indexOf(photos[12]) / 3);
-    const reorderedRow = Math.floor(result.indexOf(photos[12]) / 3);
 
-    expect(originalRow - reorderedRow).toBeLessThanOrEqual(3);
+    expect(result.filter(isPortrait).map(({ id }) => id)).toEqual([
+      "portrait-1",
+      "portrait-2",
+    ]);
   });
 
   test("is idempotent for a reordered catalog", () => {
@@ -71,6 +73,19 @@ describe("reorderPhotos", () => {
       photo("portrait-1", true),
       photo("landscape-3", false),
       photo("landscape-4", false),
+      photo("portrait-2", true),
+    ];
+
+    const reordered = reorderPhotos(photos);
+    expect(reorderPhotos(reordered)).toEqual(reordered);
+  });
+
+  test("is idempotent when portraits are far behind landscapes", () => {
+    const photos = [
+      ...Array.from({ length: 12 }, (_, index) =>
+        photo(`landscape-${index}`, false)
+      ),
+      photo("portrait-1", true),
       photo("portrait-2", true),
     ];
 
