@@ -11,15 +11,22 @@ const TopLogo = () => {
         <div className="haiku">
           {isHovered ? (
             <>
-              <p>A photo you like</p>
-              <p>Rules, and what about download?</p>
-              <p>I&apos;ll gladly explain</p>
+              <p>A photo you like?</p>
+              <p>Send me an email</p>
+              <p>
+                <a
+                  href="mailto:krismikael-insertathere-protonmail-insertdothere-com"
+                  ref={hoverRef}
+                >
+                  krismikael &lt;at&gt; protonmail.com
+                </a>
+              </p>
             </>
           ) : (
             <>
               <p>Mostly animals</p>
               <p>Plus the occasional tree</p>
-              <p>The slug welcomes you</p>
+              <p>And a few landscapes</p>
             </>
           )}
         </div>

@@ -1,14 +1,22 @@
-import { useRef, useState, useEffect } from "react";
 import type { RefObject } from "react";
+import { useEffect, useRef, useState } from "react";
 
 export default function useHover(): [
   RefObject<HTMLAnchorElement | null>,
-  boolean
+  boolean,
 ] {
+  let timeout: ReturnType<typeof setTimeout> | null;
   const [value, setValue] = useState(false);
   const ref = useRef<HTMLAnchorElement>(null);
-  const handleMouseOver = () => setValue(true);
-  const handleMouseOut = () => setValue(false);
+  const handleMouseOver = () => {
+    if (timeout) {
+      clearTimeout(timeout);
+    }
+    setValue(true);
+  };
+  const handleMouseOut = () => {
+    timeout = setTimeout(() => setValue(false), 4000);
+  };
 
   useEffect(() => {
     const node = ref.current;
@@ -18,6 +26,9 @@ export default function useHover(): [
       node.addEventListener("mouseout", handleMouseOut);
 
       return () => {
+        if (timeout) {
+          clearTimeout(timeout);
+        }
         node.removeEventListener("mouseover", handleMouseOver);
 
         node.removeEventListener("mouseout", handleMouseOut);
