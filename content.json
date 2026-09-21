@@ -1,5 +1,186 @@
 [
   {
+    "key": "63af-3faf",
+    "name": "DSC03209.jpg",
+    "title": "Fjordgård",
+    "description": "",
+    "location": "Senja, Norway",
+    "tags": [
+      "2026",
+      "landscape"
+    ],
+    "width": 2000,
+    "height": 3000,
+    "resize": {
+      "thumb": {
+        "height": 220,
+        "width": 147,
+        "path": "63af-3faf/mostlyanimals_63af-3faf_thumb.jpg?ts=1789981126063"
+      },
+      "xsmall": {
+        "height": 500,
+        "width": 333,
+        "path": "63af-3faf/mostlyanimals_63af-3faf_xs.jpg?ts=1789981126063"
+      },
+      "small": {
+        "height": 1000,
+        "width": 667,
+        "path": "63af-3faf/mostlyanimals_63af-3faf_s.jpg?ts=1789981126063"
+      },
+      "medium": {
+        "height": 1400,
+        "width": 933,
+        "path": "63af-3faf/mostlyanimals_63af-3faf_m.jpg?ts=1789981126063"
+      },
+      "large": {
+        "height": 1900,
+        "width": 1267,
+        "path": "63af-3faf/mostlyanimals_63af-3faf_l.jpg?ts=1789981126063"
+      },
+      "xlarge": {
+        "height": 2560,
+        "width": 1707,
+        "path": "63af-3faf/mostlyanimals_63af-3faf_xl.jpg?ts=1789981126063"
+      }
+    }
+  },
+  {
+    "key": "a846-6b6a",
+    "name": "DSC02771.jpg",
+    "title": "At the top of Breidtinden",
+    "description": "",
+    "location": "Senja, Norway",
+    "tags": [
+      "2026",
+      "mountain",
+      "landscape"
+    ],
+    "width": 2000,
+    "height": 3000,
+    "resize": {
+      "thumb": {
+        "height": 220,
+        "width": 147,
+        "path": "a846-6b6a/mostlyanimals_a846-6b6a_thumb.jpg?ts=1789981038828"
+      },
+      "xsmall": {
+        "height": 500,
+        "width": 333,
+        "path": "a846-6b6a/mostlyanimals_a846-6b6a_xs.jpg?ts=1789981038828"
+      },
+      "small": {
+        "height": 1000,
+        "width": 667,
+        "path": "a846-6b6a/mostlyanimals_a846-6b6a_s.jpg?ts=1789981038829"
+      },
+      "medium": {
+        "height": 1400,
+        "width": 933,
+        "path": "a846-6b6a/mostlyanimals_a846-6b6a_m.jpg?ts=1789981038829"
+      },
+      "large": {
+        "height": 1900,
+        "width": 1267,
+        "path": "a846-6b6a/mostlyanimals_a846-6b6a_l.jpg?ts=1789981038829"
+      },
+      "xlarge": {
+        "height": 2560,
+        "width": 1707,
+        "path": "a846-6b6a/mostlyanimals_a846-6b6a_xl.jpg?ts=1789981038829"
+      }
+    }
+  },
+  {
+    "key": "65e7-0a24",
+    "name": "DSC03044.jpg",
+    "title": "Stormoa",
+    "description": "",
+    "location": "Senja, Norway",
+    "tags": [
+      "2026",
+      "mountain"
+    ],
+    "width": 3000,
+    "height": 2000,
+    "resize": {
+      "thumb": {
+        "height": 147,
+        "width": 220,
+        "path": "65e7-0a24/mostlyanimals_65e7-0a24_thumb.jpg?ts=1789980977513"
+      },
+      "xsmall": {
+        "height": 333,
+        "width": 500,
+        "path": "65e7-0a24/mostlyanimals_65e7-0a24_xs.jpg?ts=1789980977513"
+      },
+      "small": {
+        "height": 667,
+        "width": 1000,
+        "path": "65e7-0a24/mostlyanimals_65e7-0a24_s.jpg?ts=1789980977513"
+      },
+      "medium": {
+        "height": 933,
+        "width": 1400,
+        "path": "65e7-0a24/mostlyanimals_65e7-0a24_m.jpg?ts=1789980977514"
+      },
+      "large": {
+        "height": 1267,
+        "width": 1900,
+        "path": "65e7-0a24/mostlyanimals_65e7-0a24_l.jpg?ts=1789980977514"
+      },
+      "xlarge": {
+        "height": 1707,
+        "width": 2560,
+        "path": "65e7-0a24/mostlyanimals_65e7-0a24_xl.jpg?ts=1789980977514"
+      }
+    }
+  },
+  {
+    "key": "75aa-22d9",
+    "name": "DSC03124.jpg",
+    "title": "Northern Lights at Trælen",
+    "description": "",
+    "location": "Ersfjorden, Senja, Norway",
+    "tags": [
+      "2026",
+      "northern.lights"
+    ],
+    "width": 3000,
+    "height": 2000,
+    "resize": {
+      "thumb": {
+        "height": 147,
+        "width": 220,
+        "path": "75aa-22d9/mostlyanimals_75aa-22d9_thumb.jpg?ts=1789980873174"
+      },
+      "xsmall": {
+        "height": 333,
+        "width": 500,
+        "path": "75aa-22d9/mostlyanimals_75aa-22d9_xs.jpg?ts=1789980873174"
+      },
+      "small": {
+        "height": 667,
+        "width": 1000,
+        "path": "75aa-22d9/mostlyanimals_75aa-22d9_s.jpg?ts=1789980873174"
+      },
+      "medium": {
+        "height": 933,
+        "width": 1400,
+        "path": "75aa-22d9/mostlyanimals_75aa-22d9_m.jpg?ts=1789980873174"
+      },
+      "large": {
+        "height": 1267,
+        "width": 1900,
+        "path": "75aa-22d9/mostlyanimals_75aa-22d9_l.jpg?ts=1789980873174"
+      },
+      "xlarge": {
+        "height": 1707,
+        "width": 2560,
+        "path": "75aa-22d9/mostlyanimals_75aa-22d9_xl.jpg?ts=1789980873174"
+      }
+    }
+  },
+  {
     "key": "6d22-48be",
     "name": "DSC09540.jpg",
     "title": "Western Honey Bee",
