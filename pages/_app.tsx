@@ -1,4 +1,5 @@
 import type { AppProps } from "next/app";
+import { Analytics } from "@vercel/analytics/next";
 import Head from "next/head";
 
 import "../src/css/app.css";
@@ -22,10 +23,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         />
       </Head>
       <Component {...pageProps} />
-      <script
-        async
-        src="https://scripts.simpleanalyticscdn.com/latest.js"
-      ></script>
+      <Analytics />
     </>
   );
 }
