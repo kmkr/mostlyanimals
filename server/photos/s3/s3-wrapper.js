@@ -1,9 +1,7 @@
-import AWS from "aws-sdk";
+import { S3Client } from "@aws-sdk/client-s3";
 import { BUCKET } from "../constants.js";
 
-export const s3 = new AWS.S3({
-  signatureVersion: "v4",
-});
+export const s3 = new S3Client({});
 
 export function generateParams(opts) {
   return {
