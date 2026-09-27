@@ -27,7 +27,7 @@ This resizes variants, uploads them to S3, and prepends new entries directly to 
 
 ## Edit content
 
-Update `content.json` directly at will (titles, descriptions, locations, tags, or reordering entries). Commit your changes to git.
+Update `content.json` directly at will (titles, descriptions, locations, tags, or reordering entries). Wrap description text in underscores to display it in italics, for example `"An _italic_ word."`. Commit your changes to git.
 
 To arrange the catalog into three-photo desktop rows with alternating portrait positions, run:
 
