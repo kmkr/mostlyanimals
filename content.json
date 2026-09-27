@@ -48,7 +48,7 @@
     "key": "65e7-0a24",
     "name": "DSC03044.jpg",
     "title": "Stormoa",
-    "description": "Senja's second highest mountain.",
+    "description": "Stormoa is Senja's second highest mountain. It usually has a small cloud hovering around its peak, which is a result of _orographic lift_: A cloud can form around a mountain peak when moist air is forced upward by the terrain. As the air rises, it cools and reaches its dew point, causing water vapor to condense into clouds. This can create a distinctive \"cap\" or \"dome\" of cloud around the summit, which may appear almost stationary even though air is continuously moving through it.",
     "location": "Senja, Norway",
     "tags": [
       "2026",
@@ -93,7 +93,7 @@
     "key": "75aa-22d9",
     "name": "DSC03124.jpg",
     "title": "Northern Lights at Trælen",
-    "description": "",
+    "description": "The aurora colors come from different gases: oxygen produces the famous green and red, while nitrogen contributes blue and purple.",
     "location": "Ersfjorden, Senja, Norway",
     "tags": [
       "2026",
@@ -232,7 +232,8 @@
     "key": "a846-6b6a",
     "name": "DSC02771.jpg",
     "title": "At the top of Breidtinden",
-    "description": "",
+    "latin": "Reaiddaidčohkka (Northern Sami)",
+    "description": "Breidtinden's north face rises dramatically above Mefjorden, and has around 500-metre climbing routes despite the mountain itself being only 1,001 m high.",
     "location": "Senja, Norway",
     "tags": [
       "2026",
@@ -278,7 +279,7 @@
     "key": "9121-5b00",
     "name": "DSC05133.jpg",
     "title": "Botnvatnet",
-    "description": "",
+    "description": "The aurora is happening far above the clouds—typically around 100–300 km above Earth. So when you see the northern lights dancing over a mountain, they can actually be hundreds of kilometres above it.",
     "location": "Bergsbotn, Senja, Norway",
     "tags": [
       "2026",
@@ -372,7 +373,7 @@
     "key": "a27f-df91",
     "name": "DSC02712.jpg",
     "title": "Stavelitippen",
-    "description": "",
+    "description": "Stavelitippen is only 580 metres high, but it has a surprisingly prominent summit, with 175 metres of prominence. It also sits right beside Hesten, on the ridge overlooking the iconic Segla—yet gets far fewer visitors.",
     "location": "Korkedalen, Senja, Norway",
     "tags": [
       "2026",
@@ -739,6 +740,7 @@
     "key": "fa33-68be",
     "name": "DSC06395.jpg",
     "title": "Breidtinden",
+    "latin": "Reaiddaidčohkka (Northern Sami)",
     "description": "",
     "location": "Senja, Norway",
     "tags": [
