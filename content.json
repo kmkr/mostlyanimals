@@ -3,7 +3,7 @@
     "key": "63af-3faf",
     "name": "DSC03209.jpg",
     "title": "Fjordgård",
-    "description": "",
+    "description": "Karl Ove Knausgård (one of Norway's well-known writers) spent a year working as a teacher in the small village Fjordgård. He wrote about many of his experiences there in My Struggle: Book Four (he called the village \"Håfjord\" in the book).",
     "location": "Senja, Norway",
     "tags": [
       "2026",
@@ -48,7 +48,7 @@
     "key": "65e7-0a24",
     "name": "DSC03044.jpg",
     "title": "Stormoa",
-    "description": "Stormoa is Senja's second highest mountain. It usually has a small cloud hovering around its peak, which is a result of _orographic lift_: A cloud can form around a mountain peak when moist air is forced upward by the terrain. As the air rises, it cools and reaches its dew point, causing water vapor to condense into clouds. This can create a distinctive \"cap\" or \"dome\" of cloud around the summit, which may appear almost stationary even though air is continuously moving through it.",
+    "description": "Stormoa is Senja's second highest mountain. There's often a small cloud hovering around its peak, which is a result of _orographic lift_: A cloud can form around a mountain peak when moist air is forced upward by the terrain. As the air rises, it cools and reaches its dew point, causing water vapor to condense into clouds. This can create a distinctive \"cap\" or \"dome\" of cloud around the summit, which may appear almost stationary even though air is continuously moving through it.",
     "location": "Senja, Norway",
     "tags": [
       "2026",
@@ -93,7 +93,7 @@
     "key": "75aa-22d9",
     "name": "DSC03124.jpg",
     "title": "Northern Lights at Trælen",
-    "description": "The aurora colors come from different gases: oxygen produces the famous green and red, while nitrogen contributes blue and purple.",
+    "description": "In some Sámi traditions, the Northern Lights were believed to be the souls of the dead. Because of this, people treated the aurora with great respect and were warned not to whistle, shout, or wave at it—otherwise it might notice them and come down to take them away.",
     "location": "Ersfjorden, Senja, Norway",
     "tags": [
       "2026",
@@ -604,7 +604,7 @@
     "key": "f743-1586",
     "name": "DSC05315.jpg",
     "title": "Gisundet at Night",
-    "description": "",
+    "description": "The aurora colors come from different gases: oxygen produces the green and the red, while nitrogen contributes blue and purple.",
     "location": "Ravnereiret, Trollvika, Norway",
     "tags": [
       "2026",
@@ -741,7 +741,7 @@
     "name": "DSC06395.jpg",
     "title": "Breidtinden",
     "latin": "Reaiddaidčohkka (Northern Sami)",
-    "description": "",
+    "description": "View from Grytetippen, above the clouds.",
     "location": "Senja, Norway",
     "tags": [
       "2026",
@@ -831,7 +831,7 @@
   {
     "key": "a89f-a807",
     "name": "DSC05761.jpg",
-    "title": "",
+    "title": "Birds and a Boat",
     "description": "",
     "location": "Finnsnes, Norway",
     "tags": [
@@ -877,7 +877,7 @@
     "key": "1f49-32b1",
     "name": "DSC05131.jpg",
     "title": "Bergsbotn at Night",
-    "description": "",
+    "description": "In Finnish folklore, the Northern Lights were caused by a magical \"fire fox\" racing across the snowy fells. Its tail swept against the snow and mountains, sending sparks flying up into the night sky. The Finnish word for the aurora, _revontulet_, means “fox fires 🦊.”",
     "location": "Senja, Norway",
     "tags": [
       "2026",
