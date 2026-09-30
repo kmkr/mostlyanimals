@@ -52,7 +52,8 @@
     "location": "Senja, Norway",
     "tags": [
       "2026",
-      "mountain"
+      "mountain",
+      "landscape"
     ],
     "width": 3000,
     "height": 2000,
@@ -97,7 +98,8 @@
     "location": "Ersfjorden, Senja, Norway",
     "tags": [
       "2026",
-      "northern.lights"
+      "northern.lights",
+      "landscape"
     ],
     "width": 3000,
     "height": 2000,
@@ -142,7 +144,8 @@
     "location": "Seen from Finnmarksfjellet, Bjorelvnes, Norway",
     "tags": [
       "2026",
-      "sunset"
+      "sunset",
+      "landscape"
     ],
     "width": 3000,
     "height": 2000,
@@ -284,7 +287,8 @@
     "tags": [
       "2026",
       "northern.lights",
-      "lake"
+      "lake",
+      "landscape"
     ],
     "width": 3000,
     "height": 2000,
@@ -608,7 +612,8 @@
     "location": "Ravnereiret, Trollvika, Norway",
     "tags": [
       "2026",
-      "northern.lights"
+      "northern.lights",
+      "landscape"
     ],
     "width": 3000,
     "height": 2000,
@@ -699,7 +704,8 @@
     "location": "",
     "tags": [
       "2026",
-      "sunset"
+      "sunset",
+      "landscape"
     ],
     "width": 2000,
     "height": 3000,
@@ -745,7 +751,8 @@
     "location": "Senja, Norway",
     "tags": [
       "2026",
-      "mountain"
+      "mountain",
+      "landscape"
     ],
     "width": 3000,
     "height": 2000,
@@ -836,7 +843,8 @@
     "location": "Finnsnes, Norway",
     "tags": [
       "2026",
-      "boat"
+      "boat",
+      "landscape"
     ],
     "width": 3000,
     "height": 1688,
@@ -1022,7 +1030,8 @@
     "location": "Botnhamn, Senja, Norway",
     "tags": [
       "2026",
-      "mountain"
+      "mountain",
+      "landscape"
     ],
     "width": 2000,
     "height": 3000,
@@ -1488,7 +1497,8 @@
     "location": "Nordmarka, Oslo, Norway",
     "tags": [
       "2024",
-      "sunset"
+      "sunset",
+      "landscape"
     ],
     "width": 3000,
     "height": 2000,
@@ -2333,7 +2343,9 @@
     "tags": [
       "2021",
       "goose",
-      "bird"
+      "bird",
+      "animal",
+      "portrait"
     ],
     "width": 2000,
     "height": 3000,
@@ -2379,7 +2391,8 @@
     "tags": [
       "2021",
       "bee",
-      "insect"
+      "insect",
+      "animal"
     ],
     "width": 2000,
     "height": 3000,
@@ -2708,7 +2721,8 @@
     "tags": [
       "2021",
       "ski",
-      "dovrefjell"
+      "dovrefjell",
+      "landscape"
     ],
     "width": 1920,
     "height": 2560,
@@ -2797,7 +2811,8 @@
     "location": "Oslo, Norway",
     "tags": [
       "bird",
-      "2020"
+      "2020",
+      "animal"
     ],
     "width": 1734,
     "height": 2312,
@@ -2987,7 +3002,8 @@
     "location": "Oslo, Norway",
     "tags": [
       "insect",
-      "2020"
+      "2020",
+      "animal"
     ],
     "width": 1920,
     "height": 2560,
@@ -3080,7 +3096,8 @@
     "description": "This queen is named Aprikos (Apricot) and her human Nikolai grows catnip for her and gives her regular grooming. They are good friends.",
     "tags": [
       "cat",
-      "2019"
+      "2019",
+      "animal"
     ],
     "width": 1920,
     "height": 2560,
@@ -3318,7 +3335,8 @@
     "location": "Brønnøy, Norway",
     "tags": [
       "moose",
-      "2020"
+      "2020",
+      "animal"
     ],
     "width": 1920,
     "height": 2560,
@@ -3408,7 +3426,8 @@
     "tags": [
       "2020",
       "insect",
-      "portrait"
+      "portrait",
+      "animal"
     ]
   },
   {
@@ -3605,7 +3624,9 @@
     "tags": [
       "2019",
       "portrait",
-      "shrimp"
+      "shrimp",
+      "animal",
+      "underwater"
     ],
     "width": 2400,
     "height": 3200,
@@ -3704,7 +3725,9 @@
     "tags": [
       "nudibranch",
       "2019",
-      "portrait"
+      "portrait",
+      "animal",
+      "underwater"
     ],
     "width": 1656,
     "height": 2208,
@@ -3802,7 +3825,9 @@
     "location": "Lembeh Strait, Indonesia",
     "tags": [
       "nudibranch",
-      "2019"
+      "2019",
+      "underwater",
+      "animal"
     ],
     "width": 2021,
     "height": 2694,
@@ -3947,7 +3972,8 @@
     "tags": [
       "bee",
       "2021",
-      "insect"
+      "insect",
+      "animal"
     ],
     "width": 3000,
     "height": 2000,
@@ -3992,7 +4018,8 @@
     "location": "",
     "tags": [
       "2021",
-      "lake"
+      "lake",
+      "landscape"
     ],
     "width": 3000,
     "height": 1992,
@@ -4039,7 +4066,9 @@
     "tags": [
       "nudibranch",
       "2019",
-      "portrait"
+      "portrait",
+      "animal",
+      "underwater"
     ],
     "width": 1859,
     "height": 2478,
@@ -4091,7 +4120,9 @@
     "tags": [
       "2019",
       "portrait",
-      "shrimp"
+      "shrimp",
+      "animal",
+      "underwater"
     ],
     "width": 1047,
     "height": 1571,
@@ -4142,7 +4173,8 @@
     "tags": [
       "2021",
       "muskox",
-      "dovrefjell"
+      "dovrefjell",
+      "animal"
     ],
     "width": 2560,
     "height": 1440,
@@ -4188,7 +4220,8 @@
     "tags": [
       "2021",
       "ski",
-      "dovrefjell"
+      "dovrefjell",
+      "landscape"
     ],
     "width": 2560,
     "height": 1440,
@@ -4234,7 +4267,8 @@
     "tags": [
       "2021",
       "muskox",
-      "dovrefjell"
+      "dovrefjell",
+      "animal"
     ],
     "width": 2560,
     "height": 1707,
@@ -4280,7 +4314,8 @@
     "tags": [
       "2021",
       "muskox",
-      "dovrefjell"
+      "dovrefjell",
+      "animal"
     ],
     "width": 2560,
     "height": 1440,
@@ -4327,7 +4362,9 @@
     "tags": [
       "fish",
       "2019",
-      "school"
+      "school",
+      "animal",
+      "underwater"
     ],
     "width": 2400,
     "height": 3200,
@@ -4377,7 +4414,8 @@
     "location": "Oslo, Norway",
     "tags": [
       "duck",
-      "2020"
+      "2020",
+      "animal"
     ],
     "width": 2560,
     "height": 1440,
@@ -4429,7 +4467,9 @@
     "tags": [
       "nudibranch",
       "2019",
-      "portrait"
+      "portrait",
+      "animal",
+      "underwater"
     ],
     "width": 2014,
     "height": 2685,
@@ -4479,7 +4519,8 @@
     "location": "Oslo, Norway",
     "tags": [
       "insect",
-      "2020"
+      "2020",
+      "animal"
     ],
     "width": 2560,
     "height": 1440,
@@ -4531,7 +4572,9 @@
     "tags": [
       "2019",
       "portrait",
-      "scorpionfish"
+      "scorpionfish",
+      "animal",
+      "underwater"
     ],
     "width": 2400,
     "height": 3200,
@@ -4581,7 +4624,8 @@
     "location": "Oslo, Norway",
     "tags": [
       "dog",
-      "2020"
+      "2020",
+      "animal"
     ],
     "width": 2560,
     "height": 1707,
@@ -4631,7 +4675,8 @@
     "location": "Oslo, Norway",
     "tags": [
       "insect",
-      "2020"
+      "2020",
+      "animal"
     ],
     "width": 2560,
     "height": 1440,
@@ -4681,7 +4726,8 @@
     "location": "Nordmarka, Oslo, Norway",
     "tags": [
       "bird",
-      "2020"
+      "2020",
+      "animal"
     ],
     "width": 2560,
     "height": 1440,
@@ -4733,7 +4779,9 @@
     "tags": [
       "fish",
       "school",
-      "2019"
+      "2019",
+      "animal",
+      "underwater"
     ],
     "width": 2400,
     "height": 3200,
@@ -4784,7 +4832,8 @@
     "location": "Lillomarka, Oslo, Norway",
     "tags": [
       "frog",
-      "2019"
+      "2019",
+      "animal"
     ],
     "width": 2560,
     "height": 1440,
@@ -4836,7 +4885,8 @@
     "tags": [
       "worm",
       "2019",
-      "portrait"
+      "portrait",
+      "animal"
     ],
     "width": 2400,
     "height": 3200,
@@ -4889,7 +4939,8 @@
       "frog",
       "lake",
       "oslomarka",
-      "2020"
+      "2020",
+      "animal"
     ],
     "width": 2560,
     "height": 1440,
@@ -4940,7 +4991,8 @@
     "tags": [
       "lake",
       "oslomarka",
-      "2020"
+      "2020",
+      "landscape"
     ],
     "width": 2560,
     "height": 1440,
@@ -4990,7 +5042,8 @@
     "location": "Siljanskogen, Norway",
     "tags": [
       "lake",
-      "2020"
+      "2020",
+      "landscape"
     ],
     "width": 2560,
     "height": 1440,
@@ -5040,7 +5093,8 @@
     "location": "Kvelde, Norway",
     "tags": [
       "lake",
-      "2020"
+      "2020",
+      "landscape"
     ],
     "width": 2560,
     "height": 1440,
@@ -5092,7 +5146,9 @@
     "tags": [
       "2017",
       "portrait",
-      "fish"
+      "fish",
+      "animal",
+      "underwater"
     ],
     "width": 1440,
     "height": 1920,
@@ -5143,6 +5199,8 @@
     "location": "Yolanda Lagoon, Egypt",
     "tags": [
       "portrait",
+      "animal",
+      "underwater",
       "2018"
     ],
     "width": 1920,
@@ -5193,7 +5251,8 @@
     "location": "Trollheimen, Norway",
     "tags": [
       "goat",
-      "2020"
+      "2020",
+      "animal"
     ],
     "width": 2560,
     "height": 1440,
@@ -5242,7 +5301,8 @@
     "description": "",
     "location": "Bøyaøyra, Norway",
     "tags": [
-      "2020"
+      "2020",
+      "landscape"
     ],
     "width": 2560,
     "height": 1440,
@@ -5291,7 +5351,8 @@
     "description": "",
     "location": "Nordfjord, Norway",
     "tags": [
-      "2020"
+      "2020",
+      "landscape"
     ],
     "width": 2560,
     "height": 1440,
@@ -5340,7 +5401,8 @@
     "description": "",
     "location": "Lurøya, Norway",
     "tags": [
-      "2020"
+      "2020",
+      "landscape"
     ],
     "width": 2560,
     "height": 1440,
@@ -5391,6 +5453,8 @@
     "location": "Anilao, The Philippines",
     "tags": [
       "eel",
+      "animal",
+      "underwater",
       "2014"
     ],
     "width": 1559,
@@ -5441,6 +5505,7 @@
     "location": "Brønnøy, Norway",
     "tags": [
       "sheep",
+      "animal",
       "2020"
     ],
     "width": 2560,
@@ -5487,7 +5552,9 @@
     "location": "Cocos Island, Costa Rica",
     "tags": [
       "2017",
-      "shark"
+      "shark",
+      "animal",
+      "underwater"
     ],
     "width": 3080,
     "height": 4107,
@@ -5577,7 +5644,8 @@
     "tags": [
       "2020",
       "spider",
-      "insect"
+      "insect",
+      "animal"
     ]
   },
   {
@@ -5591,6 +5659,8 @@
       "fish",
       "2018",
       "lizardfish",
+      "underwater",
+      "animal",
       "portrait"
     ],
     "width": 2527,
@@ -5694,7 +5764,9 @@
       "frogfish",
       "fish",
       "2019",
-      "portrait"
+      "portrait",
+      "underwater",
+      "animal"
     ],
     "width": 3200,
     "height": 1800,
@@ -5746,7 +5818,9 @@
     "tags": [
       "turtle",
       "2019",
-      "portrait"
+      "portrait",
+      "underwater",
+      "animal"
     ],
     "width": 3200,
     "height": 1800,
@@ -5799,7 +5873,9 @@
       "2019",
       "portrait",
       "octopus",
-      "cephalopod"
+      "cephalopod",
+      "underwater",
+      "animal"
     ],
     "width": 3200,
     "height": 1800,
@@ -5850,7 +5926,9 @@
     "location": "Cocos Island, Costa Rica",
     "tags": [
       "2017",
-      "shark"
+      "shark",
+      "underwater",
+      "animal"
     ],
     "width": 3524,
     "height": 4699,
@@ -5902,7 +5980,9 @@
     "tags": [
       "2016",
       "portrait",
-      "fish"
+      "fish",
+      "underwater",
+      "animal"
     ],
     "width": 1787,
     "height": 2382,
@@ -5955,7 +6035,9 @@
       "reefscape",
       "reef",
       "2019",
-      "coral"
+      "coral",
+      "animal",
+      "underwater"
     ],
     "width": 3200,
     "height": 1800,
@@ -6006,7 +6088,9 @@
     "location": "Lembeh Strait, Indonesia",
     "tags": [
       "fish",
-      "2019"
+      "2019",
+      "underwater",
+      "animal"
     ],
     "width": 3200,
     "height": 1800,
@@ -6058,7 +6142,9 @@
     "tags": [
       "2019",
       "portrait",
-      "nudibranch"
+      "nudibranch",
+      "underwater",
+      "animal"
     ],
     "width": 3200,
     "height": 1800,
@@ -6111,7 +6197,9 @@
       "2019",
       "portrait",
       "scorpionfish",
-      "fish"
+      "fish",
+      "underwater",
+      "animal"
     ],
     "width": 2560,
     "height": 1440,
@@ -6157,7 +6245,9 @@
     "location": "Cocos Island, Costa Rica",
     "tags": [
       "2017",
-      "shark"
+      "shark",
+      "underwater",
+      "animal"
     ],
     "width": 2771,
     "height": 3695,
@@ -6211,7 +6301,9 @@
       "boxfish",
       "juvenile",
       "2019",
-      "portrait"
+      "portrait",
+      "underwater",
+      "animal"
     ],
     "width": 3200,
     "height": 1800,
@@ -6262,7 +6354,9 @@
     "location": "Dumaguete, The Philippines",
     "tags": [
       "2013",
-      "worm"
+      "worm",
+      "underwater",
+      "animal"
     ],
     "width": 1585,
     "height": 2113,
@@ -6315,7 +6409,9 @@
       "2019",
       "portrait",
       "fish",
-      "pipefish"
+      "pipefish",
+      "underwater",
+      "animal"
     ],
     "width": 3200,
     "height": 1800,
@@ -6368,7 +6464,9 @@
       "stargazer",
       "2014",
       "portrait",
-      "fish"
+      "fish",
+      "underwater",
+      "animal"
     ],
     "width": 2606,
     "height": 3475,
@@ -6420,7 +6518,9 @@
     "tags": [
       "nudibranch",
       "2019",
-      "portrait"
+      "portrait",
+      "underwater",
+      "animal"
     ],
     "width": 3005,
     "height": 1690,
@@ -6472,7 +6572,9 @@
     "tags": [
       "2019",
       "portrait",
-      "fish"
+      "fish",
+      "underwater",
+      "animal"
     ],
     "width": 3200,
     "height": 1800,
@@ -6524,7 +6626,9 @@
     "tags": [
       "cuttlefish",
       "2019",
-      "cephalopod"
+      "cephalopod",
+      "underwater",
+      "animal"
     ],
     "width": 3200,
     "height": 1800,
@@ -6574,7 +6678,8 @@
     "location": "St. Johns Reef, Egypt",
     "tags": [
       "2014",
-      "diver"
+      "diver",
+      "underwater"
     ],
     "width": 3648,
     "height": 4864,
@@ -6626,7 +6731,9 @@
     "tags": [
       "fish",
       "2019",
-      "school"
+      "school",
+      "underwater",
+      "animal"
     ],
     "width": 3200,
     "height": 1800,
@@ -6677,7 +6784,9 @@
     "location": "Egypt",
     "tags": [
       "2014",
-      "dolphin"
+      "dolphin",
+      "underwater",
+      "animal"
     ],
     "width": 2449,
     "height": 3265,
@@ -6729,7 +6838,9 @@
     "tags": [
       "nudibranch",
       "2019",
-      "portrait"
+      "portrait",
+      "underwater",
+      "animal"
     ],
     "width": 3200,
     "height": 1800,
@@ -6780,7 +6891,9 @@
     "location": "Dampier Strait, Raja Ampat, Indonesia",
     "tags": [
       "clam",
-      "2019"
+      "2019",
+      "underwater",
+      "animal"
     ],
     "width": 3200,
     "height": 1800,
@@ -6832,7 +6945,9 @@
     "tags": [
       "fish",
       "2019",
-      "school"
+      "school",
+      "underwater",
+      "animal"
     ],
     "width": 2560,
     "height": 1440,
@@ -6880,7 +6995,9 @@
       "frogfish",
       "2019",
       "portrait",
-      "fish"
+      "fish",
+      "underwater",
+      "animal"
     ],
     "width": 3200,
     "height": 1800,
@@ -6932,7 +7049,9 @@
     "tags": [
       "worm",
       "2014",
-      "portrait"
+      "portrait",
+      "underwater",
+      "animal"
     ],
     "width": 1553,
     "height": 2071,
@@ -6982,7 +7101,9 @@
     "location": "Egypt",
     "tags": [
       "2015",
-      "coral"
+      "coral",
+      "underwater",
+      "animal"
     ],
     "width": 3648,
     "height": 4864,
@@ -7033,7 +7154,9 @@
     "location": "Dampier Strait, Raja Ampat, Indonesia",
     "tags": [
       "ray",
-      "2019"
+      "2019",
+      "underwater",
+      "animal"
     ],
     "width": 3200,
     "height": 1800,
@@ -7085,7 +7208,9 @@
     "tags": [
       "crab",
       "2019",
-      "portrait"
+      "portrait",
+      "underwater",
+      "animal"
     ],
     "width": 3200,
     "height": 1800,
@@ -7137,7 +7262,9 @@
     "tags": [
       "fish",
       "2019",
-      "portrait"
+      "portrait",
+      "underwater",
+      "animal"
     ],
     "width": 3200,
     "height": 1800,
@@ -7189,7 +7316,9 @@
     "tags": [
       "fish",
       "2019",
-      "anemone"
+      "anemone",
+      "underwater",
+      "animal"
     ],
     "width": 3200,
     "height": 1800,
@@ -7241,7 +7370,9 @@
     "tags": [
       "sea-cucumber",
       "2014",
-      "portrait"
+      "portrait",
+      "underwater",
+      "animal"
     ],
     "width": 3648,
     "height": 4864,
@@ -7294,7 +7425,9 @@
       "fish",
       "pipefish",
       "2019",
-      "portrait"
+      "portrait",
+      "underwater",
+      "animal"
     ],
     "width": 3200,
     "height": 1800,
@@ -7345,7 +7478,9 @@
     "location": "Anilao, The Philippines",
     "tags": [
       "2014",
-      "shrimp"
+      "shrimp",
+      "underwater",
+      "animal"
     ],
     "width": 1246,
     "height": 1661,
@@ -7398,7 +7533,9 @@
       "2019",
       "portrait",
       "scorpionfish",
-      "fish"
+      "fish",
+      "underwater",
+      "animal"
     ],
     "width": 3200,
     "height": 1800,
@@ -7449,7 +7586,9 @@
     "location": "Anilao, The Philippines",
     "tags": [
       "2014",
-      "urchin"
+      "urchin",
+      "underwater",
+      "animal"
     ],
     "width": 2208,
     "height": 2944,
@@ -7501,7 +7640,9 @@
     "tags": [
       "2019",
       "portrait",
-      "crab"
+      "crab",
+      "underwater",
+      "animal"
     ],
     "width": 3200,
     "height": 1800,
@@ -7553,7 +7694,9 @@
     "tags": [
       "2019",
       "portrait",
-      "nudibranch"
+      "nudibranch",
+      "underwater",
+      "animal"
     ],
     "width": 3200,
     "height": 1800,
@@ -7605,7 +7748,9 @@
     "tags": [
       "fish",
       "2019",
-      "portrait"
+      "portrait",
+      "underwater",
+      "animal"
     ],
     "width": 3200,
     "height": 1800,
@@ -7657,7 +7802,9 @@
     "tags": [
       "ray",
       "manta",
-      "2018"
+      "2018",
+      "underwater",
+      "animal"
     ],
     "width": 3640,
     "height": 2048,
@@ -7710,7 +7857,9 @@
       "triggerfish",
       "2015",
       "fish",
-      "portrait"
+      "portrait",
+      "underwater",
+      "animal"
     ],
     "width": 3648,
     "height": 4864,
@@ -7762,7 +7911,9 @@
     "tags": [
       "2014",
       "hermit-crab",
-      "crab"
+      "crab",
+      "underwater",
+      "animal"
     ],
     "width": 1896,
     "height": 2528,
@@ -7815,7 +7966,9 @@
       "lionfish",
       "scorpionfish",
       "portrait",
-      "2018"
+      "2018",
+      "underwater",
+      "animal"
     ],
     "width": 2560,
     "height": 1440,
@@ -7867,7 +8020,9 @@
     "tags": [
       "2016",
       "turtle",
-      "portrait"
+      "portrait",
+      "underwater",
+      "animal"
     ],
     "width": 4993,
     "height": 2809,
@@ -7919,7 +8074,9 @@
     "tags": [
       "2017",
       "ray",
-      "portrait"
+      "portrait",
+      "underwater",
+      "animal"
     ],
     "width": 5102,
     "height": 2872,
@@ -7970,8 +8127,7 @@
     "tags": [
       "wreck",
       "2018",
-      "bow",
-      "gun"
+      "underwater"
     ],
     "width": 2560,
     "height": 1440,
@@ -8022,7 +8178,9 @@
     "location": "Egypt",
     "tags": [
       "2015",
-      "fish"
+      "fish",
+      "underwater",
+      "animal"
     ],
     "width": 3648,
     "height": 4864,
@@ -8074,7 +8232,9 @@
     "tags": [
       "diver",
       "school",
-      "2018"
+      "2018",
+      "underwater",
+      "animal"
     ],
     "width": 2560,
     "height": 1440,
@@ -8125,7 +8285,9 @@
     "location": "Perhentian Besar, Malaysia",
     "tags": [
       "2015",
-      "shark"
+      "shark",
+      "underwater",
+      "animal"
     ],
     "width": 3008,
     "height": 4010,
@@ -8176,7 +8338,9 @@
     "location": "Cocos Island, Costa Rica",
     "tags": [
       "2017",
-      "shark"
+      "shark",
+      "underwater",
+      "animal"
     ],
     "width": 4797,
     "height": 2700,
@@ -8227,7 +8391,9 @@
     "location": "Cocos Island, Costa Rica",
     "tags": [
       "2017",
-      "portrait"
+      "portrait",
+      "underwater",
+      "animal"
     ],
     "width": 2111,
     "height": 2814,
@@ -8278,7 +8444,9 @@
     "location": "Gulen, Norway",
     "tags": [
       "2016",
-      "starfish"
+      "starfish",
+      "underwater",
+      "animal"
     ],
     "width": 5472,
     "height": 3078,
@@ -8330,7 +8498,9 @@
     "tags": [
       "nudibranch",
       "sponge",
-      "2018"
+      "2018",
+      "underwater",
+      "animal"
     ],
     "width": 2560,
     "height": 1440,
@@ -8383,7 +8553,9 @@
       "2014",
       "anthias",
       "school",
-      "fish"
+      "fish",
+      "underwater",
+      "animal"
     ],
     "width": 5166,
     "height": 2906,
@@ -8434,7 +8606,9 @@
     "location": "Anilao, The Philippines",
     "tags": [
       "nudibranch",
-      "2014"
+      "2014",
+      "underwater",
+      "animal"
     ],
     "width": 2276,
     "height": 3035,
@@ -8485,7 +8659,9 @@
     "location": "Anilao, The Philippines",
     "tags": [
       "nudibranch",
-      "2014"
+      "2014",
+      "underwater",
+      "animal"
     ],
     "width": 4427,
     "height": 2490,
@@ -8537,7 +8713,9 @@
     "tags": [
       "eel",
       "2018",
-      "portrait"
+      "portrait",
+      "underwater",
+      "animal"
     ],
     "width": 2560,
     "height": 1440,
@@ -8589,7 +8767,9 @@
     "tags": [
       "2017",
       "frogfish",
-      "potrait"
+      "potrait",
+      "underwater",
+      "animal"
     ],
     "width": 5177,
     "height": 2914,
@@ -8641,7 +8821,9 @@
     "tags": [
       "2015",
       "portrait",
-      "fish"
+      "fish",
+      "underwater",
+      "animal"
     ],
     "width": 5472,
     "height": 3078,
@@ -8695,7 +8877,9 @@
       "clownfish",
       "2013",
       "anemone",
-      "fish"
+      "fish",
+      "underwater",
+      "animal"
     ],
     "width": 2743,
     "height": 1543,
@@ -8747,7 +8931,9 @@
     "tags": [
       "2017",
       "lobster",
-      "potrait"
+      "potrait",
+      "underwater",
+      "animal"
     ],
     "width": 2309,
     "height": 1300,
@@ -8797,8 +8983,8 @@
     "location": "SS Thistlegorm Wreck, Egypt",
     "tags": [
       "wreck",
-      "motorcycle",
-      "2018"
+      "2018",
+      "underwater"
     ],
     "width": 2560,
     "height": 1440,
@@ -8850,7 +9036,9 @@
     "tags": [
       "2014",
       "dugong",
-      "portrait"
+      "portrait",
+      "underwater",
+      "animal"
     ],
     "width": 5472,
     "height": 3078,
@@ -8901,7 +9089,9 @@
     "location": "Perhentian Besar, Malaysia",
     "tags": [
       "2015",
-      "shark"
+      "shark",
+      "underwater",
+      "animal"
     ],
     "width": 5436,
     "height": 3058,
@@ -8952,7 +9142,8 @@
     "tags": [
       "diver",
       "wreck",
-      "2018"
+      "2018",
+      "underwater"
     ],
     "width": 2560,
     "height": 1440,
@@ -9003,7 +9194,9 @@
     "location": "Anilao, The Philippines",
     "tags": [
       "nudibranch",
-      "2014"
+      "2014",
+      "underwater",
+      "animal"
     ],
     "width": 2248,
     "height": 1265,
@@ -9055,7 +9248,9 @@
     "tags": [
       "2014",
       "anemone",
-      "fish"
+      "fish",
+      "underwater",
+      "animal"
     ],
     "width": 4830,
     "height": 2717,
@@ -9107,7 +9302,9 @@
     "tags": [
       "2016",
       "turtle",
-      "portrait"
+      "portrait",
+      "underwater",
+      "animal"
     ],
     "width": 5472,
     "height": 3078,
@@ -9159,7 +9356,9 @@
       "portrait",
       "2018",
       "crab",
-      "hermit-crab"
+      "hermit-crab",
+      "underwater",
+      "animal"
     ],
     "width": 2560,
     "height": 1440,
@@ -9211,7 +9410,9 @@
     "tags": [
       "ray",
       "manta",
-      "2018"
+      "2018",
+      "underwater",
+      "animal"
     ],
     "width": 3640,
     "height": 2048,
@@ -9262,8 +9463,8 @@
     "tags": [
       "diver",
       "wreck",
-      "locomotive",
-      "2018"
+      "2018",
+      "underwater"
     ],
     "width": 2560,
     "height": 1440,
@@ -9314,7 +9515,9 @@
     "location": "Cocos Island, Costa Rica",
     "tags": [
       "2017",
-      "shark"
+      "shark",
+      "underwater",
+      "animal"
     ],
     "width": 5472,
     "height": 3080,
@@ -9365,7 +9568,9 @@
     "location": "Bonaire, The Netherlands",
     "tags": [
       "2016",
-      "fish"
+      "fish",
+      "underwater",
+      "animal"
     ],
     "width": 5107,
     "height": 2873,
@@ -9416,7 +9621,9 @@
     "location": "Cocos Island, Costa Rica",
     "tags": [
       "2017",
-      "shark"
+      "shark",
+      "underwater",
+      "animal"
     ],
     "width": 3617,
     "height": 2036,
@@ -9467,7 +9674,9 @@
     "location": "Cocos Island, Costa Rica",
     "tags": [
       "2017",
-      "shark"
+      "shark",
+      "underwater",
+      "animal"
     ],
     "width": 5472,
     "height": 3080,
@@ -9518,7 +9727,9 @@
     "location": "Cocos Island, Costa Rica",
     "tags": [
       "2017",
-      "shark"
+      "shark",
+      "underwater",
+      "animal"
     ],
     "width": 5472,
     "height": 3080,
@@ -9570,7 +9781,9 @@
     "tags": [
       "2014",
       "boxfish",
-      "fish"
+      "fish",
+      "underwater",
+      "animal"
     ],
     "width": 1913,
     "height": 1076,
@@ -9621,7 +9834,9 @@
     "location": "Cocos Island, Costa Rica",
     "tags": [
       "2017",
-      "shark"
+      "shark",
+      "underwater",
+      "animal"
     ],
     "width": 5472,
     "height": 3080,
@@ -9672,7 +9887,9 @@
     "location": "Gulen, Norway",
     "tags": [
       "2016",
-      "crab"
+      "crab",
+      "underwater",
+      "animal"
     ],
     "width": 5472,
     "height": 3078,
@@ -9723,7 +9940,9 @@
     "location": "Cocos Island, Costa Rica",
     "tags": [
       "2017",
-      "school"
+      "school",
+      "underwater",
+      "animal"
     ],
     "width": 5472,
     "height": 3080,
@@ -9775,7 +9994,9 @@
     "tags": [
       "2014",
       "dolphin",
-      "pod"
+      "pod",
+      "underwater",
+      "animal"
     ],
     "width": 5130,
     "height": 2886,
@@ -9827,7 +10048,9 @@
     "tags": [
       "potrait",
       "stonefish",
-      "2018"
+      "2018",
+      "underwater",
+      "animal"
     ],
     "width": 2560,
     "height": 1440,
@@ -9879,7 +10102,9 @@
     "tags": [
       "2014",
       "scorpionfish",
-      "fish"
+      "fish",
+      "underwater",
+      "animal"
     ],
     "width": 5109,
     "height": 2874,
@@ -9931,7 +10156,9 @@
     "tags": [
       "2014",
       "portrait",
-      "ray"
+      "ray",
+      "underwater",
+      "animal"
     ],
     "width": 5257,
     "height": 2957,
@@ -9982,7 +10209,8 @@
     "tags": [
       "2016",
       "wreck",
-      "diver"
+      "diver",
+      "underwater"
     ],
     "width": 5207,
     "height": 2929,
@@ -10035,7 +10263,9 @@
       "portrait",
       "2018",
       "lionfish",
-      "scorpionfish"
+      "scorpionfish",
+      "underwater",
+      "animal"
     ],
     "width": 2560,
     "height": 1440,
@@ -10086,7 +10316,9 @@
     "location": "Anilao, The Philippines",
     "tags": [
       "2014",
-      "nudibranch"
+      "nudibranch",
+      "underwater",
+      "animal"
     ],
     "width": 4684,
     "height": 2635,
@@ -10139,7 +10371,9 @@
       "2013",
       "cod",
       "portrait",
-      "fish"
+      "fish",
+      "underwater",
+      "animal"
     ],
     "width": 3648,
     "height": 2052,
@@ -10191,7 +10425,9 @@
     "tags": [
       "2016",
       "fish",
-      "portrait"
+      "portrait",
+      "underwater",
+      "animal"
     ],
     "width": 4222,
     "height": 2375,
@@ -10242,7 +10478,9 @@
     "location": "Sandefjord, Norway",
     "tags": [
       "2016",
-      "crab"
+      "crab",
+      "underwater",
+      "animal"
     ],
     "width": 4106,
     "height": 2310,
@@ -10293,7 +10531,9 @@
     "location": "Bonaire, The Netherlands",
     "tags": [
       "2016",
-      "portrait"
+      "portrait",
+      "underwater",
+      "animal"
     ],
     "width": 4238,
     "height": 2384,
@@ -10344,7 +10584,9 @@
     "location": "Anilao, The Philippines",
     "tags": [
       "nudibranch",
-      "2014"
+      "2014",
+      "underwater",
+      "animal"
     ],
     "width": 3420,
     "height": 1924,
@@ -10395,7 +10637,9 @@
     "location": "Cocos Island, Costa Rica",
     "tags": [
       "2017",
-      "shark"
+      "shark",
+      "underwater",
+      "animal"
     ],
     "width": 5472,
     "height": 3080,
@@ -10447,7 +10691,9 @@
     "tags": [
       "2016",
       "eel",
-      "portrait"
+      "portrait",
+      "underwater",
+      "animal"
     ],
     "width": 2814,
     "height": 1583,
@@ -10498,7 +10744,9 @@
     "location": "Malapascua, The Philippines",
     "tags": [
       "shark",
-      "2013"
+      "2013",
+      "underwater",
+      "animal"
     ],
     "width": 3344,
     "height": 1881,
@@ -10549,7 +10797,9 @@
     "location": "Anilao, The Philippines",
     "tags": [
       "nudibranch",
-      "2014"
+      "2014",
+      "underwater",
+      "animal"
     ],
     "width": 2483,
     "height": 1397,
@@ -10600,7 +10850,9 @@
     "location": "Cocos Island, Costa Rica",
     "tags": [
       "2017",
-      "shark"
+      "shark",
+      "underwater",
+      "animal"
     ],
     "width": 4187,
     "height": 2357,
@@ -10652,7 +10904,9 @@
     "tags": [
       "2014",
       "shrimp",
-      "urchin"
+      "urchin",
+      "underwater",
+      "animal"
     ],
     "width": 5472,
     "height": 3078,
@@ -10703,7 +10957,9 @@
     "location": "Anilao, The Philippines",
     "tags": [
       "nudibranch",
-      "2014"
+      "2014",
+      "underwater",
+      "animal"
     ],
     "width": 4234,
     "height": 2382,
@@ -10754,7 +11010,9 @@
     "location": "Perhentian Besar, Malaysia",
     "tags": [
       "2015",
-      "shark"
+      "shark",
+      "underwater",
+      "animal"
     ],
     "width": 4727,
     "height": 2659,
@@ -10806,7 +11064,9 @@
     "tags": [
       "2014",
       "frogfish",
-      "fish"
+      "fish",
+      "underwater",
+      "animal"
     ],
     "width": 4005,
     "height": 2253,
@@ -10860,7 +11120,9 @@
       "clownfish",
       "2013",
       "anemone",
-      "fish"
+      "fish",
+      "underwater",
+      "animal"
     ],
     "width": 1906,
     "height": 1072,
@@ -10911,7 +11173,9 @@
     "location": "Egypt",
     "tags": [
       "2015",
-      "fish"
+      "fish",
+      "underwater",
+      "animal"
     ],
     "width": 3109,
     "height": 1749,
@@ -10963,7 +11227,9 @@
     "tags": [
       "2015",
       "fish",
-      "school"
+      "school",
+      "underwater",
+      "animal"
     ],
     "width": 5472,
     "height": 3078,
@@ -11014,7 +11280,9 @@
     "location": "Marsa Alam, Egypt",
     "tags": [
       "2014",
-      "turtle"
+      "turtle",
+      "underwater",
+      "animal"
     ],
     "width": 5091,
     "height": 2864,
@@ -11065,7 +11333,9 @@
     "location": "Egypt",
     "tags": [
       "2015",
-      "jellyfish"
+      "jellyfish",
+      "underwater",
+      "animal"
     ],
     "width": 5472,
     "height": 3078,
@@ -11115,7 +11385,8 @@
     "location": "Sha'ab Abu Nuhas Reef, Egypt",
     "tags": [
       "wreck",
-      "2018"
+      "2018",
+      "underwater"
     ],
     "width": 2560,
     "height": 1440,
@@ -11167,7 +11438,9 @@
     "tags": [
       "2014",
       "barracuda",
-      "school"
+      "school",
+      "underwater",
+      "animal"
     ],
     "width": 5472,
     "height": 3078,
@@ -11218,7 +11491,9 @@
     "location": "Cocos Island, Costa Rica",
     "tags": [
       "2017",
-      "shark"
+      "shark",
+      "underwater",
+      "animal"
     ],
     "width": 5472,
     "height": 3080,
@@ -11270,7 +11545,9 @@
     "tags": [
       "2016",
       "worm",
-      "portrait"
+      "portrait",
+      "underwater",
+      "animal"
     ],
     "width": 5118,
     "height": 2879,
@@ -11321,7 +11598,9 @@
     "location": "Anilao, The Philippines",
     "tags": [
       "shrimp",
-      "2014"
+      "2014",
+      "underwater",
+      "animal"
     ],
     "width": 3458,
     "height": 1945,
@@ -11373,7 +11652,9 @@
     "tags": [
       "2016",
       "school",
-      "fish"
+      "fish",
+      "underwater",
+      "animal"
     ],
     "width": 5282,
     "height": 2971,
@@ -11424,7 +11705,9 @@
     "location": "Anilao, The Philippines",
     "tags": [
       "2014",
-      "nudibranch"
+      "nudibranch",
+      "underwater",
+      "animal"
     ],
     "width": 2190,
     "height": 1232,
@@ -11476,7 +11759,9 @@
     "tags": [
       "2016",
       "eel",
-      "portrait"
+      "portrait",
+      "underwater",
+      "animal"
     ],
     "width": 5472,
     "height": 3078,
@@ -11527,7 +11812,9 @@
     "location": "Anilao, The Philippines",
     "tags": [
       "nudibranch",
-      "2014"
+      "2014",
+      "underwater",
+      "animal"
     ],
     "width": 2910,
     "height": 1637,
@@ -11579,7 +11866,9 @@
     "tags": [
       "2016",
       "turtle",
-      "portrait"
+      "portrait",
+      "underwater",
+      "animal"
     ],
     "width": 5472,
     "height": 3078,
@@ -11632,7 +11921,9 @@
       "2014",
       "scorpionfish",
       "fish",
-      "portrait"
+      "portrait",
+      "underwater",
+      "animal"
     ],
     "width": 5152,
     "height": 2898,
@@ -11683,7 +11974,9 @@
     "location": "Egypt",
     "tags": [
       "2015",
-      "fish"
+      "fish",
+      "underwater",
+      "animal"
     ],
     "width": 4138,
     "height": 2328,
@@ -11734,7 +12027,9 @@
     "location": "Anilao, The Philippines",
     "tags": [
       "2014",
-      "anemone"
+      "anemone",
+      "underwater",
+      "animal"
     ],
     "width": 5472,
     "height": 3078,
@@ -11785,7 +12080,9 @@
     "location": "Ribbon Reefs, Great Barrier Reef, Australia",
     "tags": [
       "2010",
-      "whale"
+      "whale",
+      "underwater",
+      "animal"
     ],
     "width": 2972,
     "height": 1672,
@@ -11837,7 +12134,9 @@
     "tags": [
       "frogfish",
       "2014",
-      "fish"
+      "fish",
+      "underwater",
+      "animal"
     ],
     "width": 5472,
     "height": 3078,
@@ -11890,7 +12189,9 @@
       "2014",
       "boxfish",
       "cowfish",
-      "portrait"
+      "portrait",
+      "underwater",
+      "animal"
     ],
     "width": 4485,
     "height": 2523,
@@ -11941,7 +12242,9 @@
     "location": "Elphinestone Reef, Egypt",
     "tags": [
       "shark",
-      "2015"
+      "2015",
+      "underwater",
+      "animal"
     ],
     "width": 4750,
     "height": 2672,
@@ -11992,7 +12295,9 @@
     "location": "Perhentian Besar, Malaysia",
     "tags": [
       "2015",
-      "shark"
+      "shark",
+      "underwater",
+      "animal"
     ],
     "width": 5472,
     "height": 3078,
@@ -12044,7 +12349,9 @@
     "tags": [
       "2016",
       "shrimp",
-      "portrait"
+      "portrait",
+      "underwater",
+      "animal"
     ],
     "width": 2994,
     "height": 1684,
@@ -12095,7 +12402,9 @@
     "location": "Dumaguete, The Philippines",
     "tags": [
       "2013",
-      "eel"
+      "eel",
+      "underwater",
+      "animal"
     ],
     "width": 4464,
     "height": 2511,
@@ -12147,7 +12456,9 @@
     "tags": [
       "2017",
       "eel",
-      "portrait"
+      "portrait",
+      "underwater",
+      "animal"
     ],
     "width": 4998,
     "height": 2813,
@@ -12198,7 +12509,9 @@
     "location": "Sri Lanka",
     "tags": [
       "monkey",
-      "2018"
+      "2018",
+      "underwater",
+      "animal"
     ],
     "width": 3102,
     "height": 1745,
@@ -12249,7 +12562,9 @@
     "location": "Cocos Island, Costa Rica",
     "tags": [
       "2017",
-      "shark"
+      "shark",
+      "underwater",
+      "animal"
     ],
     "width": 4355,
     "height": 2451,
@@ -12299,7 +12614,9 @@
     "latin": "Taeniura meyeni",
     "location": "Cocos Island, Costa Rica",
     "tags": [
-      "2017"
+      "2017",
+      "underwater",
+      "animal"
     ],
     "width": 5251,
     "height": 2956,
@@ -12352,7 +12669,9 @@
       "soft-coral",
       "coral",
       "polyps",
-      "2017"
+      "2017",
+      "underwater",
+      "animal"
     ],
     "width": 5044,
     "height": 3363,
@@ -12402,7 +12721,9 @@
     "latin": "Lactophrys triqueter",
     "location": "Bonaire, The Netherlands",
     "tags": [
-      "2016"
+      "2016",
+      "underwater",
+      "animal"
     ],
     "width": 3786,
     "height": 2130,
@@ -12453,7 +12774,9 @@
     "location": "Cocos Island, Costa Rica",
     "tags": [
       "2017",
-      "shark"
+      "shark",
+      "underwater",
+      "animal"
     ],
     "width": 5472,
     "height": 3080,
@@ -12504,7 +12827,9 @@
     "location": "Cocos Island, Costa Rica",
     "tags": [
       "2017",
-      "ray"
+      "ray",
+      "underwater",
+      "animal"
     ],
     "width": 4459,
     "height": 2510,
@@ -12557,7 +12882,9 @@
       "2013",
       "cod",
       "portrait",
-      "fish"
+      "fish",
+      "underwater",
+      "animal"
     ],
     "width": 3269,
     "height": 1839,
@@ -12607,7 +12934,9 @@
     "location": "Dumaguete, The Philippines",
     "tags": [
       "eel",
-      "2013"
+      "2013",
+      "underwater",
+      "animal"
     ],
     "width": 3995,
     "height": 2247,
@@ -12660,7 +12989,9 @@
       "2015",
       "scorpionfish",
       "lionfish",
-      "fish"
+      "fish",
+      "underwater",
+      "animal"
     ],
     "width": 5472,
     "height": 3078,
@@ -12712,7 +13043,9 @@
     "tags": [
       "2017",
       "fish",
-      "portrait"
+      "portrait",
+      "underwater",
+      "animal"
     ],
     "width": 5472,
     "height": 3080,
@@ -12763,7 +13096,9 @@
     "location": "Dumaguete, The Philippines",
     "tags": [
       "nudibranch",
-      "2013"
+      "2013",
+      "underwater",
+      "animal"
     ],
     "width": 3436,
     "height": 1933,
@@ -12813,7 +13148,9 @@
     "location": "Pandan Island, The Philippines",
     "tags": [
       "2014",
-      "parrot"
+      "parrot",
+      "underwater",
+      "animal"
     ],
     "width": 5472,
     "height": 3078,
@@ -12864,7 +13201,9 @@
     "location": "Cocos Island, Costa Rica",
     "tags": [
       "2017",
-      "shark"
+      "shark",
+      "underwater",
+      "animal"
     ],
     "width": 5472,
     "height": 3080,
@@ -12915,7 +13254,9 @@
     "location": "Caño Island, Costa Rica",
     "tags": [
       "2017",
-      "school"
+      "school",
+      "underwater",
+      "animal"
     ],
     "width": 5472,
     "height": 3080,
@@ -12966,7 +13307,9 @@
     "tags": [
       "crab",
       "2018",
-      "hermit-crab"
+      "hermit-crab",
+      "underwater",
+      "animal"
     ],
     "width": 3640,
     "height": 2047,
@@ -13017,7 +13360,9 @@
     "location": "Anilao, The Philippines",
     "tags": [
       "2014",
-      "crab"
+      "crab",
+      "underwater",
+      "animal"
     ],
     "width": 3285,
     "height": 1848,
@@ -13069,7 +13414,9 @@
     "tags": [
       "2014",
       "eel",
-      "portrait"
+      "portrait",
+      "underwater",
+      "animal"
     ],
     "width": 5358,
     "height": 3014,
@@ -13120,7 +13467,9 @@
     "location": "Anilao, The Philippines",
     "tags": [
       "nudibranch",
-      "2014"
+      "2014",
+      "underwater",
+      "animal"
     ],
     "width": 4021,
     "height": 2262,
@@ -13171,7 +13520,9 @@
     "location": "Gulen, Norway",
     "tags": [
       "2016",
-      "nudibranch"
+      "nudibranch",
+      "underwater",
+      "animal"
     ],
     "width": 2259,
     "height": 1271,
@@ -13222,7 +13573,9 @@
     "location": "Anilao, The Philippines",
     "tags": [
       "nudibranch",
-      "2014"
+      "2014",
+      "underwater",
+      "animal"
     ],
     "width": 5146,
     "height": 2895,
@@ -13273,7 +13626,9 @@
     "location": "Anilao, The Philippines",
     "tags": [
       "2014",
-      "shrimp"
+      "shrimp",
+      "underwater",
+      "animal"
     ],
     "width": 2183,
     "height": 1228,
