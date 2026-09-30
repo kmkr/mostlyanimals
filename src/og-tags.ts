@@ -1,32 +1,8 @@
 import { BASE_SITE_DESCRIPTION } from "./constants";
-import { photoTitle, featureTitle } from "./title-service";
+import { photoTitle } from "./title-service";
 import type { DetailPagePhoto } from "./types";
 
 const name = "Mostly Animals";
-
-function buildUrl({
-  selectedPhoto,
-  feature,
-}: {
-  selectedPhoto?: DetailPagePhoto;
-  feature?: string[] | null;
-}) {
-  let url = "https://www.mostlyanimals.net";
-
-  if (selectedPhoto) {
-    return url + `/photos/${selectedPhoto.key}`;
-  }
-
-  if (feature) {
-    url += `/?feature=${feature.join("&feature=")}`;
-  }
-
-  return url;
-}
-
-// todo
-const feature = null;
-const featureName = null;
 
 export function forOne(
   selectedPhoto: DetailPagePhoto
@@ -37,8 +13,8 @@ export function forOne(
   return {
     "og:type": "article",
     "og:site_name": name,
-    "og:title": feature ? featureTitle(featureName) : photoTitle(selectedPhoto),
-    "og:url": buildUrl({ selectedPhoto, feature }),
+    "og:title": photoTitle(selectedPhoto),
+    "og:url": `https://www.mostlyanimals.net/photos/${selectedPhoto.key}`,
     "og:description": selectedPhoto.description,
     "og:image": photoUrl,
     "og:image:width": selectedPhotoSize.width,
@@ -50,8 +26,8 @@ export function forAll(): Record<string, string | number | null> {
   return {
     "og:type": "article",
     "og:site_name": name,
-    "og:title": featureTitle(featureName),
-    "og:url": buildUrl({ feature }),
+    "og:title": "Mostly Animals",
+    "og:url": "https://www.mostlyanimals.net",
     "og:description": BASE_SITE_DESCRIPTION,
     "og:image": "https://www.mostlyanimals.net/images/logo.png",
     "og:image:width": 1300,

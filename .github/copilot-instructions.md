@@ -27,7 +27,7 @@ npx tsc --noEmit
 ## High-level architecture
 
 - `pages/`: Next.js route files. The homepage in `pages/index.tsx` uses `getStaticProps()` to load photo metadata and renders the gallery.
-- `src/`: UI and data-processing code. This includes the photo type model (`src/types.ts`), feature grouping logic (`src/feature-group-service.ts`), keyword generation (`src/view-data-service.ts`), and front-end gallery components.
+- `src/`: UI and data-processing code. This includes the photo type model (`src/types.ts`), tag filtering logic (`src/tag-filter-service.ts`), keyword generation (`src/view-data-service.ts`), and front-end gallery components.
 - `server/photos/`: data layer for photo metadata. `server/photos/list/index.ts` reads `content.json` directly, so the JSON file acts as the app's source of truth for gallery data.
 - `photo-management/`: operational scripts for image upload and deletion. These scripts resize images, upload to S3, and keep `content.json` synchronized with the cloud asset metadata.
 - `content.json`: canonical photo catalog. Each entry contains `key`, `name`, `title`, `description`, `location`, `tags`, and generated `resize` metadata. Array order defines the gallery display order.
