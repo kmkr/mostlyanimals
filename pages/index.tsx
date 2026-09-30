@@ -14,10 +14,10 @@ import type { CollagePhoto } from "../src/types";
 import { getAllKeywords, getPhotoData } from "../src/view-data-service";
 
 const tagFilters = [
-  { label: "underwater", tags: ["underwater"] },
-  { label: "landscape", tags: ["landscape"] },
-  { label: "mountains", tags: ["mountain", "mountains"] },
   { label: "animals", tags: ["animal", "animals"] },
+  { label: "landscapes", tags: ["landscape"] },
+  { label: "mountains", tags: ["mountain", "mountains"] },
+  { label: "underwater", tags: ["underwater"] },
 ];
 
 function scrollToPhoto(key: string, retryNum: number): void {
