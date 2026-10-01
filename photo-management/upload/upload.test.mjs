@@ -19,7 +19,7 @@ const metadata = jest.fn(() =>
   })
 );
 
-jest.unstable_mockModule("../../server/photos/s3/s3-uploader.js", () => ({
+jest.unstable_mockModule("../s3/s3-uploader.js", () => ({
   default: s3Uploader,
 }));
 jest.unstable_mockModule("./gm.js", () => ({

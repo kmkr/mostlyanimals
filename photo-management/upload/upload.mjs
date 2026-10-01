@@ -4,10 +4,10 @@ import { fileURLToPath } from "url";
 import minimist from "minimist";
 
 import { id } from "./id-generator.js";
-import s3Uploader from "../../server/photos/s3/s3-uploader.js";
+import s3Uploader from "../s3/s3-uploader.js";
 import { resize, metadata as getMetadata } from "./gm.js";
 import tempFileWriter from "./temp-file-writer.js";
-import { resizeTo } from "../../server/photos/constants.js";
+import { resizeTo } from "../../photo-config.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);

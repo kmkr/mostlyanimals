@@ -2,7 +2,7 @@ import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
 import minimist from "minimist";
-import deletePhotoHandler from "../server/photos/delete/index.js";
+import deletePhotoHandler from "./s3/delete/index.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);

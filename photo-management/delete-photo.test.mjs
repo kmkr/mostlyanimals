@@ -3,7 +3,7 @@ import { beforeEach, describe, expect, jest, test } from "@jest/globals";
 
 const deletePhotoHandler = jest.fn(() => Promise.resolve({ key: "deleted" }));
 
-jest.unstable_mockModule("../server/photos/delete/index.js", () => ({
+jest.unstable_mockModule("./s3/delete/index.js", () => ({
   default: deletePhotoHandler,
 }));
 

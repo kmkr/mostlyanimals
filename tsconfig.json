@@ -30,7 +30,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-, "server/photos/delete/index.js"  ],
+  ],
   "exclude": [
     "node_modules",
     "photo-management"
