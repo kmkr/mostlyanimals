@@ -5,10 +5,10 @@ import type { MouseEvent } from "react";
 import { convertServerDTOToCollageDTO } from "../server/photos/photo-data-conversion";
 import Collage from "../src/collage/collage";
 import DeepWater from "../src/deep-water";
-import { getPhotosWithTags } from "../src/tag-filter-service";
 import { getLastShownPhotoKey } from "../src/last-shown-photo-service";
 import MAHead from "../src/ma-head";
 import { forAll } from "../src/og-tags";
+import { getPhotosWithTags } from "../src/tag-filter-service";
 import { baseTitle } from "../src/title-service";
 import TopLogo from "../src/top-logo";
 import type { CollagePhoto } from "../src/types";
@@ -17,7 +17,6 @@ import { getAllKeywords, getPhotoData } from "../src/view-data-service";
 const tagFilters = [
   { label: "animals", tags: ["animal", "animals"] },
   { label: "landscapes", tags: ["landscape"] },
-  { label: "mountains", tags: ["mountain", "mountains"] },
   { label: "underwater", tags: ["underwater"] },
 ];
 
