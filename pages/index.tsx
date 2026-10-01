@@ -1,5 +1,6 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 
+import { useRouter } from "next/router";
 import type { MouseEvent } from "react";
 import { convertServerDTOToCollageDTO } from "../server/photos/photo-data-conversion";
 import Collage from "../src/collage/collage";
@@ -27,6 +28,7 @@ function scrollToPhoto(key: string, retryNum: number): void {
       if (retryNum < 3) {
         return scrollToPhoto(key, retryNum + 1);
       }
+      return;
     }
 
     const element = elem as HTMLElement;
@@ -55,7 +57,12 @@ function HomePage({
   photos: CollagePhoto[];
   featurePhotoKeys: Record<string, string[]>;
 }) {
-  const [activeFilter, setActiveFilter] = useState<string | null>(null);
+  const router = useRouter();
+  const activeFilter =
+    typeof router.query.tag === "string" &&
+    tagFilters.some(({ label }) => label === router.query.tag)
+      ? router.query.tag
+      : null;
 
   useEffect(() => {
     const lastShownPhotoKey = getLastShownPhotoKey();
@@ -91,7 +98,16 @@ function HomePage({
                 type="button"
                 className={`tag-filter${isActive ? " active" : ""}`}
                 aria-pressed={isActive}
-                onClick={() => setActiveFilter(isActive ? null : label)}
+                onClick={() => {
+                  void router.push(
+                    {
+                      pathname: "/",
+                      query: isActive ? {} : { tag: label },
+                    },
+                    undefined,
+                    { shallow: true, scroll: false },
+                  );
+                }}
               >
                 {label}
               </button>
@@ -101,6 +117,7 @@ function HomePage({
         <Collage
           featuredPhotos={featuredPhotos}
           nonFeaturedPhotos={nonFeaturedPhotos}
+          filterTag={activeFilter}
         />
         <DeepWater onClick={(e) => onGoToPhotos(e, -100)} />
       </div>

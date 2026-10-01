@@ -29,7 +29,16 @@ const PhotoWrapper = ({
     setSidebarExpanded((prevState) => !prevState);
   }
 
-  const homePath = "/";
+  const filterTag =
+    typeof router.query.tag === "string" ? router.query.tag : null;
+  const photoQuery = filterTag ? { tag: filterTag } : {};
+  const homePath = filterTag
+    ? `/?tag=${encodeURIComponent(filterTag)}`
+    : "/";
+  const photoPath = (key: string) => ({
+    pathname: `/photos/${key}`,
+    query: photoQuery,
+  });
 
   return (
     <div>
@@ -38,30 +47,30 @@ const PhotoWrapper = ({
           router.push(homePath);
         }}
         onNext={() => {
-          router.push(`/photos/${nextPhoto.key}`);
+          router.push(photoPath(nextPhoto.key));
         }}
         onPrevious={() => {
-          router.push(`/photos/${prevPhoto.key}`);
+          router.push(photoPath(prevPhoto.key));
         }}
         onToggleSidebar={toggleSidebar}
       />
       <Photo
         photo={selectedPhoto}
         preload={[nextPhoto, prevPhoto]}
-        next={<Link href={`/photos/${nextPhoto.key}`} className="click-next" />}
+        next={<Link href={photoPath(nextPhoto.key)} className="click-next" />}
         previous={
-          <Link href={`/photos/${prevPhoto.key}`} className="click-previous" />
+          <Link href={photoPath(prevPhoto.key)} className="click-previous" />
         }
       />
       <Link
-        href={`/photos/${prevPhoto.key}`}
+        href={photoPath(prevPhoto.key)}
         className="photo-nav-button photo-nav-previous"
         aria-label="Previous photo"
       >
         &larr;
       </Link>
       <Link
-        href={`/photos/${nextPhoto.key}`}
+        href={photoPath(nextPhoto.key)}
         className="photo-nav-button photo-nav-next"
         aria-label="Next photo"
       >

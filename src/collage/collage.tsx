@@ -14,16 +14,23 @@ function isCollage(viewportWidth: number) {
 const PhotoGroup = ({
   group,
   viewportWidth,
+  filterTag,
 }: {
   group: PhotoGroupData;
   viewportWidth: number;
+  filterTag: string | null;
 }) => {
   const setDimensions = isCollage(viewportWidth);
   const style = setDimensions ? { height: `${group.height}px` } : {};
   return (
     <div className="photo-group" key={`photo-group-${group.key}`} style={style}>
       {group.photos.map((photo) => (
-        <Photo key={photo.key} setWidth={setDimensions} photo={photo} />
+        <Photo
+          key={photo.key}
+          setWidth={setDimensions}
+          photo={photo}
+          filterTag={filterTag}
+        />
       ))}
     </div>
   );
@@ -32,9 +39,11 @@ const PhotoGroup = ({
 const Collage = ({
   featuredPhotos,
   nonFeaturedPhotos,
+  filterTag,
 }: {
   featuredPhotos: CollagePhoto[];
   nonFeaturedPhotos: CollagePhoto[];
+  filterTag: string | null;
 }) => {
   const [viewportWidth, setViewportWidth] = useState(DEFAULT_VIEWPORT_WIDTH);
 
@@ -65,6 +74,7 @@ const Collage = ({
           key={group.key}
           group={group}
           viewportWidth={viewportWidth}
+          filterTag={filterTag}
         />
       ))}
       {!!featuredPhotoGroups.length && <MidWater />}
@@ -73,6 +83,7 @@ const Collage = ({
           key={group.key}
           group={group}
           viewportWidth={viewportWidth}
+          filterTag={filterTag}
         />
       ))}
     </div>

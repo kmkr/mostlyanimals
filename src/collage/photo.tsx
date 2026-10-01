@@ -8,9 +8,11 @@ import type { LayoutPhoto } from "../types";
 const Photo = ({
   photo,
   setWidth,
+  filterTag,
 }: {
   photo: LayoutPhoto;
   setWidth: boolean;
+  filterTag: string | null;
 }) => {
   const [inViewport, setInViewport] = useState(false);
   const domElemRef = useRef<HTMLDivElement>(null);
@@ -45,7 +47,12 @@ const Photo = ({
       data-photo-key={photo.key}
       style={style}
     >
-      <Link href={`/photos/${photo.key}`}>
+      <Link
+        href={{
+          pathname: `/photos/${photo.key}`,
+          query: filterTag ? { tag: filterTag } : {},
+        }}
+      >
         {!!photo.title && (
           <div className="overlay-title-wrapper">
             <p className="title">{photo.title}</p>
