@@ -145,7 +145,8 @@
     "tags": [
       "2026",
       "sunset",
-      "landscape"
+      "landscape",
+      "mountain"
     ],
     "width": 3000,
     "height": 2000,
@@ -520,7 +521,8 @@
     "tags": [
       "2026",
       "glacier",
-      "landscape"
+      "landscape",
+      "mountain"
     ],
     "width": 3000,
     "height": 2000,
@@ -567,7 +569,8 @@
       "2026",
       "lake",
       "glacier",
-      "landscape"
+      "landscape",
+      "mountain"
     ],
     "width": 3000,
     "height": 2000,
@@ -890,7 +893,8 @@
     "tags": [
       "2026",
       "landscape",
-      "northern.lights"
+      "northern.lights",
+      "mountain"
     ],
     "width": 3000,
     "height": 2000,
@@ -1077,7 +1081,8 @@
     "tags": [
       "2025",
       "landscape",
-      "lake"
+      "lake",
+      "mountain"
     ],
     "width": 3000,
     "height": 2000,
@@ -1359,7 +1364,8 @@
     "tags": [
       "2024",
       "landscape",
-      "fjord"
+      "fjord",
+      "mountain"
     ],
     "width": 3000,
     "height": 2000,
@@ -1590,7 +1596,8 @@
     "tags": [
       "2024",
       "landscape",
-      "fog"
+      "fog",
+      "mountain"
     ],
     "width": 3000,
     "height": 1993,
@@ -1776,7 +1783,9 @@
     "location": "",
     "tags": [
       "2023",
-      "landscape"
+      "landscape",
+      "mountain",
+      "lake"
     ],
     "width": 3000,
     "height": 2000,
@@ -5302,7 +5311,8 @@
     "location": "Bøyaøyra, Norway",
     "tags": [
       "2020",
-      "landscape"
+      "landscape",
+      "mountain"
     ],
     "width": 2560,
     "height": 1440,
@@ -5352,7 +5362,8 @@
     "location": "Nordfjord, Norway",
     "tags": [
       "2020",
-      "landscape"
+      "landscape",
+      "mountain"
     ],
     "width": 2560,
     "height": 1440,
@@ -5402,7 +5413,8 @@
     "location": "Lurøya, Norway",
     "tags": [
       "2020",
-      "landscape"
+      "landscape",
+      "mountain"
     ],
     "width": 2560,
     "height": 1440,
