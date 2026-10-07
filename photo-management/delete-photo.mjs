@@ -1,8 +1,8 @@
 import fs from "fs";
+import minimist from "minimist";
 import path from "path";
 import { fileURLToPath } from "url";
-import minimist from "minimist";
-import deletePhotoHandler from "./s3/delete/index.js";
+import deletePhotoHandler from "./s3/delete.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -15,7 +15,7 @@ export async function run(argv) {
 
   if (!keys || keys.length === 0) {
     console.error(
-      "Usage: node photo-management/delete-photo.js <key1> <key2> ... [--skip-s3]"
+      "Usage: node photo-management/delete-photo.js <key1> <key2> ... [--skip-s3]",
     );
     return 1;
   }
