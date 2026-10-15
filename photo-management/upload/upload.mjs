@@ -133,6 +133,21 @@ function replaceKeyInContentJson(id, photo) {
   console.log(`Updated content.json for replaced photo ${id}`);
 }
 
+function getKeyByName(name) {
+  const rawContent = fs.readFileSync(CONTENT_FILE_PATH, "utf8");
+  const localPhotoContent = JSON.parse(rawContent);
+  const matches = localPhotoContent.filter((photo) => photo.name === name);
+
+  if (matches.length === 0) {
+    throw new Error(`Photo with name ${name} not found in content.json`);
+  }
+  if (matches.length > 1) {
+    throw new Error(`Multiple photos with name ${name} found in content.json`);
+  }
+
+  return matches[0].key;
+}
+
 async function replaceKeyWithFile(id, filePath) {
   console.log("Processing", filePath);
   const photo = await processAndUploadFile(filePath, id);
@@ -181,6 +196,7 @@ async function insertFileWithKey(id, filePath) {
 export {
   getYearFromShotAt,
   replaceKeyInContentJson,
+  getKeyByName,
   updateContentJson,
   processAndUploadFile,
   upload,
@@ -190,15 +206,25 @@ export async function run(argv) {
   const args = minimist(argv);
 
   const replaceKey = args["replace"];
-  const filePaths = args["_"];
+  let filePaths = args["_"];
 
   if (replaceKey) {
+    let key = replaceKey;
+    if (
+      filePaths.length === 0 &&
+      typeof replaceKey === "string" &&
+      !argv.some((arg) => arg.startsWith("--replace="))
+    ) {
+      filePaths = [replaceKey];
+      key = getKeyByName(path.basename(filePaths[0]));
+    }
+
     if (filePaths.length !== 1) {
       throw new Error(
         `Unable to replace one key with more than file. Found ${filePaths.length} files`
       );
     }
-    await replaceKeyWithFile(replaceKey, filePaths[0]);
+    await replaceKeyWithFile(key, filePaths[0]);
   } else {
     const newPhotos = [];
     try {

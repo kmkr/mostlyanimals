@@ -53,8 +53,15 @@ node photo-management/delete-photo.js <key 1> <key 2> <...>
 
 ## Replace a photo
 
-You can replace a photo and keep its key and order by running:
+You can replace a photo and keep its key and order by specifying its key:
 
 ```
 node photo-management/upload/upload.js --replace=<key> <file path>
+```
+
+If the key is omitted, the script finds the photo by the replacement file's
+name in `content.json`. The name must match exactly one entry:
+
+```
+node photo-management/upload/upload.js --replace <file path>
 ```

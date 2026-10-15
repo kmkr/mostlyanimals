@@ -36,6 +36,7 @@ jest.unstable_mockModule("./id-generator.js", () => ({
 const {
   getYearFromShotAt,
   replaceKeyInContentJson,
+  getKeyByName,
   updateContentJson,
   processAndUploadFile,
   upload,
@@ -156,6 +157,37 @@ describe("upload feature", () => {
       title: "Keep this",
       tags: ["2024", "animal"],
     });
+  });
+
+  test("finds the key for a unique photo name", () => {
+    jest.spyOn(fs, "readFileSync").mockReturnValue(
+      JSON.stringify([{ key: "photo-id", name: "cat.jpg" }])
+    );
+
+    expect(getKeyByName("cat.jpg")).toBe("photo-id");
+  });
+
+  test("fails when no photo has the requested name", () => {
+    jest.spyOn(fs, "readFileSync").mockReturnValue(
+      JSON.stringify([{ key: "photo-id", name: "cat.jpg" }])
+    );
+
+    expect(() => getKeyByName("missing.jpg")).toThrow(
+      "Photo with name missing.jpg not found in content.json"
+    );
+  });
+
+  test("fails when multiple photos have the requested name", () => {
+    jest.spyOn(fs, "readFileSync").mockReturnValue(
+      JSON.stringify([
+        { key: "photo-id-1", name: "cat.jpg" },
+        { key: "photo-id-2", name: "cat.jpg" },
+      ])
+    );
+
+    expect(() => getKeyByName("cat.jpg")).toThrow(
+      "Multiple photos with name cat.jpg found in content.json"
+    );
   });
 
   test("returns null for invalid capture dates", () => {
