@@ -15,9 +15,9 @@ import type { CollagePhoto } from "../src/types";
 import { getAllKeywords, getPhotoData } from "../src/view-data-service";
 
 const tagFilters = [
-  { label: "Only animals", tags: ["animal", "animals"] },
-  { label: "Only landscapes", tags: ["landscape"] },
-  { label: "Only underwater", tags: ["underwater"] },
+  { key: "animals", label: "Only animals", tags: ["animal", "animals"] },
+  { key: "landscapes", label: "Only landscapes", tags: ["landscape"] },
+  { key: "underwater", label: "Only underwater", tags: ["underwater"] },
 ];
 
 function scrollToPhoto(key: string, retryNum: number): void {
@@ -59,7 +59,7 @@ function HomePage({
   const router = useRouter();
   const activeFilter =
     typeof router.query.tag === "string" &&
-    tagFilters.some(({ label }) => label === router.query.tag)
+    tagFilters.some(({ key }) => key === router.query.tag)
       ? router.query.tag
       : null;
 
@@ -89,11 +89,11 @@ function HomePage({
 
       <div id="container">
         <nav className="tag-filters" aria-label="Filter photos by tag">
-          {tagFilters.map(({ label }) => {
-            const isActive = activeFilter === label;
+          {tagFilters.map(({ key, label }) => {
+            const isActive = activeFilter === key;
             return (
               <button
-                key={label}
+                key={key}
                 type="button"
                 className={`tag-filter${isActive ? " active" : ""}`}
                 aria-pressed={isActive}
@@ -101,7 +101,7 @@ function HomePage({
                   void router.push(
                     {
                       pathname: "/",
-                      query: isActive ? {} : { tag: label },
+                      query: isActive ? {} : { tag: key },
                     },
                     undefined,
                     { shallow: true, scroll: false },
@@ -129,8 +129,8 @@ export async function getStaticProps() {
     ([photos, allKeywords]) => {
       const mappedPhotos = photos.map(convertServerDTOToCollageDTO);
       const featurePhotoKeys = Object.fromEntries(
-        tagFilters.map(({ label, tags }) => [
-          label,
+        tagFilters.map(({ key, tags }) => [
+          key,
           getPhotosWithTags(photos, tags).map((photo) => photo.key),
         ]),
       );
