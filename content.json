@@ -1,5 +1,282 @@
 [
   {
+    "key": "66af-9d4d",
+    "name": "DSC04132.jpg",
+    "title": "Breidtinden",
+    "description": "",
+    "location": "Senja, Norway",
+    "tags": [
+      "2026",
+      "mountain",
+      "landscape"
+    ],
+    "width": 2000,
+    "height": 3000,
+    "resize": {
+      "thumb": {
+        "height": 220,
+        "width": 147,
+        "path": "66af-9d4d/mostlyanimals_66af-9d4d_thumb.jpg?ts=1792054249845"
+      },
+      "xsmall": {
+        "height": 500,
+        "width": 333,
+        "path": "66af-9d4d/mostlyanimals_66af-9d4d_xs.jpg?ts=1792054249845"
+      },
+      "small": {
+        "height": 1000,
+        "width": 667,
+        "path": "66af-9d4d/mostlyanimals_66af-9d4d_s.jpg?ts=1792054249845"
+      },
+      "medium": {
+        "height": 1400,
+        "width": 933,
+        "path": "66af-9d4d/mostlyanimals_66af-9d4d_m.jpg?ts=1792054249845"
+      },
+      "large": {
+        "height": 1900,
+        "width": 1267,
+        "path": "66af-9d4d/mostlyanimals_66af-9d4d_l.jpg?ts=1792054249845"
+      },
+      "xlarge": {
+        "height": 2560,
+        "width": 1707,
+        "path": "66af-9d4d/mostlyanimals_66af-9d4d_xl.jpg?ts=1792054249845"
+      }
+    }
+  },
+  {
+    "key": "2d44-9601",
+    "name": "DSC04307.jpg",
+    "title": "A Quiet Night",
+    "description": "",
+    "location": "Hamn, Senja, Norway",
+    "tags": [
+      "2026",
+      "landscape",
+      "northern.lights"
+    ],
+    "width": 3000,
+    "height": 2000,
+    "resize": {
+      "thumb": {
+        "height": 147,
+        "width": 220,
+        "path": "2d44-9601/mostlyanimals_2d44-9601_thumb.jpg?ts=1792054133352"
+      },
+      "xsmall": {
+        "height": 333,
+        "width": 500,
+        "path": "2d44-9601/mostlyanimals_2d44-9601_xs.jpg?ts=1792054133352"
+      },
+      "small": {
+        "height": 667,
+        "width": 1000,
+        "path": "2d44-9601/mostlyanimals_2d44-9601_s.jpg?ts=1792054133352"
+      },
+      "medium": {
+        "height": 933,
+        "width": 1400,
+        "path": "2d44-9601/mostlyanimals_2d44-9601_m.jpg?ts=1792054133352"
+      },
+      "large": {
+        "height": 1267,
+        "width": 1900,
+        "path": "2d44-9601/mostlyanimals_2d44-9601_l.jpg?ts=1792054133352"
+      },
+      "xlarge": {
+        "height": 1707,
+        "width": 2560,
+        "path": "2d44-9601/mostlyanimals_2d44-9601_xl.jpg?ts=1792054133352"
+      }
+    }
+  },
+  {
+    "key": "f927-9db4",
+    "name": "DSC04113-HDR.jpg",
+    "title": "Breidtinden",
+    "description": "",
+    "location": "Senja, Norway",
+    "tags": [
+      "2026",
+      "mountain",
+      "landscape"
+    ],
+    "width": 3000,
+    "height": 2000,
+    "resize": {
+      "thumb": {
+        "height": 147,
+        "width": 220,
+        "path": "f927-9db4/mostlyanimals_f927-9db4_thumb.jpg?ts=1792054069332"
+      },
+      "xsmall": {
+        "height": 333,
+        "width": 500,
+        "path": "f927-9db4/mostlyanimals_f927-9db4_xs.jpg?ts=1792054069333"
+      },
+      "small": {
+        "height": 667,
+        "width": 1000,
+        "path": "f927-9db4/mostlyanimals_f927-9db4_s.jpg?ts=1792054069333"
+      },
+      "medium": {
+        "height": 933,
+        "width": 1400,
+        "path": "f927-9db4/mostlyanimals_f927-9db4_m.jpg?ts=1792054069333"
+      },
+      "large": {
+        "height": 1267,
+        "width": 1900,
+        "path": "f927-9db4/mostlyanimals_f927-9db4_l.jpg?ts=1792054069333"
+      },
+      "xlarge": {
+        "height": 1707,
+        "width": 2560,
+        "path": "f927-9db4/mostlyanimals_f927-9db4_xl.jpg?ts=1792054069333"
+      }
+    }
+  },
+  {
+    "key": "eacc-b399",
+    "name": "DSC04192.jpg",
+    "title": "Whispers from the Northern Lights",
+    "description": "In some Sámi traditions, the northern lights are treated with deep respect, and whistling at them is considered dangerous. Some believe the lights can hear you and might swoop down if you attract their attention. The aurora isn't just something to watch—it is something to approach with humility.",
+    "location": "Senja, Norway",
+    "tags": [
+      "2026",
+      "northern.lights",
+      "landscape"
+    ],
+    "width": 3000,
+    "height": 2000,
+    "resize": {
+      "thumb": {
+        "height": 147,
+        "width": 220,
+        "path": "eacc-b399/mostlyanimals_eacc-b399_thumb.jpg?ts=1792053870068"
+      },
+      "xsmall": {
+        "height": 333,
+        "width": 500,
+        "path": "eacc-b399/mostlyanimals_eacc-b399_xs.jpg?ts=1792053870068"
+      },
+      "small": {
+        "height": 667,
+        "width": 1000,
+        "path": "eacc-b399/mostlyanimals_eacc-b399_s.jpg?ts=1792053870068"
+      },
+      "medium": {
+        "height": 933,
+        "width": 1400,
+        "path": "eacc-b399/mostlyanimals_eacc-b399_m.jpg?ts=1792053870068"
+      },
+      "large": {
+        "height": 1267,
+        "width": 1900,
+        "path": "eacc-b399/mostlyanimals_eacc-b399_l.jpg?ts=1792053870068"
+      },
+      "xlarge": {
+        "height": 1707,
+        "width": 2560,
+        "path": "eacc-b399/mostlyanimals_eacc-b399_xl.jpg?ts=1792053870068"
+      }
+    }
+  },
+  {
+    "key": "ebac-64f2",
+    "name": "DSC03972-HDR.jpg",
+    "title": "First Snow on Keipen",
+    "description": "Keipen is one of my favorite mountains for ski touring on Senja. The first snow of the season arrived in early October, giving us a hint about the ski season that'll come come.",
+    "location": "Senja, Norway",
+    "tags": [
+      "2026",
+      "mountain",
+      "landscape"
+    ],
+    "width": 3000,
+    "height": 2000,
+    "resize": {
+      "thumb": {
+        "height": 147,
+        "width": 220,
+        "path": "ebac-64f2/mostlyanimals_ebac-64f2_thumb.jpg?ts=1792053678249"
+      },
+      "xsmall": {
+        "height": 333,
+        "width": 500,
+        "path": "ebac-64f2/mostlyanimals_ebac-64f2_xs.jpg?ts=1792053678249"
+      },
+      "small": {
+        "height": 667,
+        "width": 1000,
+        "path": "ebac-64f2/mostlyanimals_ebac-64f2_s.jpg?ts=1792053678249"
+      },
+      "medium": {
+        "height": 933,
+        "width": 1400,
+        "path": "ebac-64f2/mostlyanimals_ebac-64f2_m.jpg?ts=1792053678249"
+      },
+      "large": {
+        "height": 1267,
+        "width": 1900,
+        "path": "ebac-64f2/mostlyanimals_ebac-64f2_l.jpg?ts=1792053678249"
+      },
+      "xlarge": {
+        "height": 1707,
+        "width": 2560,
+        "path": "ebac-64f2/mostlyanimals_ebac-64f2_xl.jpg?ts=1792053678249"
+      }
+    }
+  },
+  {
+    "key": "6095-e2ff",
+    "name": "DSC04257.jpg",
+    "title": "Pink Skies",
+    "description": "When green and pink dance together in the aurora, they're created by different atmospheric processes. Green comes from oxygen atoms, while pink often comes from nitrogen molecules excited by energetic particles.",
+    "location": "Hamn, Senja, Norway",
+    "tags": [
+      "2026",
+      "landscape",
+      "northern.lights",
+      "lake"
+    ],
+    "width": 3000,
+    "height": 2000,
+    "resize": {
+      "thumb": {
+        "height": 147,
+        "width": 220,
+        "path": "6095-e2ff/mostlyanimals_6095-e2ff_thumb.jpg?ts=1792053448302"
+      },
+      "xsmall": {
+        "height": 333,
+        "width": 500,
+        "path": "6095-e2ff/mostlyanimals_6095-e2ff_xs.jpg?ts=1792053448302"
+      },
+      "small": {
+        "height": 667,
+        "width": 1000,
+        "path": "6095-e2ff/mostlyanimals_6095-e2ff_s.jpg?ts=1792053448302"
+      },
+      "medium": {
+        "height": 933,
+        "width": 1400,
+        "path": "6095-e2ff/mostlyanimals_6095-e2ff_m.jpg?ts=1792053448303"
+      },
+      "large": {
+        "height": 1267,
+        "width": 1900,
+        "path": "6095-e2ff/mostlyanimals_6095-e2ff_l.jpg?ts=1792053448303"
+      },
+      "xlarge": {
+        "height": 1707,
+        "width": 2560,
+        "path": "6095-e2ff/mostlyanimals_6095-e2ff_xl.jpg?ts=1792053448303"
+      }
+    }
+  },
+  {
     "key": "63af-3faf",
     "name": "DSC03209.jpg",
     "title": "Fjordgård",
