@@ -741,18 +741,15 @@
     }
   },
   {
-    "key": "d029-fa39",
-    "name": "DSC09514.jpg",
-    "title": "Pearl-bordered Fritillary",
-    "latin": "Boloria euphrosyne",
-    "description": "Butterflies in this family \"taste\" with their feet — females drum leaves with their forelegs to chemically confirm it's the right violet before laying an egg.",
-    "location": "Grasmyra, Senja, Norway",
+    "key": "3db6-f386",
+    "name": "DSC02647-HDR.jpg",
+    "title": "Segla in Autumn",
+    "description": "",
+    "location": "Fjordgård, Norway",
     "tags": [
       "2026",
-      "butterfly",
-      "animal",
-      "insect",
-      "portrait"
+      "landscape",
+      "mountain"
     ],
     "width": 3000,
     "height": 2000,
@@ -760,32 +757,32 @@
       "thumb": {
         "height": 147,
         "width": 220,
-        "path": "d029-fa39/mostlyanimals_d029-fa39_thumb.jpg?ts=1789115246820"
+        "path": "3db6-f386/mostlyanimals_3db6-f386_thumb.jpg?ts=1791395795601"
       },
       "xsmall": {
         "height": 333,
         "width": 500,
-        "path": "d029-fa39/mostlyanimals_d029-fa39_xs.jpg?ts=1789115246820"
+        "path": "3db6-f386/mostlyanimals_3db6-f386_xs.jpg?ts=1791395795601"
       },
       "small": {
         "height": 667,
         "width": 1000,
-        "path": "d029-fa39/mostlyanimals_d029-fa39_s.jpg?ts=1789115246820"
+        "path": "3db6-f386/mostlyanimals_3db6-f386_s.jpg?ts=1791395795601"
       },
       "medium": {
         "height": 933,
         "width": 1400,
-        "path": "d029-fa39/mostlyanimals_d029-fa39_m.jpg?ts=1789115246820"
+        "path": "3db6-f386/mostlyanimals_3db6-f386_m.jpg?ts=1791395795601"
       },
       "large": {
         "height": 1267,
         "width": 1900,
-        "path": "d029-fa39/mostlyanimals_d029-fa39_l.jpg?ts=1789115246820"
+        "path": "3db6-f386/mostlyanimals_3db6-f386_l.jpg?ts=1791395795601"
       },
       "xlarge": {
         "height": 1707,
         "width": 2560,
-        "path": "d029-fa39/mostlyanimals_d029-fa39_xl.jpg?ts=1789115246820"
+        "path": "3db6-f386/mostlyanimals_3db6-f386_xl.jpg?ts=1791395795601"
       }
     }
   },
@@ -883,15 +880,18 @@
     }
   },
   {
-    "key": "3db6-f386",
-    "name": "DSC02647-HDR.jpg",
-    "title": "Segla in Autumn",
-    "description": "",
-    "location": "Fjordgård, Norway",
+    "key": "d029-fa39",
+    "name": "DSC09514.jpg",
+    "title": "Pearl-bordered Fritillary",
+    "latin": "Boloria euphrosyne",
+    "description": "Butterflies in this family \"taste\" with their feet — females drum leaves with their forelegs to chemically confirm it's the right violet before laying an egg.",
+    "location": "Grasmyra, Senja, Norway",
     "tags": [
       "2026",
-      "landscape",
-      "mountain"
+      "butterfly",
+      "animal",
+      "insect",
+      "portrait"
     ],
     "width": 3000,
     "height": 2000,
@@ -899,32 +899,32 @@
       "thumb": {
         "height": 147,
         "width": 220,
-        "path": "3db6-f386/mostlyanimals_3db6-f386_thumb.jpg?ts=1791395795601"
+        "path": "d029-fa39/mostlyanimals_d029-fa39_thumb.jpg?ts=1789115246820"
       },
       "xsmall": {
         "height": 333,
         "width": 500,
-        "path": "3db6-f386/mostlyanimals_3db6-f386_xs.jpg?ts=1791395795601"
+        "path": "d029-fa39/mostlyanimals_d029-fa39_xs.jpg?ts=1789115246820"
       },
       "small": {
         "height": 667,
         "width": 1000,
-        "path": "3db6-f386/mostlyanimals_3db6-f386_s.jpg?ts=1791395795601"
+        "path": "d029-fa39/mostlyanimals_d029-fa39_s.jpg?ts=1789115246820"
       },
       "medium": {
         "height": 933,
         "width": 1400,
-        "path": "3db6-f386/mostlyanimals_3db6-f386_m.jpg?ts=1791395795601"
+        "path": "d029-fa39/mostlyanimals_d029-fa39_m.jpg?ts=1789115246820"
       },
       "large": {
         "height": 1267,
         "width": 1900,
-        "path": "3db6-f386/mostlyanimals_3db6-f386_l.jpg?ts=1791395795601"
+        "path": "d029-fa39/mostlyanimals_d029-fa39_l.jpg?ts=1789115246820"
       },
       "xlarge": {
         "height": 1707,
         "width": 2560,
-        "path": "3db6-f386/mostlyanimals_3db6-f386_xl.jpg?ts=1791395795601"
+        "path": "d029-fa39/mostlyanimals_d029-fa39_xl.jpg?ts=1789115246820"
       }
     }
   },
@@ -1726,48 +1726,48 @@
     }
   },
   {
-    "key": "3e96-ea17",
-    "name": "DSC09028_AuroraHDR-edit.jpg",
-    "title": "Store Sandungen",
+    "key": "8d14-8d26",
+    "name": "DSC08398.jpg",
+    "title": "Backcountry Chef",
     "description": "",
     "location": "Nordmarka, Oslo, Norway",
     "tags": [
       "2024",
-      "lake",
+      "sunset",
       "landscape"
     ],
     "width": 3000,
-    "height": 2002,
+    "height": 2000,
     "resize": {
       "thumb": {
         "height": 147,
         "width": 220,
-        "path": "3e96-ea17/mostlyanimals_3e96-ea17_thumb.jpg?ts=1788891853344"
+        "path": "8d14-8d26/mostlyanimals_8d14-8d26_thumb.jpg?ts=1792080458226"
       },
       "xsmall": {
-        "height": 334,
+        "height": 333,
         "width": 500,
-        "path": "3e96-ea17/mostlyanimals_3e96-ea17_xs.jpg?ts=1788891853344"
+        "path": "8d14-8d26/mostlyanimals_8d14-8d26_xs.jpg?ts=1792080458226"
       },
       "small": {
         "height": 667,
         "width": 1000,
-        "path": "3e96-ea17/mostlyanimals_3e96-ea17_s.jpg?ts=1788891853345"
+        "path": "8d14-8d26/mostlyanimals_8d14-8d26_s.jpg?ts=1792080458227"
       },
       "medium": {
-        "height": 934,
+        "height": 933,
         "width": 1400,
-        "path": "3e96-ea17/mostlyanimals_3e96-ea17_m.jpg?ts=1788891853345"
+        "path": "8d14-8d26/mostlyanimals_8d14-8d26_m.jpg?ts=1792080458227"
       },
       "large": {
-        "height": 1268,
+        "height": 1267,
         "width": 1900,
-        "path": "3e96-ea17/mostlyanimals_3e96-ea17_l.jpg?ts=1788891853345"
+        "path": "8d14-8d26/mostlyanimals_8d14-8d26_l.jpg?ts=1792080458227"
       },
       "xlarge": {
-        "height": 1708,
+        "height": 1707,
         "width": 2560,
-        "path": "3e96-ea17/mostlyanimals_3e96-ea17_xl.jpg?ts=1788891853345"
+        "path": "8d14-8d26/mostlyanimals_8d14-8d26_xl.jpg?ts=1792080458227"
       }
     }
   },
@@ -1961,48 +1961,48 @@
     }
   },
   {
-    "key": "8d14-8d26",
-    "name": "DSC08398.jpg",
-    "title": "Backcountry Chef",
+    "key": "3e96-ea17",
+    "name": "DSC09028_AuroraHDR-edit.jpg",
+    "title": "Store Sandungen",
     "description": "",
     "location": "Nordmarka, Oslo, Norway",
     "tags": [
       "2024",
-      "sunset",
+      "lake",
       "landscape"
     ],
     "width": 3000,
-    "height": 2000,
+    "height": 2002,
     "resize": {
       "thumb": {
         "height": 147,
         "width": 220,
-        "path": "8d14-8d26/mostlyanimals_8d14-8d26_thumb.jpg?ts=1792080458226"
+        "path": "3e96-ea17/mostlyanimals_3e96-ea17_thumb.jpg?ts=1788891853344"
       },
       "xsmall": {
-        "height": 333,
+        "height": 334,
         "width": 500,
-        "path": "8d14-8d26/mostlyanimals_8d14-8d26_xs.jpg?ts=1792080458226"
+        "path": "3e96-ea17/mostlyanimals_3e96-ea17_xs.jpg?ts=1788891853344"
       },
       "small": {
         "height": 667,
         "width": 1000,
-        "path": "8d14-8d26/mostlyanimals_8d14-8d26_s.jpg?ts=1792080458227"
+        "path": "3e96-ea17/mostlyanimals_3e96-ea17_s.jpg?ts=1788891853345"
       },
       "medium": {
-        "height": 933,
+        "height": 934,
         "width": 1400,
-        "path": "8d14-8d26/mostlyanimals_8d14-8d26_m.jpg?ts=1792080458227"
+        "path": "3e96-ea17/mostlyanimals_3e96-ea17_m.jpg?ts=1788891853345"
       },
       "large": {
-        "height": 1267,
+        "height": 1268,
         "width": 1900,
-        "path": "8d14-8d26/mostlyanimals_8d14-8d26_l.jpg?ts=1792080458227"
+        "path": "3e96-ea17/mostlyanimals_3e96-ea17_l.jpg?ts=1788891853345"
       },
       "xlarge": {
-        "height": 1707,
+        "height": 1708,
         "width": 2560,
-        "path": "8d14-8d26/mostlyanimals_8d14-8d26_xl.jpg?ts=1792080458227"
+        "path": "3e96-ea17/mostlyanimals_3e96-ea17_xl.jpg?ts=1788891853345"
       }
     }
   },
