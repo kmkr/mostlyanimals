@@ -1,5 +1,52 @@
 [
   {
+    "key": "0dc7-7756",
+    "name": "DSC04204.jpg",
+    "title": "Silsandmarka at Night",
+    "description": "I often go to this lake if I want to visit the woods without going far from home. It feels safe, serene og quiet.",
+    "location": "Senja, Norway",
+    "tags": [
+      "2026",
+      "landscape",
+      "northern.lights",
+      "lake"
+    ],
+    "width": 3000,
+    "height": 2000,
+    "resize": {
+      "thumb": {
+        "height": 147,
+        "width": 220,
+        "path": "0dc7-7756/mostlyanimals_0dc7-7756_thumb.jpg?ts=1792054582964"
+      },
+      "xsmall": {
+        "height": 333,
+        "width": 500,
+        "path": "0dc7-7756/mostlyanimals_0dc7-7756_xs.jpg?ts=1792054582964"
+      },
+      "small": {
+        "height": 667,
+        "width": 1000,
+        "path": "0dc7-7756/mostlyanimals_0dc7-7756_s.jpg?ts=1792054582964"
+      },
+      "medium": {
+        "height": 933,
+        "width": 1400,
+        "path": "0dc7-7756/mostlyanimals_0dc7-7756_m.jpg?ts=1792054582964"
+      },
+      "large": {
+        "height": 1267,
+        "width": 1900,
+        "path": "0dc7-7756/mostlyanimals_0dc7-7756_l.jpg?ts=1792054582964"
+      },
+      "xlarge": {
+        "height": 1707,
+        "width": 2560,
+        "path": "0dc7-7756/mostlyanimals_0dc7-7756_xl.jpg?ts=1792054582964"
+      }
+    }
+  },
+  {
     "key": "66af-9d4d",
     "name": "DSC04132.jpg",
     "title": "Breidtinden",
