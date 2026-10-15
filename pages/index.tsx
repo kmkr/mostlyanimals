@@ -15,9 +15,9 @@ import type { CollagePhoto } from "../src/types";
 import { getAllKeywords, getPhotoData } from "../src/view-data-service";
 
 const tagFilters = [
-  { label: "animals", tags: ["animal", "animals"] },
-  { label: "landscapes", tags: ["landscape"] },
-  { label: "underwater", tags: ["underwater"] },
+  { label: "Only animals", tags: ["animal", "animals"] },
+  { label: "Only landscapes", tags: ["landscape"] },
+  { label: "Only underwater", tags: ["underwater"] },
 ];
 
 function scrollToPhoto(key: string, retryNum: number): void {
