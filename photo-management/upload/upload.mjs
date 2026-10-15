@@ -163,11 +163,25 @@ function updateContentJson(newPhotos) {
 
   const rawContent = fs.readFileSync(CONTENT_FILE_PATH, "utf8");
   const localPhotoContent = JSON.parse(rawContent);
+  const sortIndices = new Set();
+  for (const photo of localPhotoContent) {
+    if (!Number.isFinite(photo.sortIndex)) {
+      throw new Error(`Photo ${photo.key} has an invalid sortIndex`);
+    }
+    if (sortIndices.has(photo.sortIndex)) {
+      throw new Error(`Duplicate sortIndex: ${photo.sortIndex}`);
+    }
+    sortIndices.add(photo.sortIndex);
+  }
+  const highestSortIndex = localPhotoContent.length
+    ? Math.max(...sortIndices)
+    : 0;
 
-  const newEntries = newPhotos.map((photo) => {
+  const newEntries = newPhotos.map((photo, index) => {
     const year = getYearFromShotAt(photo.shot_at);
     return {
       key: photo.key,
+      sortIndex: highestSortIndex + (newPhotos.length - index) * 1000,
       name: photo.name,
       title: "",
       description: photo.description || "",

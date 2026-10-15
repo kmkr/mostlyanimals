@@ -105,7 +105,9 @@ describe("upload feature", () => {
   });
 
   test("prepends new photos to content and adds their capture year", () => {
-    jest.spyOn(fs, "readFileSync").mockReturnValue(JSON.stringify([{ key: "old" }]));
+    jest
+      .spyOn(fs, "readFileSync")
+      .mockReturnValue(JSON.stringify([{ key: "old", sortIndex: 0 }]));
     const writeFileSync = jest
       .spyOn(fs, "writeFileSync")
       .mockImplementation(() => {});
@@ -123,8 +125,31 @@ describe("upload feature", () => {
     ]);
 
     expect(JSON.parse(writeFileSync.mock.calls[0][1])).toEqual([
-      expect.objectContaining({ key: "new", tags: ["2024"] }),
-      { key: "old" },
+      expect.objectContaining({ key: "new", sortIndex: 1000, tags: ["2024"] }),
+      { key: "old", sortIndex: 0 },
+    ]);
+  });
+
+  test("assigns new sort indices before the catalog in upload order", () => {
+    jest
+      .spyOn(fs, "readFileSync")
+      .mockReturnValue(JSON.stringify([{ key: "old", sortIndex: 2000 }]));
+    const writeFileSync = jest
+      .spyOn(fs, "writeFileSync")
+      .mockImplementation(() => {});
+
+    updateContentJson([
+      { key: "first", name: "first.jpg", resize: {} },
+      { key: "second", name: "second.jpg", resize: {} },
+    ]);
+
+    expect(JSON.parse(writeFileSync.mock.calls[0][1]).map((photo) => [
+      photo.key,
+      photo.sortIndex,
+    ])).toEqual([
+      ["first", 4000],
+      ["second", 3000],
+      ["old", 2000],
     ]);
   });
 
@@ -133,6 +158,7 @@ describe("upload feature", () => {
       JSON.stringify([
         {
           key: "photo-id",
+          sortIndex: 42000,
           tags: ["2024", "animal"],
           title: "Keep this",
         },
@@ -153,6 +179,7 @@ describe("upload feature", () => {
     const replaced = JSON.parse(writeFileSync.mock.calls[0][1])[0];
     expect(replaced).toMatchObject({
       key: "photo-id",
+      sortIndex: 42000,
       name: "updated.jpg",
       title: "Keep this",
       tags: ["2024", "animal"],

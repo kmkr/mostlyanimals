@@ -19,6 +19,7 @@ export type ResizeData = Record<ResizeName, ResizeMetadata>;
 
 export interface RawPhoto {
   key: string;
+  sortIndex: number;
   name: string;
   title?: string | null;
   description?: string | null;

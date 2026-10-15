@@ -29,13 +29,25 @@ This resizes variants, uploads them to S3, and prepends new entries directly to 
 
 Update `content.json` directly at will (titles, descriptions, locations, tags, or reordering entries). Wrap description text in underscores to display it in italics, for example `"An _italic_ word."`. Commit your changes to git.
 
+Each photo has a persistent `sortIndex` that defines its preferred order. When
+adding a photo manually in the middle of the catalog, give it a `sortIndex`
+between its neighbors; higher values sort first, and the existing values use
+gaps of 1000 to make this easy. Deleting a photo does not require renumbering.
+The upload script assigns new photos values above the current maximum, and
+replacing a photo preserves its index.
+
 To arrange the catalog into three-photo desktop rows with alternating portrait positions, run:
 
 ```
 npm run reorder-photos
 ```
 
-This updates `content.json` in place. Portraits are promoted by at most three rows when finding a preferred slot. Review and commit the resulting order. New uploads are still prepended, so run this command again when the collage order should be recalculated.
+This updates the array order in `content.json`, but leaves each `sortIndex`
+unchanged. It starts from sort-index order and adjusts portrait placement only
+when the movement of every affected photo stays within three rows (nine
+positions), preserving a stable baseline across repeated runs. Featured and
+non-featured photos are reordered separately, as before. Review and commit the
+resulting order.
 
 ## Delete a photo
 
