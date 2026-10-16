@@ -3,7 +3,7 @@
     "key": "66af-9d4d",
     "sortIndex": 281000,
     "name": "DSC04132.jpg",
-    "title": "Breidtinden",
+    "title": "Breitinden",
     "description": "",
     "location": "Senja, Norway",
     "tags": [
@@ -145,7 +145,7 @@
     "key": "f927-9db4",
     "sortIndex": 279000,
     "name": "DSC04113-HDR.jpg",
-    "title": "Breidtinden",
+    "title": "Breitinden",
     "description": "",
     "location": "Senja, Norway",
     "tags": [
@@ -325,54 +325,6 @@
         "height": 1707,
         "width": 2560,
         "path": "ebac-64f2/mostlyanimals_ebac-64f2_xl.jpg?ts=1792053678249"
-      }
-    }
-  },
-  {
-    "key": "a846-6b6a",
-    "sortIndex": 273000,
-    "name": "DSC02771.jpg",
-    "title": "At the top of Breidtinden",
-    "latin": "Reaiddaidčohkka (Northern Sami)",
-    "description": "Breidtinden's north face rises dramatically above Mefjorden, and has around 500-metre climbing routes despite the mountain itself being only 1,001 m high.",
-    "location": "Senja, Norway",
-    "tags": [
-      "2026",
-      "mountain",
-      "landscape"
-    ],
-    "width": 2000,
-    "height": 3000,
-    "resize": {
-      "thumb": {
-        "height": 220,
-        "width": 147,
-        "path": "a846-6b6a/mostlyanimals_a846-6b6a_thumb.jpg?ts=1789981038828"
-      },
-      "xsmall": {
-        "height": 500,
-        "width": 333,
-        "path": "a846-6b6a/mostlyanimals_a846-6b6a_xs.jpg?ts=1789981038828"
-      },
-      "small": {
-        "height": 1000,
-        "width": 667,
-        "path": "a846-6b6a/mostlyanimals_a846-6b6a_s.jpg?ts=1789981038829"
-      },
-      "medium": {
-        "height": 1400,
-        "width": 933,
-        "path": "a846-6b6a/mostlyanimals_a846-6b6a_m.jpg?ts=1789981038829"
-      },
-      "large": {
-        "height": 1900,
-        "width": 1267,
-        "path": "a846-6b6a/mostlyanimals_a846-6b6a_l.jpg?ts=1789981038829"
-      },
-      "xlarge": {
-        "height": 2560,
-        "width": 1707,
-        "path": "a846-6b6a/mostlyanimals_a846-6b6a_xl.jpg?ts=1789981038829"
       }
     }
   },
@@ -1239,7 +1191,7 @@
     "key": "fa33-68be",
     "sortIndex": 258000,
     "name": "DSC06395.jpg",
-    "title": "Breidtinden",
+    "title": "Breitinden",
     "latin": "Reaiddaidčohkka (Northern Sami)",
     "description": "View from Grytetippen, above the clouds.",
     "location": "Senja, Norway",
