@@ -1,5 +1,97 @@
 [
   {
+    "key": "8ff7-1a72",
+    "sortIndex": 284000,
+    "name": "DSC02968.jpg",
+    "title": "Sunset at Senja",
+    "description": "",
+    "location": "Senja, Norway",
+    "tags": [
+      "2026",
+      "lanscape"
+    ],
+    "width": 3000,
+    "height": 2000,
+    "resize": {
+      "thumb": {
+        "height": 147,
+        "width": 220,
+        "path": "8ff7-1a72/mostlyanimals_8ff7-1a72_thumb.jpg?ts=1792429650516"
+      },
+      "xsmall": {
+        "height": 333,
+        "width": 500,
+        "path": "8ff7-1a72/mostlyanimals_8ff7-1a72_xs.jpg?ts=1792429650517"
+      },
+      "small": {
+        "height": 667,
+        "width": 1000,
+        "path": "8ff7-1a72/mostlyanimals_8ff7-1a72_s.jpg?ts=1792429650517"
+      },
+      "medium": {
+        "height": 933,
+        "width": 1400,
+        "path": "8ff7-1a72/mostlyanimals_8ff7-1a72_m.jpg?ts=1792429650517"
+      },
+      "large": {
+        "height": 1267,
+        "width": 1900,
+        "path": "8ff7-1a72/mostlyanimals_8ff7-1a72_l.jpg?ts=1792429650517"
+      },
+      "xlarge": {
+        "height": 1707,
+        "width": 2560,
+        "path": "8ff7-1a72/mostlyanimals_8ff7-1a72_xl.jpg?ts=1792429650517"
+      }
+    }
+  },
+  {
+    "key": "cb85-6520",
+    "sortIndex": 283000,
+    "name": "DSC02811.jpg",
+    "title": "Mefjorden",
+    "description": "",
+    "location": "Senja, Norway",
+    "tags": [
+      "2026",
+      "landscape"
+    ],
+    "width": 2000,
+    "height": 3000,
+    "resize": {
+      "thumb": {
+        "height": 220,
+        "width": 147,
+        "path": "cb85-6520/mostlyanimals_cb85-6520_thumb.jpg?ts=1792429578518"
+      },
+      "xsmall": {
+        "height": 500,
+        "width": 333,
+        "path": "cb85-6520/mostlyanimals_cb85-6520_xs.jpg?ts=1792429578518"
+      },
+      "small": {
+        "height": 1000,
+        "width": 667,
+        "path": "cb85-6520/mostlyanimals_cb85-6520_s.jpg?ts=1792429578518"
+      },
+      "medium": {
+        "height": 1400,
+        "width": 933,
+        "path": "cb85-6520/mostlyanimals_cb85-6520_m.jpg?ts=1792429578518"
+      },
+      "large": {
+        "height": 1900,
+        "width": 1267,
+        "path": "cb85-6520/mostlyanimals_cb85-6520_l.jpg?ts=1792429578518"
+      },
+      "xlarge": {
+        "height": 2560,
+        "width": 1707,
+        "path": "cb85-6520/mostlyanimals_cb85-6520_xl.jpg?ts=1792429578518"
+      }
+    }
+  },
+  {
     "key": "66af-9d4d",
     "sortIndex": 281000,
     "name": "DSC04132.jpg",
@@ -252,32 +344,32 @@
       "thumb": {
         "height": 220,
         "width": 147,
-        "path": "63af-3faf/mostlyanimals_63af-3faf_thumb.jpg?ts=1789981126063"
+        "path": "63af-3faf/mostlyanimals_63af-3faf_thumb.jpg?ts=1792429368927"
       },
       "xsmall": {
         "height": 500,
         "width": 333,
-        "path": "63af-3faf/mostlyanimals_63af-3faf_xs.jpg?ts=1789981126063"
+        "path": "63af-3faf/mostlyanimals_63af-3faf_xs.jpg?ts=1792429368927"
       },
       "small": {
         "height": 1000,
         "width": 667,
-        "path": "63af-3faf/mostlyanimals_63af-3faf_s.jpg?ts=1789981126063"
+        "path": "63af-3faf/mostlyanimals_63af-3faf_s.jpg?ts=1792429368927"
       },
       "medium": {
         "height": 1400,
         "width": 933,
-        "path": "63af-3faf/mostlyanimals_63af-3faf_m.jpg?ts=1789981126063"
+        "path": "63af-3faf/mostlyanimals_63af-3faf_m.jpg?ts=1792429368927"
       },
       "large": {
         "height": 1900,
         "width": 1267,
-        "path": "63af-3faf/mostlyanimals_63af-3faf_l.jpg?ts=1789981126063"
+        "path": "63af-3faf/mostlyanimals_63af-3faf_l.jpg?ts=1792429368927"
       },
       "xlarge": {
         "height": 2560,
         "width": 1707,
-        "path": "63af-3faf/mostlyanimals_63af-3faf_xl.jpg?ts=1789981126063"
+        "path": "63af-3faf/mostlyanimals_63af-3faf_xl.jpg?ts=1792429368927"
       }
     }
   },
@@ -396,32 +488,32 @@
       "thumb": {
         "height": 220,
         "width": 147,
-        "path": "6d22-48be/mostlyanimals_6d22-48be_thumb.jpg?ts=1789115490110"
+        "path": "6d22-48be/mostlyanimals_6d22-48be_thumb.jpg?ts=1792429433052"
       },
       "xsmall": {
         "height": 500,
         "width": 333,
-        "path": "6d22-48be/mostlyanimals_6d22-48be_xs.jpg?ts=1789115490110"
+        "path": "6d22-48be/mostlyanimals_6d22-48be_xs.jpg?ts=1792429433052"
       },
       "small": {
         "height": 1000,
         "width": 667,
-        "path": "6d22-48be/mostlyanimals_6d22-48be_s.jpg?ts=1789115490110"
+        "path": "6d22-48be/mostlyanimals_6d22-48be_s.jpg?ts=1792429433052"
       },
       "medium": {
         "height": 1400,
         "width": 933,
-        "path": "6d22-48be/mostlyanimals_6d22-48be_m.jpg?ts=1789115490110"
+        "path": "6d22-48be/mostlyanimals_6d22-48be_m.jpg?ts=1792429433052"
       },
       "large": {
         "height": 1900,
         "width": 1267,
-        "path": "6d22-48be/mostlyanimals_6d22-48be_l.jpg?ts=1789115490110"
+        "path": "6d22-48be/mostlyanimals_6d22-48be_l.jpg?ts=1792429433052"
       },
       "xlarge": {
         "height": 2560,
         "width": 1707,
-        "path": "6d22-48be/mostlyanimals_6d22-48be_xl.jpg?ts=1789115490110"
+        "path": "6d22-48be/mostlyanimals_6d22-48be_xl.jpg?ts=1792429433052"
       }
     }
   },
@@ -443,39 +535,39 @@
       "thumb": {
         "height": 147,
         "width": 220,
-        "path": "d251-ffc6/mostlyanimals_d251-ffc6_thumb.jpg?ts=1791395952524"
+        "path": "d251-ffc6/mostlyanimals_d251-ffc6_thumb.jpg?ts=1792429397210"
       },
       "xsmall": {
         "height": 333,
         "width": 500,
-        "path": "d251-ffc6/mostlyanimals_d251-ffc6_xs.jpg?ts=1791395952524"
+        "path": "d251-ffc6/mostlyanimals_d251-ffc6_xs.jpg?ts=1792429397210"
       },
       "small": {
         "height": 667,
         "width": 1000,
-        "path": "d251-ffc6/mostlyanimals_d251-ffc6_s.jpg?ts=1791395952524"
+        "path": "d251-ffc6/mostlyanimals_d251-ffc6_s.jpg?ts=1792429397210"
       },
       "medium": {
         "height": 933,
         "width": 1400,
-        "path": "d251-ffc6/mostlyanimals_d251-ffc6_m.jpg?ts=1791395952524"
+        "path": "d251-ffc6/mostlyanimals_d251-ffc6_m.jpg?ts=1792429397210"
       },
       "large": {
         "height": 1267,
         "width": 1900,
-        "path": "d251-ffc6/mostlyanimals_d251-ffc6_l.jpg?ts=1791395952524"
+        "path": "d251-ffc6/mostlyanimals_d251-ffc6_l.jpg?ts=1792429397210"
       },
       "xlarge": {
         "height": 1707,
         "width": 2560,
-        "path": "d251-ffc6/mostlyanimals_d251-ffc6_xl.jpg?ts=1791395952524"
+        "path": "d251-ffc6/mostlyanimals_d251-ffc6_xl.jpg?ts=1792429397210"
       }
     }
   },
   {
     "key": "65e7-0a24",
     "sortIndex": 272000,
-    "name": "DSC03044.jpg",
+    "name": "DSC3044.jpg",
     "title": "Stormoa",
     "description": "Stormoa is Senja's second highest mountain. There's often a small cloud hovering around its peak, which is a result of _orographic lift_: A cloud can form around a mountain peak when moist air is forced upward by the terrain. As the air rises, it cools and reaches its dew point, causing water vapor to condense into clouds. This can create a distinctive \"cap\" or \"dome\" of cloud around the summit, which may appear almost stationary even though air is continuously moving through it.",
     "location": "Senja, Norway",
@@ -1064,32 +1156,32 @@
       "thumb": {
         "height": 147,
         "width": 220,
-        "path": "8ccc-b7c1/mostlyanimals_8ccc-b7c1_thumb.jpg?ts=1789066964767"
+        "path": "8ccc-b7c1/mostlyanimals_8ccc-b7c1_thumb.jpg?ts=1792429349189"
       },
       "xsmall": {
         "height": 333,
         "width": 500,
-        "path": "8ccc-b7c1/mostlyanimals_8ccc-b7c1_xs.jpg?ts=1789066964767"
+        "path": "8ccc-b7c1/mostlyanimals_8ccc-b7c1_xs.jpg?ts=1792429349189"
       },
       "small": {
         "height": 667,
         "width": 1000,
-        "path": "8ccc-b7c1/mostlyanimals_8ccc-b7c1_s.jpg?ts=1789066964768"
+        "path": "8ccc-b7c1/mostlyanimals_8ccc-b7c1_s.jpg?ts=1792429349189"
       },
       "medium": {
         "height": 933,
         "width": 1400,
-        "path": "8ccc-b7c1/mostlyanimals_8ccc-b7c1_m.jpg?ts=1789066964768"
+        "path": "8ccc-b7c1/mostlyanimals_8ccc-b7c1_m.jpg?ts=1792429349189"
       },
       "large": {
         "height": 1267,
         "width": 1900,
-        "path": "8ccc-b7c1/mostlyanimals_8ccc-b7c1_l.jpg?ts=1789066964768"
+        "path": "8ccc-b7c1/mostlyanimals_8ccc-b7c1_l.jpg?ts=1792429349189"
       },
       "xlarge": {
         "height": 1707,
         "width": 2560,
-        "path": "8ccc-b7c1/mostlyanimals_8ccc-b7c1_xl.jpg?ts=1789066964768"
+        "path": "8ccc-b7c1/mostlyanimals_8ccc-b7c1_xl.jpg?ts=1792429349189"
       }
     }
   },
@@ -1206,32 +1298,32 @@
       "thumb": {
         "height": 147,
         "width": 220,
-        "path": "fa33-68be/mostlyanimals_fa33-68be_thumb.jpg?ts=1789068001467"
+        "path": "fa33-68be/mostlyanimals_fa33-68be_thumb.jpg?ts=1792429417049"
       },
       "xsmall": {
         "height": 333,
         "width": 500,
-        "path": "fa33-68be/mostlyanimals_fa33-68be_xs.jpg?ts=1789068001467"
+        "path": "fa33-68be/mostlyanimals_fa33-68be_xs.jpg?ts=1792429417049"
       },
       "small": {
         "height": 667,
         "width": 1000,
-        "path": "fa33-68be/mostlyanimals_fa33-68be_s.jpg?ts=1789068001468"
+        "path": "fa33-68be/mostlyanimals_fa33-68be_s.jpg?ts=1792429417049"
       },
       "medium": {
         "height": 933,
         "width": 1400,
-        "path": "fa33-68be/mostlyanimals_fa33-68be_m.jpg?ts=1789068001468"
+        "path": "fa33-68be/mostlyanimals_fa33-68be_m.jpg?ts=1792429417049"
       },
       "large": {
         "height": 1267,
         "width": 1900,
-        "path": "fa33-68be/mostlyanimals_fa33-68be_l.jpg?ts=1789068001468"
+        "path": "fa33-68be/mostlyanimals_fa33-68be_l.jpg?ts=1792429417049"
       },
       "xlarge": {
         "height": 1707,
         "width": 2560,
-        "path": "fa33-68be/mostlyanimals_fa33-68be_xl.jpg?ts=1789068001468"
+        "path": "fa33-68be/mostlyanimals_fa33-68be_xl.jpg?ts=1792429417049"
       }
     }
   },
@@ -1347,32 +1439,32 @@
       "thumb": {
         "height": 124,
         "width": 220,
-        "path": "a89f-a807/mostlyanimals_a89f-a807_thumb.jpg?ts=1788957445817"
+        "path": "a89f-a807/mostlyanimals_a89f-a807_thumb.jpg?ts=1792429407752"
       },
       "xsmall": {
         "height": 281,
         "width": 500,
-        "path": "a89f-a807/mostlyanimals_a89f-a807_xs.jpg?ts=1788957445817"
+        "path": "a89f-a807/mostlyanimals_a89f-a807_xs.jpg?ts=1792429407752"
       },
       "small": {
         "height": 563,
         "width": 1000,
-        "path": "a89f-a807/mostlyanimals_a89f-a807_s.jpg?ts=1788957445818"
+        "path": "a89f-a807/mostlyanimals_a89f-a807_s.jpg?ts=1792429407752"
       },
       "medium": {
         "height": 788,
         "width": 1400,
-        "path": "a89f-a807/mostlyanimals_a89f-a807_m.jpg?ts=1788957445818"
+        "path": "a89f-a807/mostlyanimals_a89f-a807_m.jpg?ts=1792429407752"
       },
       "large": {
         "height": 1069,
         "width": 1900,
-        "path": "a89f-a807/mostlyanimals_a89f-a807_l.jpg?ts=1788957445818"
+        "path": "a89f-a807/mostlyanimals_a89f-a807_l.jpg?ts=1792429407752"
       },
       "xlarge": {
         "height": 1440,
         "width": 2560,
-        "path": "a89f-a807/mostlyanimals_a89f-a807_xl.jpg?ts=1788957445818"
+        "path": "a89f-a807/mostlyanimals_a89f-a807_xl.jpg?ts=1792429407752"
       }
     }
   },
@@ -5198,7 +5290,7 @@
   {
     "key": "3eb3-80d2",
     "sortIndex": 175000,
-    "name": "DSC05370-HDR-Pano_AuroraHDR-edit.jpg",
+    "name": "DSC05087_AuroraHDR-edit.jpg",
     "title": "Krokvann",
     "description": "A red sunset often indicate a clear sky the following day. The reason is that dust and small particles are trapped in the atmosphere by high pressure coming in from the west. In traditional knowledge they said \"Red sky at night, sailor's delight\".",
     "location": "Siljanskogen, Norway",
@@ -5208,37 +5300,37 @@
       "landscape"
     ],
     "width": 3000,
-    "height": 1687,
+    "height": 1688,
     "resize": {
       "thumb": {
         "height": 124,
         "width": 220,
-        "path": "3eb3-80d2/mostlyanimals_3eb3-80d2_thumb.jpg?ts=1792080145302"
+        "path": "3eb3-80d2/mostlyanimals_3eb3-80d2_thumb.jpg?ts=1792429468418"
       },
       "xsmall": {
         "height": 281,
         "width": 500,
-        "path": "3eb3-80d2/mostlyanimals_3eb3-80d2_xs.jpg?ts=1792080145302"
+        "path": "3eb3-80d2/mostlyanimals_3eb3-80d2_xs.jpg?ts=1792429468418"
       },
       "small": {
-        "height": 562,
+        "height": 563,
         "width": 1000,
-        "path": "3eb3-80d2/mostlyanimals_3eb3-80d2_s.jpg?ts=1792080145302"
+        "path": "3eb3-80d2/mostlyanimals_3eb3-80d2_s.jpg?ts=1792429468418"
       },
       "medium": {
-        "height": 787,
+        "height": 788,
         "width": 1400,
-        "path": "3eb3-80d2/mostlyanimals_3eb3-80d2_m.jpg?ts=1792080145302"
+        "path": "3eb3-80d2/mostlyanimals_3eb3-80d2_m.jpg?ts=1792429468418"
       },
       "large": {
-        "height": 1068,
+        "height": 1069,
         "width": 1900,
-        "path": "3eb3-80d2/mostlyanimals_3eb3-80d2_l.jpg?ts=1792080145302"
+        "path": "3eb3-80d2/mostlyanimals_3eb3-80d2_l.jpg?ts=1792429468418"
       },
       "xlarge": {
         "height": 1440,
         "width": 2560,
-        "path": "3eb3-80d2/mostlyanimals_3eb3-80d2_xl.jpg?ts=1792080145302"
+        "path": "3eb3-80d2/mostlyanimals_3eb3-80d2_xl.jpg?ts=1792429468418"
       }
     }
   },
@@ -9844,48 +9936,44 @@
     "latin": "Triaenodon obesus",
     "location": "Cocos Island, Costa Rica",
     "tags": [
+      "2026",
       "2017",
       "shark",
       "underwater",
       "animal"
     ],
-    "width": 5472,
-    "height": 3080,
+    "width": 3000,
+    "height": 2000,
     "resize": {
       "thumb": {
-        "height": 124,
+        "height": 147,
         "width": 220,
-        "path": "a29b-af74/mostlyanimals_a29b-af74_thumb.jpg"
+        "path": "a29b-af74/mostlyanimals_a29b-af74_thumb.jpg?ts=1792429515907"
       },
       "xsmall": {
-        "height": 281,
+        "height": 333,
         "width": 500,
-        "path": "a29b-af74/mostlyanimals_a29b-af74_xs.jpg"
+        "path": "a29b-af74/mostlyanimals_a29b-af74_xs.jpg?ts=1792429515907"
       },
       "small": {
-        "height": 563,
+        "height": 667,
         "width": 1000,
-        "path": "a29b-af74/mostlyanimals_a29b-af74_s.jpg"
+        "path": "a29b-af74/mostlyanimals_a29b-af74_s.jpg?ts=1792429515907"
       },
       "medium": {
-        "height": 788,
+        "height": 933,
         "width": 1400,
-        "path": "a29b-af74/mostlyanimals_a29b-af74_m.jpg"
+        "path": "a29b-af74/mostlyanimals_a29b-af74_m.jpg?ts=1792429515907"
       },
       "large": {
-        "height": 1069,
+        "height": 1267,
         "width": 1900,
-        "path": "a29b-af74/mostlyanimals_a29b-af74_l.jpg"
+        "path": "a29b-af74/mostlyanimals_a29b-af74_l.jpg?ts=1792429515907"
       },
       "xlarge": {
-        "height": 1441,
+        "height": 1707,
         "width": 2560,
-        "path": "a29b-af74/mostlyanimals_a29b-af74_xl.jpg"
-      },
-      "xxlarge": {
-        "height": 1801,
-        "width": 3200,
-        "path": "a29b-af74/mostlyanimals_a29b-af74_xxl.jpg"
+        "path": "a29b-af74/mostlyanimals_a29b-af74_xl.jpg?ts=1792429515908"
       }
     }
   },
