@@ -15,7 +15,8 @@
     "start": "next start",
     "lint": "eslint .",
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
-    "reorder-photos": "node photo-management/reorder-content.js"
+    "reorder-photos": "node photo-management/reorder-content.js",
+    "reorder-ui": "xdg-open photo-management/reorder.html 2>/dev/null || open photo-management/reorder.html 2>/dev/null"
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.1141.0",

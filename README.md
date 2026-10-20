@@ -49,6 +49,17 @@ positions), preserving a stable baseline across repeated runs. Featured and
 non-featured photos are reordered separately, as before. Review and commit the
 resulting order.
 
+### Drag-and-drop visual reorder UI
+
+You can also visually drag and drop photos to reorder them using the standalone admin panel (no server required):
+
+```
+npm run reorder-ui
+```
+
+Or open `photo-management/reorder.html` directly in your browser. It uses the browser's File System Access API to save changes directly to `content.json` in-place, and can automatically recalculate `sortIndex` values to preserve your custom order.
+
+
 ## Delete a photo
 
 Delete a photo from S3 and remove it from `content.json` by running:

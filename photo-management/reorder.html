@@ -1,0 +1,1265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mostly Animals — Photo Reorder Admin</title>
+  <script src="./sortable.min.js"></script>
+  <script>
+    // Fallback if local sortable.min.js didn't load
+    if (typeof Sortable === 'undefined') {
+      const s = document.createElement('script');
+      s.src = 'https://cdn.jsdelivr.net/npm/sortablejs@1.15.6/Sortable.min.js';
+      document.head.appendChild(s);
+    }
+  </script>
+  <style>
+    :root {
+      --bg-primary: #12151b;
+      --bg-secondary: #1a1f29;
+      --bg-card: #222836;
+      --bg-card-hover: #2a3344;
+      --text-main: #f0f3f8;
+      --text-muted: #8b9bb4;
+      --border-color: #2e384d;
+      --accent-color: #3b82f6;
+      --accent-hover: #2563eb;
+      --success-color: #10b981;
+      --warning-color: #f59e0b;
+      --danger-color: #ef4444;
+      --portrait-badge: #8b5cf6;
+      --landscape-badge: #06b6d4;
+      --radius-sm: 6px;
+      --radius-md: 10px;
+      --shadow-sm: 0 2px 4px rgba(0,0,0,0.3);
+      --shadow-md: 0 4px 12px rgba(0,0,0,0.4);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg-primary);
+      color: var(--text-main);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Top Sticky Header */
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background-color: rgba(26, 31, 41, 0.95);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border-color);
+      padding: 10px 20px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .header-left, .header-center, .header-right {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .brand {
+      font-size: 1.05rem;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      letter-spacing: -0.01em;
+    }
+
+    .status-badge {
+      font-size: 0.78rem;
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      color: var(--text-muted);
+    }
+    .status-badge.dirty {
+      background: rgba(245, 158, 11, 0.15);
+      border-color: var(--warning-color);
+      color: #fbbf24;
+    }
+    .status-badge.saved {
+      background: rgba(16, 185, 129, 0.15);
+      border-color: var(--success-color);
+      color: #34d399;
+    }
+    .status-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: currentColor;
+    }
+
+    /* Buttons & Controls */
+    button, .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--bg-card);
+      color: var(--text-main);
+      border: 1px solid var(--border-color);
+      padding: 7px 13px;
+      border-radius: var(--radius-sm);
+      font-size: 0.85rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      user-select: none;
+    }
+    button:hover:not(:disabled), .btn:hover:not(:disabled) {
+      background: var(--bg-card-hover);
+      border-color: #4b5875;
+      color: #fff;
+    }
+    button:disabled, .btn:disabled {
+      opacity: 0.45;
+      cursor: not-allowed;
+    }
+    .btn-primary {
+      background: var(--accent-color);
+      border-color: var(--accent-color);
+      color: white;
+    }
+    .btn-primary:hover:not(:disabled) {
+      background: var(--accent-hover);
+      border-color: var(--accent-hover);
+    }
+    .btn-success {
+      background: #059669;
+      border-color: #059669;
+      color: white;
+    }
+    .btn-success:hover:not(:disabled) {
+      background: #047857;
+      border-color: #047857;
+    }
+
+    .view-toggle {
+      display: flex;
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-sm);
+      padding: 2px;
+    }
+    .view-toggle button {
+      background: transparent;
+      border: none;
+      padding: 5px 10px;
+      font-size: 0.8rem;
+      border-radius: 4px;
+    }
+    .view-toggle button.active {
+      background: var(--accent-color);
+      color: white;
+    }
+
+    /* Drop Zone / Empty State */
+    #drop-zone-container {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 20px;
+    }
+    .drop-zone {
+      border: 2px dashed var(--border-color);
+      border-radius: var(--radius-md);
+      background: var(--bg-secondary);
+      padding: 60px 40px;
+      text-align: center;
+      max-width: 580px;
+      width: 100%;
+      transition: all 0.2s ease;
+      box-shadow: var(--shadow-md);
+    }
+    .drop-zone.dragover {
+      border-color: var(--accent-color);
+      background: rgba(59, 130, 246, 0.08);
+      transform: scale(1.01);
+    }
+    .drop-zone-icon {
+      font-size: 3.5rem;
+      margin-bottom: 16px;
+    }
+    .drop-zone h2 {
+      font-size: 1.4rem;
+      margin-bottom: 8px;
+    }
+    .drop-zone p {
+      color: var(--text-muted);
+      font-size: 0.92rem;
+      margin-bottom: 24px;
+      line-height: 1.5;
+    }
+
+    /* Main Container & Grid */
+    main {
+      flex: 1;
+      padding: 20px;
+      max-width: 1600px;
+      margin: 0 auto;
+      width: 100%;
+    }
+
+    .photo-grid {
+      display: grid;
+      gap: 16px;
+    }
+
+    /* Collage View (3 per row - matching mostlyanimals desktop layout) */
+    .photo-grid.view-collage {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    @media (max-width: 1024px) {
+      .photo-grid.view-collage {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+    @media (max-width: 640px) {
+      .photo-grid.view-collage {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    /* Compact Grid View */
+    .photo-grid.view-grid {
+      grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+    }
+
+    /* List View */
+    .photo-grid.view-list {
+      grid-template-columns: 1fr;
+      gap: 8px;
+    }
+
+    /* Photo Card */
+    .photo-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      cursor: grab;
+      user-select: none;
+      transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+    }
+    .photo-card.is-moved {
+      border-color: var(--accent-color);
+      box-shadow: 0 0 0 1px var(--accent-color);
+    }
+    .badge-moved-pill {
+      background: rgba(59, 130, 246, 0.2);
+      color: #93c5fd;
+      font-size: 0.65rem;
+      font-weight: 700;
+      padding: 1px 4px;
+      border-radius: 3px;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    .photo-card:hover {
+      border-color: #435270;
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-md);
+    }
+    .photo-card:active {
+      cursor: grabbing;
+    }
+
+    /* Sortable Ghost / Dragging states */
+    .sortable-ghost {
+      opacity: 0.35;
+      background: #1e293b !important;
+      border: 2px dashed var(--accent-color) !important;
+    }
+    .sortable-chosen {
+      background: var(--bg-card-hover);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+    }
+    .sortable-drag {
+      opacity: 0.95;
+      transform: scale(1.03) !important;
+    }
+
+    /* Card Thumbnail Area */
+    .card-thumb-wrap {
+      position: relative;
+      background: #090c12;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+    }
+
+    /* Collage View Thumbnail Display */
+    .view-collage .card-thumb-wrap {
+      height: 300px;
+      background: #080a0f;
+    }
+    /* Portrait photos: maintain narrow natural aspect ratio with blank letterbox borders on the sides */
+    .view-collage .photo-card.is-portrait .card-thumb-wrap img {
+      width: auto;
+      max-width: 100%;
+      height: 100%;
+      object-fit: contain;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.5);
+    }
+    /* Landscape photos: fill card width */
+    .view-collage .photo-card.is-landscape .card-thumb-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    /* Dense Grid View Thumbnail Display */
+    .view-grid .card-thumb-wrap {
+      height: 160px;
+    }
+    .view-grid .card-thumb-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    /* List View Display */
+    .view-list .photo-card {
+      flex-direction: row;
+      align-items: center;
+    }
+    .view-list .card-thumb-wrap {
+      width: 100px;
+      height: 75px;
+      flex-shrink: 0;
+    }
+    .view-list .card-thumb-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .card-thumb-wrap img {
+      display: block;
+      transition: opacity 0.2s ease;
+    }
+
+    /* Badges */
+    .badge-rank {
+      position: absolute;
+      top: 8px;
+      left: 8px;
+      background: rgba(0, 0, 0, 0.78);
+      backdrop-filter: blur(4px);
+      color: #fff;
+      font-size: 0.75rem;
+      font-weight: 700;
+      padding: 3px 8px;
+      border-radius: var(--radius-sm);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      z-index: 2;
+    }
+    .badge-orientation {
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      font-size: 0.7rem;
+      font-weight: 700;
+      padding: 2px 7px;
+      border-radius: var(--radius-sm);
+      color: #fff;
+      z-index: 2;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+    }
+    .badge-orientation.portrait {
+      background: var(--portrait-badge);
+    }
+    .badge-orientation.landscape {
+      background: var(--landscape-badge);
+    }
+    .badge-featured {
+      position: absolute;
+      bottom: 8px;
+      left: 8px;
+      background: #d97706;
+      color: #fff;
+      font-size: 0.7rem;
+      font-weight: 700;
+      padding: 2px 6px;
+      border-radius: 4px;
+      z-index: 2;
+    }
+
+    /* Card Details */
+    .card-body {
+      padding: 10px 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      flex: 1;
+    }
+    .card-title {
+      font-size: 0.9rem;
+      font-weight: 600;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      color: var(--text-main);
+    }
+    .card-title.empty {
+      color: var(--text-muted);
+      font-style: italic;
+    }
+    .card-meta {
+      font-size: 0.76rem;
+      color: var(--text-muted);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    /* Card Action Toolbar */
+    .card-actions {
+      border-top: 1px solid var(--border-color);
+      background: rgba(0, 0, 0, 0.15);
+      padding: 6px 8px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 4px;
+    }
+    .card-actions button {
+      padding: 4px 7px;
+      font-size: 0.72rem;
+      border-radius: 4px;
+      background: transparent;
+      border: 1px solid transparent;
+      color: var(--text-muted);
+    }
+    .card-actions button:hover {
+      background: var(--bg-card-hover);
+      border-color: var(--border-color);
+      color: var(--text-main);
+    }
+
+    /* Modal / Dialog */
+    .modal-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.7);
+      backdrop-filter: blur(4px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 1000;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.15s ease;
+    }
+    .modal-overlay.open {
+      opacity: 1;
+      pointer-events: auto;
+    }
+    .modal {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-md);
+      padding: 24px;
+      width: 90%;
+      max-width: 420px;
+      box-shadow: var(--shadow-md);
+    }
+    .modal h3 {
+      font-size: 1.15rem;
+      margin-bottom: 12px;
+    }
+    .modal p {
+      font-size: 0.88rem;
+      color: var(--text-muted);
+      margin-bottom: 16px;
+      line-height: 1.4;
+    }
+    .modal input[type="number"] {
+      width: 100%;
+      padding: 8px 12px;
+      background: var(--bg-primary);
+      border: 1px solid var(--border-color);
+      border-radius: var(--radius-sm);
+      color: var(--text-main);
+      font-size: 1rem;
+      margin-bottom: 20px;
+      outline: none;
+    }
+    .modal input[type="number"]:focus {
+      border-color: var(--accent-color);
+    }
+    .modal-actions {
+      display: flex;
+      justify-content: flex-end;
+      gap: 10px;
+    }
+
+    /* Toast Notification */
+    .toast {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      background: #1e293b;
+      color: #fff;
+      border: 1px solid #334155;
+      padding: 12px 20px;
+      border-radius: var(--radius-md);
+      font-size: 0.88rem;
+      font-weight: 500;
+      box-shadow: var(--shadow-md);
+      z-index: 2000;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      transform: translateY(100px);
+      opacity: 0;
+      transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .toast.show {
+      transform: translateY(0);
+      opacity: 1;
+    }
+    .toast.success {
+      border-color: #059669;
+      background: #064e3b;
+    }
+    .toast.warning {
+      border-color: #d97706;
+      background: #78350f;
+    }
+
+    /* Hidden file input */
+    #file-input {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Sticky Header -->
+  <header>
+    <div class="header-left">
+      <div class="brand">
+        <span>🐾 Mostly Animals</span>
+        <span style="font-weight: 400; color: var(--text-muted); font-size: 0.85rem;">/ Reorder</span>
+      </div>
+      <div id="status-badge" class="status-badge">
+        <span class="status-dot"></span>
+        <span id="status-text">No file loaded</span>
+      </div>
+      <span id="moved-info-badge" class="status-badge" style="display: none; background: rgba(59, 130, 246, 0.15); border-color: var(--accent-color); color: #93c5fd;" title="Only moved photos have their sortIndex updated; untouched photos keep their baseline anchors">
+        <span class="status-dot" style="background: var(--accent-color);"></span>
+        <span id="moved-info-text">0 moved</span>
+      </span>
+      <span id="photo-count-info" style="color: var(--text-muted); font-size: 0.82rem;"></span>
+    </div>
+
+    <div class="header-center">
+      <div class="view-toggle">
+        <button id="view-collage-btn" class="active" title="Collage view (3 columns, mimicking live site)">🖼️ Collage (3/row)</button>
+        <button id="view-grid-btn" title="Dense grid view">🔲 Dense Grid</button>
+        <button id="view-list-btn" title="Compact list view">📋 List</button>
+      </div>
+    </div>
+
+    <div class="header-right">
+      <button id="btn-undo" title="Undo move (Ctrl+Z)" disabled>↩️ Undo</button>
+      <button id="btn-redo" title="Redo move (Ctrl+Y)" disabled>↪️ Redo</button>
+      <button id="btn-open">📂 Open content.json</button>
+      <button id="btn-save" class="btn-success" title="Save changes (Ctrl+S)" disabled>💾 Save Changes</button>
+    </div>
+  </header>
+
+  <!-- Drop Zone (Shown when no file is loaded) -->
+  <div id="drop-zone-container">
+    <div id="drop-zone" class="drop-zone">
+      <div class="drop-zone-icon">📷</div>
+      <h2>Reorder Photo Placement</h2>
+      <p>
+        Drag and drop <strong>content.json</strong> here, or click the button below.<br>
+        Direct in-place saving is supported via the browser's File System Access API.
+      </p>
+      <button id="drop-zone-btn" class="btn-primary" style="padding: 10px 22px; font-size: 0.95rem;">
+        📂 Select content.json
+      </button>
+      <input type="file" id="file-input" accept=".json" />
+    </div>
+  </div>
+
+  <!-- Main Grid Area -->
+  <main id="main-area" style="display: none;">
+    <div id="photo-grid" class="photo-grid view-collage"></div>
+  </main>
+
+  <!-- Jump to Rank Modal -->
+  <div id="jump-modal" class="modal-overlay">
+    <div class="modal">
+      <h3>Move Photo to Rank</h3>
+      <p id="jump-modal-desc">Enter the new position (1 to N) for this photo:</p>
+      <input type="number" id="jump-rank-input" min="1" step="1" />
+      <div class="modal-actions">
+        <button id="jump-modal-cancel">Cancel</button>
+        <button id="jump-modal-confirm" class="btn-primary">Move</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="toast"></div>
+
+  <script>
+    const S3_BASE = "https://s3.eu-central-1.amazonaws.com/splendid-nudibranch";
+
+    let photos = [];
+    let fileHandle = null;
+    let fileName = "";
+    let isDirty = false;
+    let currentView = "collage"; // collage | grid | list
+    let activeJumpPhotoKey = null;
+
+    // Undo / Redo stacks
+    const undoStack = [];
+    const redoStack = [];
+
+    // Moved photo keys tracking
+    const movedPhotoKeys = new Set();
+    let originalSortIndices = new Map();
+
+    // DOM Elements
+    const dropZoneContainer = document.getElementById("drop-zone-container");
+    const dropZone = document.getElementById("drop-zone");
+    const mainArea = document.getElementById("main-area");
+    const photoGrid = document.getElementById("photo-grid");
+    const fileInput = document.getElementById("file-input");
+    const btnOpen = document.getElementById("btn-open");
+    const dropZoneBtn = document.getElementById("drop-zone-btn");
+    const btnSave = document.getElementById("btn-save");
+    const btnUndo = document.getElementById("btn-undo");
+    const btnRedo = document.getElementById("btn-redo");
+    const statusBadge = document.getElementById("status-badge");
+    const statusText = document.getElementById("status-text");
+    const photoCountInfo = document.getElementById("photo-count-info");
+    const movedInfoBadge = document.getElementById("moved-info-badge");
+    const movedInfoText = document.getElementById("moved-info-text");
+    const jumpModal = document.getElementById("jump-modal");
+    const jumpRankInput = document.getElementById("jump-rank-input");
+    const jumpModalCancel = document.getElementById("jump-modal-cancel");
+    const jumpModalConfirm = document.getElementById("jump-modal-confirm");
+    const toast = document.getElementById("toast");
+
+    let sortableInstance = null;
+
+    // Helper: is portrait
+    function isPortrait(photo) {
+      if (photo.resize && photo.resize.small) {
+        return photo.resize.small.height > photo.resize.small.width;
+      }
+      return photo.height > photo.width;
+    }
+
+    // Helper: Toast notification
+    let toastTimeout;
+    function showToast(message, type = "success") {
+      clearTimeout(toastTimeout);
+      toast.textContent = message;
+      toast.className = `toast show ${type}`;
+      toastTimeout = setTimeout(() => {
+        toast.className = "toast";
+      }, 3500);
+    }
+
+    // Dirty state management
+    function markDirty() {
+      if (!isDirty) {
+        isDirty = true;
+        updateStatus();
+      }
+      btnSave.disabled = false;
+      updateUndoRedoButtons();
+    }
+
+    function markSaved() {
+      isDirty = false;
+      originalSortIndices = new Map(photos.map(p => [p.key, p.sortIndex]));
+      movedPhotoKeys.clear();
+      updateStatus();
+      renderGrid();
+      btnSave.disabled = true;
+    }
+
+    function updateStatus() {
+      if (!photos || photos.length === 0) {
+        statusBadge.className = "status-badge";
+        statusText.textContent = "No file loaded";
+        if (movedInfoBadge) movedInfoBadge.style.display = "none";
+        return;
+      }
+      const movedCount = movedPhotoKeys.size;
+      if (isDirty) {
+        statusBadge.className = "status-badge dirty";
+        statusText.textContent = `● Unsaved changes (${photos.length} photos)`;
+      } else {
+        statusBadge.className = "status-badge saved";
+        statusText.textContent = `${fileName || "content.json"} (${photos.length} photos)`;
+      }
+      if (movedInfoBadge) {
+        if (movedCount > 0) {
+          movedInfoBadge.style.display = "inline-flex";
+          movedInfoText.textContent = `${movedCount} photo${movedCount === 1 ? '' : 's'} moved`;
+        } else {
+          movedInfoBadge.style.display = "none";
+        }
+      }
+    }
+
+    function updateUndoRedoButtons() {
+      btnUndo.disabled = undoStack.length === 0;
+      btnRedo.disabled = redoStack.length === 0;
+    }
+
+    function pushUndoState() {
+      undoStack.push({
+        photos: photos.map(p => ({ ...p })),
+        movedKeys: new Set(movedPhotoKeys)
+      });
+      if (undoStack.length > 50) undoStack.shift();
+      redoStack.length = 0; // clear redo
+      updateUndoRedoButtons();
+    }
+
+    function undo() {
+      if (undoStack.length === 0) return;
+      redoStack.push({
+        photos: photos.map(p => ({ ...p })),
+        movedKeys: new Set(movedPhotoKeys)
+      });
+      const previous = undoStack.pop();
+      photos = previous.photos.map(p => ({ ...p }));
+      movedPhotoKeys = new Set(previous.movedKeys);
+      renderGrid();
+      markDirty();
+      updateStatus();
+      showToast("Undone last move", "warning");
+    }
+
+    function redo() {
+      if (redoStack.length === 0) return;
+      undoStack.push({
+        photos: photos.map(p => ({ ...p })),
+        movedKeys: new Set(movedPhotoKeys)
+      });
+      const next = redoStack.pop();
+      photos = next.photos.map(p => ({ ...p }));
+      movedPhotoKeys = new Set(next.movedKeys);
+      renderGrid();
+      markDirty();
+      updateStatus();
+      showToast("Redone move");
+    }
+
+    // Calculate new sortIndex for a moved photo based on its target position in the baseline
+    function calculateTargetSortIndex(photoKey, targetIndex, currentPhotos) {
+      const otherPhotos = currentPhotos.filter(p => p.key !== photoKey);
+      const existingIndices = new Set(otherPhotos.map(p => p.sortIndex));
+      const sorted = [...otherPhotos].sort((a, b) => b.sortIndex - a.sortIndex);
+
+      let candidate;
+      if (targetIndex <= 0) {
+        candidate = (sorted[0] ? sorted[0].sortIndex : 1000) + 1000;
+      } else if (targetIndex >= sorted.length) {
+        const lowest = sorted[sorted.length - 1] ? sorted[sorted.length - 1].sortIndex : 0;
+        candidate = lowest - 1000;
+      } else {
+        const upper = sorted[targetIndex - 1].sortIndex;
+        const lower = sorted[targetIndex].sortIndex;
+        candidate = Math.round((upper + lower) / 2);
+
+        if (existingIndices.has(candidate) || candidate <= lower || candidate >= upper) {
+          let found = null;
+          const mid = (upper + lower) / 2;
+          const maxOffset = Math.max(10, Math.floor(upper - lower));
+          for (let offset = 1; offset < maxOffset; offset++) {
+            const c1 = Math.round(mid + offset);
+            if (c1 > lower && c1 < upper && !existingIndices.has(c1)) {
+              found = c1;
+              break;
+            }
+            const c2 = Math.round(mid - offset);
+            if (c2 > lower && c2 < upper && !existingIndices.has(c2)) {
+              found = c2;
+              break;
+            }
+          }
+          candidate = found !== null ? found : mid;
+        }
+      }
+
+      while (existingIndices.has(candidate)) {
+        candidate += 0.5;
+      }
+      return candidate;
+    }
+
+    // Load Data
+    function loadData(jsonContent, name = "content.json") {
+      if (!Array.isArray(jsonContent)) {
+        alert("The selected file does not appear to contain a photo array.");
+        return;
+      }
+      photos = jsonContent;
+      fileName = name;
+      isDirty = false;
+      undoStack.length = 0;
+      redoStack.length = 0;
+      movedPhotoKeys.clear();
+      originalSortIndices = new Map(photos.map(p => [p.key, p.sortIndex]));
+
+      // Show main area, hide drop zone
+      dropZoneContainer.style.display = "none";
+      mainArea.style.display = "block";
+
+      updateStatus();
+      updateUndoRedoButtons();
+      renderGrid();
+      showToast(`Loaded ${photos.length} photos from ${fileName}`);
+    }
+
+    // File Opening
+    async function openFile() {
+      if (window.showOpenFilePicker) {
+        try {
+          const [handle] = await window.showOpenFilePicker({
+            types: [{
+              description: "JSON Files",
+              accept: { "application/json": [".json"] }
+            }],
+            multiple: false
+          });
+          fileHandle = handle;
+          const file = await fileHandle.getFile();
+          const text = await file.text();
+          loadData(JSON.parse(text), file.name);
+          return;
+        } catch (err) {
+          if (err.name === "AbortError") return;
+          console.warn("showOpenFilePicker error, falling back to input:", err);
+        }
+      }
+      fileInput.click();
+    }
+
+    fileInput.addEventListener("change", async (e) => {
+      const file = e.target.files[0];
+      if (!file) return;
+      fileHandle = null; // No direct handle via input
+      const text = await file.text();
+      loadData(JSON.parse(text), file.name);
+    });
+
+    btnOpen.addEventListener("click", openFile);
+    dropZoneBtn.addEventListener("click", openFile);
+
+    // Drag and drop onto window / drop zone
+    window.addEventListener("dragover", (e) => {
+      e.preventDefault();
+      dropZone.classList.add("dragover");
+    });
+    window.addEventListener("dragleave", (e) => {
+      if (e.target === document.body || e.target === dropZone) {
+        dropZone.classList.remove("dragover");
+      }
+    });
+    window.addEventListener("drop", async (e) => {
+      e.preventDefault();
+      dropZone.classList.remove("dragover");
+
+      if (e.dataTransfer.items && e.dataTransfer.items.length > 0) {
+        const item = e.dataTransfer.items[0];
+        if (item.getAsFileSystemHandle) {
+          try {
+            const handle = await item.getAsFileSystemHandle();
+            if (handle && handle.kind === "file") {
+              fileHandle = handle;
+              const file = await handle.getFile();
+              const text = await file.text();
+              loadData(JSON.parse(text), file.name);
+              return;
+            }
+          } catch (_) {}
+        }
+      }
+
+      if (e.dataTransfer.files.length > 0) {
+        const file = e.dataTransfer.files[0];
+        fileHandle = null;
+        const text = await file.text();
+        loadData(JSON.parse(text), file.name);
+      }
+    });
+
+    // Save File
+    async function saveFile() {
+      if (photos.length === 0) return;
+
+      const jsonString = JSON.stringify(photos, null, 2) + "\n";
+
+      if (fileHandle) {
+        try {
+          const opts = { mode: "readwrite" };
+          if ((await fileHandle.queryPermission(opts)) !== "granted") {
+            if ((await fileHandle.requestPermission(opts)) !== "granted") {
+              alert("Permission to write to file was denied.");
+              return;
+            }
+          }
+          const writable = await fileHandle.createWritable();
+          await writable.write(jsonString);
+          await writable.close();
+
+          const movedCount = movedPhotoKeys.size;
+          markSaved();
+          showToast(`Successfully saved ${photos.length} photos to ${fileHandle.name}! (${movedCount} photo${movedCount === 1 ? '' : 's'} updated)`);
+          return;
+        } catch (err) {
+          console.error("Direct save failed:", err);
+          alert("Could not write directly to file: " + err.message + "\nFalling back to download.");
+        }
+      }
+
+      // Fallback: download as file
+      const blob = new Blob([jsonString], { type: "application/json" });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = fileName || "content.json";
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+
+      const movedCount = movedPhotoKeys.size;
+      markSaved();
+      showToast(`Downloaded updated ${fileName || "content.json"} (${movedCount} photo${movedCount === 1 ? '' : 's'} updated)`);
+    }
+
+    btnSave.addEventListener("click", saveFile);
+
+    // Keyboard Shortcuts
+    window.addEventListener("keydown", (e) => {
+      if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "s") {
+        e.preventDefault();
+        saveFile();
+      } else if ((e.ctrlKey || e.metaKey) && !e.shiftKey && e.key.toLowerCase() === "z") {
+        e.preventDefault();
+        undo();
+      } else if (
+        ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "y") ||
+        ((e.ctrlKey || e.metaKey) && e.shiftKey && e.key.toLowerCase() === "z")
+      ) {
+        e.preventDefault();
+        redo();
+      } else if (e.key === "Escape") {
+        closeJumpModal();
+      }
+    });
+
+    // Unsaved changes warning
+    window.addEventListener("beforeunload", (e) => {
+      if (isDirty) {
+        e.preventDefault();
+        e.returnValue = "You have unsaved changes. Are you sure you want to leave?";
+      }
+    });
+
+    // View toggles
+    const viewCollageBtn = document.getElementById("view-collage-btn");
+    const viewGridBtn = document.getElementById("view-grid-btn");
+    const viewListBtn = document.getElementById("view-list-btn");
+
+    function setView(view) {
+      currentView = view;
+      [viewCollageBtn, viewGridBtn, viewListBtn].forEach(btn => btn.classList.remove("active"));
+      photoGrid.className = `photo-grid view-${view}`;
+      if (view === "collage") viewCollageBtn.classList.add("active");
+      if (view === "grid") viewGridBtn.classList.add("active");
+      if (view === "list") viewListBtn.classList.add("active");
+      renderGrid();
+    }
+    viewCollageBtn.addEventListener("click", () => setView("collage"));
+    viewGridBtn.addEventListener("click", () => setView("grid"));
+    viewListBtn.addEventListener("click", () => setView("list"));
+
+    // Render Grid
+    function renderGrid() {
+      if (!photos || photos.length === 0) return;
+
+      if (sortableInstance) {
+        sortableInstance.destroy();
+        sortableInstance = null;
+      }
+
+      photoGrid.innerHTML = "";
+      const totalPortraits = photos.filter(isPortrait).length;
+      const totalLandscapes = photos.length - totalPortraits;
+
+      photoCountInfo.textContent = `${photos.length} photos (${totalPortraits} portrait, ${totalLandscapes} landscape)`;
+
+      photos.forEach((photo, index) => {
+        const portrait = isPortrait(photo);
+        const isMoved = movedPhotoKeys.has(photo.key);
+
+        const card = document.createElement("div");
+        card.className = `photo-card ${portrait ? "is-portrait" : "is-landscape"}${isMoved ? " is-moved" : ""}`;
+        card.dataset.key = photo.key;
+        card.dataset.index = index;
+
+        const thumbPath = photo.resize && photo.resize.thumb ? photo.resize.thumb.path : "";
+        const thumbUrl = thumbPath ? `${S3_BASE}/${thumbPath}` : "";
+
+        const orientationLabel = portrait ? "Portrait" : "Landscape";
+        const orientationClass = portrait ? "portrait" : "landscape";
+        const dimensions = `${photo.width || 0}×${photo.height || 0}`;
+
+        card.innerHTML = `
+          <div class="card-thumb-wrap">
+            <span class="badge-rank">#${index + 1}</span>
+            <span class="badge-orientation ${orientationClass}" title="${orientationLabel} (${dimensions})">${portrait ? 'P' : 'L'}</span>
+            ${photo.featured ? '<span class="badge-featured">⭐ Featured</span>' : ''}
+            <img src="${thumbUrl}" alt="${escapeHtml(photo.title || photo.name || photo.key)}" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <div class="card-title ${photo.title ? '' : 'empty'}" title="${escapeHtml(photo.title || photo.name || '')}">
+              ${escapeHtml(photo.title || photo.name || '(No title)')}
+            </div>
+            <div class="card-meta">
+              <span>${escapeHtml(photo.location || photo.key)}</span>
+              <span>•</span>
+              <span>${dimensions}</span>
+              <span>•</span>
+              <span class="card-sort-index" title="sortIndex">${photo.sortIndex ?? '-'}${isMoved ? ' <span class="badge-moved-pill">updated</span>' : ''}</span>
+            </div>
+          </div>
+          <div class="card-actions">
+            <button class="btn-card-top" title="Move to Top (#1)">⏮ Top</button>
+            <button class="btn-card-up" title="Move Up 1">◀ Up</button>
+            <button class="btn-card-jump" title="Move to Rank...">🎯 #...</button>
+            <button class="btn-card-down" title="Move Down 1">Down ▶</button>
+            <button class="btn-card-bottom" title="Move to Bottom">End ⏭</button>
+          </div>
+        `;
+
+        // Action button event handlers
+        card.querySelector(".btn-card-top").addEventListener("click", (e) => {
+          e.stopPropagation();
+          movePhotoToRank(photo.key, 0);
+        });
+        card.querySelector(".btn-card-bottom").addEventListener("click", (e) => {
+          e.stopPropagation();
+          movePhotoToRank(photo.key, photos.length - 1);
+        });
+        card.querySelector(".btn-card-up").addEventListener("click", (e) => {
+          e.stopPropagation();
+          const curIdx = photos.indexOf(photo);
+          if (curIdx > 0) movePhotoToRank(photo.key, curIdx - 1);
+        });
+        card.querySelector(".btn-card-down").addEventListener("click", (e) => {
+          e.stopPropagation();
+          const curIdx = photos.indexOf(photo);
+          if (curIdx < photos.length - 1) movePhotoToRank(photo.key, curIdx + 1);
+        });
+        card.querySelector(".btn-card-jump").addEventListener("click", (e) => {
+          e.stopPropagation();
+          openJumpModal(photo.key, index + 1);
+        });
+
+        photoGrid.appendChild(card);
+      });
+
+      // Initialize SortableJS
+      if (typeof Sortable !== "undefined") {
+        sortableInstance = new Sortable(photoGrid, {
+          animation: 180,
+          ghostClass: "sortable-ghost",
+          chosenClass: "sortable-chosen",
+          dragClass: "sortable-drag",
+          disabled: false,
+          onStart: () => {
+            pushUndoState();
+          },
+          onEnd: (evt) => {
+            if (evt.oldIndex === evt.newIndex) return;
+
+            const [movedPhoto] = photos.splice(evt.oldIndex, 1);
+            photos.splice(evt.newIndex, 0, movedPhoto);
+
+            // Interpolate new sortIndex ONLY for the moved photo
+            const newSortIndex = calculateTargetSortIndex(movedPhoto.key, evt.newIndex, photos);
+            movedPhoto.sortIndex = newSortIndex;
+            movedPhotoKeys.add(movedPhoto.key);
+
+            updateIndexBadges();
+            markDirty();
+            updateStatus();
+          }
+        });
+      }
+    }
+
+    // Fast badge updates without re-rendering entire DOM
+    function updateIndexBadges() {
+      const cards = photoGrid.querySelectorAll(".photo-card");
+      cards.forEach(card => {
+        const key = card.dataset.key;
+        const photo = photos.find(p => p.key === key);
+        if (!photo) return;
+        const currentIdx = photos.indexOf(photo);
+        card.dataset.index = currentIdx;
+
+        const rankBadge = card.querySelector(".badge-rank");
+        if (rankBadge) rankBadge.textContent = `#${currentIdx + 1}`;
+
+        const sortIndexSpan = card.querySelector(".card-sort-index");
+        const isMoved = movedPhotoKeys.has(photo.key);
+        if (sortIndexSpan) {
+          sortIndexSpan.innerHTML = `${photo.sortIndex ?? '-'}${isMoved ? ' <span class="badge-moved-pill">updated</span>' : ''}`;
+        }
+        if (isMoved) {
+          card.classList.add("is-moved");
+        } else {
+          card.classList.remove("is-moved");
+        }
+      });
+    }
+
+    // Move photo to rank
+    function movePhotoToRank(key, targetIndex) {
+      targetIndex = Math.max(0, Math.min(photos.length - 1, targetIndex));
+      const currentIndex = photos.findIndex(p => p.key === key);
+      if (currentIndex === -1 || currentIndex === targetIndex) return;
+
+      pushUndoState();
+      const [photo] = photos.splice(currentIndex, 1);
+      photos.splice(targetIndex, 0, photo);
+
+      // Interpolate new sortIndex ONLY for the moved photo
+      const newSortIndex = calculateTargetSortIndex(photo.key, targetIndex, photos);
+      photo.sortIndex = newSortIndex;
+      movedPhotoKeys.add(photo.key);
+
+      renderGrid();
+      markDirty();
+      updateStatus();
+
+      // Scroll to element
+      setTimeout(() => {
+        const elem = photoGrid.querySelector(`[data-key="${key}"]`);
+        if (elem) {
+          elem.scrollIntoView({ behavior: "smooth", block: "center" });
+          elem.style.boxShadow = "0 0 0 3px var(--accent-color)";
+          setTimeout(() => { elem.style.boxShadow = ""; }, 1500);
+        }
+      }, 50);
+
+      showToast(`Moved "${photo.title || photo.name || photo.key}" to #${targetIndex + 1} (sortIndex: ${newSortIndex})`);
+    }
+
+    // Jump Modal
+    function openJumpModal(key, currentRank) {
+      activeJumpPhotoKey = key;
+      const photo = photos.find(p => p.key === key);
+      jumpRankInput.max = photos.length;
+      jumpRankInput.value = currentRank;
+      document.getElementById("jump-modal-desc").textContent =
+        `Move "${photo ? (photo.title || photo.name || photo.key) : 'photo'}" (currently #${currentRank}) to rank:`;
+      jumpModal.classList.add("open");
+      jumpRankInput.focus();
+      jumpRankInput.select();
+    }
+
+    function closeJumpModal() {
+      jumpModal.classList.remove("open");
+      activeJumpPhotoKey = null;
+    }
+
+    jumpModalCancel.addEventListener("click", closeJumpModal);
+    jumpModalConfirm.addEventListener("click", () => {
+      const targetRank = parseInt(jumpRankInput.value, 10);
+      if (isNaN(targetRank) || targetRank < 1 || targetRank > photos.length) {
+        alert(`Please enter a valid rank between 1 and ${photos.length}.`);
+        return;
+      }
+      const key = activeJumpPhotoKey;
+      closeJumpModal();
+      movePhotoToRank(key, targetRank - 1);
+    });
+
+    jumpRankInput.addEventListener("keydown", (e) => {
+      if (e.key === "Enter") {
+        e.preventDefault();
+        jumpModalConfirm.click();
+      }
+    });
+
+    btnUndo.addEventListener("click", undo);
+    btnRedo.addEventListener("click", redo);
+
+    // Escape HTML helper
+    function escapeHtml(str) {
+      if (!str) return "";
+      return String(str)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+    }
+
+    // Try auto-loading if served over localhost HTTP
+    async function tryAutoLoad() {
+      if (window.location.protocol.startsWith("http")) {
+        try {
+          const res = await fetch("../content.json");
+          if (res.ok) {
+            const data = await res.json();
+            loadData(data, "content.json (auto-loaded)");
+          }
+        } catch (_) {}
+      }
+    }
+    tryAutoLoad();
+  </script>
+</body>
+</html>
